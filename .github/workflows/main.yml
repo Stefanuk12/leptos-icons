@@ -1,0 +1,32 @@
+name: Main
+
+on:
+  schedule:
+    - cron:  '0 10 * * *'
+  workflow_dispatch:
+    
+jobs:
+  update-icons:
+    runs-on: ubuntu-latest
+    steps:
+    # Checkout the repository to the GitHub Actions runner
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.CI_TOKEN }}
+        submodules: true
+
+    # Update references
+    - name: Git Submodule Update
+      run: |
+        git pull --recurse-submodules
+        git submodule update --remote --recursive
+
+    # Install Rust
+    - run: rustup toolchain install stable --profile minimal
+    - uses: Swatinem/rust-cache@v2
+
+    # Run the generator via `cargo`
+    - name: Run Generator
+      run: |
+        cargo run --release --features=generator
