@@ -1,0 +1,1 @@
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < path d = "M6 5v11" /> < path d = "M12 5v6" /> < path d = "M18 5v14" /> < / > } } pub const LucideKanban : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;

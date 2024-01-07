@@ -1,0 +1,1 @@
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < rect x = "9" y = "7" width = "6" height = "6" /> < rect width = "20" height = "14" x = "2" y = "3" rx = "2" /> < path d = "M12 17v4" /> < path d = "M8 21h8" /> < / > } } pub const LucideMonitorStop : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;

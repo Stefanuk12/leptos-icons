@@ -56,10 +56,18 @@ pub use heroicons_solid_arrow_down::*;
 mod heroicons_solid_arrow_left_circle;
 #[cfg(feature = "HeroiconsSolidArrowLeftCircle")]
 pub use heroicons_solid_arrow_left_circle::*;
+#[cfg(feature = "HeroiconsSolidArrowLeftEndOnRectangle")]
+mod heroicons_solid_arrow_left_end_on_rectangle;
+#[cfg(feature = "HeroiconsSolidArrowLeftEndOnRectangle")]
+pub use heroicons_solid_arrow_left_end_on_rectangle::*;
 #[cfg(feature = "HeroiconsSolidArrowLeftOnRectangle")]
 mod heroicons_solid_arrow_left_on_rectangle;
 #[cfg(feature = "HeroiconsSolidArrowLeftOnRectangle")]
 pub use heroicons_solid_arrow_left_on_rectangle::*;
+#[cfg(feature = "HeroiconsSolidArrowLeftStartOnRectangle")]
+mod heroicons_solid_arrow_left_start_on_rectangle;
+#[cfg(feature = "HeroiconsSolidArrowLeftStartOnRectangle")]
+pub use heroicons_solid_arrow_left_start_on_rectangle::*;
 #[cfg(feature = "HeroiconsSolidArrowLeft")]
 mod heroicons_solid_arrow_left;
 #[cfg(feature = "HeroiconsSolidArrowLeft")]
@@ -92,10 +100,18 @@ pub use heroicons_solid_arrow_path::*;
 mod heroicons_solid_arrow_right_circle;
 #[cfg(feature = "HeroiconsSolidArrowRightCircle")]
 pub use heroicons_solid_arrow_right_circle::*;
+#[cfg(feature = "HeroiconsSolidArrowRightEndOnRectangle")]
+mod heroicons_solid_arrow_right_end_on_rectangle;
+#[cfg(feature = "HeroiconsSolidArrowRightEndOnRectangle")]
+pub use heroicons_solid_arrow_right_end_on_rectangle::*;
 #[cfg(feature = "HeroiconsSolidArrowRightOnRectangle")]
 mod heroicons_solid_arrow_right_on_rectangle;
 #[cfg(feature = "HeroiconsSolidArrowRightOnRectangle")]
 pub use heroicons_solid_arrow_right_on_rectangle::*;
+#[cfg(feature = "HeroiconsSolidArrowRightStartOnRectangle")]
+mod heroicons_solid_arrow_right_start_on_rectangle;
+#[cfg(feature = "HeroiconsSolidArrowRightStartOnRectangle")]
+pub use heroicons_solid_arrow_right_start_on_rectangle::*;
 #[cfg(feature = "HeroiconsSolidArrowRight")]
 mod heroicons_solid_arrow_right;
 #[cfg(feature = "HeroiconsSolidArrowRight")]

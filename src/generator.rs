@@ -46,6 +46,7 @@ fn main() {
         create_dir_all(format!("src/generated/{}", feature_name)).unwrap();
 
         for path in paths {
+            let path = path.replace('\\', "/");
             let file_name = path.split('/').last().unwrap();
             if !file_name.ends_with(".svg") {
                 continue;

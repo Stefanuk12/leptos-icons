@@ -1,9 +1,25 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
+#[cfg(feature = "LucideAArrowDown")]
+mod lucide_a_arrow_down;
+#[cfg(feature = "LucideAArrowDown")]
+pub use lucide_a_arrow_down::*;
+#[cfg(feature = "LucideAArrowUp")]
+mod lucide_a_arrow_up;
+#[cfg(feature = "LucideAArrowUp")]
+pub use lucide_a_arrow_up::*;
+#[cfg(feature = "LucideALargeSmall")]
+mod lucide_a_large_small;
+#[cfg(feature = "LucideALargeSmall")]
+pub use lucide_a_large_small::*;
 #[cfg(feature = "LucideAccessibility")]
 mod lucide_accessibility;
 #[cfg(feature = "LucideAccessibility")]
 pub use lucide_accessibility::*;
+#[cfg(feature = "LucideActivitySquare")]
+mod lucide_activity_square;
+#[cfg(feature = "LucideActivitySquare")]
+pub use lucide_activity_square::*;
 #[cfg(feature = "LucideActivity")]
 mod lucide_activity;
 #[cfg(feature = "LucideActivity")]
@@ -16,26 +32,30 @@ pub use lucide_air_vent::*;
 mod lucide_airplay;
 #[cfg(feature = "LucideAirplay")]
 pub use lucide_airplay::*;
-#[cfg(feature = "LucideAlarmCheck")]
-mod lucide_alarm_check;
-#[cfg(feature = "LucideAlarmCheck")]
-pub use lucide_alarm_check::*;
+#[cfg(feature = "LucideAlarmClockCheck")]
+mod lucide_alarm_clock_check;
+#[cfg(feature = "LucideAlarmClockCheck")]
+pub use lucide_alarm_clock_check::*;
+#[cfg(feature = "LucideAlarmClockMinus")]
+mod lucide_alarm_clock_minus;
+#[cfg(feature = "LucideAlarmClockMinus")]
+pub use lucide_alarm_clock_minus::*;
 #[cfg(feature = "LucideAlarmClockOff")]
 mod lucide_alarm_clock_off;
 #[cfg(feature = "LucideAlarmClockOff")]
 pub use lucide_alarm_clock_off::*;
+#[cfg(feature = "LucideAlarmClockPlus")]
+mod lucide_alarm_clock_plus;
+#[cfg(feature = "LucideAlarmClockPlus")]
+pub use lucide_alarm_clock_plus::*;
 #[cfg(feature = "LucideAlarmClock")]
 mod lucide_alarm_clock;
 #[cfg(feature = "LucideAlarmClock")]
 pub use lucide_alarm_clock::*;
-#[cfg(feature = "LucideAlarmMinus")]
-mod lucide_alarm_minus;
-#[cfg(feature = "LucideAlarmMinus")]
-pub use lucide_alarm_minus::*;
-#[cfg(feature = "LucideAlarmPlus")]
-mod lucide_alarm_plus;
-#[cfg(feature = "LucideAlarmPlus")]
-pub use lucide_alarm_plus::*;
+#[cfg(feature = "LucideAlarmSmoke")]
+mod lucide_alarm_smoke;
+#[cfg(feature = "LucideAlarmSmoke")]
+pub use lucide_alarm_smoke::*;
 #[cfg(feature = "LucideAlbum")]
 mod lucide_album;
 #[cfg(feature = "LucideAlbum")]
@@ -156,6 +176,14 @@ pub use lucide_align_vertical_space_around::*;
 mod lucide_align_vertical_space_between;
 #[cfg(feature = "LucideAlignVerticalSpaceBetween")]
 pub use lucide_align_vertical_space_between::*;
+#[cfg(feature = "LucideAmpersand")]
+mod lucide_ampersand;
+#[cfg(feature = "LucideAmpersand")]
+pub use lucide_ampersand::*;
+#[cfg(feature = "LucideAmpersands")]
+mod lucide_ampersands;
+#[cfg(feature = "LucideAmpersands")]
+pub use lucide_ampersands::*;
 #[cfg(feature = "LucideAnchor")]
 mod lucide_anchor;
 #[cfg(feature = "LucideAnchor")]
@@ -168,10 +196,22 @@ pub use lucide_angry::*;
 mod lucide_annoyed;
 #[cfg(feature = "LucideAnnoyed")]
 pub use lucide_annoyed::*;
+#[cfg(feature = "LucideAntenna")]
+mod lucide_antenna;
+#[cfg(feature = "LucideAntenna")]
+pub use lucide_antenna::*;
+#[cfg(feature = "LucideAnvil")]
+mod lucide_anvil;
+#[cfg(feature = "LucideAnvil")]
+pub use lucide_anvil::*;
 #[cfg(feature = "LucideAperture")]
 mod lucide_aperture;
 #[cfg(feature = "LucideAperture")]
 pub use lucide_aperture::*;
+#[cfg(feature = "LucideAppWindow")]
+mod lucide_app_window;
+#[cfg(feature = "LucideAppWindow")]
+pub use lucide_app_window::*;
 #[cfg(feature = "LucideApple")]
 mod lucide_apple;
 #[cfg(feature = "LucideApple")]
@@ -180,42 +220,126 @@ pub use lucide_apple::*;
 mod lucide_archive_restore;
 #[cfg(feature = "LucideArchiveRestore")]
 pub use lucide_archive_restore::*;
+#[cfg(feature = "LucideArchiveX")]
+mod lucide_archive_x;
+#[cfg(feature = "LucideArchiveX")]
+pub use lucide_archive_x::*;
 #[cfg(feature = "LucideArchive")]
 mod lucide_archive;
 #[cfg(feature = "LucideArchive")]
 pub use lucide_archive::*;
+#[cfg(feature = "LucideAreaChart")]
+mod lucide_area_chart;
+#[cfg(feature = "LucideAreaChart")]
+pub use lucide_area_chart::*;
 #[cfg(feature = "LucideArmchair")]
 mod lucide_armchair;
 #[cfg(feature = "LucideArmchair")]
 pub use lucide_armchair::*;
+#[cfg(feature = "LucideArrowBigDownDash")]
+mod lucide_arrow_big_down_dash;
+#[cfg(feature = "LucideArrowBigDownDash")]
+pub use lucide_arrow_big_down_dash::*;
 #[cfg(feature = "LucideArrowBigDown")]
 mod lucide_arrow_big_down;
 #[cfg(feature = "LucideArrowBigDown")]
 pub use lucide_arrow_big_down::*;
+#[cfg(feature = "LucideArrowBigLeftDash")]
+mod lucide_arrow_big_left_dash;
+#[cfg(feature = "LucideArrowBigLeftDash")]
+pub use lucide_arrow_big_left_dash::*;
 #[cfg(feature = "LucideArrowBigLeft")]
 mod lucide_arrow_big_left;
 #[cfg(feature = "LucideArrowBigLeft")]
 pub use lucide_arrow_big_left::*;
+#[cfg(feature = "LucideArrowBigRightDash")]
+mod lucide_arrow_big_right_dash;
+#[cfg(feature = "LucideArrowBigRightDash")]
+pub use lucide_arrow_big_right_dash::*;
 #[cfg(feature = "LucideArrowBigRight")]
 mod lucide_arrow_big_right;
 #[cfg(feature = "LucideArrowBigRight")]
 pub use lucide_arrow_big_right::*;
+#[cfg(feature = "LucideArrowBigUpDash")]
+mod lucide_arrow_big_up_dash;
+#[cfg(feature = "LucideArrowBigUpDash")]
+pub use lucide_arrow_big_up_dash::*;
 #[cfg(feature = "LucideArrowBigUp")]
 mod lucide_arrow_big_up;
 #[cfg(feature = "LucideArrowBigUp")]
 pub use lucide_arrow_big_up::*;
+#[cfg(feature = "LucideArrowDown01")]
+mod lucide_arrow_down_0_1;
+#[cfg(feature = "LucideArrowDown01")]
+pub use lucide_arrow_down_0_1::*;
+#[cfg(feature = "LucideArrowDown10")]
+mod lucide_arrow_down_1_0;
+#[cfg(feature = "LucideArrowDown10")]
+pub use lucide_arrow_down_1_0::*;
+#[cfg(feature = "LucideArrowDownAZ")]
+mod lucide_arrow_down_a_z;
+#[cfg(feature = "LucideArrowDownAZ")]
+pub use lucide_arrow_down_a_z::*;
 #[cfg(feature = "LucideArrowDownCircle")]
 mod lucide_arrow_down_circle;
 #[cfg(feature = "LucideArrowDownCircle")]
 pub use lucide_arrow_down_circle::*;
+#[cfg(feature = "LucideArrowDownFromLine")]
+mod lucide_arrow_down_from_line;
+#[cfg(feature = "LucideArrowDownFromLine")]
+pub use lucide_arrow_down_from_line::*;
+#[cfg(feature = "LucideArrowDownLeftFromCircle")]
+mod lucide_arrow_down_left_from_circle;
+#[cfg(feature = "LucideArrowDownLeftFromCircle")]
+pub use lucide_arrow_down_left_from_circle::*;
+#[cfg(feature = "LucideArrowDownLeftSquare")]
+mod lucide_arrow_down_left_square;
+#[cfg(feature = "LucideArrowDownLeftSquare")]
+pub use lucide_arrow_down_left_square::*;
 #[cfg(feature = "LucideArrowDownLeft")]
 mod lucide_arrow_down_left;
 #[cfg(feature = "LucideArrowDownLeft")]
 pub use lucide_arrow_down_left::*;
+#[cfg(feature = "LucideArrowDownNarrowWide")]
+mod lucide_arrow_down_narrow_wide;
+#[cfg(feature = "LucideArrowDownNarrowWide")]
+pub use lucide_arrow_down_narrow_wide::*;
+#[cfg(feature = "LucideArrowDownRightFromCircle")]
+mod lucide_arrow_down_right_from_circle;
+#[cfg(feature = "LucideArrowDownRightFromCircle")]
+pub use lucide_arrow_down_right_from_circle::*;
+#[cfg(feature = "LucideArrowDownRightSquare")]
+mod lucide_arrow_down_right_square;
+#[cfg(feature = "LucideArrowDownRightSquare")]
+pub use lucide_arrow_down_right_square::*;
 #[cfg(feature = "LucideArrowDownRight")]
 mod lucide_arrow_down_right;
 #[cfg(feature = "LucideArrowDownRight")]
 pub use lucide_arrow_down_right::*;
+#[cfg(feature = "LucideArrowDownSquare")]
+mod lucide_arrow_down_square;
+#[cfg(feature = "LucideArrowDownSquare")]
+pub use lucide_arrow_down_square::*;
+#[cfg(feature = "LucideArrowDownToDot")]
+mod lucide_arrow_down_to_dot;
+#[cfg(feature = "LucideArrowDownToDot")]
+pub use lucide_arrow_down_to_dot::*;
+#[cfg(feature = "LucideArrowDownToLine")]
+mod lucide_arrow_down_to_line;
+#[cfg(feature = "LucideArrowDownToLine")]
+pub use lucide_arrow_down_to_line::*;
+#[cfg(feature = "LucideArrowDownUp")]
+mod lucide_arrow_down_up;
+#[cfg(feature = "LucideArrowDownUp")]
+pub use lucide_arrow_down_up::*;
+#[cfg(feature = "LucideArrowDownWideNarrow")]
+mod lucide_arrow_down_wide_narrow;
+#[cfg(feature = "LucideArrowDownWideNarrow")]
+pub use lucide_arrow_down_wide_narrow::*;
+#[cfg(feature = "LucideArrowDownZA")]
+mod lucide_arrow_down_z_a;
+#[cfg(feature = "LucideArrowDownZA")]
+pub use lucide_arrow_down_z_a::*;
 #[cfg(feature = "LucideArrowDown")]
 mod lucide_arrow_down;
 #[cfg(feature = "LucideArrowDown")]
@@ -224,10 +348,22 @@ pub use lucide_arrow_down::*;
 mod lucide_arrow_left_circle;
 #[cfg(feature = "LucideArrowLeftCircle")]
 pub use lucide_arrow_left_circle::*;
+#[cfg(feature = "LucideArrowLeftFromLine")]
+mod lucide_arrow_left_from_line;
+#[cfg(feature = "LucideArrowLeftFromLine")]
+pub use lucide_arrow_left_from_line::*;
 #[cfg(feature = "LucideArrowLeftRight")]
 mod lucide_arrow_left_right;
 #[cfg(feature = "LucideArrowLeftRight")]
 pub use lucide_arrow_left_right::*;
+#[cfg(feature = "LucideArrowLeftSquare")]
+mod lucide_arrow_left_square;
+#[cfg(feature = "LucideArrowLeftSquare")]
+pub use lucide_arrow_left_square::*;
+#[cfg(feature = "LucideArrowLeftToLine")]
+mod lucide_arrow_left_to_line;
+#[cfg(feature = "LucideArrowLeftToLine")]
+pub use lucide_arrow_left_to_line::*;
 #[cfg(feature = "LucideArrowLeft")]
 mod lucide_arrow_left;
 #[cfg(feature = "LucideArrowLeft")]
@@ -236,10 +372,38 @@ pub use lucide_arrow_left::*;
 mod lucide_arrow_right_circle;
 #[cfg(feature = "LucideArrowRightCircle")]
 pub use lucide_arrow_right_circle::*;
+#[cfg(feature = "LucideArrowRightFromLine")]
+mod lucide_arrow_right_from_line;
+#[cfg(feature = "LucideArrowRightFromLine")]
+pub use lucide_arrow_right_from_line::*;
+#[cfg(feature = "LucideArrowRightLeft")]
+mod lucide_arrow_right_left;
+#[cfg(feature = "LucideArrowRightLeft")]
+pub use lucide_arrow_right_left::*;
+#[cfg(feature = "LucideArrowRightSquare")]
+mod lucide_arrow_right_square;
+#[cfg(feature = "LucideArrowRightSquare")]
+pub use lucide_arrow_right_square::*;
+#[cfg(feature = "LucideArrowRightToLine")]
+mod lucide_arrow_right_to_line;
+#[cfg(feature = "LucideArrowRightToLine")]
+pub use lucide_arrow_right_to_line::*;
 #[cfg(feature = "LucideArrowRight")]
 mod lucide_arrow_right;
 #[cfg(feature = "LucideArrowRight")]
 pub use lucide_arrow_right::*;
+#[cfg(feature = "LucideArrowUp01")]
+mod lucide_arrow_up_0_1;
+#[cfg(feature = "LucideArrowUp01")]
+pub use lucide_arrow_up_0_1::*;
+#[cfg(feature = "LucideArrowUp10")]
+mod lucide_arrow_up_1_0;
+#[cfg(feature = "LucideArrowUp10")]
+pub use lucide_arrow_up_1_0::*;
+#[cfg(feature = "LucideArrowUpAZ")]
+mod lucide_arrow_up_a_z;
+#[cfg(feature = "LucideArrowUpAZ")]
+pub use lucide_arrow_up_a_z::*;
 #[cfg(feature = "LucideArrowUpCircle")]
 mod lucide_arrow_up_circle;
 #[cfg(feature = "LucideArrowUpCircle")]
@@ -248,18 +412,70 @@ pub use lucide_arrow_up_circle::*;
 mod lucide_arrow_up_down;
 #[cfg(feature = "LucideArrowUpDown")]
 pub use lucide_arrow_up_down::*;
+#[cfg(feature = "LucideArrowUpFromDot")]
+mod lucide_arrow_up_from_dot;
+#[cfg(feature = "LucideArrowUpFromDot")]
+pub use lucide_arrow_up_from_dot::*;
+#[cfg(feature = "LucideArrowUpFromLine")]
+mod lucide_arrow_up_from_line;
+#[cfg(feature = "LucideArrowUpFromLine")]
+pub use lucide_arrow_up_from_line::*;
+#[cfg(feature = "LucideArrowUpLeftFromCircle")]
+mod lucide_arrow_up_left_from_circle;
+#[cfg(feature = "LucideArrowUpLeftFromCircle")]
+pub use lucide_arrow_up_left_from_circle::*;
+#[cfg(feature = "LucideArrowUpLeftSquare")]
+mod lucide_arrow_up_left_square;
+#[cfg(feature = "LucideArrowUpLeftSquare")]
+pub use lucide_arrow_up_left_square::*;
 #[cfg(feature = "LucideArrowUpLeft")]
 mod lucide_arrow_up_left;
 #[cfg(feature = "LucideArrowUpLeft")]
 pub use lucide_arrow_up_left::*;
+#[cfg(feature = "LucideArrowUpNarrowWide")]
+mod lucide_arrow_up_narrow_wide;
+#[cfg(feature = "LucideArrowUpNarrowWide")]
+pub use lucide_arrow_up_narrow_wide::*;
+#[cfg(feature = "LucideArrowUpRightFromCircle")]
+mod lucide_arrow_up_right_from_circle;
+#[cfg(feature = "LucideArrowUpRightFromCircle")]
+pub use lucide_arrow_up_right_from_circle::*;
+#[cfg(feature = "LucideArrowUpRightSquare")]
+mod lucide_arrow_up_right_square;
+#[cfg(feature = "LucideArrowUpRightSquare")]
+pub use lucide_arrow_up_right_square::*;
 #[cfg(feature = "LucideArrowUpRight")]
 mod lucide_arrow_up_right;
 #[cfg(feature = "LucideArrowUpRight")]
 pub use lucide_arrow_up_right::*;
+#[cfg(feature = "LucideArrowUpSquare")]
+mod lucide_arrow_up_square;
+#[cfg(feature = "LucideArrowUpSquare")]
+pub use lucide_arrow_up_square::*;
+#[cfg(feature = "LucideArrowUpToLine")]
+mod lucide_arrow_up_to_line;
+#[cfg(feature = "LucideArrowUpToLine")]
+pub use lucide_arrow_up_to_line::*;
+#[cfg(feature = "LucideArrowUpWideNarrow")]
+mod lucide_arrow_up_wide_narrow;
+#[cfg(feature = "LucideArrowUpWideNarrow")]
+pub use lucide_arrow_up_wide_narrow::*;
+#[cfg(feature = "LucideArrowUpZA")]
+mod lucide_arrow_up_z_a;
+#[cfg(feature = "LucideArrowUpZA")]
+pub use lucide_arrow_up_z_a::*;
 #[cfg(feature = "LucideArrowUp")]
 mod lucide_arrow_up;
 #[cfg(feature = "LucideArrowUp")]
 pub use lucide_arrow_up::*;
+#[cfg(feature = "LucideArrowsUpFromLine")]
+mod lucide_arrows_up_from_line;
+#[cfg(feature = "LucideArrowsUpFromLine")]
+pub use lucide_arrows_up_from_line::*;
+#[cfg(feature = "LucideAsteriskSquare")]
+mod lucide_asterisk_square;
+#[cfg(feature = "LucideAsteriskSquare")]
+pub use lucide_asterisk_square::*;
 #[cfg(feature = "LucideAsterisk")]
 mod lucide_asterisk;
 #[cfg(feature = "LucideAsterisk")]
@@ -268,6 +484,18 @@ pub use lucide_asterisk::*;
 mod lucide_at_sign;
 #[cfg(feature = "LucideAtSign")]
 pub use lucide_at_sign::*;
+#[cfg(feature = "LucideAtom")]
+mod lucide_atom;
+#[cfg(feature = "LucideAtom")]
+pub use lucide_atom::*;
+#[cfg(feature = "LucideAudioLines")]
+mod lucide_audio_lines;
+#[cfg(feature = "LucideAudioLines")]
+pub use lucide_audio_lines::*;
+#[cfg(feature = "LucideAudioWaveform")]
+mod lucide_audio_waveform;
+#[cfg(feature = "LucideAudioWaveform")]
+pub use lucide_audio_waveform::*;
 #[cfg(feature = "LucideAward")]
 mod lucide_award;
 #[cfg(feature = "LucideAward")]
@@ -288,10 +516,82 @@ pub use lucide_baby::*;
 mod lucide_backpack;
 #[cfg(feature = "LucideBackpack")]
 pub use lucide_backpack::*;
+#[cfg(feature = "LucideBadgeAlert")]
+mod lucide_badge_alert;
+#[cfg(feature = "LucideBadgeAlert")]
+pub use lucide_badge_alert::*;
+#[cfg(feature = "LucideBadgeCent")]
+mod lucide_badge_cent;
+#[cfg(feature = "LucideBadgeCent")]
+pub use lucide_badge_cent::*;
+#[cfg(feature = "LucideBadgeCheck")]
+mod lucide_badge_check;
+#[cfg(feature = "LucideBadgeCheck")]
+pub use lucide_badge_check::*;
+#[cfg(feature = "LucideBadgeDollarSign")]
+mod lucide_badge_dollar_sign;
+#[cfg(feature = "LucideBadgeDollarSign")]
+pub use lucide_badge_dollar_sign::*;
+#[cfg(feature = "LucideBadgeEuro")]
+mod lucide_badge_euro;
+#[cfg(feature = "LucideBadgeEuro")]
+pub use lucide_badge_euro::*;
+#[cfg(feature = "LucideBadgeHelp")]
+mod lucide_badge_help;
+#[cfg(feature = "LucideBadgeHelp")]
+pub use lucide_badge_help::*;
+#[cfg(feature = "LucideBadgeIndianRupee")]
+mod lucide_badge_indian_rupee;
+#[cfg(feature = "LucideBadgeIndianRupee")]
+pub use lucide_badge_indian_rupee::*;
+#[cfg(feature = "LucideBadgeInfo")]
+mod lucide_badge_info;
+#[cfg(feature = "LucideBadgeInfo")]
+pub use lucide_badge_info::*;
+#[cfg(feature = "LucideBadgeJapaneseYen")]
+mod lucide_badge_japanese_yen;
+#[cfg(feature = "LucideBadgeJapaneseYen")]
+pub use lucide_badge_japanese_yen::*;
+#[cfg(feature = "LucideBadgeMinus")]
+mod lucide_badge_minus;
+#[cfg(feature = "LucideBadgeMinus")]
+pub use lucide_badge_minus::*;
+#[cfg(feature = "LucideBadgePercent")]
+mod lucide_badge_percent;
+#[cfg(feature = "LucideBadgePercent")]
+pub use lucide_badge_percent::*;
+#[cfg(feature = "LucideBadgePlus")]
+mod lucide_badge_plus;
+#[cfg(feature = "LucideBadgePlus")]
+pub use lucide_badge_plus::*;
+#[cfg(feature = "LucideBadgePoundSterling")]
+mod lucide_badge_pound_sterling;
+#[cfg(feature = "LucideBadgePoundSterling")]
+pub use lucide_badge_pound_sterling::*;
+#[cfg(feature = "LucideBadgeRussianRuble")]
+mod lucide_badge_russian_ruble;
+#[cfg(feature = "LucideBadgeRussianRuble")]
+pub use lucide_badge_russian_ruble::*;
+#[cfg(feature = "LucideBadgeSwissFranc")]
+mod lucide_badge_swiss_franc;
+#[cfg(feature = "LucideBadgeSwissFranc")]
+pub use lucide_badge_swiss_franc::*;
+#[cfg(feature = "LucideBadgeX")]
+mod lucide_badge_x;
+#[cfg(feature = "LucideBadgeX")]
+pub use lucide_badge_x::*;
+#[cfg(feature = "LucideBadge")]
+mod lucide_badge;
+#[cfg(feature = "LucideBadge")]
+pub use lucide_badge::*;
 #[cfg(feature = "LucideBaggageClaim")]
 mod lucide_baggage_claim;
 #[cfg(feature = "LucideBaggageClaim")]
 pub use lucide_baggage_claim::*;
+#[cfg(feature = "LucideBan")]
+mod lucide_ban;
+#[cfg(feature = "LucideBan")]
+pub use lucide_ban::*;
 #[cfg(feature = "LucideBanana")]
 mod lucide_banana;
 #[cfg(feature = "LucideBanana")]
@@ -312,6 +612,14 @@ pub use lucide_bar_chart_3::*;
 mod lucide_bar_chart_4;
 #[cfg(feature = "LucideBarChart4")]
 pub use lucide_bar_chart_4::*;
+#[cfg(feature = "LucideBarChartBig")]
+mod lucide_bar_chart_big;
+#[cfg(feature = "LucideBarChartBig")]
+pub use lucide_bar_chart_big::*;
+#[cfg(feature = "LucideBarChartHorizontalBig")]
+mod lucide_bar_chart_horizontal_big;
+#[cfg(feature = "LucideBarChartHorizontalBig")]
+pub use lucide_bar_chart_horizontal_big::*;
 #[cfg(feature = "LucideBarChartHorizontal")]
 mod lucide_bar_chart_horizontal;
 #[cfg(feature = "LucideBarChartHorizontal")]
@@ -320,6 +628,10 @@ pub use lucide_bar_chart_horizontal::*;
 mod lucide_bar_chart;
 #[cfg(feature = "LucideBarChart")]
 pub use lucide_bar_chart::*;
+#[cfg(feature = "LucideBarcode")]
+mod lucide_barcode;
+#[cfg(feature = "LucideBarcode")]
+pub use lucide_barcode::*;
 #[cfg(feature = "LucideBaseline")]
 mod lucide_baseline;
 #[cfg(feature = "LucideBaseline")]
@@ -384,6 +696,14 @@ pub use lucide_beef::*;
 mod lucide_beer;
 #[cfg(feature = "LucideBeer")]
 pub use lucide_beer::*;
+#[cfg(feature = "LucideBellDot")]
+mod lucide_bell_dot;
+#[cfg(feature = "LucideBellDot")]
+pub use lucide_bell_dot::*;
+#[cfg(feature = "LucideBellElectric")]
+mod lucide_bell_electric;
+#[cfg(feature = "LucideBellElectric")]
+pub use lucide_bell_electric::*;
 #[cfg(feature = "LucideBellMinus")]
 mod lucide_bell_minus;
 #[cfg(feature = "LucideBellMinus")]
@@ -404,6 +724,22 @@ pub use lucide_bell_ring::*;
 mod lucide_bell;
 #[cfg(feature = "LucideBell")]
 pub use lucide_bell::*;
+#[cfg(feature = "LucideBetweenHorizontalEnd")]
+mod lucide_between_horizontal_end;
+#[cfg(feature = "LucideBetweenHorizontalEnd")]
+pub use lucide_between_horizontal_end::*;
+#[cfg(feature = "LucideBetweenHorizontalStart")]
+mod lucide_between_horizontal_start;
+#[cfg(feature = "LucideBetweenHorizontalStart")]
+pub use lucide_between_horizontal_start::*;
+#[cfg(feature = "LucideBetweenVerticalEnd")]
+mod lucide_between_vertical_end;
+#[cfg(feature = "LucideBetweenVerticalEnd")]
+pub use lucide_between_vertical_end::*;
+#[cfg(feature = "LucideBetweenVerticalStart")]
+mod lucide_between_vertical_start;
+#[cfg(feature = "LucideBetweenVerticalStart")]
+pub use lucide_between_vertical_start::*;
 #[cfg(feature = "LucideBike")]
 mod lucide_bike;
 #[cfg(feature = "LucideBike")]
@@ -412,10 +748,26 @@ pub use lucide_bike::*;
 mod lucide_binary;
 #[cfg(feature = "LucideBinary")]
 pub use lucide_binary::*;
+#[cfg(feature = "LucideBiohazard")]
+mod lucide_biohazard;
+#[cfg(feature = "LucideBiohazard")]
+pub use lucide_biohazard::*;
+#[cfg(feature = "LucideBird")]
+mod lucide_bird;
+#[cfg(feature = "LucideBird")]
+pub use lucide_bird::*;
 #[cfg(feature = "LucideBitcoin")]
 mod lucide_bitcoin;
 #[cfg(feature = "LucideBitcoin")]
 pub use lucide_bitcoin::*;
+#[cfg(feature = "LucideBlinds")]
+mod lucide_blinds;
+#[cfg(feature = "LucideBlinds")]
+pub use lucide_blinds::*;
+#[cfg(feature = "LucideBlocks")]
+mod lucide_blocks;
+#[cfg(feature = "LucideBlocks")]
+pub use lucide_blocks::*;
 #[cfg(feature = "LucideBluetoothConnected")]
 mod lucide_bluetooth_connected;
 #[cfg(feature = "LucideBluetoothConnected")]
@@ -436,6 +788,10 @@ pub use lucide_bluetooth::*;
 mod lucide_bold;
 #[cfg(feature = "LucideBold")]
 pub use lucide_bold::*;
+#[cfg(feature = "LucideBolt")]
+mod lucide_bolt;
+#[cfg(feature = "LucideBolt")]
+pub use lucide_bolt::*;
 #[cfg(feature = "LucideBomb")]
 mod lucide_bomb;
 #[cfg(feature = "LucideBomb")]
@@ -444,18 +800,106 @@ pub use lucide_bomb::*;
 mod lucide_bone;
 #[cfg(feature = "LucideBone")]
 pub use lucide_bone::*;
+#[cfg(feature = "LucideBookA")]
+mod lucide_book_a;
+#[cfg(feature = "LucideBookA")]
+pub use lucide_book_a::*;
+#[cfg(feature = "LucideBookAudio")]
+mod lucide_book_audio;
+#[cfg(feature = "LucideBookAudio")]
+pub use lucide_book_audio::*;
+#[cfg(feature = "LucideBookCheck")]
+mod lucide_book_check;
+#[cfg(feature = "LucideBookCheck")]
+pub use lucide_book_check::*;
+#[cfg(feature = "LucideBookCopy")]
+mod lucide_book_copy;
+#[cfg(feature = "LucideBookCopy")]
+pub use lucide_book_copy::*;
+#[cfg(feature = "LucideBookDashed")]
+mod lucide_book_dashed;
+#[cfg(feature = "LucideBookDashed")]
+pub use lucide_book_dashed::*;
+#[cfg(feature = "LucideBookDown")]
+mod lucide_book_down;
+#[cfg(feature = "LucideBookDown")]
+pub use lucide_book_down::*;
+#[cfg(feature = "LucideBookHeadphones")]
+mod lucide_book_headphones;
+#[cfg(feature = "LucideBookHeadphones")]
+pub use lucide_book_headphones::*;
+#[cfg(feature = "LucideBookHeart")]
+mod lucide_book_heart;
+#[cfg(feature = "LucideBookHeart")]
+pub use lucide_book_heart::*;
+#[cfg(feature = "LucideBookImage")]
+mod lucide_book_image;
+#[cfg(feature = "LucideBookImage")]
+pub use lucide_book_image::*;
+#[cfg(feature = "LucideBookKey")]
+mod lucide_book_key;
+#[cfg(feature = "LucideBookKey")]
+pub use lucide_book_key::*;
+#[cfg(feature = "LucideBookLock")]
+mod lucide_book_lock;
+#[cfg(feature = "LucideBookLock")]
+pub use lucide_book_lock::*;
+#[cfg(feature = "LucideBookMarked")]
+mod lucide_book_marked;
+#[cfg(feature = "LucideBookMarked")]
+pub use lucide_book_marked::*;
+#[cfg(feature = "LucideBookMinus")]
+mod lucide_book_minus;
+#[cfg(feature = "LucideBookMinus")]
+pub use lucide_book_minus::*;
 #[cfg(feature = "LucideBookOpenCheck")]
 mod lucide_book_open_check;
 #[cfg(feature = "LucideBookOpenCheck")]
 pub use lucide_book_open_check::*;
+#[cfg(feature = "LucideBookOpenText")]
+mod lucide_book_open_text;
+#[cfg(feature = "LucideBookOpenText")]
+pub use lucide_book_open_text::*;
 #[cfg(feature = "LucideBookOpen")]
 mod lucide_book_open;
 #[cfg(feature = "LucideBookOpen")]
 pub use lucide_book_open::*;
+#[cfg(feature = "LucideBookPlus")]
+mod lucide_book_plus;
+#[cfg(feature = "LucideBookPlus")]
+pub use lucide_book_plus::*;
+#[cfg(feature = "LucideBookText")]
+mod lucide_book_text;
+#[cfg(feature = "LucideBookText")]
+pub use lucide_book_text::*;
+#[cfg(feature = "LucideBookType")]
+mod lucide_book_type;
+#[cfg(feature = "LucideBookType")]
+pub use lucide_book_type::*;
+#[cfg(feature = "LucideBookUp2")]
+mod lucide_book_up_2;
+#[cfg(feature = "LucideBookUp2")]
+pub use lucide_book_up_2::*;
+#[cfg(feature = "LucideBookUp")]
+mod lucide_book_up;
+#[cfg(feature = "LucideBookUp")]
+pub use lucide_book_up::*;
+#[cfg(feature = "LucideBookUser")]
+mod lucide_book_user;
+#[cfg(feature = "LucideBookUser")]
+pub use lucide_book_user::*;
+#[cfg(feature = "LucideBookX")]
+mod lucide_book_x;
+#[cfg(feature = "LucideBookX")]
+pub use lucide_book_x::*;
 #[cfg(feature = "LucideBook")]
 mod lucide_book;
 #[cfg(feature = "LucideBook")]
 pub use lucide_book::*;
+#[cfg(feature = "LucideBookmarkCheck")]
+mod lucide_bookmark_check;
+#[cfg(feature = "LucideBookmarkCheck")]
+pub use lucide_bookmark_check::*;
 #[cfg(feature = "LucideBookmarkMinus")]
 mod lucide_bookmark_minus;
 #[cfg(feature = "LucideBookmarkMinus")]
@@ -464,10 +908,18 @@ pub use lucide_bookmark_minus::*;
 mod lucide_bookmark_plus;
 #[cfg(feature = "LucideBookmarkPlus")]
 pub use lucide_bookmark_plus::*;
+#[cfg(feature = "LucideBookmarkX")]
+mod lucide_bookmark_x;
+#[cfg(feature = "LucideBookmarkX")]
+pub use lucide_bookmark_x::*;
 #[cfg(feature = "LucideBookmark")]
 mod lucide_bookmark;
 #[cfg(feature = "LucideBookmark")]
 pub use lucide_bookmark::*;
+#[cfg(feature = "LucideBoomBox")]
+mod lucide_boom_box;
+#[cfg(feature = "LucideBoomBox")]
+pub use lucide_boom_box::*;
 #[cfg(feature = "LucideBot")]
 mod lucide_bot;
 #[cfg(feature = "LucideBot")]
@@ -484,14 +936,50 @@ pub use lucide_box::*;
 mod lucide_boxes;
 #[cfg(feature = "LucideBoxes")]
 pub use lucide_boxes::*;
+#[cfg(feature = "LucideBraces")]
+mod lucide_braces;
+#[cfg(feature = "LucideBraces")]
+pub use lucide_braces::*;
+#[cfg(feature = "LucideBrackets")]
+mod lucide_brackets;
+#[cfg(feature = "LucideBrackets")]
+pub use lucide_brackets::*;
+#[cfg(feature = "LucideBrainCircuit")]
+mod lucide_brain_circuit;
+#[cfg(feature = "LucideBrainCircuit")]
+pub use lucide_brain_circuit::*;
+#[cfg(feature = "LucideBrainCog")]
+mod lucide_brain_cog;
+#[cfg(feature = "LucideBrainCog")]
+pub use lucide_brain_cog::*;
+#[cfg(feature = "LucideBrain")]
+mod lucide_brain;
+#[cfg(feature = "LucideBrain")]
+pub use lucide_brain::*;
+#[cfg(feature = "LucideBrickWall")]
+mod lucide_brick_wall;
+#[cfg(feature = "LucideBrickWall")]
+pub use lucide_brick_wall::*;
 #[cfg(feature = "LucideBriefcase")]
 mod lucide_briefcase;
 #[cfg(feature = "LucideBriefcase")]
 pub use lucide_briefcase::*;
+#[cfg(feature = "LucideBringToFront")]
+mod lucide_bring_to_front;
+#[cfg(feature = "LucideBringToFront")]
+pub use lucide_bring_to_front::*;
 #[cfg(feature = "LucideBrush")]
 mod lucide_brush;
 #[cfg(feature = "LucideBrush")]
 pub use lucide_brush::*;
+#[cfg(feature = "LucideBugOff")]
+mod lucide_bug_off;
+#[cfg(feature = "LucideBugOff")]
+pub use lucide_bug_off::*;
+#[cfg(feature = "LucideBugPlay")]
+mod lucide_bug_play;
+#[cfg(feature = "LucideBugPlay")]
+pub use lucide_bug_play::*;
 #[cfg(feature = "LucideBug")]
 mod lucide_bug;
 #[cfg(feature = "LucideBug")]
@@ -504,10 +992,26 @@ pub use lucide_building_2::*;
 mod lucide_building;
 #[cfg(feature = "LucideBuilding")]
 pub use lucide_building::*;
+#[cfg(feature = "LucideBusFront")]
+mod lucide_bus_front;
+#[cfg(feature = "LucideBusFront")]
+pub use lucide_bus_front::*;
 #[cfg(feature = "LucideBus")]
 mod lucide_bus;
 #[cfg(feature = "LucideBus")]
 pub use lucide_bus::*;
+#[cfg(feature = "LucideCableCar")]
+mod lucide_cable_car;
+#[cfg(feature = "LucideCableCar")]
+pub use lucide_cable_car::*;
+#[cfg(feature = "LucideCable")]
+mod lucide_cable;
+#[cfg(feature = "LucideCable")]
+pub use lucide_cable::*;
+#[cfg(feature = "LucideCakeSlice")]
+mod lucide_cake_slice;
+#[cfg(feature = "LucideCakeSlice")]
+pub use lucide_cake_slice::*;
 #[cfg(feature = "LucideCake")]
 mod lucide_cake;
 #[cfg(feature = "LucideCake")]
@@ -576,6 +1080,14 @@ pub use lucide_camera_off::*;
 mod lucide_camera;
 #[cfg(feature = "LucideCamera")]
 pub use lucide_camera::*;
+#[cfg(feature = "LucideCandlestickChart")]
+mod lucide_candlestick_chart;
+#[cfg(feature = "LucideCandlestickChart")]
+pub use lucide_candlestick_chart::*;
+#[cfg(feature = "LucideCandyCane")]
+mod lucide_candy_cane;
+#[cfg(feature = "LucideCandyCane")]
+pub use lucide_candy_cane::*;
 #[cfg(feature = "LucideCandyOff")]
 mod lucide_candy_off;
 #[cfg(feature = "LucideCandyOff")]
@@ -584,22 +1096,58 @@ pub use lucide_candy_off::*;
 mod lucide_candy;
 #[cfg(feature = "LucideCandy")]
 pub use lucide_candy::*;
+#[cfg(feature = "LucideCarFront")]
+mod lucide_car_front;
+#[cfg(feature = "LucideCarFront")]
+pub use lucide_car_front::*;
+#[cfg(feature = "LucideCarTaxiFront")]
+mod lucide_car_taxi_front;
+#[cfg(feature = "LucideCarTaxiFront")]
+pub use lucide_car_taxi_front::*;
 #[cfg(feature = "LucideCar")]
 mod lucide_car;
 #[cfg(feature = "LucideCar")]
 pub use lucide_car::*;
+#[cfg(feature = "LucideCaravan")]
+mod lucide_caravan;
+#[cfg(feature = "LucideCaravan")]
+pub use lucide_caravan::*;
 #[cfg(feature = "LucideCarrot")]
 mod lucide_carrot;
 #[cfg(feature = "LucideCarrot")]
 pub use lucide_carrot::*;
+#[cfg(feature = "LucideCaseLower")]
+mod lucide_case_lower;
+#[cfg(feature = "LucideCaseLower")]
+pub use lucide_case_lower::*;
+#[cfg(feature = "LucideCaseSensitive")]
+mod lucide_case_sensitive;
+#[cfg(feature = "LucideCaseSensitive")]
+pub use lucide_case_sensitive::*;
+#[cfg(feature = "LucideCaseUpper")]
+mod lucide_case_upper;
+#[cfg(feature = "LucideCaseUpper")]
+pub use lucide_case_upper::*;
+#[cfg(feature = "LucideCassetteTape")]
+mod lucide_cassette_tape;
+#[cfg(feature = "LucideCassetteTape")]
+pub use lucide_cassette_tape::*;
 #[cfg(feature = "LucideCast")]
 mod lucide_cast;
 #[cfg(feature = "LucideCast")]
 pub use lucide_cast::*;
+#[cfg(feature = "LucideCastle")]
+mod lucide_castle;
+#[cfg(feature = "LucideCastle")]
+pub use lucide_castle::*;
 #[cfg(feature = "LucideCat")]
 mod lucide_cat;
 #[cfg(feature = "LucideCat")]
 pub use lucide_cat::*;
+#[cfg(feature = "LucideCctv")]
+mod lucide_cctv;
+#[cfg(feature = "LucideCctv")]
+pub use lucide_cctv::*;
 #[cfg(feature = "LucideCheckCheck")]
 mod lucide_check_check;
 #[cfg(feature = "LucideCheckCheck")]
@@ -612,6 +1160,10 @@ pub use lucide_check_circle_2::*;
 mod lucide_check_circle;
 #[cfg(feature = "LucideCheckCircle")]
 pub use lucide_check_circle::*;
+#[cfg(feature = "LucideCheckSquare2")]
+mod lucide_check_square_2;
+#[cfg(feature = "LucideCheckSquare2")]
+pub use lucide_check_square_2::*;
 #[cfg(feature = "LucideCheckSquare")]
 mod lucide_check_square;
 #[cfg(feature = "LucideCheckSquare")]
@@ -628,6 +1180,14 @@ pub use lucide_chef_hat::*;
 mod lucide_cherry;
 #[cfg(feature = "LucideCherry")]
 pub use lucide_cherry::*;
+#[cfg(feature = "LucideChevronDownCircle")]
+mod lucide_chevron_down_circle;
+#[cfg(feature = "LucideChevronDownCircle")]
+pub use lucide_chevron_down_circle::*;
+#[cfg(feature = "LucideChevronDownSquare")]
+mod lucide_chevron_down_square;
+#[cfg(feature = "LucideChevronDownSquare")]
+pub use lucide_chevron_down_square::*;
 #[cfg(feature = "LucideChevronDown")]
 mod lucide_chevron_down;
 #[cfg(feature = "LucideChevronDown")]
@@ -640,14 +1200,38 @@ pub use lucide_chevron_first::*;
 mod lucide_chevron_last;
 #[cfg(feature = "LucideChevronLast")]
 pub use lucide_chevron_last::*;
+#[cfg(feature = "LucideChevronLeftCircle")]
+mod lucide_chevron_left_circle;
+#[cfg(feature = "LucideChevronLeftCircle")]
+pub use lucide_chevron_left_circle::*;
+#[cfg(feature = "LucideChevronLeftSquare")]
+mod lucide_chevron_left_square;
+#[cfg(feature = "LucideChevronLeftSquare")]
+pub use lucide_chevron_left_square::*;
 #[cfg(feature = "LucideChevronLeft")]
 mod lucide_chevron_left;
 #[cfg(feature = "LucideChevronLeft")]
 pub use lucide_chevron_left::*;
+#[cfg(feature = "LucideChevronRightCircle")]
+mod lucide_chevron_right_circle;
+#[cfg(feature = "LucideChevronRightCircle")]
+pub use lucide_chevron_right_circle::*;
+#[cfg(feature = "LucideChevronRightSquare")]
+mod lucide_chevron_right_square;
+#[cfg(feature = "LucideChevronRightSquare")]
+pub use lucide_chevron_right_square::*;
 #[cfg(feature = "LucideChevronRight")]
 mod lucide_chevron_right;
 #[cfg(feature = "LucideChevronRight")]
 pub use lucide_chevron_right::*;
+#[cfg(feature = "LucideChevronUpCircle")]
+mod lucide_chevron_up_circle;
+#[cfg(feature = "LucideChevronUpCircle")]
+pub use lucide_chevron_up_circle::*;
+#[cfg(feature = "LucideChevronUpSquare")]
+mod lucide_chevron_up_square;
+#[cfg(feature = "LucideChevronUpSquare")]
+pub use lucide_chevron_up_square::*;
 #[cfg(feature = "LucideChevronUp")]
 mod lucide_chevron_up;
 #[cfg(feature = "LucideChevronUp")]
@@ -688,6 +1272,10 @@ pub use lucide_chevrons_up::*;
 mod lucide_chrome;
 #[cfg(feature = "LucideChrome")]
 pub use lucide_chrome::*;
+#[cfg(feature = "LucideChurch")]
+mod lucide_church;
+#[cfg(feature = "LucideChurch")]
+pub use lucide_church::*;
 #[cfg(feature = "LucideCigaretteOff")]
 mod lucide_cigarette_off;
 #[cfg(feature = "LucideCigaretteOff")]
@@ -696,6 +1284,18 @@ pub use lucide_cigarette_off::*;
 mod lucide_cigarette;
 #[cfg(feature = "LucideCigarette")]
 pub use lucide_cigarette::*;
+#[cfg(feature = "LucideCircleDashed")]
+mod lucide_circle_dashed;
+#[cfg(feature = "LucideCircleDashed")]
+pub use lucide_circle_dashed::*;
+#[cfg(feature = "LucideCircleDollarSign")]
+mod lucide_circle_dollar_sign;
+#[cfg(feature = "LucideCircleDollarSign")]
+pub use lucide_circle_dollar_sign::*;
+#[cfg(feature = "LucideCircleDotDashed")]
+mod lucide_circle_dot_dashed;
+#[cfg(feature = "LucideCircleDotDashed")]
+pub use lucide_circle_dot_dashed::*;
 #[cfg(feature = "LucideCircleDot")]
 mod lucide_circle_dot;
 #[cfg(feature = "LucideCircleDot")]
@@ -704,14 +1304,38 @@ pub use lucide_circle_dot::*;
 mod lucide_circle_ellipsis;
 #[cfg(feature = "LucideCircleEllipsis")]
 pub use lucide_circle_ellipsis::*;
-#[cfg(feature = "LucideCircleSlashed")]
-mod lucide_circle_slashed;
-#[cfg(feature = "LucideCircleSlashed")]
-pub use lucide_circle_slashed::*;
+#[cfg(feature = "LucideCircleEqual")]
+mod lucide_circle_equal;
+#[cfg(feature = "LucideCircleEqual")]
+pub use lucide_circle_equal::*;
+#[cfg(feature = "LucideCircleOff")]
+mod lucide_circle_off;
+#[cfg(feature = "LucideCircleOff")]
+pub use lucide_circle_off::*;
+#[cfg(feature = "LucideCircleSlash2")]
+mod lucide_circle_slash_2;
+#[cfg(feature = "LucideCircleSlash2")]
+pub use lucide_circle_slash_2::*;
+#[cfg(feature = "LucideCircleSlash")]
+mod lucide_circle_slash;
+#[cfg(feature = "LucideCircleSlash")]
+pub use lucide_circle_slash::*;
+#[cfg(feature = "LucideCircleUserRound")]
+mod lucide_circle_user_round;
+#[cfg(feature = "LucideCircleUserRound")]
+pub use lucide_circle_user_round::*;
+#[cfg(feature = "LucideCircleUser")]
+mod lucide_circle_user;
+#[cfg(feature = "LucideCircleUser")]
+pub use lucide_circle_user::*;
 #[cfg(feature = "LucideCircle")]
 mod lucide_circle;
 #[cfg(feature = "LucideCircle")]
 pub use lucide_circle::*;
+#[cfg(feature = "LucideCircuitBoard")]
+mod lucide_circuit_board;
+#[cfg(feature = "LucideCircuitBoard")]
+pub use lucide_circuit_board::*;
 #[cfg(feature = "LucideCitrus")]
 mod lucide_citrus;
 #[cfg(feature = "LucideCitrus")]
@@ -728,18 +1352,22 @@ pub use lucide_clipboard_check::*;
 mod lucide_clipboard_copy;
 #[cfg(feature = "LucideClipboardCopy")]
 pub use lucide_clipboard_copy::*;
-#[cfg(feature = "LucideClipboardEdit")]
-mod lucide_clipboard_edit;
-#[cfg(feature = "LucideClipboardEdit")]
-pub use lucide_clipboard_edit::*;
 #[cfg(feature = "LucideClipboardList")]
 mod lucide_clipboard_list;
 #[cfg(feature = "LucideClipboardList")]
 pub use lucide_clipboard_list::*;
-#[cfg(feature = "LucideClipboardSignature")]
-mod lucide_clipboard_signature;
-#[cfg(feature = "LucideClipboardSignature")]
-pub use lucide_clipboard_signature::*;
+#[cfg(feature = "LucideClipboardPaste")]
+mod lucide_clipboard_paste;
+#[cfg(feature = "LucideClipboardPaste")]
+pub use lucide_clipboard_paste::*;
+#[cfg(feature = "LucideClipboardPenLine")]
+mod lucide_clipboard_pen_line;
+#[cfg(feature = "LucideClipboardPenLine")]
+pub use lucide_clipboard_pen_line::*;
+#[cfg(feature = "LucideClipboardPen")]
+mod lucide_clipboard_pen;
+#[cfg(feature = "LucideClipboardPen")]
+pub use lucide_clipboard_pen::*;
 #[cfg(feature = "LucideClipboardType")]
 mod lucide_clipboard_type;
 #[cfg(feature = "LucideClipboardType")]
@@ -868,10 +1496,18 @@ pub use lucide_cloudy::*;
 mod lucide_clover;
 #[cfg(feature = "LucideClover")]
 pub use lucide_clover::*;
+#[cfg(feature = "LucideClub")]
+mod lucide_club;
+#[cfg(feature = "LucideClub")]
+pub use lucide_club::*;
 #[cfg(feature = "LucideCode2")]
 mod lucide_code_2;
 #[cfg(feature = "LucideCode2")]
 pub use lucide_code_2::*;
+#[cfg(feature = "LucideCodeSquare")]
+mod lucide_code_square;
+#[cfg(feature = "LucideCodeSquare")]
+pub use lucide_code_square::*;
 #[cfg(feature = "LucideCode")]
 mod lucide_code;
 #[cfg(feature = "LucideCode")]
@@ -896,10 +1532,22 @@ pub use lucide_cog::*;
 mod lucide_coins;
 #[cfg(feature = "LucideCoins")]
 pub use lucide_coins::*;
-#[cfg(feature = "LucideColumns")]
-mod lucide_columns;
-#[cfg(feature = "LucideColumns")]
-pub use lucide_columns::*;
+#[cfg(feature = "LucideColumns2")]
+mod lucide_columns_2;
+#[cfg(feature = "LucideColumns2")]
+pub use lucide_columns_2::*;
+#[cfg(feature = "LucideColumns3")]
+mod lucide_columns_3;
+#[cfg(feature = "LucideColumns3")]
+pub use lucide_columns_3::*;
+#[cfg(feature = "LucideColumns4")]
+mod lucide_columns_4;
+#[cfg(feature = "LucideColumns4")]
+pub use lucide_columns_4::*;
+#[cfg(feature = "LucideCombine")]
+mod lucide_combine;
+#[cfg(feature = "LucideCombine")]
+pub use lucide_combine::*;
 #[cfg(feature = "LucideCommand")]
 mod lucide_command;
 #[cfg(feature = "LucideCommand")]
@@ -912,14 +1560,34 @@ pub use lucide_compass::*;
 mod lucide_component;
 #[cfg(feature = "LucideComponent")]
 pub use lucide_component::*;
+#[cfg(feature = "LucideComputer")]
+mod lucide_computer;
+#[cfg(feature = "LucideComputer")]
+pub use lucide_computer::*;
 #[cfg(feature = "LucideConciergeBell")]
 mod lucide_concierge_bell;
 #[cfg(feature = "LucideConciergeBell")]
 pub use lucide_concierge_bell::*;
+#[cfg(feature = "LucideCone")]
+mod lucide_cone;
+#[cfg(feature = "LucideCone")]
+pub use lucide_cone::*;
+#[cfg(feature = "LucideConstruction")]
+mod lucide_construction;
+#[cfg(feature = "LucideConstruction")]
+pub use lucide_construction::*;
+#[cfg(feature = "LucideContact2")]
+mod lucide_contact_2;
+#[cfg(feature = "LucideContact2")]
+pub use lucide_contact_2::*;
 #[cfg(feature = "LucideContact")]
 mod lucide_contact;
 #[cfg(feature = "LucideContact")]
 pub use lucide_contact::*;
+#[cfg(feature = "LucideContainer")]
+mod lucide_container;
+#[cfg(feature = "LucideContainer")]
+pub use lucide_container::*;
 #[cfg(feature = "LucideContrast")]
 mod lucide_contrast;
 #[cfg(feature = "LucideContrast")]
@@ -928,6 +1596,30 @@ pub use lucide_contrast::*;
 mod lucide_cookie;
 #[cfg(feature = "LucideCookie")]
 pub use lucide_cookie::*;
+#[cfg(feature = "LucideCookingPot")]
+mod lucide_cooking_pot;
+#[cfg(feature = "LucideCookingPot")]
+pub use lucide_cooking_pot::*;
+#[cfg(feature = "LucideCopyCheck")]
+mod lucide_copy_check;
+#[cfg(feature = "LucideCopyCheck")]
+pub use lucide_copy_check::*;
+#[cfg(feature = "LucideCopyMinus")]
+mod lucide_copy_minus;
+#[cfg(feature = "LucideCopyMinus")]
+pub use lucide_copy_minus::*;
+#[cfg(feature = "LucideCopyPlus")]
+mod lucide_copy_plus;
+#[cfg(feature = "LucideCopyPlus")]
+pub use lucide_copy_plus::*;
+#[cfg(feature = "LucideCopySlash")]
+mod lucide_copy_slash;
+#[cfg(feature = "LucideCopySlash")]
+pub use lucide_copy_slash::*;
+#[cfg(feature = "LucideCopyX")]
+mod lucide_copy_x;
+#[cfg(feature = "LucideCopyX")]
+pub use lucide_copy_x::*;
 #[cfg(feature = "LucideCopy")]
 mod lucide_copy;
 #[cfg(feature = "LucideCopy")]
@@ -976,6 +1668,10 @@ pub use lucide_corner_up_right::*;
 mod lucide_cpu;
 #[cfg(feature = "LucideCpu")]
 pub use lucide_cpu::*;
+#[cfg(feature = "LucideCreativeCommons")]
+mod lucide_creative_commons;
+#[cfg(feature = "LucideCreativeCommons")]
+pub use lucide_creative_commons::*;
 #[cfg(feature = "LucideCreditCard")]
 mod lucide_credit_card;
 #[cfg(feature = "LucideCreditCard")]
@@ -1000,22 +1696,30 @@ pub use lucide_crosshair::*;
 mod lucide_crown;
 #[cfg(feature = "LucideCrown")]
 pub use lucide_crown::*;
+#[cfg(feature = "LucideCuboid")]
+mod lucide_cuboid;
+#[cfg(feature = "LucideCuboid")]
+pub use lucide_cuboid::*;
 #[cfg(feature = "LucideCupSoda")]
 mod lucide_cup_soda;
 #[cfg(feature = "LucideCupSoda")]
 pub use lucide_cup_soda::*;
-#[cfg(feature = "LucideCurlyBraces")]
-mod lucide_curly_braces;
-#[cfg(feature = "LucideCurlyBraces")]
-pub use lucide_curly_braces::*;
 #[cfg(feature = "LucideCurrency")]
 mod lucide_currency;
 #[cfg(feature = "LucideCurrency")]
 pub use lucide_currency::*;
+#[cfg(feature = "LucideCylinder")]
+mod lucide_cylinder;
+#[cfg(feature = "LucideCylinder")]
+pub use lucide_cylinder::*;
 #[cfg(feature = "LucideDatabaseBackup")]
 mod lucide_database_backup;
 #[cfg(feature = "LucideDatabaseBackup")]
 pub use lucide_database_backup::*;
+#[cfg(feature = "LucideDatabaseZap")]
+mod lucide_database_zap;
+#[cfg(feature = "LucideDatabaseZap")]
+pub use lucide_database_zap::*;
 #[cfg(feature = "LucideDatabase")]
 mod lucide_database;
 #[cfg(feature = "LucideDatabase")]
@@ -1024,6 +1728,14 @@ pub use lucide_database::*;
 mod lucide_delete;
 #[cfg(feature = "LucideDelete")]
 pub use lucide_delete::*;
+#[cfg(feature = "LucideDessert")]
+mod lucide_dessert;
+#[cfg(feature = "LucideDessert")]
+pub use lucide_dessert::*;
+#[cfg(feature = "LucideDiameter")]
+mod lucide_diameter;
+#[cfg(feature = "LucideDiameter")]
+pub use lucide_diameter::*;
 #[cfg(feature = "LucideDiamond")]
 mod lucide_diamond;
 #[cfg(feature = "LucideDiamond")]
@@ -1060,6 +1772,18 @@ pub use lucide_dices::*;
 mod lucide_diff;
 #[cfg(feature = "LucideDiff")]
 pub use lucide_diff::*;
+#[cfg(feature = "LucideDisc2")]
+mod lucide_disc_2;
+#[cfg(feature = "LucideDisc2")]
+pub use lucide_disc_2::*;
+#[cfg(feature = "LucideDisc3")]
+mod lucide_disc_3;
+#[cfg(feature = "LucideDisc3")]
+pub use lucide_disc_3::*;
+#[cfg(feature = "LucideDiscAlbum")]
+mod lucide_disc_album;
+#[cfg(feature = "LucideDiscAlbum")]
+pub use lucide_disc_album::*;
 #[cfg(feature = "LucideDisc")]
 mod lucide_disc;
 #[cfg(feature = "LucideDisc")]
@@ -1092,6 +1816,26 @@ pub use lucide_dog::*;
 mod lucide_dollar_sign;
 #[cfg(feature = "LucideDollarSign")]
 pub use lucide_dollar_sign::*;
+#[cfg(feature = "LucideDonut")]
+mod lucide_donut;
+#[cfg(feature = "LucideDonut")]
+pub use lucide_donut::*;
+#[cfg(feature = "LucideDoorClosed")]
+mod lucide_door_closed;
+#[cfg(feature = "LucideDoorClosed")]
+pub use lucide_door_closed::*;
+#[cfg(feature = "LucideDoorOpen")]
+mod lucide_door_open;
+#[cfg(feature = "LucideDoorOpen")]
+pub use lucide_door_open::*;
+#[cfg(feature = "LucideDotSquare")]
+mod lucide_dot_square;
+#[cfg(feature = "LucideDotSquare")]
+pub use lucide_dot_square::*;
+#[cfg(feature = "LucideDot")]
+mod lucide_dot;
+#[cfg(feature = "LucideDot")]
+pub use lucide_dot::*;
 #[cfg(feature = "LucideDownloadCloud")]
 mod lucide_download_cloud;
 #[cfg(feature = "LucideDownloadCloud")]
@@ -1100,10 +1844,22 @@ pub use lucide_download_cloud::*;
 mod lucide_download;
 #[cfg(feature = "LucideDownload")]
 pub use lucide_download::*;
+#[cfg(feature = "LucideDraftingCompass")]
+mod lucide_drafting_compass;
+#[cfg(feature = "LucideDraftingCompass")]
+pub use lucide_drafting_compass::*;
+#[cfg(feature = "LucideDrama")]
+mod lucide_drama;
+#[cfg(feature = "LucideDrama")]
+pub use lucide_drama::*;
 #[cfg(feature = "LucideDribbble")]
 mod lucide_dribbble;
 #[cfg(feature = "LucideDribbble")]
 pub use lucide_dribbble::*;
+#[cfg(feature = "LucideDrill")]
+mod lucide_drill;
+#[cfg(feature = "LucideDrill")]
+pub use lucide_drill::*;
 #[cfg(feature = "LucideDroplet")]
 mod lucide_droplet;
 #[cfg(feature = "LucideDroplet")]
@@ -1112,6 +1868,10 @@ pub use lucide_droplet::*;
 mod lucide_droplets;
 #[cfg(feature = "LucideDroplets")]
 pub use lucide_droplets::*;
+#[cfg(feature = "LucideDrum")]
+mod lucide_drum;
+#[cfg(feature = "LucideDrum")]
+pub use lucide_drum::*;
 #[cfg(feature = "LucideDrumstick")]
 mod lucide_drumstick;
 #[cfg(feature = "LucideDrumstick")]
@@ -1128,18 +1888,6 @@ pub use lucide_ear_off::*;
 mod lucide_ear;
 #[cfg(feature = "LucideEar")]
 pub use lucide_ear::*;
-#[cfg(feature = "LucideEdit2")]
-mod lucide_edit_2;
-#[cfg(feature = "LucideEdit2")]
-pub use lucide_edit_2::*;
-#[cfg(feature = "LucideEdit3")]
-mod lucide_edit_3;
-#[cfg(feature = "LucideEdit3")]
-pub use lucide_edit_3::*;
-#[cfg(feature = "LucideEdit")]
-mod lucide_edit;
-#[cfg(feature = "LucideEdit")]
-pub use lucide_edit::*;
 #[cfg(feature = "LucideEggFried")]
 mod lucide_egg_fried;
 #[cfg(feature = "LucideEggFried")]
@@ -1156,6 +1904,10 @@ pub use lucide_egg::*;
 mod lucide_equal_not;
 #[cfg(feature = "LucideEqualNot")]
 pub use lucide_equal_not::*;
+#[cfg(feature = "LucideEqualSquare")]
+mod lucide_equal_square;
+#[cfg(feature = "LucideEqualSquare")]
+pub use lucide_equal_square::*;
 #[cfg(feature = "LucideEqual")]
 mod lucide_equal;
 #[cfg(feature = "LucideEqual")]
@@ -1204,6 +1956,14 @@ pub use lucide_fast_forward::*;
 mod lucide_feather;
 #[cfg(feature = "LucideFeather")]
 pub use lucide_feather::*;
+#[cfg(feature = "LucideFence")]
+mod lucide_fence;
+#[cfg(feature = "LucideFence")]
+pub use lucide_fence::*;
+#[cfg(feature = "LucideFerrisWheel")]
+mod lucide_ferris_wheel;
+#[cfg(feature = "LucideFerrisWheel")]
+pub use lucide_ferris_wheel::*;
 #[cfg(feature = "LucideFigma")]
 mod lucide_figma;
 #[cfg(feature = "LucideFigma")]
@@ -1256,14 +2016,14 @@ pub use lucide_file_check::*;
 mod lucide_file_clock;
 #[cfg(feature = "LucideFileClock")]
 pub use lucide_file_clock::*;
+#[cfg(feature = "LucideFileCode2")]
+mod lucide_file_code_2;
+#[cfg(feature = "LucideFileCode2")]
+pub use lucide_file_code_2::*;
 #[cfg(feature = "LucideFileCode")]
 mod lucide_file_code;
 #[cfg(feature = "LucideFileCode")]
 pub use lucide_file_code::*;
-#[cfg(feature = "LucideFileCog2")]
-mod lucide_file_cog_2;
-#[cfg(feature = "LucideFileCog2")]
-pub use lucide_file_cog_2::*;
 #[cfg(feature = "LucideFileCog")]
 mod lucide_file_cog;
 #[cfg(feature = "LucideFileCog")]
@@ -1280,10 +2040,6 @@ pub use lucide_file_digit::*;
 mod lucide_file_down;
 #[cfg(feature = "LucideFileDown")]
 pub use lucide_file_down::*;
-#[cfg(feature = "LucideFileEdit")]
-mod lucide_file_edit;
-#[cfg(feature = "LucideFileEdit")]
-pub use lucide_file_edit::*;
 #[cfg(feature = "LucideFileHeart")]
 mod lucide_file_heart;
 #[cfg(feature = "LucideFileHeart")]
@@ -1332,10 +2088,22 @@ pub use lucide_file_minus_2::*;
 mod lucide_file_minus;
 #[cfg(feature = "LucideFileMinus")]
 pub use lucide_file_minus::*;
+#[cfg(feature = "LucideFileMusic")]
+mod lucide_file_music;
+#[cfg(feature = "LucideFileMusic")]
+pub use lucide_file_music::*;
 #[cfg(feature = "LucideFileOutput")]
 mod lucide_file_output;
 #[cfg(feature = "LucideFileOutput")]
 pub use lucide_file_output::*;
+#[cfg(feature = "LucideFilePenLine")]
+mod lucide_file_pen_line;
+#[cfg(feature = "LucideFilePenLine")]
+pub use lucide_file_pen_line::*;
+#[cfg(feature = "LucideFilePen")]
+mod lucide_file_pen;
+#[cfg(feature = "LucideFilePen")]
+pub use lucide_file_pen::*;
 #[cfg(feature = "LucideFilePieChart")]
 mod lucide_file_pie_chart;
 #[cfg(feature = "LucideFilePieChart")]
@@ -1364,14 +2132,14 @@ pub use lucide_file_search_2::*;
 mod lucide_file_search;
 #[cfg(feature = "LucideFileSearch")]
 pub use lucide_file_search::*;
-#[cfg(feature = "LucideFileSignature")]
-mod lucide_file_signature;
-#[cfg(feature = "LucideFileSignature")]
-pub use lucide_file_signature::*;
 #[cfg(feature = "LucideFileSpreadsheet")]
 mod lucide_file_spreadsheet;
 #[cfg(feature = "LucideFileSpreadsheet")]
 pub use lucide_file_spreadsheet::*;
+#[cfg(feature = "LucideFileStack")]
+mod lucide_file_stack;
+#[cfg(feature = "LucideFileStack")]
+pub use lucide_file_stack::*;
 #[cfg(feature = "LucideFileSymlink")]
 mod lucide_file_symlink;
 #[cfg(feature = "LucideFileSymlink")]
@@ -1436,6 +2204,10 @@ pub use lucide_files::*;
 mod lucide_film;
 #[cfg(feature = "LucideFilm")]
 pub use lucide_film::*;
+#[cfg(feature = "LucideFilterX")]
+mod lucide_filter_x;
+#[cfg(feature = "LucideFilterX")]
+pub use lucide_filter_x::*;
 #[cfg(feature = "LucideFilter")]
 mod lucide_filter;
 #[cfg(feature = "LucideFilter")]
@@ -1444,10 +2216,18 @@ pub use lucide_filter::*;
 mod lucide_fingerprint;
 #[cfg(feature = "LucideFingerprint")]
 pub use lucide_fingerprint::*;
+#[cfg(feature = "LucideFireExtinguisher")]
+mod lucide_fire_extinguisher;
+#[cfg(feature = "LucideFireExtinguisher")]
+pub use lucide_fire_extinguisher::*;
 #[cfg(feature = "LucideFishOff")]
 mod lucide_fish_off;
 #[cfg(feature = "LucideFishOff")]
 pub use lucide_fish_off::*;
+#[cfg(feature = "LucideFishSymbol")]
+mod lucide_fish_symbol;
+#[cfg(feature = "LucideFishSymbol")]
+pub use lucide_fish_symbol::*;
 #[cfg(feature = "LucideFish")]
 mod lucide_fish;
 #[cfg(feature = "LucideFish")]
@@ -1468,6 +2248,10 @@ pub use lucide_flag_triangle_right::*;
 mod lucide_flag;
 #[cfg(feature = "LucideFlag")]
 pub use lucide_flag::*;
+#[cfg(feature = "LucideFlameKindling")]
+mod lucide_flame_kindling;
+#[cfg(feature = "LucideFlameKindling")]
+pub use lucide_flame_kindling::*;
 #[cfg(feature = "LucideFlame")]
 mod lucide_flame;
 #[cfg(feature = "LucideFlame")]
@@ -1520,6 +2304,14 @@ pub use lucide_flower::*;
 mod lucide_focus;
 #[cfg(feature = "LucideFocus")]
 pub use lucide_focus::*;
+#[cfg(feature = "LucideFoldHorizontal")]
+mod lucide_fold_horizontal;
+#[cfg(feature = "LucideFoldHorizontal")]
+pub use lucide_fold_horizontal::*;
+#[cfg(feature = "LucideFoldVertical")]
+mod lucide_fold_vertical;
+#[cfg(feature = "LucideFoldVertical")]
+pub use lucide_fold_vertical::*;
 #[cfg(feature = "LucideFolderArchive")]
 mod lucide_folder_archive;
 #[cfg(feature = "LucideFolderArchive")]
@@ -1536,22 +2328,26 @@ pub use lucide_folder_clock::*;
 mod lucide_folder_closed;
 #[cfg(feature = "LucideFolderClosed")]
 pub use lucide_folder_closed::*;
-#[cfg(feature = "LucideFolderCog2")]
-mod lucide_folder_cog_2;
-#[cfg(feature = "LucideFolderCog2")]
-pub use lucide_folder_cog_2::*;
 #[cfg(feature = "LucideFolderCog")]
 mod lucide_folder_cog;
 #[cfg(feature = "LucideFolderCog")]
 pub use lucide_folder_cog::*;
+#[cfg(feature = "LucideFolderDot")]
+mod lucide_folder_dot;
+#[cfg(feature = "LucideFolderDot")]
+pub use lucide_folder_dot::*;
 #[cfg(feature = "LucideFolderDown")]
 mod lucide_folder_down;
 #[cfg(feature = "LucideFolderDown")]
 pub use lucide_folder_down::*;
-#[cfg(feature = "LucideFolderEdit")]
-mod lucide_folder_edit;
-#[cfg(feature = "LucideFolderEdit")]
-pub use lucide_folder_edit::*;
+#[cfg(feature = "LucideFolderGit2")]
+mod lucide_folder_git_2;
+#[cfg(feature = "LucideFolderGit2")]
+pub use lucide_folder_git_2::*;
+#[cfg(feature = "LucideFolderGit")]
+mod lucide_folder_git;
+#[cfg(feature = "LucideFolderGit")]
+pub use lucide_folder_git::*;
 #[cfg(feature = "LucideFolderHeart")]
 mod lucide_folder_heart;
 #[cfg(feature = "LucideFolderHeart")]
@@ -1560,6 +2356,10 @@ pub use lucide_folder_heart::*;
 mod lucide_folder_input;
 #[cfg(feature = "LucideFolderInput")]
 pub use lucide_folder_input::*;
+#[cfg(feature = "LucideFolderKanban")]
+mod lucide_folder_kanban;
+#[cfg(feature = "LucideFolderKanban")]
+pub use lucide_folder_kanban::*;
 #[cfg(feature = "LucideFolderKey")]
 mod lucide_folder_key;
 #[cfg(feature = "LucideFolderKey")]
@@ -1572,6 +2372,10 @@ pub use lucide_folder_lock::*;
 mod lucide_folder_minus;
 #[cfg(feature = "LucideFolderMinus")]
 pub use lucide_folder_minus::*;
+#[cfg(feature = "LucideFolderOpenDot")]
+mod lucide_folder_open_dot;
+#[cfg(feature = "LucideFolderOpenDot")]
+pub use lucide_folder_open_dot::*;
 #[cfg(feature = "LucideFolderOpen")]
 mod lucide_folder_open;
 #[cfg(feature = "LucideFolderOpen")]
@@ -1580,10 +2384,18 @@ pub use lucide_folder_open::*;
 mod lucide_folder_output;
 #[cfg(feature = "LucideFolderOutput")]
 pub use lucide_folder_output::*;
+#[cfg(feature = "LucideFolderPen")]
+mod lucide_folder_pen;
+#[cfg(feature = "LucideFolderPen")]
+pub use lucide_folder_pen::*;
 #[cfg(feature = "LucideFolderPlus")]
 mod lucide_folder_plus;
 #[cfg(feature = "LucideFolderPlus")]
 pub use lucide_folder_plus::*;
+#[cfg(feature = "LucideFolderRoot")]
+mod lucide_folder_root;
+#[cfg(feature = "LucideFolderRoot")]
+pub use lucide_folder_root::*;
 #[cfg(feature = "LucideFolderSearch2")]
 mod lucide_folder_search_2;
 #[cfg(feature = "LucideFolderSearch2")]
@@ -1596,6 +2408,10 @@ pub use lucide_folder_search::*;
 mod lucide_folder_symlink;
 #[cfg(feature = "LucideFolderSymlink")]
 pub use lucide_folder_symlink::*;
+#[cfg(feature = "LucideFolderSync")]
+mod lucide_folder_sync;
+#[cfg(feature = "LucideFolderSync")]
+pub use lucide_folder_sync::*;
 #[cfg(feature = "LucideFolderTree")]
 mod lucide_folder_tree;
 #[cfg(feature = "LucideFolderTree")]
@@ -1616,6 +2432,14 @@ pub use lucide_folder::*;
 mod lucide_folders;
 #[cfg(feature = "LucideFolders")]
 pub use lucide_folders::*;
+#[cfg(feature = "LucideFootprints")]
+mod lucide_footprints;
+#[cfg(feature = "LucideFootprints")]
+pub use lucide_footprints::*;
+#[cfg(feature = "LucideForklift")]
+mod lucide_forklift;
+#[cfg(feature = "LucideForklift")]
+pub use lucide_forklift::*;
 #[cfg(feature = "LucideFormInput")]
 mod lucide_form_input;
 #[cfg(feature = "LucideFormInput")]
@@ -1640,10 +2464,34 @@ pub use lucide_frown::*;
 mod lucide_fuel;
 #[cfg(feature = "LucideFuel")]
 pub use lucide_fuel::*;
+#[cfg(feature = "LucideFullscreen")]
+mod lucide_fullscreen;
+#[cfg(feature = "LucideFullscreen")]
+pub use lucide_fullscreen::*;
 #[cfg(feature = "LucideFunctionSquare")]
 mod lucide_function_square;
 #[cfg(feature = "LucideFunctionSquare")]
 pub use lucide_function_square::*;
+#[cfg(feature = "LucideGalleryHorizontalEnd")]
+mod lucide_gallery_horizontal_end;
+#[cfg(feature = "LucideGalleryHorizontalEnd")]
+pub use lucide_gallery_horizontal_end::*;
+#[cfg(feature = "LucideGalleryHorizontal")]
+mod lucide_gallery_horizontal;
+#[cfg(feature = "LucideGalleryHorizontal")]
+pub use lucide_gallery_horizontal::*;
+#[cfg(feature = "LucideGalleryThumbnails")]
+mod lucide_gallery_thumbnails;
+#[cfg(feature = "LucideGalleryThumbnails")]
+pub use lucide_gallery_thumbnails::*;
+#[cfg(feature = "LucideGalleryVerticalEnd")]
+mod lucide_gallery_vertical_end;
+#[cfg(feature = "LucideGalleryVerticalEnd")]
+pub use lucide_gallery_vertical_end::*;
+#[cfg(feature = "LucideGalleryVertical")]
+mod lucide_gallery_vertical;
+#[cfg(feature = "LucideGalleryVertical")]
+pub use lucide_gallery_vertical::*;
 #[cfg(feature = "LucideGamepad2")]
 mod lucide_gamepad_2;
 #[cfg(feature = "LucideGamepad2")]
@@ -1652,6 +2500,18 @@ pub use lucide_gamepad_2::*;
 mod lucide_gamepad;
 #[cfg(feature = "LucideGamepad")]
 pub use lucide_gamepad::*;
+#[cfg(feature = "LucideGanttChartSquare")]
+mod lucide_gantt_chart_square;
+#[cfg(feature = "LucideGanttChartSquare")]
+pub use lucide_gantt_chart_square::*;
+#[cfg(feature = "LucideGanttChart")]
+mod lucide_gantt_chart;
+#[cfg(feature = "LucideGanttChart")]
+pub use lucide_gantt_chart::*;
+#[cfg(feature = "LucideGaugeCircle")]
+mod lucide_gauge_circle;
+#[cfg(feature = "LucideGaugeCircle")]
+pub use lucide_gauge_circle::*;
 #[cfg(feature = "LucideGauge")]
 mod lucide_gauge;
 #[cfg(feature = "LucideGauge")]
@@ -1680,10 +2540,18 @@ pub use lucide_git_branch_plus::*;
 mod lucide_git_branch;
 #[cfg(feature = "LucideGitBranch")]
 pub use lucide_git_branch::*;
-#[cfg(feature = "LucideGitCommit")]
-mod lucide_git_commit;
-#[cfg(feature = "LucideGitCommit")]
-pub use lucide_git_commit::*;
+#[cfg(feature = "LucideGitCommitHorizontal")]
+mod lucide_git_commit_horizontal;
+#[cfg(feature = "LucideGitCommitHorizontal")]
+pub use lucide_git_commit_horizontal::*;
+#[cfg(feature = "LucideGitCommitVertical")]
+mod lucide_git_commit_vertical;
+#[cfg(feature = "LucideGitCommitVertical")]
+pub use lucide_git_commit_vertical::*;
+#[cfg(feature = "LucideGitCompareArrows")]
+mod lucide_git_compare_arrows;
+#[cfg(feature = "LucideGitCompareArrows")]
+pub use lucide_git_compare_arrows::*;
 #[cfg(feature = "LucideGitCompare")]
 mod lucide_git_compare;
 #[cfg(feature = "LucideGitCompare")]
@@ -1692,14 +2560,30 @@ pub use lucide_git_compare::*;
 mod lucide_git_fork;
 #[cfg(feature = "LucideGitFork")]
 pub use lucide_git_fork::*;
+#[cfg(feature = "LucideGitGraph")]
+mod lucide_git_graph;
+#[cfg(feature = "LucideGitGraph")]
+pub use lucide_git_graph::*;
 #[cfg(feature = "LucideGitMerge")]
 mod lucide_git_merge;
 #[cfg(feature = "LucideGitMerge")]
 pub use lucide_git_merge::*;
+#[cfg(feature = "LucideGitPullRequestArrow")]
+mod lucide_git_pull_request_arrow;
+#[cfg(feature = "LucideGitPullRequestArrow")]
+pub use lucide_git_pull_request_arrow::*;
 #[cfg(feature = "LucideGitPullRequestClosed")]
 mod lucide_git_pull_request_closed;
 #[cfg(feature = "LucideGitPullRequestClosed")]
 pub use lucide_git_pull_request_closed::*;
+#[cfg(feature = "LucideGitPullRequestCreateArrow")]
+mod lucide_git_pull_request_create_arrow;
+#[cfg(feature = "LucideGitPullRequestCreateArrow")]
+pub use lucide_git_pull_request_create_arrow::*;
+#[cfg(feature = "LucideGitPullRequestCreate")]
+mod lucide_git_pull_request_create;
+#[cfg(feature = "LucideGitPullRequestCreate")]
+pub use lucide_git_pull_request_create::*;
 #[cfg(feature = "LucideGitPullRequestDraft")]
 mod lucide_git_pull_request_draft;
 #[cfg(feature = "LucideGitPullRequestDraft")]
@@ -1732,6 +2616,10 @@ pub use lucide_globe_2::*;
 mod lucide_globe;
 #[cfg(feature = "LucideGlobe")]
 pub use lucide_globe::*;
+#[cfg(feature = "LucideGoal")]
+mod lucide_goal;
+#[cfg(feature = "LucideGoal")]
+pub use lucide_goal::*;
 #[cfg(feature = "LucideGrab")]
 mod lucide_grab;
 #[cfg(feature = "LucideGrab")]
@@ -1744,10 +2632,14 @@ pub use lucide_graduation_cap::*;
 mod lucide_grape;
 #[cfg(feature = "LucideGrape")]
 pub use lucide_grape::*;
-#[cfg(feature = "LucideGrid")]
-mod lucide_grid;
-#[cfg(feature = "LucideGrid")]
-pub use lucide_grid::*;
+#[cfg(feature = "LucideGrid2X2")]
+mod lucide_grid_2_x_2;
+#[cfg(feature = "LucideGrid2X2")]
+pub use lucide_grid_2_x_2::*;
+#[cfg(feature = "LucideGrid3X3")]
+mod lucide_grid_3_x_3;
+#[cfg(feature = "LucideGrid3X3")]
+pub use lucide_grid_3_x_3::*;
 #[cfg(feature = "LucideGripHorizontal")]
 mod lucide_grip_horizontal;
 #[cfg(feature = "LucideGripHorizontal")]
@@ -1756,6 +2648,18 @@ pub use lucide_grip_horizontal::*;
 mod lucide_grip_vertical;
 #[cfg(feature = "LucideGripVertical")]
 pub use lucide_grip_vertical::*;
+#[cfg(feature = "LucideGrip")]
+mod lucide_grip;
+#[cfg(feature = "LucideGrip")]
+pub use lucide_grip::*;
+#[cfg(feature = "LucideGroup")]
+mod lucide_group;
+#[cfg(feature = "LucideGroup")]
+pub use lucide_group::*;
+#[cfg(feature = "LucideGuitar")]
+mod lucide_guitar;
+#[cfg(feature = "LucideGuitar")]
+pub use lucide_guitar::*;
 #[cfg(feature = "LucideHammer")]
 mod lucide_hammer;
 #[cfg(feature = "LucideHammer")]
@@ -1768,6 +2672,14 @@ pub use lucide_hand_metal::*;
 mod lucide_hand;
 #[cfg(feature = "LucideHand")]
 pub use lucide_hand::*;
+#[cfg(feature = "LucideHardDriveDownload")]
+mod lucide_hard_drive_download;
+#[cfg(feature = "LucideHardDriveDownload")]
+pub use lucide_hard_drive_download::*;
+#[cfg(feature = "LucideHardDriveUpload")]
+mod lucide_hard_drive_upload;
+#[cfg(feature = "LucideHardDriveUpload")]
+pub use lucide_hard_drive_upload::*;
 #[cfg(feature = "LucideHardDrive")]
 mod lucide_hard_drive;
 #[cfg(feature = "LucideHardDrive")]
@@ -1784,6 +2696,10 @@ pub use lucide_hash::*;
 mod lucide_haze;
 #[cfg(feature = "LucideHaze")]
 pub use lucide_haze::*;
+#[cfg(feature = "LucideHdmiPort")]
+mod lucide_hdmi_port;
+#[cfg(feature = "LucideHdmiPort")]
+pub use lucide_hdmi_port::*;
 #[cfg(feature = "LucideHeading1")]
 mod lucide_heading_1;
 #[cfg(feature = "LucideHeading1")]
@@ -1836,10 +2752,18 @@ pub use lucide_heart_pulse::*;
 mod lucide_heart;
 #[cfg(feature = "LucideHeart")]
 pub use lucide_heart::*;
+#[cfg(feature = "LucideHeater")]
+mod lucide_heater;
+#[cfg(feature = "LucideHeater")]
+pub use lucide_heater::*;
 #[cfg(feature = "LucideHelpCircle")]
 mod lucide_help_circle;
 #[cfg(feature = "LucideHelpCircle")]
 pub use lucide_help_circle::*;
+#[cfg(feature = "LucideHelpingHand")]
+mod lucide_helping_hand;
+#[cfg(feature = "LucideHelpingHand")]
+pub use lucide_helping_hand::*;
 #[cfg(feature = "LucideHexagon")]
 mod lucide_hexagon;
 #[cfg(feature = "LucideHexagon")]
@@ -1864,6 +2788,10 @@ pub use lucide_hop_off::*;
 mod lucide_hop;
 #[cfg(feature = "LucideHop")]
 pub use lucide_hop::*;
+#[cfg(feature = "LucideHotel")]
+mod lucide_hotel;
+#[cfg(feature = "LucideHotel")]
+pub use lucide_hotel::*;
 #[cfg(feature = "LucideHourglass")]
 mod lucide_hourglass;
 #[cfg(feature = "LucideHourglass")]
@@ -1876,6 +2804,10 @@ pub use lucide_ice_cream_2::*;
 mod lucide_ice_cream;
 #[cfg(feature = "LucideIceCream")]
 pub use lucide_ice_cream::*;
+#[cfg(feature = "LucideImageDown")]
+mod lucide_image_down;
+#[cfg(feature = "LucideImageDown")]
+pub use lucide_image_down::*;
 #[cfg(feature = "LucideImageMinus")]
 mod lucide_image_minus;
 #[cfg(feature = "LucideImageMinus")]
@@ -1916,10 +2848,10 @@ pub use lucide_infinity::*;
 mod lucide_info;
 #[cfg(feature = "LucideInfo")]
 pub use lucide_info::*;
-#[cfg(feature = "LucideInspect")]
-mod lucide_inspect;
-#[cfg(feature = "LucideInspect")]
-pub use lucide_inspect::*;
+#[cfg(feature = "LucideInspectionPanel")]
+mod lucide_inspection_panel;
+#[cfg(feature = "LucideInspectionPanel")]
+pub use lucide_inspection_panel::*;
 #[cfg(feature = "LucideInstagram")]
 mod lucide_instagram;
 #[cfg(feature = "LucideInstagram")]
@@ -1928,6 +2860,14 @@ pub use lucide_instagram::*;
 mod lucide_italic;
 #[cfg(feature = "LucideItalic")]
 pub use lucide_italic::*;
+#[cfg(feature = "LucideIterationCcw")]
+mod lucide_iteration_ccw;
+#[cfg(feature = "LucideIterationCcw")]
+pub use lucide_iteration_ccw::*;
+#[cfg(feature = "LucideIterationCw")]
+mod lucide_iteration_cw;
+#[cfg(feature = "LucideIterationCw")]
+pub use lucide_iteration_cw::*;
 #[cfg(feature = "LucideJapaneseYen")]
 mod lucide_japanese_yen;
 #[cfg(feature = "LucideJapaneseYen")]
@@ -1936,10 +2876,34 @@ pub use lucide_japanese_yen::*;
 mod lucide_joystick;
 #[cfg(feature = "LucideJoystick")]
 pub use lucide_joystick::*;
+#[cfg(feature = "LucideKanbanSquareDashed")]
+mod lucide_kanban_square_dashed;
+#[cfg(feature = "LucideKanbanSquareDashed")]
+pub use lucide_kanban_square_dashed::*;
+#[cfg(feature = "LucideKanbanSquare")]
+mod lucide_kanban_square;
+#[cfg(feature = "LucideKanbanSquare")]
+pub use lucide_kanban_square::*;
+#[cfg(feature = "LucideKanban")]
+mod lucide_kanban;
+#[cfg(feature = "LucideKanban")]
+pub use lucide_kanban::*;
+#[cfg(feature = "LucideKeyRound")]
+mod lucide_key_round;
+#[cfg(feature = "LucideKeyRound")]
+pub use lucide_key_round::*;
+#[cfg(feature = "LucideKeySquare")]
+mod lucide_key_square;
+#[cfg(feature = "LucideKeySquare")]
+pub use lucide_key_square::*;
 #[cfg(feature = "LucideKey")]
 mod lucide_key;
 #[cfg(feature = "LucideKey")]
 pub use lucide_key::*;
+#[cfg(feature = "LucideKeyboardMusic")]
+mod lucide_keyboard_music;
+#[cfg(feature = "LucideKeyboardMusic")]
+pub use lucide_keyboard_music::*;
 #[cfg(feature = "LucideKeyboard")]
 mod lucide_keyboard;
 #[cfg(feature = "LucideKeyboard")]
@@ -1968,6 +2932,10 @@ pub use lucide_lamp_wall_up::*;
 mod lucide_lamp;
 #[cfg(feature = "LucideLamp")]
 pub use lucide_lamp::*;
+#[cfg(feature = "LucideLandPlot")]
+mod lucide_land_plot;
+#[cfg(feature = "LucideLandPlot")]
+pub use lucide_land_plot::*;
 #[cfg(feature = "LucideLandmark")]
 mod lucide_landmark;
 #[cfg(feature = "LucideLandmark")]
@@ -1996,6 +2964,14 @@ pub use lucide_lasso::*;
 mod lucide_laugh;
 #[cfg(feature = "LucideLaugh")]
 pub use lucide_laugh::*;
+#[cfg(feature = "LucideLayers2")]
+mod lucide_layers_2;
+#[cfg(feature = "LucideLayers2")]
+pub use lucide_layers_2::*;
+#[cfg(feature = "LucideLayers3")]
+mod lucide_layers_3;
+#[cfg(feature = "LucideLayers3")]
+pub use lucide_layers_3::*;
 #[cfg(feature = "LucideLayers")]
 mod lucide_layers;
 #[cfg(feature = "LucideLayers")]
@@ -2012,18 +2988,34 @@ pub use lucide_layout_grid::*;
 mod lucide_layout_list;
 #[cfg(feature = "LucideLayoutList")]
 pub use lucide_layout_list::*;
+#[cfg(feature = "LucideLayoutPanelLeft")]
+mod lucide_layout_panel_left;
+#[cfg(feature = "LucideLayoutPanelLeft")]
+pub use lucide_layout_panel_left::*;
+#[cfg(feature = "LucideLayoutPanelTop")]
+mod lucide_layout_panel_top;
+#[cfg(feature = "LucideLayoutPanelTop")]
+pub use lucide_layout_panel_top::*;
 #[cfg(feature = "LucideLayoutTemplate")]
 mod lucide_layout_template;
 #[cfg(feature = "LucideLayoutTemplate")]
 pub use lucide_layout_template::*;
-#[cfg(feature = "LucideLayout")]
-mod lucide_layout;
-#[cfg(feature = "LucideLayout")]
-pub use lucide_layout::*;
 #[cfg(feature = "LucideLeaf")]
 mod lucide_leaf;
 #[cfg(feature = "LucideLeaf")]
 pub use lucide_leaf::*;
+#[cfg(feature = "LucideLeafyGreen")]
+mod lucide_leafy_green;
+#[cfg(feature = "LucideLeafyGreen")]
+pub use lucide_leafy_green::*;
+#[cfg(feature = "LucideLibraryBig")]
+mod lucide_library_big;
+#[cfg(feature = "LucideLibraryBig")]
+pub use lucide_library_big::*;
+#[cfg(feature = "LucideLibrarySquare")]
+mod lucide_library_square;
+#[cfg(feature = "LucideLibrarySquare")]
+pub use lucide_library_square::*;
 #[cfg(feature = "LucideLibrary")]
 mod lucide_library;
 #[cfg(feature = "LucideLibrary")]
@@ -2032,6 +3024,10 @@ pub use lucide_library::*;
 mod lucide_life_buoy;
 #[cfg(feature = "LucideLifeBuoy")]
 pub use lucide_life_buoy::*;
+#[cfg(feature = "LucideLigature")]
+mod lucide_ligature;
+#[cfg(feature = "LucideLigature")]
+pub use lucide_ligature::*;
 #[cfg(feature = "LucideLightbulbOff")]
 mod lucide_lightbulb_off;
 #[cfg(feature = "LucideLightbulbOff")]
@@ -2068,6 +3064,10 @@ pub use lucide_list_checks::*;
 mod lucide_list_end;
 #[cfg(feature = "LucideListEnd")]
 pub use lucide_list_end::*;
+#[cfg(feature = "LucideListFilter")]
+mod lucide_list_filter;
+#[cfg(feature = "LucideListFilter")]
+pub use lucide_list_filter::*;
 #[cfg(feature = "LucideListMinus")]
 mod lucide_list_minus;
 #[cfg(feature = "LucideListMinus")]
@@ -2084,10 +3084,22 @@ pub use lucide_list_ordered::*;
 mod lucide_list_plus;
 #[cfg(feature = "LucideListPlus")]
 pub use lucide_list_plus::*;
+#[cfg(feature = "LucideListRestart")]
+mod lucide_list_restart;
+#[cfg(feature = "LucideListRestart")]
+pub use lucide_list_restart::*;
 #[cfg(feature = "LucideListStart")]
 mod lucide_list_start;
 #[cfg(feature = "LucideListStart")]
 pub use lucide_list_start::*;
+#[cfg(feature = "LucideListTodo")]
+mod lucide_list_todo;
+#[cfg(feature = "LucideListTodo")]
+pub use lucide_list_todo::*;
+#[cfg(feature = "LucideListTree")]
+mod lucide_list_tree;
+#[cfg(feature = "LucideListTree")]
+pub use lucide_list_tree::*;
 #[cfg(feature = "LucideListVideo")]
 mod lucide_list_video;
 #[cfg(feature = "LucideListVideo")]
@@ -2120,6 +3132,10 @@ pub use lucide_locate_off::*;
 mod lucide_locate;
 #[cfg(feature = "LucideLocate")]
 pub use lucide_locate::*;
+#[cfg(feature = "LucideLockKeyhole")]
+mod lucide_lock_keyhole;
+#[cfg(feature = "LucideLockKeyhole")]
+pub use lucide_lock_keyhole::*;
 #[cfg(feature = "LucideLock")]
 mod lucide_lock;
 #[cfg(feature = "LucideLock")]
@@ -2132,10 +3148,18 @@ pub use lucide_log_in::*;
 mod lucide_log_out;
 #[cfg(feature = "LucideLogOut")]
 pub use lucide_log_out::*;
+#[cfg(feature = "LucideLollipop")]
+mod lucide_lollipop;
+#[cfg(feature = "LucideLollipop")]
+pub use lucide_lollipop::*;
 #[cfg(feature = "LucideLuggage")]
 mod lucide_luggage;
 #[cfg(feature = "LucideLuggage")]
 pub use lucide_luggage::*;
+#[cfg(feature = "LucideMSquare")]
+mod lucide_m_square;
+#[cfg(feature = "LucideMSquare")]
+pub use lucide_m_square::*;
 #[cfg(feature = "LucideMagnet")]
 mod lucide_magnet;
 #[cfg(feature = "LucideMagnet")]
@@ -2176,6 +3200,10 @@ pub use lucide_mail_x::*;
 mod lucide_mail;
 #[cfg(feature = "LucideMail")]
 pub use lucide_mail::*;
+#[cfg(feature = "LucideMailbox")]
+mod lucide_mailbox;
+#[cfg(feature = "LucideMailbox")]
+pub use lucide_mailbox::*;
 #[cfg(feature = "LucideMails")]
 mod lucide_mails;
 #[cfg(feature = "LucideMails")]
@@ -2188,6 +3216,10 @@ pub use lucide_map_pin_off::*;
 mod lucide_map_pin;
 #[cfg(feature = "LucideMapPin")]
 pub use lucide_map_pin::*;
+#[cfg(feature = "LucideMapPinned")]
+mod lucide_map_pinned;
+#[cfg(feature = "LucideMapPinned")]
+pub use lucide_map_pinned::*;
 #[cfg(feature = "LucideMap")]
 mod lucide_map;
 #[cfg(feature = "LucideMap")]
@@ -2220,18 +3252,130 @@ pub use lucide_megaphone::*;
 mod lucide_meh;
 #[cfg(feature = "LucideMeh")]
 pub use lucide_meh::*;
+#[cfg(feature = "LucideMemoryStick")]
+mod lucide_memory_stick;
+#[cfg(feature = "LucideMemoryStick")]
+pub use lucide_memory_stick::*;
+#[cfg(feature = "LucideMenuSquare")]
+mod lucide_menu_square;
+#[cfg(feature = "LucideMenuSquare")]
+pub use lucide_menu_square::*;
 #[cfg(feature = "LucideMenu")]
 mod lucide_menu;
 #[cfg(feature = "LucideMenu")]
 pub use lucide_menu::*;
+#[cfg(feature = "LucideMerge")]
+mod lucide_merge;
+#[cfg(feature = "LucideMerge")]
+pub use lucide_merge::*;
+#[cfg(feature = "LucideMessageCircleCode")]
+mod lucide_message_circle_code;
+#[cfg(feature = "LucideMessageCircleCode")]
+pub use lucide_message_circle_code::*;
+#[cfg(feature = "LucideMessageCircleDashed")]
+mod lucide_message_circle_dashed;
+#[cfg(feature = "LucideMessageCircleDashed")]
+pub use lucide_message_circle_dashed::*;
+#[cfg(feature = "LucideMessageCircleHeart")]
+mod lucide_message_circle_heart;
+#[cfg(feature = "LucideMessageCircleHeart")]
+pub use lucide_message_circle_heart::*;
+#[cfg(feature = "LucideMessageCircleMore")]
+mod lucide_message_circle_more;
+#[cfg(feature = "LucideMessageCircleMore")]
+pub use lucide_message_circle_more::*;
+#[cfg(feature = "LucideMessageCircleOff")]
+mod lucide_message_circle_off;
+#[cfg(feature = "LucideMessageCircleOff")]
+pub use lucide_message_circle_off::*;
+#[cfg(feature = "LucideMessageCirclePlus")]
+mod lucide_message_circle_plus;
+#[cfg(feature = "LucideMessageCirclePlus")]
+pub use lucide_message_circle_plus::*;
+#[cfg(feature = "LucideMessageCircleQuestion")]
+mod lucide_message_circle_question;
+#[cfg(feature = "LucideMessageCircleQuestion")]
+pub use lucide_message_circle_question::*;
+#[cfg(feature = "LucideMessageCircleReply")]
+mod lucide_message_circle_reply;
+#[cfg(feature = "LucideMessageCircleReply")]
+pub use lucide_message_circle_reply::*;
+#[cfg(feature = "LucideMessageCircleWarning")]
+mod lucide_message_circle_warning;
+#[cfg(feature = "LucideMessageCircleWarning")]
+pub use lucide_message_circle_warning::*;
+#[cfg(feature = "LucideMessageCircleX")]
+mod lucide_message_circle_x;
+#[cfg(feature = "LucideMessageCircleX")]
+pub use lucide_message_circle_x::*;
 #[cfg(feature = "LucideMessageCircle")]
 mod lucide_message_circle;
 #[cfg(feature = "LucideMessageCircle")]
 pub use lucide_message_circle::*;
+#[cfg(feature = "LucideMessageSquareCode")]
+mod lucide_message_square_code;
+#[cfg(feature = "LucideMessageSquareCode")]
+pub use lucide_message_square_code::*;
+#[cfg(feature = "LucideMessageSquareDashed")]
+mod lucide_message_square_dashed;
+#[cfg(feature = "LucideMessageSquareDashed")]
+pub use lucide_message_square_dashed::*;
+#[cfg(feature = "LucideMessageSquareDiff")]
+mod lucide_message_square_diff;
+#[cfg(feature = "LucideMessageSquareDiff")]
+pub use lucide_message_square_diff::*;
+#[cfg(feature = "LucideMessageSquareDot")]
+mod lucide_message_square_dot;
+#[cfg(feature = "LucideMessageSquareDot")]
+pub use lucide_message_square_dot::*;
+#[cfg(feature = "LucideMessageSquareHeart")]
+mod lucide_message_square_heart;
+#[cfg(feature = "LucideMessageSquareHeart")]
+pub use lucide_message_square_heart::*;
+#[cfg(feature = "LucideMessageSquareMore")]
+mod lucide_message_square_more;
+#[cfg(feature = "LucideMessageSquareMore")]
+pub use lucide_message_square_more::*;
+#[cfg(feature = "LucideMessageSquareOff")]
+mod lucide_message_square_off;
+#[cfg(feature = "LucideMessageSquareOff")]
+pub use lucide_message_square_off::*;
+#[cfg(feature = "LucideMessageSquarePlus")]
+mod lucide_message_square_plus;
+#[cfg(feature = "LucideMessageSquarePlus")]
+pub use lucide_message_square_plus::*;
+#[cfg(feature = "LucideMessageSquareQuote")]
+mod lucide_message_square_quote;
+#[cfg(feature = "LucideMessageSquareQuote")]
+pub use lucide_message_square_quote::*;
+#[cfg(feature = "LucideMessageSquareReply")]
+mod lucide_message_square_reply;
+#[cfg(feature = "LucideMessageSquareReply")]
+pub use lucide_message_square_reply::*;
+#[cfg(feature = "LucideMessageSquareShare")]
+mod lucide_message_square_share;
+#[cfg(feature = "LucideMessageSquareShare")]
+pub use lucide_message_square_share::*;
+#[cfg(feature = "LucideMessageSquareText")]
+mod lucide_message_square_text;
+#[cfg(feature = "LucideMessageSquareText")]
+pub use lucide_message_square_text::*;
+#[cfg(feature = "LucideMessageSquareWarning")]
+mod lucide_message_square_warning;
+#[cfg(feature = "LucideMessageSquareWarning")]
+pub use lucide_message_square_warning::*;
+#[cfg(feature = "LucideMessageSquareX")]
+mod lucide_message_square_x;
+#[cfg(feature = "LucideMessageSquareX")]
+pub use lucide_message_square_x::*;
 #[cfg(feature = "LucideMessageSquare")]
 mod lucide_message_square;
 #[cfg(feature = "LucideMessageSquare")]
 pub use lucide_message_square::*;
+#[cfg(feature = "LucideMessagesSquare")]
+mod lucide_messages_square;
+#[cfg(feature = "LucideMessagesSquare")]
+pub use lucide_messages_square::*;
 #[cfg(feature = "LucideMic2")]
 mod lucide_mic_2;
 #[cfg(feature = "LucideMic2")]
@@ -2284,10 +3428,30 @@ pub use lucide_minus_square::*;
 mod lucide_minus;
 #[cfg(feature = "LucideMinus")]
 pub use lucide_minus::*;
+#[cfg(feature = "LucideMonitorCheck")]
+mod lucide_monitor_check;
+#[cfg(feature = "LucideMonitorCheck")]
+pub use lucide_monitor_check::*;
+#[cfg(feature = "LucideMonitorDot")]
+mod lucide_monitor_dot;
+#[cfg(feature = "LucideMonitorDot")]
+pub use lucide_monitor_dot::*;
+#[cfg(feature = "LucideMonitorDown")]
+mod lucide_monitor_down;
+#[cfg(feature = "LucideMonitorDown")]
+pub use lucide_monitor_down::*;
 #[cfg(feature = "LucideMonitorOff")]
 mod lucide_monitor_off;
 #[cfg(feature = "LucideMonitorOff")]
 pub use lucide_monitor_off::*;
+#[cfg(feature = "LucideMonitorPause")]
+mod lucide_monitor_pause;
+#[cfg(feature = "LucideMonitorPause")]
+pub use lucide_monitor_pause::*;
+#[cfg(feature = "LucideMonitorPlay")]
+mod lucide_monitor_play;
+#[cfg(feature = "LucideMonitorPlay")]
+pub use lucide_monitor_play::*;
 #[cfg(feature = "LucideMonitorSmartphone")]
 mod lucide_monitor_smartphone;
 #[cfg(feature = "LucideMonitorSmartphone")]
@@ -2296,10 +3460,26 @@ pub use lucide_monitor_smartphone::*;
 mod lucide_monitor_speaker;
 #[cfg(feature = "LucideMonitorSpeaker")]
 pub use lucide_monitor_speaker::*;
+#[cfg(feature = "LucideMonitorStop")]
+mod lucide_monitor_stop;
+#[cfg(feature = "LucideMonitorStop")]
+pub use lucide_monitor_stop::*;
+#[cfg(feature = "LucideMonitorUp")]
+mod lucide_monitor_up;
+#[cfg(feature = "LucideMonitorUp")]
+pub use lucide_monitor_up::*;
+#[cfg(feature = "LucideMonitorX")]
+mod lucide_monitor_x;
+#[cfg(feature = "LucideMonitorX")]
+pub use lucide_monitor_x::*;
 #[cfg(feature = "LucideMonitor")]
 mod lucide_monitor;
 #[cfg(feature = "LucideMonitor")]
 pub use lucide_monitor::*;
+#[cfg(feature = "LucideMoonStar")]
+mod lucide_moon_star;
+#[cfg(feature = "LucideMoonStar")]
+pub use lucide_moon_star::*;
 #[cfg(feature = "LucideMoon")]
 mod lucide_moon;
 #[cfg(feature = "LucideMoon")]
@@ -2328,6 +3508,14 @@ pub use lucide_mouse_pointer_2::*;
 mod lucide_mouse_pointer_click;
 #[cfg(feature = "LucideMousePointerClick")]
 pub use lucide_mouse_pointer_click::*;
+#[cfg(feature = "LucideMousePointerSquareDashed")]
+mod lucide_mouse_pointer_square_dashed;
+#[cfg(feature = "LucideMousePointerSquareDashed")]
+pub use lucide_mouse_pointer_square_dashed::*;
+#[cfg(feature = "LucideMousePointerSquare")]
+mod lucide_mouse_pointer_square;
+#[cfg(feature = "LucideMousePointerSquare")]
+pub use lucide_mouse_pointer_square::*;
 #[cfg(feature = "LucideMousePointer")]
 mod lucide_mouse_pointer;
 #[cfg(feature = "LucideMousePointer")]
@@ -2348,10 +3536,42 @@ pub use lucide_move_diagonal_2::*;
 mod lucide_move_diagonal;
 #[cfg(feature = "LucideMoveDiagonal")]
 pub use lucide_move_diagonal::*;
+#[cfg(feature = "LucideMoveDownLeft")]
+mod lucide_move_down_left;
+#[cfg(feature = "LucideMoveDownLeft")]
+pub use lucide_move_down_left::*;
+#[cfg(feature = "LucideMoveDownRight")]
+mod lucide_move_down_right;
+#[cfg(feature = "LucideMoveDownRight")]
+pub use lucide_move_down_right::*;
+#[cfg(feature = "LucideMoveDown")]
+mod lucide_move_down;
+#[cfg(feature = "LucideMoveDown")]
+pub use lucide_move_down::*;
 #[cfg(feature = "LucideMoveHorizontal")]
 mod lucide_move_horizontal;
 #[cfg(feature = "LucideMoveHorizontal")]
 pub use lucide_move_horizontal::*;
+#[cfg(feature = "LucideMoveLeft")]
+mod lucide_move_left;
+#[cfg(feature = "LucideMoveLeft")]
+pub use lucide_move_left::*;
+#[cfg(feature = "LucideMoveRight")]
+mod lucide_move_right;
+#[cfg(feature = "LucideMoveRight")]
+pub use lucide_move_right::*;
+#[cfg(feature = "LucideMoveUpLeft")]
+mod lucide_move_up_left;
+#[cfg(feature = "LucideMoveUpLeft")]
+pub use lucide_move_up_left::*;
+#[cfg(feature = "LucideMoveUpRight")]
+mod lucide_move_up_right;
+#[cfg(feature = "LucideMoveUpRight")]
+pub use lucide_move_up_right::*;
+#[cfg(feature = "LucideMoveUp")]
+mod lucide_move_up;
+#[cfg(feature = "LucideMoveUp")]
+pub use lucide_move_up::*;
 #[cfg(feature = "LucideMoveVertical")]
 mod lucide_move_vertical;
 #[cfg(feature = "LucideMoveVertical")]
@@ -2400,6 +3620,34 @@ pub use lucide_network::*;
 mod lucide_newspaper;
 #[cfg(feature = "LucideNewspaper")]
 pub use lucide_newspaper::*;
+#[cfg(feature = "LucideNfc")]
+mod lucide_nfc;
+#[cfg(feature = "LucideNfc")]
+pub use lucide_nfc::*;
+#[cfg(feature = "LucideNotebookPen")]
+mod lucide_notebook_pen;
+#[cfg(feature = "LucideNotebookPen")]
+pub use lucide_notebook_pen::*;
+#[cfg(feature = "LucideNotebookTabs")]
+mod lucide_notebook_tabs;
+#[cfg(feature = "LucideNotebookTabs")]
+pub use lucide_notebook_tabs::*;
+#[cfg(feature = "LucideNotebookText")]
+mod lucide_notebook_text;
+#[cfg(feature = "LucideNotebookText")]
+pub use lucide_notebook_text::*;
+#[cfg(feature = "LucideNotebook")]
+mod lucide_notebook;
+#[cfg(feature = "LucideNotebook")]
+pub use lucide_notebook::*;
+#[cfg(feature = "LucideNotepadTextDashed")]
+mod lucide_notepad_text_dashed;
+#[cfg(feature = "LucideNotepadTextDashed")]
+pub use lucide_notepad_text_dashed::*;
+#[cfg(feature = "LucideNotepadText")]
+mod lucide_notepad_text;
+#[cfg(feature = "LucideNotepadText")]
+pub use lucide_notepad_text::*;
 #[cfg(feature = "LucideNutOff")]
 mod lucide_nut_off;
 #[cfg(feature = "LucideNutOff")]
@@ -2416,6 +3664,10 @@ pub use lucide_octagon::*;
 mod lucide_option;
 #[cfg(feature = "LucideOption")]
 pub use lucide_option::*;
+#[cfg(feature = "LucideOrbit")]
+mod lucide_orbit;
+#[cfg(feature = "LucideOrbit")]
+pub use lucide_orbit::*;
 #[cfg(feature = "LucideOutdent")]
 mod lucide_outdent;
 #[cfg(feature = "LucideOutdent")]
@@ -2472,10 +3724,110 @@ pub use lucide_palette::*;
 mod lucide_palmtree;
 #[cfg(feature = "LucidePalmtree")]
 pub use lucide_palmtree::*;
+#[cfg(feature = "LucidePanelBottomClose")]
+mod lucide_panel_bottom_close;
+#[cfg(feature = "LucidePanelBottomClose")]
+pub use lucide_panel_bottom_close::*;
+#[cfg(feature = "LucidePanelBottomDashed")]
+mod lucide_panel_bottom_dashed;
+#[cfg(feature = "LucidePanelBottomDashed")]
+pub use lucide_panel_bottom_dashed::*;
+#[cfg(feature = "LucidePanelBottomOpen")]
+mod lucide_panel_bottom_open;
+#[cfg(feature = "LucidePanelBottomOpen")]
+pub use lucide_panel_bottom_open::*;
+#[cfg(feature = "LucidePanelBottom")]
+mod lucide_panel_bottom;
+#[cfg(feature = "LucidePanelBottom")]
+pub use lucide_panel_bottom::*;
+#[cfg(feature = "LucidePanelLeftClose")]
+mod lucide_panel_left_close;
+#[cfg(feature = "LucidePanelLeftClose")]
+pub use lucide_panel_left_close::*;
+#[cfg(feature = "LucidePanelLeftDashed")]
+mod lucide_panel_left_dashed;
+#[cfg(feature = "LucidePanelLeftDashed")]
+pub use lucide_panel_left_dashed::*;
+#[cfg(feature = "LucidePanelLeftOpen")]
+mod lucide_panel_left_open;
+#[cfg(feature = "LucidePanelLeftOpen")]
+pub use lucide_panel_left_open::*;
+#[cfg(feature = "LucidePanelLeft")]
+mod lucide_panel_left;
+#[cfg(feature = "LucidePanelLeft")]
+pub use lucide_panel_left::*;
+#[cfg(feature = "LucidePanelRightClose")]
+mod lucide_panel_right_close;
+#[cfg(feature = "LucidePanelRightClose")]
+pub use lucide_panel_right_close::*;
+#[cfg(feature = "LucidePanelRightDashed")]
+mod lucide_panel_right_dashed;
+#[cfg(feature = "LucidePanelRightDashed")]
+pub use lucide_panel_right_dashed::*;
+#[cfg(feature = "LucidePanelRightOpen")]
+mod lucide_panel_right_open;
+#[cfg(feature = "LucidePanelRightOpen")]
+pub use lucide_panel_right_open::*;
+#[cfg(feature = "LucidePanelRight")]
+mod lucide_panel_right;
+#[cfg(feature = "LucidePanelRight")]
+pub use lucide_panel_right::*;
+#[cfg(feature = "LucidePanelTopClose")]
+mod lucide_panel_top_close;
+#[cfg(feature = "LucidePanelTopClose")]
+pub use lucide_panel_top_close::*;
+#[cfg(feature = "LucidePanelTopDashed")]
+mod lucide_panel_top_dashed;
+#[cfg(feature = "LucidePanelTopDashed")]
+pub use lucide_panel_top_dashed::*;
+#[cfg(feature = "LucidePanelTopOpen")]
+mod lucide_panel_top_open;
+#[cfg(feature = "LucidePanelTopOpen")]
+pub use lucide_panel_top_open::*;
+#[cfg(feature = "LucidePanelTop")]
+mod lucide_panel_top;
+#[cfg(feature = "LucidePanelTop")]
+pub use lucide_panel_top::*;
+#[cfg(feature = "LucidePanelsLeftBottom")]
+mod lucide_panels_left_bottom;
+#[cfg(feature = "LucidePanelsLeftBottom")]
+pub use lucide_panels_left_bottom::*;
+#[cfg(feature = "LucidePanelsRightBottom")]
+mod lucide_panels_right_bottom;
+#[cfg(feature = "LucidePanelsRightBottom")]
+pub use lucide_panels_right_bottom::*;
+#[cfg(feature = "LucidePanelsTopLeft")]
+mod lucide_panels_top_left;
+#[cfg(feature = "LucidePanelsTopLeft")]
+pub use lucide_panels_top_left::*;
 #[cfg(feature = "LucidePaperclip")]
 mod lucide_paperclip;
 #[cfg(feature = "LucidePaperclip")]
 pub use lucide_paperclip::*;
+#[cfg(feature = "LucideParentheses")]
+mod lucide_parentheses;
+#[cfg(feature = "LucideParentheses")]
+pub use lucide_parentheses::*;
+#[cfg(feature = "LucideParkingCircleOff")]
+mod lucide_parking_circle_off;
+#[cfg(feature = "LucideParkingCircleOff")]
+pub use lucide_parking_circle_off::*;
+#[cfg(feature = "LucideParkingCircle")]
+mod lucide_parking_circle;
+#[cfg(feature = "LucideParkingCircle")]
+pub use lucide_parking_circle::*;
+#[cfg(feature = "LucideParkingMeter")]
+mod lucide_parking_meter;
+#[cfg(feature = "LucideParkingMeter")]
+pub use lucide_parking_meter::*;
+#[cfg(feature = "LucideParkingSquareOff")]
+mod lucide_parking_square_off;
+#[cfg(feature = "LucideParkingSquareOff")]
+pub use lucide_parking_square_off::*;
+#[cfg(feature = "LucideParkingSquare")]
+mod lucide_parking_square;
+#[cfg(feature = "LucideParkingSquare")]
+pub use lucide_parking_square::*;
 #[cfg(feature = "LucidePartyPopper")]
 mod lucide_party_popper;
 #[cfg(feature = "LucidePartyPopper")]
@@ -2492,14 +3844,58 @@ pub use lucide_pause_octagon::*;
 mod lucide_pause;
 #[cfg(feature = "LucidePause")]
 pub use lucide_pause::*;
+#[cfg(feature = "LucidePawPrint")]
+mod lucide_paw_print;
+#[cfg(feature = "LucidePawPrint")]
+pub use lucide_paw_print::*;
+#[cfg(feature = "LucidePcCase")]
+mod lucide_pc_case;
+#[cfg(feature = "LucidePcCase")]
+pub use lucide_pc_case::*;
+#[cfg(feature = "LucidePenLine")]
+mod lucide_pen_line;
+#[cfg(feature = "LucidePenLine")]
+pub use lucide_pen_line::*;
+#[cfg(feature = "LucidePenSquare")]
+mod lucide_pen_square;
+#[cfg(feature = "LucidePenSquare")]
+pub use lucide_pen_square::*;
 #[cfg(feature = "LucidePenTool")]
 mod lucide_pen_tool;
 #[cfg(feature = "LucidePenTool")]
 pub use lucide_pen_tool::*;
+#[cfg(feature = "LucidePen")]
+mod lucide_pen;
+#[cfg(feature = "LucidePen")]
+pub use lucide_pen::*;
+#[cfg(feature = "LucidePencilLine")]
+mod lucide_pencil_line;
+#[cfg(feature = "LucidePencilLine")]
+pub use lucide_pencil_line::*;
+#[cfg(feature = "LucidePencilRuler")]
+mod lucide_pencil_ruler;
+#[cfg(feature = "LucidePencilRuler")]
+pub use lucide_pencil_ruler::*;
 #[cfg(feature = "LucidePencil")]
 mod lucide_pencil;
 #[cfg(feature = "LucidePencil")]
 pub use lucide_pencil::*;
+#[cfg(feature = "LucidePentagon")]
+mod lucide_pentagon;
+#[cfg(feature = "LucidePentagon")]
+pub use lucide_pentagon::*;
+#[cfg(feature = "LucidePercentCircle")]
+mod lucide_percent_circle;
+#[cfg(feature = "LucidePercentCircle")]
+pub use lucide_percent_circle::*;
+#[cfg(feature = "LucidePercentDiamond")]
+mod lucide_percent_diamond;
+#[cfg(feature = "LucidePercentDiamond")]
+pub use lucide_percent_diamond::*;
+#[cfg(feature = "LucidePercentSquare")]
+mod lucide_percent_square;
+#[cfg(feature = "LucidePercentSquare")]
+pub use lucide_percent_square::*;
 #[cfg(feature = "LucidePercent")]
 mod lucide_percent;
 #[cfg(feature = "LucidePercent")]
@@ -2536,6 +3932,18 @@ pub use lucide_phone_outgoing::*;
 mod lucide_phone;
 #[cfg(feature = "LucidePhone")]
 pub use lucide_phone::*;
+#[cfg(feature = "LucidePiSquare")]
+mod lucide_pi_square;
+#[cfg(feature = "LucidePiSquare")]
+pub use lucide_pi_square::*;
+#[cfg(feature = "LucidePi")]
+mod lucide_pi;
+#[cfg(feature = "LucidePi")]
+pub use lucide_pi::*;
+#[cfg(feature = "LucidePiano")]
+mod lucide_piano;
+#[cfg(feature = "LucidePiano")]
+pub use lucide_piano::*;
 #[cfg(feature = "LucidePictureInPicture2")]
 mod lucide_picture_in_picture_2;
 #[cfg(feature = "LucidePictureInPicture2")]
@@ -2552,10 +3960,18 @@ pub use lucide_pie_chart::*;
 mod lucide_piggy_bank;
 #[cfg(feature = "LucidePiggyBank")]
 pub use lucide_piggy_bank::*;
+#[cfg(feature = "LucidePilcrowSquare")]
+mod lucide_pilcrow_square;
+#[cfg(feature = "LucidePilcrowSquare")]
+pub use lucide_pilcrow_square::*;
 #[cfg(feature = "LucidePilcrow")]
 mod lucide_pilcrow;
 #[cfg(feature = "LucidePilcrow")]
 pub use lucide_pilcrow::*;
+#[cfg(feature = "LucidePill")]
+mod lucide_pill;
+#[cfg(feature = "LucidePill")]
+pub use lucide_pill::*;
 #[cfg(feature = "LucidePinOff")]
 mod lucide_pin_off;
 #[cfg(feature = "LucidePinOff")]
@@ -2572,6 +3988,14 @@ pub use lucide_pipette::*;
 mod lucide_pizza;
 #[cfg(feature = "LucidePizza")]
 pub use lucide_pizza::*;
+#[cfg(feature = "LucidePlaneLanding")]
+mod lucide_plane_landing;
+#[cfg(feature = "LucidePlaneLanding")]
+pub use lucide_plane_landing::*;
+#[cfg(feature = "LucidePlaneTakeoff")]
+mod lucide_plane_takeoff;
+#[cfg(feature = "LucidePlaneTakeoff")]
+pub use lucide_plane_takeoff::*;
 #[cfg(feature = "LucidePlane")]
 mod lucide_plane;
 #[cfg(feature = "LucidePlane")]
@@ -2580,6 +4004,10 @@ pub use lucide_plane::*;
 mod lucide_play_circle;
 #[cfg(feature = "LucidePlayCircle")]
 pub use lucide_play_circle::*;
+#[cfg(feature = "LucidePlaySquare")]
+mod lucide_play_square;
+#[cfg(feature = "LucidePlaySquare")]
+pub use lucide_play_square::*;
 #[cfg(feature = "LucidePlay")]
 mod lucide_play;
 #[cfg(feature = "LucidePlay")]
@@ -2588,6 +4016,10 @@ pub use lucide_play::*;
 mod lucide_plug_2;
 #[cfg(feature = "LucidePlug2")]
 pub use lucide_plug_2::*;
+#[cfg(feature = "LucidePlugZap2")]
+mod lucide_plug_zap_2;
+#[cfg(feature = "LucidePlugZap2")]
+pub use lucide_plug_zap_2::*;
 #[cfg(feature = "LucidePlugZap")]
 mod lucide_plug_zap;
 #[cfg(feature = "LucidePlugZap")]
@@ -2608,6 +4040,10 @@ pub use lucide_plus_square::*;
 mod lucide_plus;
 #[cfg(feature = "LucidePlus")]
 pub use lucide_plus::*;
+#[cfg(feature = "LucidePocketKnife")]
+mod lucide_pocket_knife;
+#[cfg(feature = "LucidePocketKnife")]
+pub use lucide_pocket_knife::*;
 #[cfg(feature = "LucidePocket")]
 mod lucide_pocket;
 #[cfg(feature = "LucidePocket")]
@@ -2616,30 +4052,62 @@ pub use lucide_pocket::*;
 mod lucide_podcast;
 #[cfg(feature = "LucidePodcast")]
 pub use lucide_podcast::*;
+#[cfg(feature = "LucidePointerOff")]
+mod lucide_pointer_off;
+#[cfg(feature = "LucidePointerOff")]
+pub use lucide_pointer_off::*;
 #[cfg(feature = "LucidePointer")]
 mod lucide_pointer;
 #[cfg(feature = "LucidePointer")]
 pub use lucide_pointer::*;
+#[cfg(feature = "LucidePopcorn")]
+mod lucide_popcorn;
+#[cfg(feature = "LucidePopcorn")]
+pub use lucide_popcorn::*;
+#[cfg(feature = "LucidePopsicle")]
+mod lucide_popsicle;
+#[cfg(feature = "LucidePopsicle")]
+pub use lucide_popsicle::*;
 #[cfg(feature = "LucidePoundSterling")]
 mod lucide_pound_sterling;
 #[cfg(feature = "LucidePoundSterling")]
 pub use lucide_pound_sterling::*;
+#[cfg(feature = "LucidePowerCircle")]
+mod lucide_power_circle;
+#[cfg(feature = "LucidePowerCircle")]
+pub use lucide_power_circle::*;
 #[cfg(feature = "LucidePowerOff")]
 mod lucide_power_off;
 #[cfg(feature = "LucidePowerOff")]
 pub use lucide_power_off::*;
+#[cfg(feature = "LucidePowerSquare")]
+mod lucide_power_square;
+#[cfg(feature = "LucidePowerSquare")]
+pub use lucide_power_square::*;
 #[cfg(feature = "LucidePower")]
 mod lucide_power;
 #[cfg(feature = "LucidePower")]
 pub use lucide_power::*;
+#[cfg(feature = "LucidePresentation")]
+mod lucide_presentation;
+#[cfg(feature = "LucidePresentation")]
+pub use lucide_presentation::*;
 #[cfg(feature = "LucidePrinter")]
 mod lucide_printer;
 #[cfg(feature = "LucidePrinter")]
 pub use lucide_printer::*;
+#[cfg(feature = "LucideProjector")]
+mod lucide_projector;
+#[cfg(feature = "LucideProjector")]
+pub use lucide_projector::*;
 #[cfg(feature = "LucidePuzzle")]
 mod lucide_puzzle;
 #[cfg(feature = "LucidePuzzle")]
 pub use lucide_puzzle::*;
+#[cfg(feature = "LucidePyramid")]
+mod lucide_pyramid;
+#[cfg(feature = "LucidePyramid")]
+pub use lucide_pyramid::*;
 #[cfg(feature = "LucideQrCode")]
 mod lucide_qr_code;
 #[cfg(feature = "LucideQrCode")]
@@ -2648,14 +4116,54 @@ pub use lucide_qr_code::*;
 mod lucide_quote;
 #[cfg(feature = "LucideQuote")]
 pub use lucide_quote::*;
+#[cfg(feature = "LucideRabbit")]
+mod lucide_rabbit;
+#[cfg(feature = "LucideRabbit")]
+pub use lucide_rabbit::*;
+#[cfg(feature = "LucideRadar")]
+mod lucide_radar;
+#[cfg(feature = "LucideRadar")]
+pub use lucide_radar::*;
+#[cfg(feature = "LucideRadiation")]
+mod lucide_radiation;
+#[cfg(feature = "LucideRadiation")]
+pub use lucide_radiation::*;
 #[cfg(feature = "LucideRadioReceiver")]
 mod lucide_radio_receiver;
 #[cfg(feature = "LucideRadioReceiver")]
 pub use lucide_radio_receiver::*;
+#[cfg(feature = "LucideRadioTower")]
+mod lucide_radio_tower;
+#[cfg(feature = "LucideRadioTower")]
+pub use lucide_radio_tower::*;
 #[cfg(feature = "LucideRadio")]
 mod lucide_radio;
 #[cfg(feature = "LucideRadio")]
 pub use lucide_radio::*;
+#[cfg(feature = "LucideRadius")]
+mod lucide_radius;
+#[cfg(feature = "LucideRadius")]
+pub use lucide_radius::*;
+#[cfg(feature = "LucideRailSymbol")]
+mod lucide_rail_symbol;
+#[cfg(feature = "LucideRailSymbol")]
+pub use lucide_rail_symbol::*;
+#[cfg(feature = "LucideRainbow")]
+mod lucide_rainbow;
+#[cfg(feature = "LucideRainbow")]
+pub use lucide_rainbow::*;
+#[cfg(feature = "LucideRat")]
+mod lucide_rat;
+#[cfg(feature = "LucideRat")]
+pub use lucide_rat::*;
+#[cfg(feature = "LucideRatio")]
+mod lucide_ratio;
+#[cfg(feature = "LucideRatio")]
+pub use lucide_ratio::*;
+#[cfg(feature = "LucideReceipt")]
+mod lucide_receipt;
+#[cfg(feature = "LucideReceipt")]
+pub use lucide_receipt::*;
 #[cfg(feature = "LucideRectangleHorizontal")]
 mod lucide_rectangle_horizontal;
 #[cfg(feature = "LucideRectangleHorizontal")]
@@ -2672,14 +4180,26 @@ pub use lucide_recycle::*;
 mod lucide_redo_2;
 #[cfg(feature = "LucideRedo2")]
 pub use lucide_redo_2::*;
+#[cfg(feature = "LucideRedoDot")]
+mod lucide_redo_dot;
+#[cfg(feature = "LucideRedoDot")]
+pub use lucide_redo_dot::*;
 #[cfg(feature = "LucideRedo")]
 mod lucide_redo;
 #[cfg(feature = "LucideRedo")]
 pub use lucide_redo::*;
+#[cfg(feature = "LucideRefreshCcwDot")]
+mod lucide_refresh_ccw_dot;
+#[cfg(feature = "LucideRefreshCcwDot")]
+pub use lucide_refresh_ccw_dot::*;
 #[cfg(feature = "LucideRefreshCcw")]
 mod lucide_refresh_ccw;
 #[cfg(feature = "LucideRefreshCcw")]
 pub use lucide_refresh_ccw::*;
+#[cfg(feature = "LucideRefreshCwOff")]
+mod lucide_refresh_cw_off;
+#[cfg(feature = "LucideRefreshCwOff")]
+pub use lucide_refresh_cw_off::*;
 #[cfg(feature = "LucideRefreshCw")]
 mod lucide_refresh_cw;
 #[cfg(feature = "LucideRefreshCw")]
@@ -2692,14 +4212,30 @@ pub use lucide_refrigerator::*;
 mod lucide_regex;
 #[cfg(feature = "LucideRegex")]
 pub use lucide_regex::*;
+#[cfg(feature = "LucideRemoveFormatting")]
+mod lucide_remove_formatting;
+#[cfg(feature = "LucideRemoveFormatting")]
+pub use lucide_remove_formatting::*;
 #[cfg(feature = "LucideRepeat1")]
 mod lucide_repeat_1;
 #[cfg(feature = "LucideRepeat1")]
 pub use lucide_repeat_1::*;
+#[cfg(feature = "LucideRepeat2")]
+mod lucide_repeat_2;
+#[cfg(feature = "LucideRepeat2")]
+pub use lucide_repeat_2::*;
 #[cfg(feature = "LucideRepeat")]
 mod lucide_repeat;
 #[cfg(feature = "LucideRepeat")]
 pub use lucide_repeat::*;
+#[cfg(feature = "LucideReplaceAll")]
+mod lucide_replace_all;
+#[cfg(feature = "LucideReplaceAll")]
+pub use lucide_replace_all::*;
+#[cfg(feature = "LucideReplace")]
+mod lucide_replace;
+#[cfg(feature = "LucideReplace")]
+pub use lucide_replace::*;
 #[cfg(feature = "LucideReplyAll")]
 mod lucide_reply_all;
 #[cfg(feature = "LucideReplyAll")]
@@ -2712,6 +4248,10 @@ pub use lucide_reply::*;
 mod lucide_rewind;
 #[cfg(feature = "LucideRewind")]
 pub use lucide_rewind::*;
+#[cfg(feature = "LucideRibbon")]
+mod lucide_ribbon;
+#[cfg(feature = "LucideRibbon")]
+pub use lucide_ribbon::*;
 #[cfg(feature = "LucideRocket")]
 mod lucide_rocket;
 #[cfg(feature = "LucideRocket")]
@@ -2720,6 +4260,10 @@ pub use lucide_rocket::*;
 mod lucide_rocking_chair;
 #[cfg(feature = "LucideRockingChair")]
 pub use lucide_rocking_chair::*;
+#[cfg(feature = "LucideRollerCoaster")]
+mod lucide_roller_coaster;
+#[cfg(feature = "LucideRollerCoaster")]
+pub use lucide_roller_coaster::*;
 #[cfg(feature = "LucideRotate3D")]
 mod lucide_rotate_3_d;
 #[cfg(feature = "LucideRotate3D")]
@@ -2732,6 +4276,30 @@ pub use lucide_rotate_ccw::*;
 mod lucide_rotate_cw;
 #[cfg(feature = "LucideRotateCw")]
 pub use lucide_rotate_cw::*;
+#[cfg(feature = "LucideRouteOff")]
+mod lucide_route_off;
+#[cfg(feature = "LucideRouteOff")]
+pub use lucide_route_off::*;
+#[cfg(feature = "LucideRoute")]
+mod lucide_route;
+#[cfg(feature = "LucideRoute")]
+pub use lucide_route::*;
+#[cfg(feature = "LucideRouter")]
+mod lucide_router;
+#[cfg(feature = "LucideRouter")]
+pub use lucide_router::*;
+#[cfg(feature = "LucideRows2")]
+mod lucide_rows_2;
+#[cfg(feature = "LucideRows2")]
+pub use lucide_rows_2::*;
+#[cfg(feature = "LucideRows3")]
+mod lucide_rows_3;
+#[cfg(feature = "LucideRows3")]
+pub use lucide_rows_3::*;
+#[cfg(feature = "LucideRows4")]
+mod lucide_rows_4;
+#[cfg(feature = "LucideRows4")]
+pub use lucide_rows_4::*;
 #[cfg(feature = "LucideRss")]
 mod lucide_rss;
 #[cfg(feature = "LucideRss")]
@@ -2756,6 +4324,18 @@ pub use lucide_salad::*;
 mod lucide_sandwich;
 #[cfg(feature = "LucideSandwich")]
 pub use lucide_sandwich::*;
+#[cfg(feature = "LucideSatelliteDish")]
+mod lucide_satellite_dish;
+#[cfg(feature = "LucideSatelliteDish")]
+pub use lucide_satellite_dish::*;
+#[cfg(feature = "LucideSatellite")]
+mod lucide_satellite;
+#[cfg(feature = "LucideSatellite")]
+pub use lucide_satellite::*;
+#[cfg(feature = "LucideSaveAll")]
+mod lucide_save_all;
+#[cfg(feature = "LucideSaveAll")]
+pub use lucide_save_all::*;
 #[cfg(feature = "LucideSave")]
 mod lucide_save;
 #[cfg(feature = "LucideSave")]
@@ -2772,6 +4352,14 @@ pub use lucide_scale::*;
 mod lucide_scaling;
 #[cfg(feature = "LucideScaling")]
 pub use lucide_scaling::*;
+#[cfg(feature = "LucideScanBarcode")]
+mod lucide_scan_barcode;
+#[cfg(feature = "LucideScanBarcode")]
+pub use lucide_scan_barcode::*;
+#[cfg(feature = "LucideScanEye")]
+mod lucide_scan_eye;
+#[cfg(feature = "LucideScanEye")]
+pub use lucide_scan_eye::*;
 #[cfg(feature = "LucideScanFace")]
 mod lucide_scan_face;
 #[cfg(feature = "LucideScanFace")]
@@ -2780,10 +4368,42 @@ pub use lucide_scan_face::*;
 mod lucide_scan_line;
 #[cfg(feature = "LucideScanLine")]
 pub use lucide_scan_line::*;
+#[cfg(feature = "LucideScanSearch")]
+mod lucide_scan_search;
+#[cfg(feature = "LucideScanSearch")]
+pub use lucide_scan_search::*;
+#[cfg(feature = "LucideScanText")]
+mod lucide_scan_text;
+#[cfg(feature = "LucideScanText")]
+pub use lucide_scan_text::*;
 #[cfg(feature = "LucideScan")]
 mod lucide_scan;
 #[cfg(feature = "LucideScan")]
 pub use lucide_scan::*;
+#[cfg(feature = "LucideScatterChart")]
+mod lucide_scatter_chart;
+#[cfg(feature = "LucideScatterChart")]
+pub use lucide_scatter_chart::*;
+#[cfg(feature = "LucideSchool2")]
+mod lucide_school_2;
+#[cfg(feature = "LucideSchool2")]
+pub use lucide_school_2::*;
+#[cfg(feature = "LucideSchool")]
+mod lucide_school;
+#[cfg(feature = "LucideSchool")]
+pub use lucide_school::*;
+#[cfg(feature = "LucideScissorsLineDashed")]
+mod lucide_scissors_line_dashed;
+#[cfg(feature = "LucideScissorsLineDashed")]
+pub use lucide_scissors_line_dashed::*;
+#[cfg(feature = "LucideScissorsSquareDashedBottom")]
+mod lucide_scissors_square_dashed_bottom;
+#[cfg(feature = "LucideScissorsSquareDashedBottom")]
+pub use lucide_scissors_square_dashed_bottom::*;
+#[cfg(feature = "LucideScissorsSquare")]
+mod lucide_scissors_square;
+#[cfg(feature = "LucideScissorsSquare")]
+pub use lucide_scissors_square::*;
 #[cfg(feature = "LucideScissors")]
 mod lucide_scissors;
 #[cfg(feature = "LucideScissors")]
@@ -2796,14 +4416,42 @@ pub use lucide_screen_share_off::*;
 mod lucide_screen_share;
 #[cfg(feature = "LucideScreenShare")]
 pub use lucide_screen_share::*;
+#[cfg(feature = "LucideScrollText")]
+mod lucide_scroll_text;
+#[cfg(feature = "LucideScrollText")]
+pub use lucide_scroll_text::*;
 #[cfg(feature = "LucideScroll")]
 mod lucide_scroll;
 #[cfg(feature = "LucideScroll")]
 pub use lucide_scroll::*;
+#[cfg(feature = "LucideSearchCheck")]
+mod lucide_search_check;
+#[cfg(feature = "LucideSearchCheck")]
+pub use lucide_search_check::*;
+#[cfg(feature = "LucideSearchCode")]
+mod lucide_search_code;
+#[cfg(feature = "LucideSearchCode")]
+pub use lucide_search_code::*;
+#[cfg(feature = "LucideSearchSlash")]
+mod lucide_search_slash;
+#[cfg(feature = "LucideSearchSlash")]
+pub use lucide_search_slash::*;
+#[cfg(feature = "LucideSearchX")]
+mod lucide_search_x;
+#[cfg(feature = "LucideSearchX")]
+pub use lucide_search_x::*;
 #[cfg(feature = "LucideSearch")]
 mod lucide_search;
 #[cfg(feature = "LucideSearch")]
 pub use lucide_search::*;
+#[cfg(feature = "LucideSendHorizontal")]
+mod lucide_send_horizontal;
+#[cfg(feature = "LucideSendHorizontal")]
+pub use lucide_send_horizontal::*;
+#[cfg(feature = "LucideSendToBack")]
+mod lucide_send_to_back;
+#[cfg(feature = "LucideSendToBack")]
+pub use lucide_send_to_back::*;
 #[cfg(feature = "LucideSend")]
 mod lucide_send;
 #[cfg(feature = "LucideSend")]
@@ -2840,6 +4488,10 @@ pub use lucide_settings_2::*;
 mod lucide_settings;
 #[cfg(feature = "LucideSettings")]
 pub use lucide_settings::*;
+#[cfg(feature = "LucideShapes")]
+mod lucide_shapes;
+#[cfg(feature = "LucideShapes")]
+pub use lucide_shapes::*;
 #[cfg(feature = "LucideShare2")]
 mod lucide_share_2;
 #[cfg(feature = "LucideShare2")]
@@ -2852,26 +4504,62 @@ pub use lucide_share::*;
 mod lucide_sheet;
 #[cfg(feature = "LucideSheet")]
 pub use lucide_sheet::*;
+#[cfg(feature = "LucideShell")]
+mod lucide_shell;
+#[cfg(feature = "LucideShell")]
+pub use lucide_shell::*;
 #[cfg(feature = "LucideShieldAlert")]
 mod lucide_shield_alert;
 #[cfg(feature = "LucideShieldAlert")]
 pub use lucide_shield_alert::*;
+#[cfg(feature = "LucideShieldBan")]
+mod lucide_shield_ban;
+#[cfg(feature = "LucideShieldBan")]
+pub use lucide_shield_ban::*;
 #[cfg(feature = "LucideShieldCheck")]
 mod lucide_shield_check;
 #[cfg(feature = "LucideShieldCheck")]
 pub use lucide_shield_check::*;
-#[cfg(feature = "LucideShieldClose")]
-mod lucide_shield_close;
-#[cfg(feature = "LucideShieldClose")]
-pub use lucide_shield_close::*;
+#[cfg(feature = "LucideShieldEllipsis")]
+mod lucide_shield_ellipsis;
+#[cfg(feature = "LucideShieldEllipsis")]
+pub use lucide_shield_ellipsis::*;
+#[cfg(feature = "LucideShieldHalf")]
+mod lucide_shield_half;
+#[cfg(feature = "LucideShieldHalf")]
+pub use lucide_shield_half::*;
+#[cfg(feature = "LucideShieldMinus")]
+mod lucide_shield_minus;
+#[cfg(feature = "LucideShieldMinus")]
+pub use lucide_shield_minus::*;
 #[cfg(feature = "LucideShieldOff")]
 mod lucide_shield_off;
 #[cfg(feature = "LucideShieldOff")]
 pub use lucide_shield_off::*;
+#[cfg(feature = "LucideShieldPlus")]
+mod lucide_shield_plus;
+#[cfg(feature = "LucideShieldPlus")]
+pub use lucide_shield_plus::*;
+#[cfg(feature = "LucideShieldQuestion")]
+mod lucide_shield_question;
+#[cfg(feature = "LucideShieldQuestion")]
+pub use lucide_shield_question::*;
+#[cfg(feature = "LucideShieldX")]
+mod lucide_shield_x;
+#[cfg(feature = "LucideShieldX")]
+pub use lucide_shield_x::*;
 #[cfg(feature = "LucideShield")]
 mod lucide_shield;
 #[cfg(feature = "LucideShield")]
 pub use lucide_shield::*;
+#[cfg(feature = "LucideShipWheel")]
+mod lucide_ship_wheel;
+#[cfg(feature = "LucideShipWheel")]
+pub use lucide_ship_wheel::*;
+#[cfg(feature = "LucideShip")]
+mod lucide_ship;
+#[cfg(feature = "LucideShip")]
+pub use lucide_ship::*;
 #[cfg(feature = "LucideShirt")]
 mod lucide_shirt;
 #[cfg(feature = "LucideShirt")]
@@ -2880,6 +4568,10 @@ pub use lucide_shirt::*;
 mod lucide_shopping_bag;
 #[cfg(feature = "LucideShoppingBag")]
 pub use lucide_shopping_bag::*;
+#[cfg(feature = "LucideShoppingBasket")]
+mod lucide_shopping_basket;
+#[cfg(feature = "LucideShoppingBasket")]
+pub use lucide_shopping_basket::*;
 #[cfg(feature = "LucideShoppingCart")]
 mod lucide_shopping_cart;
 #[cfg(feature = "LucideShoppingCart")]
@@ -2904,18 +4596,10 @@ pub use lucide_shrub::*;
 mod lucide_shuffle;
 #[cfg(feature = "LucideShuffle")]
 pub use lucide_shuffle::*;
-#[cfg(feature = "LucideSidebarClose")]
-mod lucide_sidebar_close;
-#[cfg(feature = "LucideSidebarClose")]
-pub use lucide_sidebar_close::*;
-#[cfg(feature = "LucideSidebarOpen")]
-mod lucide_sidebar_open;
-#[cfg(feature = "LucideSidebarOpen")]
-pub use lucide_sidebar_open::*;
-#[cfg(feature = "LucideSidebar")]
-mod lucide_sidebar;
-#[cfg(feature = "LucideSidebar")]
-pub use lucide_sidebar::*;
+#[cfg(feature = "LucideSigmaSquare")]
+mod lucide_sigma_square;
+#[cfg(feature = "LucideSigmaSquare")]
+pub use lucide_sigma_square::*;
 #[cfg(feature = "LucideSigma")]
 mod lucide_sigma;
 #[cfg(feature = "LucideSigma")]
@@ -2940,6 +4624,14 @@ pub use lucide_signal_zero::*;
 mod lucide_signal;
 #[cfg(feature = "LucideSignal")]
 pub use lucide_signal::*;
+#[cfg(feature = "LucideSignpostBig")]
+mod lucide_signpost_big;
+#[cfg(feature = "LucideSignpostBig")]
+pub use lucide_signpost_big::*;
+#[cfg(feature = "LucideSignpost")]
+mod lucide_signpost;
+#[cfg(feature = "LucideSignpost")]
+pub use lucide_signpost::*;
 #[cfg(feature = "LucideSiren")]
 mod lucide_siren;
 #[cfg(feature = "LucideSiren")]
@@ -2960,6 +4652,10 @@ pub use lucide_skull::*;
 mod lucide_slack;
 #[cfg(feature = "LucideSlack")]
 pub use lucide_slack::*;
+#[cfg(feature = "LucideSlashSquare")]
+mod lucide_slash_square;
+#[cfg(feature = "LucideSlashSquare")]
+pub use lucide_slash_square::*;
 #[cfg(feature = "LucideSlash")]
 mod lucide_slash;
 #[cfg(feature = "LucideSlash")]
@@ -2980,6 +4676,10 @@ pub use lucide_sliders::*;
 mod lucide_smartphone_charging;
 #[cfg(feature = "LucideSmartphoneCharging")]
 pub use lucide_smartphone_charging::*;
+#[cfg(feature = "LucideSmartphoneNfc")]
+mod lucide_smartphone_nfc;
+#[cfg(feature = "LucideSmartphoneNfc")]
+pub use lucide_smartphone_nfc::*;
 #[cfg(feature = "LucideSmartphone")]
 mod lucide_smartphone;
 #[cfg(feature = "LucideSmartphone")]
@@ -2992,6 +4692,10 @@ pub use lucide_smile_plus::*;
 mod lucide_smile;
 #[cfg(feature = "LucideSmile")]
 pub use lucide_smile::*;
+#[cfg(feature = "LucideSnail")]
+mod lucide_snail;
+#[cfg(feature = "LucideSnail")]
+pub use lucide_snail::*;
 #[cfg(feature = "LucideSnowflake")]
 mod lucide_snowflake;
 #[cfg(feature = "LucideSnowflake")]
@@ -3000,34 +4704,102 @@ pub use lucide_snowflake::*;
 mod lucide_sofa;
 #[cfg(feature = "LucideSofa")]
 pub use lucide_sofa::*;
-#[cfg(feature = "LucideSortAsc")]
-mod lucide_sort_asc;
-#[cfg(feature = "LucideSortAsc")]
-pub use lucide_sort_asc::*;
-#[cfg(feature = "LucideSortDesc")]
-mod lucide_sort_desc;
-#[cfg(feature = "LucideSortDesc")]
-pub use lucide_sort_desc::*;
 #[cfg(feature = "LucideSoup")]
 mod lucide_soup;
 #[cfg(feature = "LucideSoup")]
 pub use lucide_soup::*;
+#[cfg(feature = "LucideSpace")]
+mod lucide_space;
+#[cfg(feature = "LucideSpace")]
+pub use lucide_space::*;
+#[cfg(feature = "LucideSpade")]
+mod lucide_spade;
+#[cfg(feature = "LucideSpade")]
+pub use lucide_spade::*;
+#[cfg(feature = "LucideSparkle")]
+mod lucide_sparkle;
+#[cfg(feature = "LucideSparkle")]
+pub use lucide_sparkle::*;
+#[cfg(feature = "LucideSparkles")]
+mod lucide_sparkles;
+#[cfg(feature = "LucideSparkles")]
+pub use lucide_sparkles::*;
 #[cfg(feature = "LucideSpeaker")]
 mod lucide_speaker;
 #[cfg(feature = "LucideSpeaker")]
 pub use lucide_speaker::*;
+#[cfg(feature = "LucideSpeech")]
+mod lucide_speech;
+#[cfg(feature = "LucideSpeech")]
+pub use lucide_speech::*;
+#[cfg(feature = "LucideSpellCheck2")]
+mod lucide_spell_check_2;
+#[cfg(feature = "LucideSpellCheck2")]
+pub use lucide_spell_check_2::*;
+#[cfg(feature = "LucideSpellCheck")]
+mod lucide_spell_check;
+#[cfg(feature = "LucideSpellCheck")]
+pub use lucide_spell_check::*;
 #[cfg(feature = "LucideSpline")]
 mod lucide_spline;
 #[cfg(feature = "LucideSpline")]
 pub use lucide_spline::*;
+#[cfg(feature = "LucideSplitSquareHorizontal")]
+mod lucide_split_square_horizontal;
+#[cfg(feature = "LucideSplitSquareHorizontal")]
+pub use lucide_split_square_horizontal::*;
+#[cfg(feature = "LucideSplitSquareVertical")]
+mod lucide_split_square_vertical;
+#[cfg(feature = "LucideSplitSquareVertical")]
+pub use lucide_split_square_vertical::*;
+#[cfg(feature = "LucideSplit")]
+mod lucide_split;
+#[cfg(feature = "LucideSplit")]
+pub use lucide_split::*;
+#[cfg(feature = "LucideSprayCan")]
+mod lucide_spray_can;
+#[cfg(feature = "LucideSprayCan")]
+pub use lucide_spray_can::*;
 #[cfg(feature = "LucideSprout")]
 mod lucide_sprout;
 #[cfg(feature = "LucideSprout")]
 pub use lucide_sprout::*;
+#[cfg(feature = "LucideSquareDashedBottomCode")]
+mod lucide_square_dashed_bottom_code;
+#[cfg(feature = "LucideSquareDashedBottomCode")]
+pub use lucide_square_dashed_bottom_code::*;
+#[cfg(feature = "LucideSquareDashedBottom")]
+mod lucide_square_dashed_bottom;
+#[cfg(feature = "LucideSquareDashedBottom")]
+pub use lucide_square_dashed_bottom::*;
+#[cfg(feature = "LucideSquareStack")]
+mod lucide_square_stack;
+#[cfg(feature = "LucideSquareStack")]
+pub use lucide_square_stack::*;
+#[cfg(feature = "LucideSquareUserRound")]
+mod lucide_square_user_round;
+#[cfg(feature = "LucideSquareUserRound")]
+pub use lucide_square_user_round::*;
+#[cfg(feature = "LucideSquareUser")]
+mod lucide_square_user;
+#[cfg(feature = "LucideSquareUser")]
+pub use lucide_square_user::*;
 #[cfg(feature = "LucideSquare")]
 mod lucide_square;
 #[cfg(feature = "LucideSquare")]
 pub use lucide_square::*;
+#[cfg(feature = "LucideSquircle")]
+mod lucide_squircle;
+#[cfg(feature = "LucideSquircle")]
+pub use lucide_squircle::*;
+#[cfg(feature = "LucideSquirrel")]
+mod lucide_squirrel;
+#[cfg(feature = "LucideSquirrel")]
+pub use lucide_squirrel::*;
+#[cfg(feature = "LucideStamp")]
+mod lucide_stamp;
+#[cfg(feature = "LucideStamp")]
+pub use lucide_stamp::*;
 #[cfg(feature = "LucideStarHalf")]
 mod lucide_star_half;
 #[cfg(feature = "LucideStarHalf")]
@@ -3040,6 +4812,14 @@ pub use lucide_star_off::*;
 mod lucide_star;
 #[cfg(feature = "LucideStar")]
 pub use lucide_star::*;
+#[cfg(feature = "LucideStepBack")]
+mod lucide_step_back;
+#[cfg(feature = "LucideStepBack")]
+pub use lucide_step_back::*;
+#[cfg(feature = "LucideStepForward")]
+mod lucide_step_forward;
+#[cfg(feature = "LucideStepForward")]
+pub use lucide_step_forward::*;
 #[cfg(feature = "LucideStethoscope")]
 mod lucide_stethoscope;
 #[cfg(feature = "LucideStethoscope")]
@@ -3056,6 +4836,10 @@ pub use lucide_sticky_note::*;
 mod lucide_stop_circle;
 #[cfg(feature = "LucideStopCircle")]
 pub use lucide_stop_circle::*;
+#[cfg(feature = "LucideStore")]
+mod lucide_store;
+#[cfg(feature = "LucideStore")]
+pub use lucide_store::*;
 #[cfg(feature = "LucideStretchHorizontal")]
 mod lucide_stretch_horizontal;
 #[cfg(feature = "LucideStretchHorizontal")]
@@ -3132,14 +4916,26 @@ pub use lucide_syringe::*;
 mod lucide_table_2;
 #[cfg(feature = "LucideTable2")]
 pub use lucide_table_2::*;
+#[cfg(feature = "LucideTableProperties")]
+mod lucide_table_properties;
+#[cfg(feature = "LucideTableProperties")]
+pub use lucide_table_properties::*;
 #[cfg(feature = "LucideTable")]
 mod lucide_table;
 #[cfg(feature = "LucideTable")]
 pub use lucide_table::*;
+#[cfg(feature = "LucideTabletSmartphone")]
+mod lucide_tablet_smartphone;
+#[cfg(feature = "LucideTabletSmartphone")]
+pub use lucide_tablet_smartphone::*;
 #[cfg(feature = "LucideTablet")]
 mod lucide_tablet;
 #[cfg(feature = "LucideTablet")]
 pub use lucide_tablet::*;
+#[cfg(feature = "LucideTablets")]
+mod lucide_tablets;
+#[cfg(feature = "LucideTablets")]
+pub use lucide_tablets::*;
 #[cfg(feature = "LucideTag")]
 mod lucide_tag;
 #[cfg(feature = "LucideTag")]
@@ -3148,10 +4944,38 @@ pub use lucide_tag::*;
 mod lucide_tags;
 #[cfg(feature = "LucideTags")]
 pub use lucide_tags::*;
+#[cfg(feature = "LucideTally1")]
+mod lucide_tally_1;
+#[cfg(feature = "LucideTally1")]
+pub use lucide_tally_1::*;
+#[cfg(feature = "LucideTally2")]
+mod lucide_tally_2;
+#[cfg(feature = "LucideTally2")]
+pub use lucide_tally_2::*;
+#[cfg(feature = "LucideTally3")]
+mod lucide_tally_3;
+#[cfg(feature = "LucideTally3")]
+pub use lucide_tally_3::*;
+#[cfg(feature = "LucideTally4")]
+mod lucide_tally_4;
+#[cfg(feature = "LucideTally4")]
+pub use lucide_tally_4::*;
+#[cfg(feature = "LucideTally5")]
+mod lucide_tally_5;
+#[cfg(feature = "LucideTally5")]
+pub use lucide_tally_5::*;
+#[cfg(feature = "LucideTangent")]
+mod lucide_tangent;
+#[cfg(feature = "LucideTangent")]
+pub use lucide_tangent::*;
 #[cfg(feature = "LucideTarget")]
 mod lucide_target;
 #[cfg(feature = "LucideTarget")]
 pub use lucide_target::*;
+#[cfg(feature = "LucideTentTree")]
+mod lucide_tent_tree;
+#[cfg(feature = "LucideTentTree")]
+pub use lucide_tent_tree::*;
 #[cfg(feature = "LucideTent")]
 mod lucide_tent;
 #[cfg(feature = "LucideTent")]
@@ -3164,6 +4988,18 @@ pub use lucide_terminal_square::*;
 mod lucide_terminal;
 #[cfg(feature = "LucideTerminal")]
 pub use lucide_terminal::*;
+#[cfg(feature = "LucideTestTube2")]
+mod lucide_test_tube_2;
+#[cfg(feature = "LucideTestTube2")]
+pub use lucide_test_tube_2::*;
+#[cfg(feature = "LucideTestTube")]
+mod lucide_test_tube;
+#[cfg(feature = "LucideTestTube")]
+pub use lucide_test_tube::*;
+#[cfg(feature = "LucideTestTubes")]
+mod lucide_test_tubes;
+#[cfg(feature = "LucideTestTubes")]
+pub use lucide_test_tubes::*;
 #[cfg(feature = "LucideTextCursorInput")]
 mod lucide_text_cursor_input;
 #[cfg(feature = "LucideTextCursorInput")]
@@ -3172,6 +5008,22 @@ pub use lucide_text_cursor_input::*;
 mod lucide_text_cursor;
 #[cfg(feature = "LucideTextCursor")]
 pub use lucide_text_cursor::*;
+#[cfg(feature = "LucideTextQuote")]
+mod lucide_text_quote;
+#[cfg(feature = "LucideTextQuote")]
+pub use lucide_text_quote::*;
+#[cfg(feature = "LucideTextSelect")]
+mod lucide_text_select;
+#[cfg(feature = "LucideTextSelect")]
+pub use lucide_text_select::*;
+#[cfg(feature = "LucideText")]
+mod lucide_text;
+#[cfg(feature = "LucideText")]
+pub use lucide_text::*;
+#[cfg(feature = "LucideTheater")]
+mod lucide_theater;
+#[cfg(feature = "LucideTheater")]
+pub use lucide_theater::*;
 #[cfg(feature = "LucideThermometerSnowflake")]
 mod lucide_thermometer_snowflake;
 #[cfg(feature = "LucideThermometerSnowflake")]
@@ -3220,14 +5072,50 @@ pub use lucide_toggle_right::*;
 mod lucide_tornado;
 #[cfg(feature = "LucideTornado")]
 pub use lucide_tornado::*;
+#[cfg(feature = "LucideTorus")]
+mod lucide_torus;
+#[cfg(feature = "LucideTorus")]
+pub use lucide_torus::*;
+#[cfg(feature = "LucideTouchpadOff")]
+mod lucide_touchpad_off;
+#[cfg(feature = "LucideTouchpadOff")]
+pub use lucide_touchpad_off::*;
+#[cfg(feature = "LucideTouchpad")]
+mod lucide_touchpad;
+#[cfg(feature = "LucideTouchpad")]
+pub use lucide_touchpad::*;
+#[cfg(feature = "LucideTowerControl")]
+mod lucide_tower_control;
+#[cfg(feature = "LucideTowerControl")]
+pub use lucide_tower_control::*;
 #[cfg(feature = "LucideToyBrick")]
 mod lucide_toy_brick;
 #[cfg(feature = "LucideToyBrick")]
 pub use lucide_toy_brick::*;
-#[cfg(feature = "LucideTrain")]
-mod lucide_train;
-#[cfg(feature = "LucideTrain")]
-pub use lucide_train::*;
+#[cfg(feature = "LucideTractor")]
+mod lucide_tractor;
+#[cfg(feature = "LucideTractor")]
+pub use lucide_tractor::*;
+#[cfg(feature = "LucideTrafficCone")]
+mod lucide_traffic_cone;
+#[cfg(feature = "LucideTrafficCone")]
+pub use lucide_traffic_cone::*;
+#[cfg(feature = "LucideTrainFrontTunnel")]
+mod lucide_train_front_tunnel;
+#[cfg(feature = "LucideTrainFrontTunnel")]
+pub use lucide_train_front_tunnel::*;
+#[cfg(feature = "LucideTrainFront")]
+mod lucide_train_front;
+#[cfg(feature = "LucideTrainFront")]
+pub use lucide_train_front::*;
+#[cfg(feature = "LucideTrainTrack")]
+mod lucide_train_track;
+#[cfg(feature = "LucideTrainTrack")]
+pub use lucide_train_track::*;
+#[cfg(feature = "LucideTramFront")]
+mod lucide_tram_front;
+#[cfg(feature = "LucideTramFront")]
+pub use lucide_tram_front::*;
 #[cfg(feature = "LucideTrash2")]
 mod lucide_trash_2;
 #[cfg(feature = "LucideTrash2")]
@@ -3260,6 +5148,10 @@ pub use lucide_trending_down::*;
 mod lucide_trending_up;
 #[cfg(feature = "LucideTrendingUp")]
 pub use lucide_trending_up::*;
+#[cfg(feature = "LucideTriangleRight")]
+mod lucide_triangle_right;
+#[cfg(feature = "LucideTriangleRight")]
+pub use lucide_triangle_right::*;
 #[cfg(feature = "LucideTriangle")]
 mod lucide_triangle;
 #[cfg(feature = "LucideTriangle")]
@@ -3272,6 +5164,10 @@ pub use lucide_trophy::*;
 mod lucide_truck;
 #[cfg(feature = "LucideTruck")]
 pub use lucide_truck::*;
+#[cfg(feature = "LucideTurtle")]
+mod lucide_turtle;
+#[cfg(feature = "LucideTurtle")]
+pub use lucide_turtle::*;
 #[cfg(feature = "LucideTv2")]
 mod lucide_tv_2;
 #[cfg(feature = "LucideTv2")]
@@ -3292,6 +5188,10 @@ pub use lucide_twitter::*;
 mod lucide_type;
 #[cfg(feature = "LucideType")]
 pub use lucide_type::*;
+#[cfg(feature = "LucideUmbrellaOff")]
+mod lucide_umbrella_off;
+#[cfg(feature = "LucideUmbrellaOff")]
+pub use lucide_umbrella_off::*;
 #[cfg(feature = "LucideUmbrella")]
 mod lucide_umbrella;
 #[cfg(feature = "LucideUmbrella")]
@@ -3304,10 +5204,26 @@ pub use lucide_underline::*;
 mod lucide_undo_2;
 #[cfg(feature = "LucideUndo2")]
 pub use lucide_undo_2::*;
+#[cfg(feature = "LucideUndoDot")]
+mod lucide_undo_dot;
+#[cfg(feature = "LucideUndoDot")]
+pub use lucide_undo_dot::*;
 #[cfg(feature = "LucideUndo")]
 mod lucide_undo;
 #[cfg(feature = "LucideUndo")]
 pub use lucide_undo::*;
+#[cfg(feature = "LucideUnfoldHorizontal")]
+mod lucide_unfold_horizontal;
+#[cfg(feature = "LucideUnfoldHorizontal")]
+pub use lucide_unfold_horizontal::*;
+#[cfg(feature = "LucideUnfoldVertical")]
+mod lucide_unfold_vertical;
+#[cfg(feature = "LucideUnfoldVertical")]
+pub use lucide_unfold_vertical::*;
+#[cfg(feature = "LucideUngroup")]
+mod lucide_ungroup;
+#[cfg(feature = "LucideUngroup")]
+pub use lucide_ungroup::*;
 #[cfg(feature = "LucideUnlink2")]
 mod lucide_unlink_2;
 #[cfg(feature = "LucideUnlink2")]
@@ -3316,10 +5232,18 @@ pub use lucide_unlink_2::*;
 mod lucide_unlink;
 #[cfg(feature = "LucideUnlink")]
 pub use lucide_unlink::*;
+#[cfg(feature = "LucideUnlockKeyhole")]
+mod lucide_unlock_keyhole;
+#[cfg(feature = "LucideUnlockKeyhole")]
+pub use lucide_unlock_keyhole::*;
 #[cfg(feature = "LucideUnlock")]
 mod lucide_unlock;
 #[cfg(feature = "LucideUnlock")]
 pub use lucide_unlock::*;
+#[cfg(feature = "LucideUnplug")]
+mod lucide_unplug;
+#[cfg(feature = "LucideUnplug")]
+pub use lucide_unplug::*;
 #[cfg(feature = "LucideUploadCloud")]
 mod lucide_upload_cloud;
 #[cfg(feature = "LucideUploadCloud")]
@@ -3348,6 +5272,38 @@ pub use lucide_user_minus::*;
 mod lucide_user_plus;
 #[cfg(feature = "LucideUserPlus")]
 pub use lucide_user_plus::*;
+#[cfg(feature = "LucideUserRoundCheck")]
+mod lucide_user_round_check;
+#[cfg(feature = "LucideUserRoundCheck")]
+pub use lucide_user_round_check::*;
+#[cfg(feature = "LucideUserRoundCog")]
+mod lucide_user_round_cog;
+#[cfg(feature = "LucideUserRoundCog")]
+pub use lucide_user_round_cog::*;
+#[cfg(feature = "LucideUserRoundMinus")]
+mod lucide_user_round_minus;
+#[cfg(feature = "LucideUserRoundMinus")]
+pub use lucide_user_round_minus::*;
+#[cfg(feature = "LucideUserRoundPlus")]
+mod lucide_user_round_plus;
+#[cfg(feature = "LucideUserRoundPlus")]
+pub use lucide_user_round_plus::*;
+#[cfg(feature = "LucideUserRoundSearch")]
+mod lucide_user_round_search;
+#[cfg(feature = "LucideUserRoundSearch")]
+pub use lucide_user_round_search::*;
+#[cfg(feature = "LucideUserRoundX")]
+mod lucide_user_round_x;
+#[cfg(feature = "LucideUserRoundX")]
+pub use lucide_user_round_x::*;
+#[cfg(feature = "LucideUserRound")]
+mod lucide_user_round;
+#[cfg(feature = "LucideUserRound")]
+pub use lucide_user_round::*;
+#[cfg(feature = "LucideUserSearch")]
+mod lucide_user_search;
+#[cfg(feature = "LucideUserSearch")]
+pub use lucide_user_search::*;
 #[cfg(feature = "LucideUserX")]
 mod lucide_user_x;
 #[cfg(feature = "LucideUserX")]
@@ -3356,6 +5312,10 @@ pub use lucide_user_x::*;
 mod lucide_user;
 #[cfg(feature = "LucideUser")]
 pub use lucide_user::*;
+#[cfg(feature = "LucideUsersRound")]
+mod lucide_users_round;
+#[cfg(feature = "LucideUsersRound")]
+pub use lucide_users_round::*;
 #[cfg(feature = "LucideUsers")]
 mod lucide_users;
 #[cfg(feature = "LucideUsers")]
@@ -3368,6 +5328,18 @@ pub use lucide_utensils_crossed::*;
 mod lucide_utensils;
 #[cfg(feature = "LucideUtensils")]
 pub use lucide_utensils::*;
+#[cfg(feature = "LucideUtilityPole")]
+mod lucide_utility_pole;
+#[cfg(feature = "LucideUtilityPole")]
+pub use lucide_utility_pole::*;
+#[cfg(feature = "LucideVariable")]
+mod lucide_variable;
+#[cfg(feature = "LucideVariable")]
+pub use lucide_variable::*;
+#[cfg(feature = "LucideVault")]
+mod lucide_vault;
+#[cfg(feature = "LucideVault")]
+pub use lucide_vault::*;
 #[cfg(feature = "LucideVegan")]
 mod lucide_vegan;
 #[cfg(feature = "LucideVegan")]
@@ -3376,10 +5348,6 @@ pub use lucide_vegan::*;
 mod lucide_venetian_mask;
 #[cfg(feature = "LucideVenetianMask")]
 pub use lucide_venetian_mask::*;
-#[cfg(feature = "LucideVerified")]
-mod lucide_verified;
-#[cfg(feature = "LucideVerified")]
-pub use lucide_verified::*;
 #[cfg(feature = "LucideVibrateOff")]
 mod lucide_vibrate_off;
 #[cfg(feature = "LucideVibrateOff")]
@@ -3396,6 +5364,10 @@ pub use lucide_video_off::*;
 mod lucide_video;
 #[cfg(feature = "LucideVideo")]
 pub use lucide_video::*;
+#[cfg(feature = "LucideVideotape")]
+mod lucide_videotape;
+#[cfg(feature = "LucideVideotape")]
+pub use lucide_videotape::*;
 #[cfg(feature = "LucideView")]
 mod lucide_view;
 #[cfg(feature = "LucideView")]
@@ -3424,10 +5396,22 @@ pub use lucide_volume::*;
 mod lucide_vote;
 #[cfg(feature = "LucideVote")]
 pub use lucide_vote::*;
+#[cfg(feature = "LucideWallet2")]
+mod lucide_wallet_2;
+#[cfg(feature = "LucideWallet2")]
+pub use lucide_wallet_2::*;
+#[cfg(feature = "LucideWalletCards")]
+mod lucide_wallet_cards;
+#[cfg(feature = "LucideWalletCards")]
+pub use lucide_wallet_cards::*;
 #[cfg(feature = "LucideWallet")]
 mod lucide_wallet;
 #[cfg(feature = "LucideWallet")]
 pub use lucide_wallet::*;
+#[cfg(feature = "LucideWallpaper")]
+mod lucide_wallpaper;
+#[cfg(feature = "LucideWallpaper")]
+pub use lucide_wallpaper::*;
 #[cfg(feature = "LucideWand2")]
 mod lucide_wand_2;
 #[cfg(feature = "LucideWand2")]
@@ -3436,6 +5420,14 @@ pub use lucide_wand_2::*;
 mod lucide_wand;
 #[cfg(feature = "LucideWand")]
 pub use lucide_wand::*;
+#[cfg(feature = "LucideWarehouse")]
+mod lucide_warehouse;
+#[cfg(feature = "LucideWarehouse")]
+pub use lucide_warehouse::*;
+#[cfg(feature = "LucideWashingMachine")]
+mod lucide_washing_machine;
+#[cfg(feature = "LucideWashingMachine")]
+pub use lucide_washing_machine::*;
 #[cfg(feature = "LucideWatch")]
 mod lucide_watch;
 #[cfg(feature = "LucideWatch")]
@@ -3444,6 +5436,10 @@ pub use lucide_watch::*;
 mod lucide_waves;
 #[cfg(feature = "LucideWaves")]
 pub use lucide_waves::*;
+#[cfg(feature = "LucideWaypoints")]
+mod lucide_waypoints;
+#[cfg(feature = "LucideWaypoints")]
+pub use lucide_waypoints::*;
 #[cfg(feature = "LucideWebcam")]
 mod lucide_webcam;
 #[cfg(feature = "LucideWebcam")]
@@ -3452,6 +5448,10 @@ pub use lucide_webcam::*;
 mod lucide_webhook;
 #[cfg(feature = "LucideWebhook")]
 pub use lucide_webhook::*;
+#[cfg(feature = "LucideWeight")]
+mod lucide_weight;
+#[cfg(feature = "LucideWeight")]
+pub use lucide_weight::*;
 #[cfg(feature = "LucideWheatOff")]
 mod lucide_wheat_off;
 #[cfg(feature = "LucideWheatOff")]
@@ -3460,6 +5460,10 @@ pub use lucide_wheat_off::*;
 mod lucide_wheat;
 #[cfg(feature = "LucideWheat")]
 pub use lucide_wheat::*;
+#[cfg(feature = "LucideWholeWord")]
+mod lucide_whole_word;
+#[cfg(feature = "LucideWholeWord")]
+pub use lucide_whole_word::*;
 #[cfg(feature = "LucideWifiOff")]
 mod lucide_wifi_off;
 #[cfg(feature = "LucideWifiOff")]
@@ -3480,6 +5484,10 @@ pub use lucide_wine_off::*;
 mod lucide_wine;
 #[cfg(feature = "LucideWine")]
 pub use lucide_wine::*;
+#[cfg(feature = "LucideWorkflow")]
+mod lucide_workflow;
+#[cfg(feature = "LucideWorkflow")]
+pub use lucide_workflow::*;
 #[cfg(feature = "LucideWrapText")]
 mod lucide_wrap_text;
 #[cfg(feature = "LucideWrapText")]

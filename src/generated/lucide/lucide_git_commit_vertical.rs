@@ -1,0 +1,1 @@
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < path d = "M12 3v6" /> < circle cx = "12" cy = "12" r = "3" /> < path d = "M12 15v6" /> < / > } } pub const LucideGitCommitVertical : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;

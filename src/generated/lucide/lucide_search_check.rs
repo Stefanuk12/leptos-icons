@@ -1,0 +1,1 @@
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < path d = "m8 11 2 2 4-4" /> < circle cx = "11" cy = "11" r = "8" /> < path d = "m21 21-4.3-4.3" /> < / > } } pub const LucideSearchCheck : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;

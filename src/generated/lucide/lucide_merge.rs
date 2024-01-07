@@ -1,0 +1,1 @@
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < path d = "m8 6 4-4 4 4" /> < path d = "M12 2v10.3a4 4 0 0 1-1.172 2.872L4 22" /> < path d = "m20 22-5-5" /> < / > } } pub const LucideMerge : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;

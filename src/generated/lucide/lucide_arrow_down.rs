@@ -1,1 +1,1 @@
-use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < line x1 = "12" y1 = "5" x2 = "12" y2 = "19" /> < polyline points = "19 12 12 19 5 12" /> < / > } } pub const LucideArrowDown : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < path d = "M12 5v14" /> < path d = "m19 12-7 7-7-7" /> < / > } } pub const LucideArrowDown : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;

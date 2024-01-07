@@ -56,10 +56,18 @@ pub use heroicons_mini_solid_arrow_down::*;
 mod heroicons_mini_solid_arrow_left_circle;
 #[cfg(feature = "HeroiconsMiniSolidArrowLeftCircle")]
 pub use heroicons_mini_solid_arrow_left_circle::*;
+#[cfg(feature = "HeroiconsMiniSolidArrowLeftEndOnRectangle")]
+mod heroicons_mini_solid_arrow_left_end_on_rectangle;
+#[cfg(feature = "HeroiconsMiniSolidArrowLeftEndOnRectangle")]
+pub use heroicons_mini_solid_arrow_left_end_on_rectangle::*;
 #[cfg(feature = "HeroiconsMiniSolidArrowLeftOnRectangle")]
 mod heroicons_mini_solid_arrow_left_on_rectangle;
 #[cfg(feature = "HeroiconsMiniSolidArrowLeftOnRectangle")]
 pub use heroicons_mini_solid_arrow_left_on_rectangle::*;
+#[cfg(feature = "HeroiconsMiniSolidArrowLeftStartOnRectangle")]
+mod heroicons_mini_solid_arrow_left_start_on_rectangle;
+#[cfg(feature = "HeroiconsMiniSolidArrowLeftStartOnRectangle")]
+pub use heroicons_mini_solid_arrow_left_start_on_rectangle::*;
 #[cfg(feature = "HeroiconsMiniSolidArrowLeft")]
 mod heroicons_mini_solid_arrow_left;
 #[cfg(feature = "HeroiconsMiniSolidArrowLeft")]
@@ -92,10 +100,18 @@ pub use heroicons_mini_solid_arrow_path::*;
 mod heroicons_mini_solid_arrow_right_circle;
 #[cfg(feature = "HeroiconsMiniSolidArrowRightCircle")]
 pub use heroicons_mini_solid_arrow_right_circle::*;
+#[cfg(feature = "HeroiconsMiniSolidArrowRightEndOnRectangle")]
+mod heroicons_mini_solid_arrow_right_end_on_rectangle;
+#[cfg(feature = "HeroiconsMiniSolidArrowRightEndOnRectangle")]
+pub use heroicons_mini_solid_arrow_right_end_on_rectangle::*;
 #[cfg(feature = "HeroiconsMiniSolidArrowRightOnRectangle")]
 mod heroicons_mini_solid_arrow_right_on_rectangle;
 #[cfg(feature = "HeroiconsMiniSolidArrowRightOnRectangle")]
 pub use heroicons_mini_solid_arrow_right_on_rectangle::*;
+#[cfg(feature = "HeroiconsMiniSolidArrowRightStartOnRectangle")]
+mod heroicons_mini_solid_arrow_right_start_on_rectangle;
+#[cfg(feature = "HeroiconsMiniSolidArrowRightStartOnRectangle")]
+pub use heroicons_mini_solid_arrow_right_start_on_rectangle::*;
 #[cfg(feature = "HeroiconsMiniSolidArrowRight")]
 mod heroicons_mini_solid_arrow_right;
 #[cfg(feature = "HeroiconsMiniSolidArrowRight")]

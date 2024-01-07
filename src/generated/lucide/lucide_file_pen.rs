@@ -1,0 +1,1 @@
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < path d = "M4 13.5V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2h-5.5" /> < path d = "M14 2v6h6" /> < path d = "M10.4 12.6a2 2 0 0 1 3 3L8 21l-4 1 1-4Z" /> < / > } } pub const LucideFilePen : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;

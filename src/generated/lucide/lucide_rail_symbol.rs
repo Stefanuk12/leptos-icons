@@ -1,0 +1,1 @@
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < path d = "M5 15h14" /> < path d = "M5 9h14" /> < path d = "m14 20-5-5 6-6-5-5" /> < / > } } pub const LucideRailSymbol : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;

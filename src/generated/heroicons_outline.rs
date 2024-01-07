@@ -56,10 +56,18 @@ pub use heroicons_outline_arrow_down::*;
 mod heroicons_outline_arrow_left_circle;
 #[cfg(feature = "HeroiconsOutlineArrowLeftCircle")]
 pub use heroicons_outline_arrow_left_circle::*;
+#[cfg(feature = "HeroiconsOutlineArrowLeftEndOnRectangle")]
+mod heroicons_outline_arrow_left_end_on_rectangle;
+#[cfg(feature = "HeroiconsOutlineArrowLeftEndOnRectangle")]
+pub use heroicons_outline_arrow_left_end_on_rectangle::*;
 #[cfg(feature = "HeroiconsOutlineArrowLeftOnRectangle")]
 mod heroicons_outline_arrow_left_on_rectangle;
 #[cfg(feature = "HeroiconsOutlineArrowLeftOnRectangle")]
 pub use heroicons_outline_arrow_left_on_rectangle::*;
+#[cfg(feature = "HeroiconsOutlineArrowLeftStartOnRectangle")]
+mod heroicons_outline_arrow_left_start_on_rectangle;
+#[cfg(feature = "HeroiconsOutlineArrowLeftStartOnRectangle")]
+pub use heroicons_outline_arrow_left_start_on_rectangle::*;
 #[cfg(feature = "HeroiconsOutlineArrowLeft")]
 mod heroicons_outline_arrow_left;
 #[cfg(feature = "HeroiconsOutlineArrowLeft")]
@@ -92,10 +100,18 @@ pub use heroicons_outline_arrow_path::*;
 mod heroicons_outline_arrow_right_circle;
 #[cfg(feature = "HeroiconsOutlineArrowRightCircle")]
 pub use heroicons_outline_arrow_right_circle::*;
+#[cfg(feature = "HeroiconsOutlineArrowRightEndOnRectangle")]
+mod heroicons_outline_arrow_right_end_on_rectangle;
+#[cfg(feature = "HeroiconsOutlineArrowRightEndOnRectangle")]
+pub use heroicons_outline_arrow_right_end_on_rectangle::*;
 #[cfg(feature = "HeroiconsOutlineArrowRightOnRectangle")]
 mod heroicons_outline_arrow_right_on_rectangle;
 #[cfg(feature = "HeroiconsOutlineArrowRightOnRectangle")]
 pub use heroicons_outline_arrow_right_on_rectangle::*;
+#[cfg(feature = "HeroiconsOutlineArrowRightStartOnRectangle")]
+mod heroicons_outline_arrow_right_start_on_rectangle;
+#[cfg(feature = "HeroiconsOutlineArrowRightStartOnRectangle")]
+pub use heroicons_outline_arrow_right_start_on_rectangle::*;
 #[cfg(feature = "HeroiconsOutlineArrowRight")]
 mod heroicons_outline_arrow_right;
 #[cfg(feature = "HeroiconsOutlineArrowRight")]

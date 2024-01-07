@@ -5,7 +5,7 @@ pub use generated::*;
 
 #[derive(Clone)]
 pub struct Path {
-    pub path: fn(leptos::Scope) -> leptos::Fragment,
+    pub path: fn() -> leptos::Fragment,
     pub icon_type: IconType,
 }
 
@@ -24,7 +24,6 @@ pub enum HeroIconsType {
 
 #[component]
 pub fn Icon(
-    cx: Scope,
     path: Path,
     #[prop(into)]
     #[prop(optional)]
@@ -54,41 +53,41 @@ pub fn Icon(
         IconType::HeroIcons(HeroType) => match HeroType {
             HeroIconsType::Outline => {
                 view! {cx,
-                    <svg xmlns="http://www.w3.org/2000/svg" class=class() viewBox="0 0 24 24"
+                    <svg xmlns="http://www.w3.org/2000/svg" class=class.get() viewBox="0 0 24 24"
                         data-license="From https://github.com/tailwindlabs/heroicons - Licensed under MIT"
-                        width=move || width().is_empty().then_some("24".to_string()).unwrap_or(width())
-                        height=move || height().is_empty().then_some("24".to_string()).unwrap_or(height())
-                        fill=move || fill().is_empty().then_some("none".to_string()).unwrap_or(fill())
-                        stroke-width=move || stroke_width().is_empty().then_some("2".to_string()).unwrap_or(stroke_width())
-                        stroke=move || stroke().is_empty().then_some("currentColor".to_string()).unwrap_or(stroke())
+                        width=move || width.get().is_empty().then_some("24".to_string()).unwrap_or(width.get())
+                        height=move || height.get().is_empty().then_some("24".to_string()).unwrap_or(height.get())
+                        fill=move || fill.get().is_empty().then_some("none".to_string()).unwrap_or(fill.get())
+                        stroke-width=move || stroke_width.get().is_empty().then_some("2".to_string()).unwrap_or(stroke_width.get())
+                        stroke=move || stroke.get().is_empty().then_some("currentColor".to_string()).unwrap_or(stroke.get())
                     >
-                        {(path.path)(cx)}
+                        {(path.path)()}
                     </svg>
                 }
             }
             HeroIconsType::Solid => {
                 view! {cx,
-                    <svg xmlns="http://www.w3.org/2000/svg" class=class() viewBox="0 0 24 24"
+                    <svg xmlns="http://www.w3.org/2000/svg" class=class.get() viewBox="0 0 24 24"
                         data-license="From https://github.com/tailwindlabs/heroicons - Licensed under MIT"
-                        width=move || width().is_empty().then_some("24".to_string()).unwrap_or(width())
-                        height=move || height().is_empty().then_some("24".to_string()).unwrap_or(height())
-                        fill=move || fill().is_empty().then_some("currentColor".to_string()).unwrap_or(fill())
-                        stroke-width=move || stroke_width().is_empty().then_some("2".to_string()).unwrap_or(stroke_width()) stroke=move || stroke().is_empty().then_some("currentColor".to_string()).unwrap_or(stroke())
+                        width=move || width.get().is_empty().then_some("24".to_string()).unwrap_or(width.get())
+                        height=move || height.get().is_empty().then_some("24".to_string()).unwrap_or(height.get())
+                        fill=move || fill.get().is_empty().then_some("currentColor".to_string()).unwrap_or(fill.get())
+                        stroke-width=move || stroke_width.get().is_empty().then_some("2".to_string()).unwrap_or(stroke_width.get()) stroke=move || stroke.get().is_empty().then_some("currentColor".to_string()).unwrap_or(stroke.get())
                     >
-                        {(path.path)(cx)}
+                        {(path.path)()}
                     </svg>
                 }
             }
             HeroIconsType::Mini => {
                 view! {cx,
-                    <svg xmlns="http://www.w3.org/2000/svg" class=class() viewBox="0 0 20 20"
+                    <svg xmlns="http://www.w3.org/2000/svg" class=class.get() viewBox="0 0 20 20"
                         data-license="From https://github.com/tailwindlabs/heroicons - Licensed under MIT"
-                        width=move || width().is_empty().then_some("20".to_string()).unwrap_or(width())
-                        height=move || height().is_empty().then_some("20".to_string()).unwrap_or(height())
-                        fill=move || fill().is_empty().then_some("currentColor".to_string()).unwrap_or(fill())
-                        stroke-width=move || stroke_width().is_empty().then_some("2".to_string()).unwrap_or(stroke_width()) stroke=move || stroke().is_empty().then_some("currentColor".to_string()).unwrap_or(stroke())
+                        width=move || width.get().is_empty().then_some("20".to_string()).unwrap_or(width.get())
+                        height=move || height.get().is_empty().then_some("20".to_string()).unwrap_or(height.get())
+                        fill=move || fill.get().is_empty().then_some("currentColor".to_string()).unwrap_or(fill.get())
+                        stroke-width=move || stroke_width.get().is_empty().then_some("2".to_string()).unwrap_or(stroke_width.get()) stroke=move || stroke.get().is_empty().then_some("currentColor".to_string()).unwrap_or(stroke.get())
                     >
-                        {(path.path)(cx)}
+                        {(path.path)()}
                     </svg>
 
                 }
@@ -96,15 +95,15 @@ pub fn Icon(
         },
         IconType::Lucide => {
             view! {cx,
-                <svg xmlns="http://www.w3.org/2000/svg" class=class() viewBox="0 0 24 24"
+                <svg xmlns="http://www.w3.org/2000/svg" class=class.get() viewBox="0 0 24 24"
                     data-license="From https://github.com/lucide-icons/lucide - Licensed under ISC"
-                        width=move || width().is_empty().then_some("24".to_string()).unwrap_or(width())
-                        height=move || height().is_empty().then_some("24".to_string()).unwrap_or(height())
-                    fill=move || fill().is_empty().then_some("none".to_string()).unwrap_or(fill())
-                    stroke-width=move || stroke_width().is_empty().then_some("2".to_string()).unwrap_or(stroke_width()) stroke=move || stroke().is_empty().then_some("currentColor".to_string()).unwrap_or(stroke()) 
+                        width=move || width.get().is_empty().then_some("24".to_string()).unwrap_or(width.get())
+                        height=move || height.get().is_empty().then_some("24".to_string()).unwrap_or(height.get())
+                    fill=move || fill.get().is_empty().then_some("none".to_string()).unwrap_or(fill.get())
+                    stroke-width=move || stroke_width.get().is_empty().then_some("2".to_string()).unwrap_or(stroke_width.get()) stroke=move || stroke.get().is_empty().then_some("currentColor".to_string()).unwrap_or(stroke.get()) 
                     stroke-linecap="round" stroke-linejoin="round"
                 >
-                    {(path.path)(cx)}
+                    {(path.path)()}
                 </svg>
             }
         }

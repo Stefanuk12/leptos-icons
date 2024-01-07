@@ -1,0 +1,1 @@
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < path d = "m3 16 4 4 4-4" /> < path d = "M7 20V4" /> < path d = "M11 4h10" /> < path d = "M11 8h7" /> < path d = "M11 12h4" /> < / > } } pub const LucideArrowDownWideNarrow : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;
