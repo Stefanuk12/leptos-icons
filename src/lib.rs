@@ -52,7 +52,7 @@ pub fn Icon(
     match path.icon_type {
         IconType::HeroIcons(HeroType) => match HeroType {
             HeroIconsType::Outline => {
-                view! {cx,
+                view! {
                     <svg xmlns="http://www.w3.org/2000/svg" class=class.get() viewBox="0 0 24 24"
                         data-license="From https://github.com/tailwindlabs/heroicons - Licensed under MIT"
                         width=move || width.get().is_empty().then_some("24".to_string()).unwrap_or(width.get())
@@ -66,7 +66,7 @@ pub fn Icon(
                 }
             }
             HeroIconsType::Solid => {
-                view! {cx,
+                view! {
                     <svg xmlns="http://www.w3.org/2000/svg" class=class.get() viewBox="0 0 24 24"
                         data-license="From https://github.com/tailwindlabs/heroicons - Licensed under MIT"
                         width=move || width.get().is_empty().then_some("24".to_string()).unwrap_or(width.get())
@@ -79,7 +79,7 @@ pub fn Icon(
                 }
             }
             HeroIconsType::Mini => {
-                view! {cx,
+                view! {
                     <svg xmlns="http://www.w3.org/2000/svg" class=class.get() viewBox="0 0 20 20"
                         data-license="From https://github.com/tailwindlabs/heroicons - Licensed under MIT"
                         width=move || width.get().is_empty().then_some("20".to_string()).unwrap_or(width.get())
@@ -94,7 +94,7 @@ pub fn Icon(
             }
         },
         IconType::Lucide => {
-            view! {cx,
+            view! {
                 <svg xmlns="http://www.w3.org/2000/svg" class=class.get() viewBox="0 0 24 24"
                     data-license="From https://github.com/lucide-icons/lucide - Licensed under ISC"
                         width=move || width.get().is_empty().then_some("24".to_string()).unwrap_or(width.get())

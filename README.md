@@ -33,7 +33,7 @@ use leptos_icons::{Icon, HeroiconsOutlineFolder, HeroiconsOutlineChevronRight, H
 view!{
     <>
         <Icon class="w-5 h-5 mr-3" path={HeroiconsOutlineFolder} />
-        <Icon class=Signal::derive(cx, move || value() *2) path={HeroiconsOutlineChevronRight} />
+        <Icon class=Signal::derive(move || value() *2) path={HeroiconsOutlineChevronRight} />
         <Icon class="w-5 h-5 mr-3" stroke="2" path={HeroiconsOutlineEllipsisVertical} />
     </>
 }
