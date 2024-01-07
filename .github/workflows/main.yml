@@ -2,12 +2,19 @@ name: Main
 
 on:
   schedule:
-    - cron:  '0 10 * * *'
+    # Run every day at 00:00 UTC
+    - cron:  '0 0 * * *'
   workflow_dispatch:
     
 jobs:
   update-icons:
     runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+  
     steps:
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
@@ -30,3 +37,8 @@ jobs:
     - name: Run Generator
       run: |
         cargo run --release --features=generator
+
+    # Commit all changed files back to the repository
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: auto-update icons / pull submodules
