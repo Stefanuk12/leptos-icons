@@ -1,1 +1,1 @@
-use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < circle cx = "12.1" cy = "12.1" r = "1" /> < / > } } pub const LucideDot : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path () -> Fragment { view ! { < > < circle cx = "12.1" cy = "12.1" r = "1" /> < / > } } pub const LucideDot : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;

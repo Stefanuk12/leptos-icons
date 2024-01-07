@@ -99,8 +99,8 @@ fn main() {
                 use leptos::*;
                 use crate::{IconType, Path};
 
-                fn icon_path(cx: Scope) -> Fragment {
-                    view! {cx,
+                fn icon_path() -> Fragment {
+                    view! {
                         <>
                             #svg_tokens
                         </>

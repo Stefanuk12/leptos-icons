@@ -1,1 +1,1 @@
-use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < polygon points = "3 11 22 2 13 21 11 13 3 11" /> < / > } } pub const LucideNavigation : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path () -> Fragment { view ! { < > < polygon points = "3 11 22 2 13 21 11 13 3 11" /> < / > } } pub const LucideNavigation : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;

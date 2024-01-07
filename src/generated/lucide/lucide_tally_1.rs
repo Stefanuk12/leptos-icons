@@ -1,1 +1,1 @@
-use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path (cx : Scope) -> Fragment { view ! { cx , < > < path d = "M4 4v16" /> < / > } } pub const LucideTally1 : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path () -> Fragment { view ! { < > < path d = "M4 4v16" /> < / > } } pub const LucideTally1 : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;
