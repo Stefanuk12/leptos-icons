@@ -39,323 +39,35 @@ cfg-if = "1.0.0"
 default = []
 generator = ["quote", "convert_case", "proc-macro2", "regex", "base64"]
 
-HeroiconsMiniSolidAcademicCap = []
-HeroiconsMiniSolidAdjustmentsHorizontal = []
-HeroiconsMiniSolidAdjustmentsVertical = []
-HeroiconsMiniSolidArchiveBox = []
-HeroiconsMiniSolidArchiveBoxArrowDown = []
-HeroiconsMiniSolidArchiveBoxXMark = []
-HeroiconsMiniSolidArrowDown = []
-HeroiconsMiniSolidArrowDownCircle = []
-HeroiconsMiniSolidArrowDownLeft = []
-HeroiconsMiniSolidArrowDownOnSquare = []
-HeroiconsMiniSolidArrowDownOnSquareStack = []
-HeroiconsMiniSolidArrowDownRight = []
-HeroiconsMiniSolidArrowDownTray = []
-HeroiconsMiniSolidArrowLeft = []
-HeroiconsMiniSolidArrowLeftCircle = []
-HeroiconsMiniSolidArrowLeftOnRectangle = []
-HeroiconsMiniSolidArrowLongDown = []
-HeroiconsMiniSolidArrowLongLeft = []
-HeroiconsMiniSolidArrowLongRight = []
-HeroiconsMiniSolidArrowLongUp = []
-HeroiconsMiniSolidArrowPath = []
-HeroiconsMiniSolidArrowPathRoundedSquare = []
-HeroiconsMiniSolidArrowRight = []
-HeroiconsMiniSolidArrowRightCircle = []
-HeroiconsMiniSolidArrowRightOnRectangle = []
-HeroiconsMiniSolidArrowSmallDown = []
-HeroiconsMiniSolidArrowSmallLeft = []
-HeroiconsMiniSolidArrowSmallRight = []
-HeroiconsMiniSolidArrowSmallUp = []
-HeroiconsMiniSolidArrowTopRightOnSquare = []
-HeroiconsMiniSolidArrowTrendingDown = []
-HeroiconsMiniSolidArrowTrendingUp = []
-HeroiconsMiniSolidArrowUp = []
-HeroiconsMiniSolidArrowUpCircle = []
-HeroiconsMiniSolidArrowUpLeft = []
-HeroiconsMiniSolidArrowUpOnSquare = []
-HeroiconsMiniSolidArrowUpOnSquareStack = []
-HeroiconsMiniSolidArrowUpRight = []
-HeroiconsMiniSolidArrowUpTray = []
-HeroiconsMiniSolidArrowUturnDown = []
-HeroiconsMiniSolidArrowUturnLeft = []
-HeroiconsMiniSolidArrowUturnRight = []
-HeroiconsMiniSolidArrowUturnUp = []
-HeroiconsMiniSolidArrowsPointingIn = []
-HeroiconsMiniSolidArrowsPointingOut = []
-HeroiconsMiniSolidArrowsRightLeft = []
-HeroiconsMiniSolidArrowsUpDown = []
-HeroiconsMiniSolidAtSymbol = []
-HeroiconsMiniSolidBackspace = []
-HeroiconsMiniSolidBackward = []
-HeroiconsMiniSolidBanknotes = []
-HeroiconsMiniSolidBars2 = []
-HeroiconsMiniSolidBars3 = []
-HeroiconsMiniSolidBars3BottomLeft = []
-HeroiconsMiniSolidBars3BottomRight = []
-HeroiconsMiniSolidBars3CenterLeft = []
-HeroiconsMiniSolidBars4 = []
-HeroiconsMiniSolidBarsArrowDown = []
-HeroiconsMiniSolidBarsArrowUp = []
-HeroiconsMiniSolidBattery0 = []
-HeroiconsMiniSolidBattery100 = []
-HeroiconsMiniSolidBattery50 = []
-HeroiconsMiniSolidBeaker = []
-HeroiconsMiniSolidBell = []
-HeroiconsMiniSolidBellAlert = []
-HeroiconsMiniSolidBellSlash = []
-HeroiconsMiniSolidBellSnooze = []
-HeroiconsMiniSolidBolt = []
-HeroiconsMiniSolidBoltSlash = []
-HeroiconsMiniSolidBookOpen = []
-HeroiconsMiniSolidBookmark = []
-HeroiconsMiniSolidBookmarkSlash = []
-HeroiconsMiniSolidBookmarkSquare = []
-HeroiconsMiniSolidBriefcase = []
-HeroiconsMiniSolidBugAnt = []
-HeroiconsMiniSolidBuildingLibrary = []
-HeroiconsMiniSolidBuildingOffice = []
-HeroiconsMiniSolidBuildingOffice2 = []
-HeroiconsMiniSolidBuildingStorefront = []
-HeroiconsMiniSolidCake = []
-HeroiconsMiniSolidCalculator = []
-HeroiconsMiniSolidCalendar = []
-HeroiconsMiniSolidCalendarDays = []
-HeroiconsMiniSolidCamera = []
-HeroiconsMiniSolidChartBar = []
-HeroiconsMiniSolidChartBarSquare = []
-HeroiconsMiniSolidChartPie = []
-HeroiconsMiniSolidChatBubbleBottomCenter = []
-HeroiconsMiniSolidChatBubbleBottomCenterText = []
-HeroiconsMiniSolidChatBubbleLeft = []
-HeroiconsMiniSolidChatBubbleLeftEllipsis = []
-HeroiconsMiniSolidChatBubbleLeftRight = []
-HeroiconsMiniSolidChatBubbleOvalLeft = []
-HeroiconsMiniSolidChatBubbleOvalLeftEllipsis = []
-HeroiconsMiniSolidCheck = []
-HeroiconsMiniSolidCheckBadge = []
-HeroiconsMiniSolidCheckCircle = []
-HeroiconsMiniSolidChevronDoubleDown = []
-HeroiconsMiniSolidChevronDoubleLeft = []
-HeroiconsMiniSolidChevronDoubleRight = []
-HeroiconsMiniSolidChevronDoubleUp = []
-HeroiconsMiniSolidChevronDown = []
-HeroiconsMiniSolidChevronLeft = []
-HeroiconsMiniSolidChevronRight = []
-HeroiconsMiniSolidChevronUp = []
-HeroiconsMiniSolidChevronUpDown = []
-HeroiconsMiniSolidCircleStack = []
-HeroiconsMiniSolidClipboard = []
-HeroiconsMiniSolidClipboardDocument = []
-HeroiconsMiniSolidClipboardDocumentCheck = []
-HeroiconsMiniSolidClipboardDocumentList = []
-HeroiconsMiniSolidClock = []
-HeroiconsMiniSolidCloud = []
-HeroiconsMiniSolidCloudArrowDown = []
-HeroiconsMiniSolidCloudArrowUp = []
-HeroiconsMiniSolidCodeBracket = []
-HeroiconsMiniSolidCodeBracketSquare = []
-HeroiconsMiniSolidCog = []
-HeroiconsMiniSolidCog6Tooth = []
-HeroiconsMiniSolidCog8Tooth = []
-HeroiconsMiniSolidCommandLine = []
-HeroiconsMiniSolidComputerDesktop = []
-HeroiconsMiniSolidCpuChip = []
-HeroiconsMiniSolidCreditCard = []
-HeroiconsMiniSolidCube = []
-HeroiconsMiniSolidCubeTransparent = []
-HeroiconsMiniSolidCurrencyBangladeshi = []
-HeroiconsMiniSolidCurrencyDollar = []
-HeroiconsMiniSolidCurrencyEuro = []
-HeroiconsMiniSolidCurrencyPound = []
-HeroiconsMiniSolidCurrencyRupee = []
-HeroiconsMiniSolidCurrencyYen = []
-HeroiconsMiniSolidCursorArrowRays = []
-HeroiconsMiniSolidCursorArrowRipple = []
-HeroiconsMiniSolidDevicePhoneMobile = []
-HeroiconsMiniSolidDeviceTablet = []
-HeroiconsMiniSolidDocument = []
-HeroiconsMiniSolidDocumentArrowDown = []
-HeroiconsMiniSolidDocumentArrowUp = []
-HeroiconsMiniSolidDocumentChartBar = []
-HeroiconsMiniSolidDocumentCheck = []
-HeroiconsMiniSolidDocumentDuplicate = []
-HeroiconsMiniSolidDocumentMagnifyingGlass = []
-HeroiconsMiniSolidDocumentMinus = []
-HeroiconsMiniSolidDocumentPlus = []
-HeroiconsMiniSolidDocumentText = []
-HeroiconsMiniSolidEllipsisHorizontal = []
-HeroiconsMiniSolidEllipsisHorizontalCircle = []
-HeroiconsMiniSolidEllipsisVertical = []
-HeroiconsMiniSolidEnvelope = []
-HeroiconsMiniSolidEnvelopeOpen = []
-HeroiconsMiniSolidExclamationCircle = []
-HeroiconsMiniSolidExclamationTriangle = []
-HeroiconsMiniSolidEye = []
-HeroiconsMiniSolidEyeDropper = []
-HeroiconsMiniSolidEyeSlash = []
-HeroiconsMiniSolidFaceFrown = []
-HeroiconsMiniSolidFaceSmile = []
-HeroiconsMiniSolidFilm = []
-HeroiconsMiniSolidFingerPrint = []
-HeroiconsMiniSolidFire = []
-HeroiconsMiniSolidFlag = []
-HeroiconsMiniSolidFolder = []
-HeroiconsMiniSolidFolderArrowDown = []
-HeroiconsMiniSolidFolderMinus = []
-HeroiconsMiniSolidFolderOpen = []
-HeroiconsMiniSolidFolderPlus = []
-HeroiconsMiniSolidForward = []
-HeroiconsMiniSolidFunnel = []
-HeroiconsMiniSolidGif = []
-HeroiconsMiniSolidGift = []
-HeroiconsMiniSolidGiftTop = []
-HeroiconsMiniSolidGlobeAlt = []
-HeroiconsMiniSolidGlobeAmericas = []
-HeroiconsMiniSolidGlobeAsiaAustralia = []
-HeroiconsMiniSolidGlobeEuropeAfrica = []
-HeroiconsMiniSolidHandRaised = []
-HeroiconsMiniSolidHandThumbDown = []
-HeroiconsMiniSolidHandThumbUp = []
-HeroiconsMiniSolidHashtag = []
-HeroiconsMiniSolidHeart = []
-HeroiconsMiniSolidHome = []
-HeroiconsMiniSolidHomeModern = []
-HeroiconsMiniSolidIdentification = []
-HeroiconsMiniSolidInbox = []
-HeroiconsMiniSolidInboxArrowDown = []
-HeroiconsMiniSolidInboxStack = []
-HeroiconsMiniSolidInformationCircle = []
-HeroiconsMiniSolidKey = []
-HeroiconsMiniSolidLanguage = []
-HeroiconsMiniSolidLifebuoy = []
-HeroiconsMiniSolidLightBulb = []
-HeroiconsMiniSolidLink = []
-HeroiconsMiniSolidListBullet = []
-HeroiconsMiniSolidLockClosed = []
-HeroiconsMiniSolidLockOpen = []
-HeroiconsMiniSolidMagnifyingGlass = []
-HeroiconsMiniSolidMagnifyingGlassCircle = []
-HeroiconsMiniSolidMagnifyingGlassMinus = []
-HeroiconsMiniSolidMagnifyingGlassPlus = []
-HeroiconsMiniSolidMap = []
-HeroiconsMiniSolidMapPin = []
-HeroiconsMiniSolidMegaphone = []
-HeroiconsMiniSolidMicrophone = []
-HeroiconsMiniSolidMinus = []
-HeroiconsMiniSolidMinusCircle = []
-HeroiconsMiniSolidMinusSmall = []
-HeroiconsMiniSolidMoon = []
-HeroiconsMiniSolidMusicalNote = []
-HeroiconsMiniSolidNewspaper = []
-HeroiconsMiniSolidNoSymbol = []
-HeroiconsMiniSolidPaintBrush = []
-HeroiconsMiniSolidPaperAirplane = []
-HeroiconsMiniSolidPaperClip = []
-HeroiconsMiniSolidPause = []
-HeroiconsMiniSolidPauseCircle = []
-HeroiconsMiniSolidPencil = []
-HeroiconsMiniSolidPencilSquare = []
-HeroiconsMiniSolidPhone = []
-HeroiconsMiniSolidPhoneArrowDownLeft = []
-HeroiconsMiniSolidPhoneArrowUpRight = []
-HeroiconsMiniSolidPhoneXMark = []
-HeroiconsMiniSolidPhoto = []
-HeroiconsMiniSolidPlay = []
-HeroiconsMiniSolidPlayCircle = []
-HeroiconsMiniSolidPlayPause = []
-HeroiconsMiniSolidPlus = []
-HeroiconsMiniSolidPlusCircle = []
-HeroiconsMiniSolidPlusSmall = []
-HeroiconsMiniSolidPower = []
-HeroiconsMiniSolidPresentationChartBar = []
-HeroiconsMiniSolidPresentationChartLine = []
-HeroiconsMiniSolidPrinter = []
-HeroiconsMiniSolidPuzzlePiece = []
-HeroiconsMiniSolidQrCode = []
-HeroiconsMiniSolidQuestionMarkCircle = []
-HeroiconsMiniSolidQueueList = []
-HeroiconsMiniSolidRadio = []
-HeroiconsMiniSolidReceiptPercent = []
-HeroiconsMiniSolidReceiptRefund = []
-HeroiconsMiniSolidRectangleGroup = []
-HeroiconsMiniSolidRectangleStack = []
-HeroiconsMiniSolidRocketLaunch = []
-HeroiconsMiniSolidRss = []
-HeroiconsMiniSolidScale = []
-HeroiconsMiniSolidScissors = []
-HeroiconsMiniSolidServer = []
-HeroiconsMiniSolidServerStack = []
-HeroiconsMiniSolidShare = []
-HeroiconsMiniSolidShieldCheck = []
-HeroiconsMiniSolidShieldExclamation = []
-HeroiconsMiniSolidShoppingBag = []
-HeroiconsMiniSolidShoppingCart = []
-HeroiconsMiniSolidSignal = []
-HeroiconsMiniSolidSignalSlash = []
-HeroiconsMiniSolidSparkles = []
-HeroiconsMiniSolidSpeakerWave = []
-HeroiconsMiniSolidSpeakerXMark = []
-HeroiconsMiniSolidSquare2Stack = []
-HeroiconsMiniSolidSquare3Stack3D = []
-HeroiconsMiniSolidSquares2X2 = []
-HeroiconsMiniSolidSquaresPlus = []
-HeroiconsMiniSolidStar = []
-HeroiconsMiniSolidStop = []
-HeroiconsMiniSolidStopCircle = []
-HeroiconsMiniSolidSun = []
-HeroiconsMiniSolidSwatch = []
-HeroiconsMiniSolidTableCells = []
-HeroiconsMiniSolidTag = []
-HeroiconsMiniSolidTicket = []
-HeroiconsMiniSolidTrash = []
-HeroiconsMiniSolidTrophy = []
-HeroiconsMiniSolidTruck = []
-HeroiconsMiniSolidTv = []
-HeroiconsMiniSolidUser = []
-HeroiconsMiniSolidUserCircle = []
-HeroiconsMiniSolidUserGroup = []
-HeroiconsMiniSolidUserMinus = []
-HeroiconsMiniSolidUserPlus = []
-HeroiconsMiniSolidUsers = []
-HeroiconsMiniSolidVariable = []
-HeroiconsMiniSolidVideoCamera = []
-HeroiconsMiniSolidVideoCameraSlash = []
-HeroiconsMiniSolidViewColumns = []
-HeroiconsMiniSolidViewfinderCircle = []
-HeroiconsMiniSolidWallet = []
-HeroiconsMiniSolidWifi = []
-HeroiconsMiniSolidWindow = []
-HeroiconsMiniSolidWrench = []
-HeroiconsMiniSolidWrenchScrewdriver = []
-HeroiconsMiniSolidXCircle = []
-HeroiconsMiniSolidXMark = []
 HeroiconsOutlineAcademicCap = []
 HeroiconsOutlineAdjustmentsHorizontal = []
 HeroiconsOutlineAdjustmentsVertical = []
-HeroiconsOutlineArchiveBox = []
 HeroiconsOutlineArchiveBoxArrowDown = []
 HeroiconsOutlineArchiveBoxXMark = []
-HeroiconsOutlineArrowDown = []
+HeroiconsOutlineArchiveBox = []
 HeroiconsOutlineArrowDownCircle = []
 HeroiconsOutlineArrowDownLeft = []
-HeroiconsOutlineArrowDownOnSquare = []
 HeroiconsOutlineArrowDownOnSquareStack = []
+HeroiconsOutlineArrowDownOnSquare = []
 HeroiconsOutlineArrowDownRight = []
 HeroiconsOutlineArrowDownTray = []
-HeroiconsOutlineArrowLeft = []
+HeroiconsOutlineArrowDown = []
 HeroiconsOutlineArrowLeftCircle = []
+HeroiconsOutlineArrowLeftEndOnRectangle = []
 HeroiconsOutlineArrowLeftOnRectangle = []
+HeroiconsOutlineArrowLeftStartOnRectangle = []
+HeroiconsOutlineArrowLeft = []
 HeroiconsOutlineArrowLongDown = []
 HeroiconsOutlineArrowLongLeft = []
 HeroiconsOutlineArrowLongRight = []
 HeroiconsOutlineArrowLongUp = []
-HeroiconsOutlineArrowPath = []
 HeroiconsOutlineArrowPathRoundedSquare = []
-HeroiconsOutlineArrowRight = []
+HeroiconsOutlineArrowPath = []
 HeroiconsOutlineArrowRightCircle = []
+HeroiconsOutlineArrowRightEndOnRectangle = []
 HeroiconsOutlineArrowRightOnRectangle = []
+HeroiconsOutlineArrowRightStartOnRectangle = []
+HeroiconsOutlineArrowRight = []
 HeroiconsOutlineArrowSmallDown = []
 HeroiconsOutlineArrowSmallLeft = []
 HeroiconsOutlineArrowSmallRight = []
@@ -363,13 +75,13 @@ HeroiconsOutlineArrowSmallUp = []
 HeroiconsOutlineArrowTopRightOnSquare = []
 HeroiconsOutlineArrowTrendingDown = []
 HeroiconsOutlineArrowTrendingUp = []
-HeroiconsOutlineArrowUp = []
 HeroiconsOutlineArrowUpCircle = []
 HeroiconsOutlineArrowUpLeft = []
-HeroiconsOutlineArrowUpOnSquare = []
 HeroiconsOutlineArrowUpOnSquareStack = []
+HeroiconsOutlineArrowUpOnSquare = []
 HeroiconsOutlineArrowUpRight = []
 HeroiconsOutlineArrowUpTray = []
+HeroiconsOutlineArrowUp = []
 HeroiconsOutlineArrowUturnDown = []
 HeroiconsOutlineArrowUturnLeft = []
 HeroiconsOutlineArrowUturnRight = []
@@ -383,10 +95,10 @@ HeroiconsOutlineBackspace = []
 HeroiconsOutlineBackward = []
 HeroiconsOutlineBanknotes = []
 HeroiconsOutlineBars2 = []
-HeroiconsOutlineBars3 = []
 HeroiconsOutlineBars3BottomLeft = []
 HeroiconsOutlineBars3BottomRight = []
 HeroiconsOutlineBars3CenterLeft = []
+HeroiconsOutlineBars3 = []
 HeroiconsOutlineBars4 = []
 HeroiconsOutlineBarsArrowDown = []
 HeroiconsOutlineBarsArrowUp = []
@@ -394,40 +106,40 @@ HeroiconsOutlineBattery0 = []
 HeroiconsOutlineBattery100 = []
 HeroiconsOutlineBattery50 = []
 HeroiconsOutlineBeaker = []
-HeroiconsOutlineBell = []
 HeroiconsOutlineBellAlert = []
 HeroiconsOutlineBellSlash = []
 HeroiconsOutlineBellSnooze = []
-HeroiconsOutlineBolt = []
+HeroiconsOutlineBell = []
 HeroiconsOutlineBoltSlash = []
+HeroiconsOutlineBolt = []
 HeroiconsOutlineBookOpen = []
-HeroiconsOutlineBookmark = []
 HeroiconsOutlineBookmarkSlash = []
 HeroiconsOutlineBookmarkSquare = []
+HeroiconsOutlineBookmark = []
 HeroiconsOutlineBriefcase = []
 HeroiconsOutlineBugAnt = []
 HeroiconsOutlineBuildingLibrary = []
-HeroiconsOutlineBuildingOffice = []
 HeroiconsOutlineBuildingOffice2 = []
+HeroiconsOutlineBuildingOffice = []
 HeroiconsOutlineBuildingStorefront = []
 HeroiconsOutlineCake = []
 HeroiconsOutlineCalculator = []
-HeroiconsOutlineCalendar = []
 HeroiconsOutlineCalendarDays = []
+HeroiconsOutlineCalendar = []
 HeroiconsOutlineCamera = []
-HeroiconsOutlineChartBar = []
 HeroiconsOutlineChartBarSquare = []
+HeroiconsOutlineChartBar = []
 HeroiconsOutlineChartPie = []
-HeroiconsOutlineChatBubbleBottomCenter = []
 HeroiconsOutlineChatBubbleBottomCenterText = []
-HeroiconsOutlineChatBubbleLeft = []
+HeroiconsOutlineChatBubbleBottomCenter = []
 HeroiconsOutlineChatBubbleLeftEllipsis = []
 HeroiconsOutlineChatBubbleLeftRight = []
-HeroiconsOutlineChatBubbleOvalLeft = []
+HeroiconsOutlineChatBubbleLeft = []
 HeroiconsOutlineChatBubbleOvalLeftEllipsis = []
-HeroiconsOutlineCheck = []
+HeroiconsOutlineChatBubbleOvalLeft = []
 HeroiconsOutlineCheckBadge = []
 HeroiconsOutlineCheckCircle = []
+HeroiconsOutlineCheck = []
 HeroiconsOutlineChevronDoubleDown = []
 HeroiconsOutlineChevronDoubleLeft = []
 HeroiconsOutlineChevronDoubleRight = []
@@ -435,28 +147,28 @@ HeroiconsOutlineChevronDoubleUp = []
 HeroiconsOutlineChevronDown = []
 HeroiconsOutlineChevronLeft = []
 HeroiconsOutlineChevronRight = []
-HeroiconsOutlineChevronUp = []
 HeroiconsOutlineChevronUpDown = []
+HeroiconsOutlineChevronUp = []
 HeroiconsOutlineCircleStack = []
-HeroiconsOutlineClipboard = []
-HeroiconsOutlineClipboardDocument = []
 HeroiconsOutlineClipboardDocumentCheck = []
 HeroiconsOutlineClipboardDocumentList = []
+HeroiconsOutlineClipboardDocument = []
+HeroiconsOutlineClipboard = []
 HeroiconsOutlineClock = []
-HeroiconsOutlineCloud = []
 HeroiconsOutlineCloudArrowDown = []
 HeroiconsOutlineCloudArrowUp = []
-HeroiconsOutlineCodeBracket = []
+HeroiconsOutlineCloud = []
 HeroiconsOutlineCodeBracketSquare = []
-HeroiconsOutlineCog = []
+HeroiconsOutlineCodeBracket = []
 HeroiconsOutlineCog6Tooth = []
 HeroiconsOutlineCog8Tooth = []
+HeroiconsOutlineCog = []
 HeroiconsOutlineCommandLine = []
 HeroiconsOutlineComputerDesktop = []
 HeroiconsOutlineCpuChip = []
 HeroiconsOutlineCreditCard = []
-HeroiconsOutlineCube = []
 HeroiconsOutlineCubeTransparent = []
+HeroiconsOutlineCube = []
 HeroiconsOutlineCurrencyBangladeshi = []
 HeroiconsOutlineCurrencyDollar = []
 HeroiconsOutlineCurrencyEuro = []
@@ -467,7 +179,6 @@ HeroiconsOutlineCursorArrowRays = []
 HeroiconsOutlineCursorArrowRipple = []
 HeroiconsOutlineDevicePhoneMobile = []
 HeroiconsOutlineDeviceTablet = []
-HeroiconsOutlineDocument = []
 HeroiconsOutlineDocumentArrowDown = []
 HeroiconsOutlineDocumentArrowUp = []
 HeroiconsOutlineDocumentChartBar = []
@@ -477,32 +188,33 @@ HeroiconsOutlineDocumentMagnifyingGlass = []
 HeroiconsOutlineDocumentMinus = []
 HeroiconsOutlineDocumentPlus = []
 HeroiconsOutlineDocumentText = []
-HeroiconsOutlineEllipsisHorizontal = []
+HeroiconsOutlineDocument = []
 HeroiconsOutlineEllipsisHorizontalCircle = []
+HeroiconsOutlineEllipsisHorizontal = []
 HeroiconsOutlineEllipsisVertical = []
-HeroiconsOutlineEnvelope = []
 HeroiconsOutlineEnvelopeOpen = []
+HeroiconsOutlineEnvelope = []
 HeroiconsOutlineExclamationCircle = []
 HeroiconsOutlineExclamationTriangle = []
-HeroiconsOutlineEye = []
 HeroiconsOutlineEyeDropper = []
 HeroiconsOutlineEyeSlash = []
+HeroiconsOutlineEye = []
 HeroiconsOutlineFaceFrown = []
 HeroiconsOutlineFaceSmile = []
 HeroiconsOutlineFilm = []
 HeroiconsOutlineFingerPrint = []
 HeroiconsOutlineFire = []
 HeroiconsOutlineFlag = []
-HeroiconsOutlineFolder = []
 HeroiconsOutlineFolderArrowDown = []
 HeroiconsOutlineFolderMinus = []
 HeroiconsOutlineFolderOpen = []
 HeroiconsOutlineFolderPlus = []
+HeroiconsOutlineFolder = []
 HeroiconsOutlineForward = []
 HeroiconsOutlineFunnel = []
 HeroiconsOutlineGif = []
-HeroiconsOutlineGift = []
 HeroiconsOutlineGiftTop = []
+HeroiconsOutlineGift = []
 HeroiconsOutlineGlobeAlt = []
 HeroiconsOutlineGlobeAmericas = []
 HeroiconsOutlineGlobeAsiaAustralia = []
@@ -512,12 +224,12 @@ HeroiconsOutlineHandThumbDown = []
 HeroiconsOutlineHandThumbUp = []
 HeroiconsOutlineHashtag = []
 HeroiconsOutlineHeart = []
-HeroiconsOutlineHome = []
 HeroiconsOutlineHomeModern = []
+HeroiconsOutlineHome = []
 HeroiconsOutlineIdentification = []
-HeroiconsOutlineInbox = []
 HeroiconsOutlineInboxArrowDown = []
 HeroiconsOutlineInboxStack = []
+HeroiconsOutlineInbox = []
 HeroiconsOutlineInformationCircle = []
 HeroiconsOutlineKey = []
 HeroiconsOutlineLanguage = []
@@ -527,17 +239,17 @@ HeroiconsOutlineLink = []
 HeroiconsOutlineListBullet = []
 HeroiconsOutlineLockClosed = []
 HeroiconsOutlineLockOpen = []
-HeroiconsOutlineMagnifyingGlass = []
 HeroiconsOutlineMagnifyingGlassCircle = []
 HeroiconsOutlineMagnifyingGlassMinus = []
 HeroiconsOutlineMagnifyingGlassPlus = []
-HeroiconsOutlineMap = []
+HeroiconsOutlineMagnifyingGlass = []
 HeroiconsOutlineMapPin = []
+HeroiconsOutlineMap = []
 HeroiconsOutlineMegaphone = []
 HeroiconsOutlineMicrophone = []
-HeroiconsOutlineMinus = []
 HeroiconsOutlineMinusCircle = []
 HeroiconsOutlineMinusSmall = []
+HeroiconsOutlineMinus = []
 HeroiconsOutlineMoon = []
 HeroiconsOutlineMusicalNote = []
 HeroiconsOutlineNewspaper = []
@@ -545,21 +257,21 @@ HeroiconsOutlineNoSymbol = []
 HeroiconsOutlinePaintBrush = []
 HeroiconsOutlinePaperAirplane = []
 HeroiconsOutlinePaperClip = []
-HeroiconsOutlinePause = []
 HeroiconsOutlinePauseCircle = []
-HeroiconsOutlinePencil = []
+HeroiconsOutlinePause = []
 HeroiconsOutlinePencilSquare = []
-HeroiconsOutlinePhone = []
+HeroiconsOutlinePencil = []
 HeroiconsOutlinePhoneArrowDownLeft = []
 HeroiconsOutlinePhoneArrowUpRight = []
 HeroiconsOutlinePhoneXMark = []
+HeroiconsOutlinePhone = []
 HeroiconsOutlinePhoto = []
-HeroiconsOutlinePlay = []
 HeroiconsOutlinePlayCircle = []
 HeroiconsOutlinePlayPause = []
-HeroiconsOutlinePlus = []
+HeroiconsOutlinePlay = []
 HeroiconsOutlinePlusCircle = []
 HeroiconsOutlinePlusSmall = []
+HeroiconsOutlinePlus = []
 HeroiconsOutlinePower = []
 HeroiconsOutlinePresentationChartBar = []
 HeroiconsOutlinePresentationChartLine = []
@@ -577,15 +289,15 @@ HeroiconsOutlineRocketLaunch = []
 HeroiconsOutlineRss = []
 HeroiconsOutlineScale = []
 HeroiconsOutlineScissors = []
-HeroiconsOutlineServer = []
 HeroiconsOutlineServerStack = []
+HeroiconsOutlineServer = []
 HeroiconsOutlineShare = []
 HeroiconsOutlineShieldCheck = []
 HeroiconsOutlineShieldExclamation = []
 HeroiconsOutlineShoppingBag = []
 HeroiconsOutlineShoppingCart = []
-HeroiconsOutlineSignal = []
 HeroiconsOutlineSignalSlash = []
+HeroiconsOutlineSignal = []
 HeroiconsOutlineSparkles = []
 HeroiconsOutlineSpeakerWave = []
 HeroiconsOutlineSpeakerXMark = []
@@ -594,8 +306,8 @@ HeroiconsOutlineSquare3Stack3D = []
 HeroiconsOutlineSquares2X2 = []
 HeroiconsOutlineSquaresPlus = []
 HeroiconsOutlineStar = []
-HeroiconsOutlineStop = []
 HeroiconsOutlineStopCircle = []
+HeroiconsOutlineStop = []
 HeroiconsOutlineSun = []
 HeroiconsOutlineSwatch = []
 HeroiconsOutlineTableCells = []
@@ -605,49 +317,351 @@ HeroiconsOutlineTrash = []
 HeroiconsOutlineTrophy = []
 HeroiconsOutlineTruck = []
 HeroiconsOutlineTv = []
-HeroiconsOutlineUser = []
 HeroiconsOutlineUserCircle = []
 HeroiconsOutlineUserGroup = []
 HeroiconsOutlineUserMinus = []
 HeroiconsOutlineUserPlus = []
+HeroiconsOutlineUser = []
 HeroiconsOutlineUsers = []
 HeroiconsOutlineVariable = []
-HeroiconsOutlineVideoCamera = []
 HeroiconsOutlineVideoCameraSlash = []
+HeroiconsOutlineVideoCamera = []
 HeroiconsOutlineViewColumns = []
 HeroiconsOutlineViewfinderCircle = []
 HeroiconsOutlineWallet = []
 HeroiconsOutlineWifi = []
 HeroiconsOutlineWindow = []
-HeroiconsOutlineWrench = []
 HeroiconsOutlineWrenchScrewdriver = []
+HeroiconsOutlineWrench = []
 HeroiconsOutlineXCircle = []
 HeroiconsOutlineXMark = []
+heroicons_outline = [
+	"HeroiconsOutlineAcademicCap",
+	"HeroiconsOutlineAdjustmentsHorizontal",
+	"HeroiconsOutlineAdjustmentsVertical",
+	"HeroiconsOutlineArchiveBoxArrowDown",
+	"HeroiconsOutlineArchiveBoxXMark",
+	"HeroiconsOutlineArchiveBox",
+	"HeroiconsOutlineArrowDownCircle",
+	"HeroiconsOutlineArrowDownLeft",
+	"HeroiconsOutlineArrowDownOnSquareStack",
+	"HeroiconsOutlineArrowDownOnSquare",
+	"HeroiconsOutlineArrowDownRight",
+	"HeroiconsOutlineArrowDownTray",
+	"HeroiconsOutlineArrowDown",
+	"HeroiconsOutlineArrowLeftCircle",
+	"HeroiconsOutlineArrowLeftEndOnRectangle",
+	"HeroiconsOutlineArrowLeftOnRectangle",
+	"HeroiconsOutlineArrowLeftStartOnRectangle",
+	"HeroiconsOutlineArrowLeft",
+	"HeroiconsOutlineArrowLongDown",
+	"HeroiconsOutlineArrowLongLeft",
+	"HeroiconsOutlineArrowLongRight",
+	"HeroiconsOutlineArrowLongUp",
+	"HeroiconsOutlineArrowPathRoundedSquare",
+	"HeroiconsOutlineArrowPath",
+	"HeroiconsOutlineArrowRightCircle",
+	"HeroiconsOutlineArrowRightEndOnRectangle",
+	"HeroiconsOutlineArrowRightOnRectangle",
+	"HeroiconsOutlineArrowRightStartOnRectangle",
+	"HeroiconsOutlineArrowRight",
+	"HeroiconsOutlineArrowSmallDown",
+	"HeroiconsOutlineArrowSmallLeft",
+	"HeroiconsOutlineArrowSmallRight",
+	"HeroiconsOutlineArrowSmallUp",
+	"HeroiconsOutlineArrowTopRightOnSquare",
+	"HeroiconsOutlineArrowTrendingDown",
+	"HeroiconsOutlineArrowTrendingUp",
+	"HeroiconsOutlineArrowUpCircle",
+	"HeroiconsOutlineArrowUpLeft",
+	"HeroiconsOutlineArrowUpOnSquareStack",
+	"HeroiconsOutlineArrowUpOnSquare",
+	"HeroiconsOutlineArrowUpRight",
+	"HeroiconsOutlineArrowUpTray",
+	"HeroiconsOutlineArrowUp",
+	"HeroiconsOutlineArrowUturnDown",
+	"HeroiconsOutlineArrowUturnLeft",
+	"HeroiconsOutlineArrowUturnRight",
+	"HeroiconsOutlineArrowUturnUp",
+	"HeroiconsOutlineArrowsPointingIn",
+	"HeroiconsOutlineArrowsPointingOut",
+	"HeroiconsOutlineArrowsRightLeft",
+	"HeroiconsOutlineArrowsUpDown",
+	"HeroiconsOutlineAtSymbol",
+	"HeroiconsOutlineBackspace",
+	"HeroiconsOutlineBackward",
+	"HeroiconsOutlineBanknotes",
+	"HeroiconsOutlineBars2",
+	"HeroiconsOutlineBars3BottomLeft",
+	"HeroiconsOutlineBars3BottomRight",
+	"HeroiconsOutlineBars3CenterLeft",
+	"HeroiconsOutlineBars3",
+	"HeroiconsOutlineBars4",
+	"HeroiconsOutlineBarsArrowDown",
+	"HeroiconsOutlineBarsArrowUp",
+	"HeroiconsOutlineBattery0",
+	"HeroiconsOutlineBattery100",
+	"HeroiconsOutlineBattery50",
+	"HeroiconsOutlineBeaker",
+	"HeroiconsOutlineBellAlert",
+	"HeroiconsOutlineBellSlash",
+	"HeroiconsOutlineBellSnooze",
+	"HeroiconsOutlineBell",
+	"HeroiconsOutlineBoltSlash",
+	"HeroiconsOutlineBolt",
+	"HeroiconsOutlineBookOpen",
+	"HeroiconsOutlineBookmarkSlash",
+	"HeroiconsOutlineBookmarkSquare",
+	"HeroiconsOutlineBookmark",
+	"HeroiconsOutlineBriefcase",
+	"HeroiconsOutlineBugAnt",
+	"HeroiconsOutlineBuildingLibrary",
+	"HeroiconsOutlineBuildingOffice2",
+	"HeroiconsOutlineBuildingOffice",
+	"HeroiconsOutlineBuildingStorefront",
+	"HeroiconsOutlineCake",
+	"HeroiconsOutlineCalculator",
+	"HeroiconsOutlineCalendarDays",
+	"HeroiconsOutlineCalendar",
+	"HeroiconsOutlineCamera",
+	"HeroiconsOutlineChartBarSquare",
+	"HeroiconsOutlineChartBar",
+	"HeroiconsOutlineChartPie",
+	"HeroiconsOutlineChatBubbleBottomCenterText",
+	"HeroiconsOutlineChatBubbleBottomCenter",
+	"HeroiconsOutlineChatBubbleLeftEllipsis",
+	"HeroiconsOutlineChatBubbleLeftRight",
+	"HeroiconsOutlineChatBubbleLeft",
+	"HeroiconsOutlineChatBubbleOvalLeftEllipsis",
+	"HeroiconsOutlineChatBubbleOvalLeft",
+	"HeroiconsOutlineCheckBadge",
+	"HeroiconsOutlineCheckCircle",
+	"HeroiconsOutlineCheck",
+	"HeroiconsOutlineChevronDoubleDown",
+	"HeroiconsOutlineChevronDoubleLeft",
+	"HeroiconsOutlineChevronDoubleRight",
+	"HeroiconsOutlineChevronDoubleUp",
+	"HeroiconsOutlineChevronDown",
+	"HeroiconsOutlineChevronLeft",
+	"HeroiconsOutlineChevronRight",
+	"HeroiconsOutlineChevronUpDown",
+	"HeroiconsOutlineChevronUp",
+	"HeroiconsOutlineCircleStack",
+	"HeroiconsOutlineClipboardDocumentCheck",
+	"HeroiconsOutlineClipboardDocumentList",
+	"HeroiconsOutlineClipboardDocument",
+	"HeroiconsOutlineClipboard",
+	"HeroiconsOutlineClock",
+	"HeroiconsOutlineCloudArrowDown",
+	"HeroiconsOutlineCloudArrowUp",
+	"HeroiconsOutlineCloud",
+	"HeroiconsOutlineCodeBracketSquare",
+	"HeroiconsOutlineCodeBracket",
+	"HeroiconsOutlineCog6Tooth",
+	"HeroiconsOutlineCog8Tooth",
+	"HeroiconsOutlineCog",
+	"HeroiconsOutlineCommandLine",
+	"HeroiconsOutlineComputerDesktop",
+	"HeroiconsOutlineCpuChip",
+	"HeroiconsOutlineCreditCard",
+	"HeroiconsOutlineCubeTransparent",
+	"HeroiconsOutlineCube",
+	"HeroiconsOutlineCurrencyBangladeshi",
+	"HeroiconsOutlineCurrencyDollar",
+	"HeroiconsOutlineCurrencyEuro",
+	"HeroiconsOutlineCurrencyPound",
+	"HeroiconsOutlineCurrencyRupee",
+	"HeroiconsOutlineCurrencyYen",
+	"HeroiconsOutlineCursorArrowRays",
+	"HeroiconsOutlineCursorArrowRipple",
+	"HeroiconsOutlineDevicePhoneMobile",
+	"HeroiconsOutlineDeviceTablet",
+	"HeroiconsOutlineDocumentArrowDown",
+	"HeroiconsOutlineDocumentArrowUp",
+	"HeroiconsOutlineDocumentChartBar",
+	"HeroiconsOutlineDocumentCheck",
+	"HeroiconsOutlineDocumentDuplicate",
+	"HeroiconsOutlineDocumentMagnifyingGlass",
+	"HeroiconsOutlineDocumentMinus",
+	"HeroiconsOutlineDocumentPlus",
+	"HeroiconsOutlineDocumentText",
+	"HeroiconsOutlineDocument",
+	"HeroiconsOutlineEllipsisHorizontalCircle",
+	"HeroiconsOutlineEllipsisHorizontal",
+	"HeroiconsOutlineEllipsisVertical",
+	"HeroiconsOutlineEnvelopeOpen",
+	"HeroiconsOutlineEnvelope",
+	"HeroiconsOutlineExclamationCircle",
+	"HeroiconsOutlineExclamationTriangle",
+	"HeroiconsOutlineEyeDropper",
+	"HeroiconsOutlineEyeSlash",
+	"HeroiconsOutlineEye",
+	"HeroiconsOutlineFaceFrown",
+	"HeroiconsOutlineFaceSmile",
+	"HeroiconsOutlineFilm",
+	"HeroiconsOutlineFingerPrint",
+	"HeroiconsOutlineFire",
+	"HeroiconsOutlineFlag",
+	"HeroiconsOutlineFolderArrowDown",
+	"HeroiconsOutlineFolderMinus",
+	"HeroiconsOutlineFolderOpen",
+	"HeroiconsOutlineFolderPlus",
+	"HeroiconsOutlineFolder",
+	"HeroiconsOutlineForward",
+	"HeroiconsOutlineFunnel",
+	"HeroiconsOutlineGif",
+	"HeroiconsOutlineGiftTop",
+	"HeroiconsOutlineGift",
+	"HeroiconsOutlineGlobeAlt",
+	"HeroiconsOutlineGlobeAmericas",
+	"HeroiconsOutlineGlobeAsiaAustralia",
+	"HeroiconsOutlineGlobeEuropeAfrica",
+	"HeroiconsOutlineHandRaised",
+	"HeroiconsOutlineHandThumbDown",
+	"HeroiconsOutlineHandThumbUp",
+	"HeroiconsOutlineHashtag",
+	"HeroiconsOutlineHeart",
+	"HeroiconsOutlineHomeModern",
+	"HeroiconsOutlineHome",
+	"HeroiconsOutlineIdentification",
+	"HeroiconsOutlineInboxArrowDown",
+	"HeroiconsOutlineInboxStack",
+	"HeroiconsOutlineInbox",
+	"HeroiconsOutlineInformationCircle",
+	"HeroiconsOutlineKey",
+	"HeroiconsOutlineLanguage",
+	"HeroiconsOutlineLifebuoy",
+	"HeroiconsOutlineLightBulb",
+	"HeroiconsOutlineLink",
+	"HeroiconsOutlineListBullet",
+	"HeroiconsOutlineLockClosed",
+	"HeroiconsOutlineLockOpen",
+	"HeroiconsOutlineMagnifyingGlassCircle",
+	"HeroiconsOutlineMagnifyingGlassMinus",
+	"HeroiconsOutlineMagnifyingGlassPlus",
+	"HeroiconsOutlineMagnifyingGlass",
+	"HeroiconsOutlineMapPin",
+	"HeroiconsOutlineMap",
+	"HeroiconsOutlineMegaphone",
+	"HeroiconsOutlineMicrophone",
+	"HeroiconsOutlineMinusCircle",
+	"HeroiconsOutlineMinusSmall",
+	"HeroiconsOutlineMinus",
+	"HeroiconsOutlineMoon",
+	"HeroiconsOutlineMusicalNote",
+	"HeroiconsOutlineNewspaper",
+	"HeroiconsOutlineNoSymbol",
+	"HeroiconsOutlinePaintBrush",
+	"HeroiconsOutlinePaperAirplane",
+	"HeroiconsOutlinePaperClip",
+	"HeroiconsOutlinePauseCircle",
+	"HeroiconsOutlinePause",
+	"HeroiconsOutlinePencilSquare",
+	"HeroiconsOutlinePencil",
+	"HeroiconsOutlinePhoneArrowDownLeft",
+	"HeroiconsOutlinePhoneArrowUpRight",
+	"HeroiconsOutlinePhoneXMark",
+	"HeroiconsOutlinePhone",
+	"HeroiconsOutlinePhoto",
+	"HeroiconsOutlinePlayCircle",
+	"HeroiconsOutlinePlayPause",
+	"HeroiconsOutlinePlay",
+	"HeroiconsOutlinePlusCircle",
+	"HeroiconsOutlinePlusSmall",
+	"HeroiconsOutlinePlus",
+	"HeroiconsOutlinePower",
+	"HeroiconsOutlinePresentationChartBar",
+	"HeroiconsOutlinePresentationChartLine",
+	"HeroiconsOutlinePrinter",
+	"HeroiconsOutlinePuzzlePiece",
+	"HeroiconsOutlineQrCode",
+	"HeroiconsOutlineQuestionMarkCircle",
+	"HeroiconsOutlineQueueList",
+	"HeroiconsOutlineRadio",
+	"HeroiconsOutlineReceiptPercent",
+	"HeroiconsOutlineReceiptRefund",
+	"HeroiconsOutlineRectangleGroup",
+	"HeroiconsOutlineRectangleStack",
+	"HeroiconsOutlineRocketLaunch",
+	"HeroiconsOutlineRss",
+	"HeroiconsOutlineScale",
+	"HeroiconsOutlineScissors",
+	"HeroiconsOutlineServerStack",
+	"HeroiconsOutlineServer",
+	"HeroiconsOutlineShare",
+	"HeroiconsOutlineShieldCheck",
+	"HeroiconsOutlineShieldExclamation",
+	"HeroiconsOutlineShoppingBag",
+	"HeroiconsOutlineShoppingCart",
+	"HeroiconsOutlineSignalSlash",
+	"HeroiconsOutlineSignal",
+	"HeroiconsOutlineSparkles",
+	"HeroiconsOutlineSpeakerWave",
+	"HeroiconsOutlineSpeakerXMark",
+	"HeroiconsOutlineSquare2Stack",
+	"HeroiconsOutlineSquare3Stack3D",
+	"HeroiconsOutlineSquares2X2",
+	"HeroiconsOutlineSquaresPlus",
+	"HeroiconsOutlineStar",
+	"HeroiconsOutlineStopCircle",
+	"HeroiconsOutlineStop",
+	"HeroiconsOutlineSun",
+	"HeroiconsOutlineSwatch",
+	"HeroiconsOutlineTableCells",
+	"HeroiconsOutlineTag",
+	"HeroiconsOutlineTicket",
+	"HeroiconsOutlineTrash",
+	"HeroiconsOutlineTrophy",
+	"HeroiconsOutlineTruck",
+	"HeroiconsOutlineTv",
+	"HeroiconsOutlineUserCircle",
+	"HeroiconsOutlineUserGroup",
+	"HeroiconsOutlineUserMinus",
+	"HeroiconsOutlineUserPlus",
+	"HeroiconsOutlineUser",
+	"HeroiconsOutlineUsers",
+	"HeroiconsOutlineVariable",
+	"HeroiconsOutlineVideoCameraSlash",
+	"HeroiconsOutlineVideoCamera",
+	"HeroiconsOutlineViewColumns",
+	"HeroiconsOutlineViewfinderCircle",
+	"HeroiconsOutlineWallet",
+	"HeroiconsOutlineWifi",
+	"HeroiconsOutlineWindow",
+	"HeroiconsOutlineWrenchScrewdriver",
+	"HeroiconsOutlineWrench",
+	"HeroiconsOutlineXCircle",
+	"HeroiconsOutlineXMark",
+]
 HeroiconsSolidAcademicCap = []
 HeroiconsSolidAdjustmentsHorizontal = []
 HeroiconsSolidAdjustmentsVertical = []
-HeroiconsSolidArchiveBox = []
 HeroiconsSolidArchiveBoxArrowDown = []
 HeroiconsSolidArchiveBoxXMark = []
-HeroiconsSolidArrowDown = []
+HeroiconsSolidArchiveBox = []
 HeroiconsSolidArrowDownCircle = []
 HeroiconsSolidArrowDownLeft = []
-HeroiconsSolidArrowDownOnSquare = []
 HeroiconsSolidArrowDownOnSquareStack = []
+HeroiconsSolidArrowDownOnSquare = []
 HeroiconsSolidArrowDownRight = []
 HeroiconsSolidArrowDownTray = []
-HeroiconsSolidArrowLeft = []
+HeroiconsSolidArrowDown = []
 HeroiconsSolidArrowLeftCircle = []
+HeroiconsSolidArrowLeftEndOnRectangle = []
 HeroiconsSolidArrowLeftOnRectangle = []
+HeroiconsSolidArrowLeftStartOnRectangle = []
+HeroiconsSolidArrowLeft = []
 HeroiconsSolidArrowLongDown = []
 HeroiconsSolidArrowLongLeft = []
 HeroiconsSolidArrowLongRight = []
 HeroiconsSolidArrowLongUp = []
-HeroiconsSolidArrowPath = []
 HeroiconsSolidArrowPathRoundedSquare = []
-HeroiconsSolidArrowRight = []
+HeroiconsSolidArrowPath = []
 HeroiconsSolidArrowRightCircle = []
+HeroiconsSolidArrowRightEndOnRectangle = []
 HeroiconsSolidArrowRightOnRectangle = []
+HeroiconsSolidArrowRightStartOnRectangle = []
+HeroiconsSolidArrowRight = []
 HeroiconsSolidArrowSmallDown = []
 HeroiconsSolidArrowSmallLeft = []
 HeroiconsSolidArrowSmallRight = []
@@ -655,13 +669,13 @@ HeroiconsSolidArrowSmallUp = []
 HeroiconsSolidArrowTopRightOnSquare = []
 HeroiconsSolidArrowTrendingDown = []
 HeroiconsSolidArrowTrendingUp = []
-HeroiconsSolidArrowUp = []
 HeroiconsSolidArrowUpCircle = []
 HeroiconsSolidArrowUpLeft = []
-HeroiconsSolidArrowUpOnSquare = []
 HeroiconsSolidArrowUpOnSquareStack = []
+HeroiconsSolidArrowUpOnSquare = []
 HeroiconsSolidArrowUpRight = []
 HeroiconsSolidArrowUpTray = []
+HeroiconsSolidArrowUp = []
 HeroiconsSolidArrowUturnDown = []
 HeroiconsSolidArrowUturnLeft = []
 HeroiconsSolidArrowUturnRight = []
@@ -675,10 +689,10 @@ HeroiconsSolidBackspace = []
 HeroiconsSolidBackward = []
 HeroiconsSolidBanknotes = []
 HeroiconsSolidBars2 = []
-HeroiconsSolidBars3 = []
 HeroiconsSolidBars3BottomLeft = []
 HeroiconsSolidBars3BottomRight = []
 HeroiconsSolidBars3CenterLeft = []
+HeroiconsSolidBars3 = []
 HeroiconsSolidBars4 = []
 HeroiconsSolidBarsArrowDown = []
 HeroiconsSolidBarsArrowUp = []
@@ -686,40 +700,40 @@ HeroiconsSolidBattery0 = []
 HeroiconsSolidBattery100 = []
 HeroiconsSolidBattery50 = []
 HeroiconsSolidBeaker = []
-HeroiconsSolidBell = []
 HeroiconsSolidBellAlert = []
 HeroiconsSolidBellSlash = []
 HeroiconsSolidBellSnooze = []
-HeroiconsSolidBolt = []
+HeroiconsSolidBell = []
 HeroiconsSolidBoltSlash = []
+HeroiconsSolidBolt = []
 HeroiconsSolidBookOpen = []
-HeroiconsSolidBookmark = []
 HeroiconsSolidBookmarkSlash = []
 HeroiconsSolidBookmarkSquare = []
+HeroiconsSolidBookmark = []
 HeroiconsSolidBriefcase = []
 HeroiconsSolidBugAnt = []
 HeroiconsSolidBuildingLibrary = []
-HeroiconsSolidBuildingOffice = []
 HeroiconsSolidBuildingOffice2 = []
+HeroiconsSolidBuildingOffice = []
 HeroiconsSolidBuildingStorefront = []
 HeroiconsSolidCake = []
 HeroiconsSolidCalculator = []
-HeroiconsSolidCalendar = []
 HeroiconsSolidCalendarDays = []
+HeroiconsSolidCalendar = []
 HeroiconsSolidCamera = []
-HeroiconsSolidChartBar = []
 HeroiconsSolidChartBarSquare = []
+HeroiconsSolidChartBar = []
 HeroiconsSolidChartPie = []
-HeroiconsSolidChatBubbleBottomCenter = []
 HeroiconsSolidChatBubbleBottomCenterText = []
-HeroiconsSolidChatBubbleLeft = []
+HeroiconsSolidChatBubbleBottomCenter = []
 HeroiconsSolidChatBubbleLeftEllipsis = []
 HeroiconsSolidChatBubbleLeftRight = []
-HeroiconsSolidChatBubbleOvalLeft = []
+HeroiconsSolidChatBubbleLeft = []
 HeroiconsSolidChatBubbleOvalLeftEllipsis = []
-HeroiconsSolidCheck = []
+HeroiconsSolidChatBubbleOvalLeft = []
 HeroiconsSolidCheckBadge = []
 HeroiconsSolidCheckCircle = []
+HeroiconsSolidCheck = []
 HeroiconsSolidChevronDoubleDown = []
 HeroiconsSolidChevronDoubleLeft = []
 HeroiconsSolidChevronDoubleRight = []
@@ -727,28 +741,28 @@ HeroiconsSolidChevronDoubleUp = []
 HeroiconsSolidChevronDown = []
 HeroiconsSolidChevronLeft = []
 HeroiconsSolidChevronRight = []
-HeroiconsSolidChevronUp = []
 HeroiconsSolidChevronUpDown = []
+HeroiconsSolidChevronUp = []
 HeroiconsSolidCircleStack = []
-HeroiconsSolidClipboard = []
-HeroiconsSolidClipboardDocument = []
 HeroiconsSolidClipboardDocumentCheck = []
 HeroiconsSolidClipboardDocumentList = []
+HeroiconsSolidClipboardDocument = []
+HeroiconsSolidClipboard = []
 HeroiconsSolidClock = []
-HeroiconsSolidCloud = []
 HeroiconsSolidCloudArrowDown = []
 HeroiconsSolidCloudArrowUp = []
-HeroiconsSolidCodeBracket = []
+HeroiconsSolidCloud = []
 HeroiconsSolidCodeBracketSquare = []
-HeroiconsSolidCog = []
+HeroiconsSolidCodeBracket = []
 HeroiconsSolidCog6Tooth = []
 HeroiconsSolidCog8Tooth = []
+HeroiconsSolidCog = []
 HeroiconsSolidCommandLine = []
 HeroiconsSolidComputerDesktop = []
 HeroiconsSolidCpuChip = []
 HeroiconsSolidCreditCard = []
-HeroiconsSolidCube = []
 HeroiconsSolidCubeTransparent = []
+HeroiconsSolidCube = []
 HeroiconsSolidCurrencyBangladeshi = []
 HeroiconsSolidCurrencyDollar = []
 HeroiconsSolidCurrencyEuro = []
@@ -759,7 +773,6 @@ HeroiconsSolidCursorArrowRays = []
 HeroiconsSolidCursorArrowRipple = []
 HeroiconsSolidDevicePhoneMobile = []
 HeroiconsSolidDeviceTablet = []
-HeroiconsSolidDocument = []
 HeroiconsSolidDocumentArrowDown = []
 HeroiconsSolidDocumentArrowUp = []
 HeroiconsSolidDocumentChartBar = []
@@ -769,32 +782,33 @@ HeroiconsSolidDocumentMagnifyingGlass = []
 HeroiconsSolidDocumentMinus = []
 HeroiconsSolidDocumentPlus = []
 HeroiconsSolidDocumentText = []
-HeroiconsSolidEllipsisHorizontal = []
+HeroiconsSolidDocument = []
 HeroiconsSolidEllipsisHorizontalCircle = []
+HeroiconsSolidEllipsisHorizontal = []
 HeroiconsSolidEllipsisVertical = []
-HeroiconsSolidEnvelope = []
 HeroiconsSolidEnvelopeOpen = []
+HeroiconsSolidEnvelope = []
 HeroiconsSolidExclamationCircle = []
 HeroiconsSolidExclamationTriangle = []
-HeroiconsSolidEye = []
 HeroiconsSolidEyeDropper = []
 HeroiconsSolidEyeSlash = []
+HeroiconsSolidEye = []
 HeroiconsSolidFaceFrown = []
 HeroiconsSolidFaceSmile = []
 HeroiconsSolidFilm = []
 HeroiconsSolidFingerPrint = []
 HeroiconsSolidFire = []
 HeroiconsSolidFlag = []
-HeroiconsSolidFolder = []
 HeroiconsSolidFolderArrowDown = []
 HeroiconsSolidFolderMinus = []
 HeroiconsSolidFolderOpen = []
 HeroiconsSolidFolderPlus = []
+HeroiconsSolidFolder = []
 HeroiconsSolidForward = []
 HeroiconsSolidFunnel = []
 HeroiconsSolidGif = []
-HeroiconsSolidGift = []
 HeroiconsSolidGiftTop = []
+HeroiconsSolidGift = []
 HeroiconsSolidGlobeAlt = []
 HeroiconsSolidGlobeAmericas = []
 HeroiconsSolidGlobeAsiaAustralia = []
@@ -804,12 +818,12 @@ HeroiconsSolidHandThumbDown = []
 HeroiconsSolidHandThumbUp = []
 HeroiconsSolidHashtag = []
 HeroiconsSolidHeart = []
-HeroiconsSolidHome = []
 HeroiconsSolidHomeModern = []
+HeroiconsSolidHome = []
 HeroiconsSolidIdentification = []
-HeroiconsSolidInbox = []
 HeroiconsSolidInboxArrowDown = []
 HeroiconsSolidInboxStack = []
+HeroiconsSolidInbox = []
 HeroiconsSolidInformationCircle = []
 HeroiconsSolidKey = []
 HeroiconsSolidLanguage = []
@@ -819,17 +833,17 @@ HeroiconsSolidLink = []
 HeroiconsSolidListBullet = []
 HeroiconsSolidLockClosed = []
 HeroiconsSolidLockOpen = []
-HeroiconsSolidMagnifyingGlass = []
 HeroiconsSolidMagnifyingGlassCircle = []
 HeroiconsSolidMagnifyingGlassMinus = []
 HeroiconsSolidMagnifyingGlassPlus = []
-HeroiconsSolidMap = []
+HeroiconsSolidMagnifyingGlass = []
 HeroiconsSolidMapPin = []
+HeroiconsSolidMap = []
 HeroiconsSolidMegaphone = []
 HeroiconsSolidMicrophone = []
-HeroiconsSolidMinus = []
 HeroiconsSolidMinusCircle = []
 HeroiconsSolidMinusSmall = []
+HeroiconsSolidMinus = []
 HeroiconsSolidMoon = []
 HeroiconsSolidMusicalNote = []
 HeroiconsSolidNewspaper = []
@@ -837,21 +851,21 @@ HeroiconsSolidNoSymbol = []
 HeroiconsSolidPaintBrush = []
 HeroiconsSolidPaperAirplane = []
 HeroiconsSolidPaperClip = []
-HeroiconsSolidPause = []
 HeroiconsSolidPauseCircle = []
-HeroiconsSolidPencil = []
+HeroiconsSolidPause = []
 HeroiconsSolidPencilSquare = []
-HeroiconsSolidPhone = []
+HeroiconsSolidPencil = []
 HeroiconsSolidPhoneArrowDownLeft = []
 HeroiconsSolidPhoneArrowUpRight = []
 HeroiconsSolidPhoneXMark = []
+HeroiconsSolidPhone = []
 HeroiconsSolidPhoto = []
-HeroiconsSolidPlay = []
 HeroiconsSolidPlayCircle = []
 HeroiconsSolidPlayPause = []
-HeroiconsSolidPlus = []
+HeroiconsSolidPlay = []
 HeroiconsSolidPlusCircle = []
 HeroiconsSolidPlusSmall = []
+HeroiconsSolidPlus = []
 HeroiconsSolidPower = []
 HeroiconsSolidPresentationChartBar = []
 HeroiconsSolidPresentationChartLine = []
@@ -869,15 +883,15 @@ HeroiconsSolidRocketLaunch = []
 HeroiconsSolidRss = []
 HeroiconsSolidScale = []
 HeroiconsSolidScissors = []
-HeroiconsSolidServer = []
 HeroiconsSolidServerStack = []
+HeroiconsSolidServer = []
 HeroiconsSolidShare = []
 HeroiconsSolidShieldCheck = []
 HeroiconsSolidShieldExclamation = []
 HeroiconsSolidShoppingBag = []
 HeroiconsSolidShoppingCart = []
-HeroiconsSolidSignal = []
 HeroiconsSolidSignalSlash = []
+HeroiconsSolidSignal = []
 HeroiconsSolidSparkles = []
 HeroiconsSolidSpeakerWave = []
 HeroiconsSolidSpeakerXMark = []
@@ -886,8 +900,8 @@ HeroiconsSolidSquare3Stack3D = []
 HeroiconsSolidSquares2X2 = []
 HeroiconsSolidSquaresPlus = []
 HeroiconsSolidStar = []
-HeroiconsSolidStop = []
 HeroiconsSolidStopCircle = []
+HeroiconsSolidStop = []
 HeroiconsSolidSun = []
 HeroiconsSolidSwatch = []
 HeroiconsSolidTableCells = []
@@ -897,40 +911,937 @@ HeroiconsSolidTrash = []
 HeroiconsSolidTrophy = []
 HeroiconsSolidTruck = []
 HeroiconsSolidTv = []
-HeroiconsSolidUser = []
 HeroiconsSolidUserCircle = []
 HeroiconsSolidUserGroup = []
 HeroiconsSolidUserMinus = []
 HeroiconsSolidUserPlus = []
+HeroiconsSolidUser = []
 HeroiconsSolidUsers = []
 HeroiconsSolidVariable = []
-HeroiconsSolidVideoCamera = []
 HeroiconsSolidVideoCameraSlash = []
+HeroiconsSolidVideoCamera = []
 HeroiconsSolidViewColumns = []
 HeroiconsSolidViewfinderCircle = []
 HeroiconsSolidWallet = []
 HeroiconsSolidWifi = []
 HeroiconsSolidWindow = []
-HeroiconsSolidWrench = []
 HeroiconsSolidWrenchScrewdriver = []
+HeroiconsSolidWrench = []
 HeroiconsSolidXCircle = []
 HeroiconsSolidXMark = []
+heroicons_solid = [
+	"HeroiconsSolidAcademicCap",
+	"HeroiconsSolidAdjustmentsHorizontal",
+	"HeroiconsSolidAdjustmentsVertical",
+	"HeroiconsSolidArchiveBoxArrowDown",
+	"HeroiconsSolidArchiveBoxXMark",
+	"HeroiconsSolidArchiveBox",
+	"HeroiconsSolidArrowDownCircle",
+	"HeroiconsSolidArrowDownLeft",
+	"HeroiconsSolidArrowDownOnSquareStack",
+	"HeroiconsSolidArrowDownOnSquare",
+	"HeroiconsSolidArrowDownRight",
+	"HeroiconsSolidArrowDownTray",
+	"HeroiconsSolidArrowDown",
+	"HeroiconsSolidArrowLeftCircle",
+	"HeroiconsSolidArrowLeftEndOnRectangle",
+	"HeroiconsSolidArrowLeftOnRectangle",
+	"HeroiconsSolidArrowLeftStartOnRectangle",
+	"HeroiconsSolidArrowLeft",
+	"HeroiconsSolidArrowLongDown",
+	"HeroiconsSolidArrowLongLeft",
+	"HeroiconsSolidArrowLongRight",
+	"HeroiconsSolidArrowLongUp",
+	"HeroiconsSolidArrowPathRoundedSquare",
+	"HeroiconsSolidArrowPath",
+	"HeroiconsSolidArrowRightCircle",
+	"HeroiconsSolidArrowRightEndOnRectangle",
+	"HeroiconsSolidArrowRightOnRectangle",
+	"HeroiconsSolidArrowRightStartOnRectangle",
+	"HeroiconsSolidArrowRight",
+	"HeroiconsSolidArrowSmallDown",
+	"HeroiconsSolidArrowSmallLeft",
+	"HeroiconsSolidArrowSmallRight",
+	"HeroiconsSolidArrowSmallUp",
+	"HeroiconsSolidArrowTopRightOnSquare",
+	"HeroiconsSolidArrowTrendingDown",
+	"HeroiconsSolidArrowTrendingUp",
+	"HeroiconsSolidArrowUpCircle",
+	"HeroiconsSolidArrowUpLeft",
+	"HeroiconsSolidArrowUpOnSquareStack",
+	"HeroiconsSolidArrowUpOnSquare",
+	"HeroiconsSolidArrowUpRight",
+	"HeroiconsSolidArrowUpTray",
+	"HeroiconsSolidArrowUp",
+	"HeroiconsSolidArrowUturnDown",
+	"HeroiconsSolidArrowUturnLeft",
+	"HeroiconsSolidArrowUturnRight",
+	"HeroiconsSolidArrowUturnUp",
+	"HeroiconsSolidArrowsPointingIn",
+	"HeroiconsSolidArrowsPointingOut",
+	"HeroiconsSolidArrowsRightLeft",
+	"HeroiconsSolidArrowsUpDown",
+	"HeroiconsSolidAtSymbol",
+	"HeroiconsSolidBackspace",
+	"HeroiconsSolidBackward",
+	"HeroiconsSolidBanknotes",
+	"HeroiconsSolidBars2",
+	"HeroiconsSolidBars3BottomLeft",
+	"HeroiconsSolidBars3BottomRight",
+	"HeroiconsSolidBars3CenterLeft",
+	"HeroiconsSolidBars3",
+	"HeroiconsSolidBars4",
+	"HeroiconsSolidBarsArrowDown",
+	"HeroiconsSolidBarsArrowUp",
+	"HeroiconsSolidBattery0",
+	"HeroiconsSolidBattery100",
+	"HeroiconsSolidBattery50",
+	"HeroiconsSolidBeaker",
+	"HeroiconsSolidBellAlert",
+	"HeroiconsSolidBellSlash",
+	"HeroiconsSolidBellSnooze",
+	"HeroiconsSolidBell",
+	"HeroiconsSolidBoltSlash",
+	"HeroiconsSolidBolt",
+	"HeroiconsSolidBookOpen",
+	"HeroiconsSolidBookmarkSlash",
+	"HeroiconsSolidBookmarkSquare",
+	"HeroiconsSolidBookmark",
+	"HeroiconsSolidBriefcase",
+	"HeroiconsSolidBugAnt",
+	"HeroiconsSolidBuildingLibrary",
+	"HeroiconsSolidBuildingOffice2",
+	"HeroiconsSolidBuildingOffice",
+	"HeroiconsSolidBuildingStorefront",
+	"HeroiconsSolidCake",
+	"HeroiconsSolidCalculator",
+	"HeroiconsSolidCalendarDays",
+	"HeroiconsSolidCalendar",
+	"HeroiconsSolidCamera",
+	"HeroiconsSolidChartBarSquare",
+	"HeroiconsSolidChartBar",
+	"HeroiconsSolidChartPie",
+	"HeroiconsSolidChatBubbleBottomCenterText",
+	"HeroiconsSolidChatBubbleBottomCenter",
+	"HeroiconsSolidChatBubbleLeftEllipsis",
+	"HeroiconsSolidChatBubbleLeftRight",
+	"HeroiconsSolidChatBubbleLeft",
+	"HeroiconsSolidChatBubbleOvalLeftEllipsis",
+	"HeroiconsSolidChatBubbleOvalLeft",
+	"HeroiconsSolidCheckBadge",
+	"HeroiconsSolidCheckCircle",
+	"HeroiconsSolidCheck",
+	"HeroiconsSolidChevronDoubleDown",
+	"HeroiconsSolidChevronDoubleLeft",
+	"HeroiconsSolidChevronDoubleRight",
+	"HeroiconsSolidChevronDoubleUp",
+	"HeroiconsSolidChevronDown",
+	"HeroiconsSolidChevronLeft",
+	"HeroiconsSolidChevronRight",
+	"HeroiconsSolidChevronUpDown",
+	"HeroiconsSolidChevronUp",
+	"HeroiconsSolidCircleStack",
+	"HeroiconsSolidClipboardDocumentCheck",
+	"HeroiconsSolidClipboardDocumentList",
+	"HeroiconsSolidClipboardDocument",
+	"HeroiconsSolidClipboard",
+	"HeroiconsSolidClock",
+	"HeroiconsSolidCloudArrowDown",
+	"HeroiconsSolidCloudArrowUp",
+	"HeroiconsSolidCloud",
+	"HeroiconsSolidCodeBracketSquare",
+	"HeroiconsSolidCodeBracket",
+	"HeroiconsSolidCog6Tooth",
+	"HeroiconsSolidCog8Tooth",
+	"HeroiconsSolidCog",
+	"HeroiconsSolidCommandLine",
+	"HeroiconsSolidComputerDesktop",
+	"HeroiconsSolidCpuChip",
+	"HeroiconsSolidCreditCard",
+	"HeroiconsSolidCubeTransparent",
+	"HeroiconsSolidCube",
+	"HeroiconsSolidCurrencyBangladeshi",
+	"HeroiconsSolidCurrencyDollar",
+	"HeroiconsSolidCurrencyEuro",
+	"HeroiconsSolidCurrencyPound",
+	"HeroiconsSolidCurrencyRupee",
+	"HeroiconsSolidCurrencyYen",
+	"HeroiconsSolidCursorArrowRays",
+	"HeroiconsSolidCursorArrowRipple",
+	"HeroiconsSolidDevicePhoneMobile",
+	"HeroiconsSolidDeviceTablet",
+	"HeroiconsSolidDocumentArrowDown",
+	"HeroiconsSolidDocumentArrowUp",
+	"HeroiconsSolidDocumentChartBar",
+	"HeroiconsSolidDocumentCheck",
+	"HeroiconsSolidDocumentDuplicate",
+	"HeroiconsSolidDocumentMagnifyingGlass",
+	"HeroiconsSolidDocumentMinus",
+	"HeroiconsSolidDocumentPlus",
+	"HeroiconsSolidDocumentText",
+	"HeroiconsSolidDocument",
+	"HeroiconsSolidEllipsisHorizontalCircle",
+	"HeroiconsSolidEllipsisHorizontal",
+	"HeroiconsSolidEllipsisVertical",
+	"HeroiconsSolidEnvelopeOpen",
+	"HeroiconsSolidEnvelope",
+	"HeroiconsSolidExclamationCircle",
+	"HeroiconsSolidExclamationTriangle",
+	"HeroiconsSolidEyeDropper",
+	"HeroiconsSolidEyeSlash",
+	"HeroiconsSolidEye",
+	"HeroiconsSolidFaceFrown",
+	"HeroiconsSolidFaceSmile",
+	"HeroiconsSolidFilm",
+	"HeroiconsSolidFingerPrint",
+	"HeroiconsSolidFire",
+	"HeroiconsSolidFlag",
+	"HeroiconsSolidFolderArrowDown",
+	"HeroiconsSolidFolderMinus",
+	"HeroiconsSolidFolderOpen",
+	"HeroiconsSolidFolderPlus",
+	"HeroiconsSolidFolder",
+	"HeroiconsSolidForward",
+	"HeroiconsSolidFunnel",
+	"HeroiconsSolidGif",
+	"HeroiconsSolidGiftTop",
+	"HeroiconsSolidGift",
+	"HeroiconsSolidGlobeAlt",
+	"HeroiconsSolidGlobeAmericas",
+	"HeroiconsSolidGlobeAsiaAustralia",
+	"HeroiconsSolidGlobeEuropeAfrica",
+	"HeroiconsSolidHandRaised",
+	"HeroiconsSolidHandThumbDown",
+	"HeroiconsSolidHandThumbUp",
+	"HeroiconsSolidHashtag",
+	"HeroiconsSolidHeart",
+	"HeroiconsSolidHomeModern",
+	"HeroiconsSolidHome",
+	"HeroiconsSolidIdentification",
+	"HeroiconsSolidInboxArrowDown",
+	"HeroiconsSolidInboxStack",
+	"HeroiconsSolidInbox",
+	"HeroiconsSolidInformationCircle",
+	"HeroiconsSolidKey",
+	"HeroiconsSolidLanguage",
+	"HeroiconsSolidLifebuoy",
+	"HeroiconsSolidLightBulb",
+	"HeroiconsSolidLink",
+	"HeroiconsSolidListBullet",
+	"HeroiconsSolidLockClosed",
+	"HeroiconsSolidLockOpen",
+	"HeroiconsSolidMagnifyingGlassCircle",
+	"HeroiconsSolidMagnifyingGlassMinus",
+	"HeroiconsSolidMagnifyingGlassPlus",
+	"HeroiconsSolidMagnifyingGlass",
+	"HeroiconsSolidMapPin",
+	"HeroiconsSolidMap",
+	"HeroiconsSolidMegaphone",
+	"HeroiconsSolidMicrophone",
+	"HeroiconsSolidMinusCircle",
+	"HeroiconsSolidMinusSmall",
+	"HeroiconsSolidMinus",
+	"HeroiconsSolidMoon",
+	"HeroiconsSolidMusicalNote",
+	"HeroiconsSolidNewspaper",
+	"HeroiconsSolidNoSymbol",
+	"HeroiconsSolidPaintBrush",
+	"HeroiconsSolidPaperAirplane",
+	"HeroiconsSolidPaperClip",
+	"HeroiconsSolidPauseCircle",
+	"HeroiconsSolidPause",
+	"HeroiconsSolidPencilSquare",
+	"HeroiconsSolidPencil",
+	"HeroiconsSolidPhoneArrowDownLeft",
+	"HeroiconsSolidPhoneArrowUpRight",
+	"HeroiconsSolidPhoneXMark",
+	"HeroiconsSolidPhone",
+	"HeroiconsSolidPhoto",
+	"HeroiconsSolidPlayCircle",
+	"HeroiconsSolidPlayPause",
+	"HeroiconsSolidPlay",
+	"HeroiconsSolidPlusCircle",
+	"HeroiconsSolidPlusSmall",
+	"HeroiconsSolidPlus",
+	"HeroiconsSolidPower",
+	"HeroiconsSolidPresentationChartBar",
+	"HeroiconsSolidPresentationChartLine",
+	"HeroiconsSolidPrinter",
+	"HeroiconsSolidPuzzlePiece",
+	"HeroiconsSolidQrCode",
+	"HeroiconsSolidQuestionMarkCircle",
+	"HeroiconsSolidQueueList",
+	"HeroiconsSolidRadio",
+	"HeroiconsSolidReceiptPercent",
+	"HeroiconsSolidReceiptRefund",
+	"HeroiconsSolidRectangleGroup",
+	"HeroiconsSolidRectangleStack",
+	"HeroiconsSolidRocketLaunch",
+	"HeroiconsSolidRss",
+	"HeroiconsSolidScale",
+	"HeroiconsSolidScissors",
+	"HeroiconsSolidServerStack",
+	"HeroiconsSolidServer",
+	"HeroiconsSolidShare",
+	"HeroiconsSolidShieldCheck",
+	"HeroiconsSolidShieldExclamation",
+	"HeroiconsSolidShoppingBag",
+	"HeroiconsSolidShoppingCart",
+	"HeroiconsSolidSignalSlash",
+	"HeroiconsSolidSignal",
+	"HeroiconsSolidSparkles",
+	"HeroiconsSolidSpeakerWave",
+	"HeroiconsSolidSpeakerXMark",
+	"HeroiconsSolidSquare2Stack",
+	"HeroiconsSolidSquare3Stack3D",
+	"HeroiconsSolidSquares2X2",
+	"HeroiconsSolidSquaresPlus",
+	"HeroiconsSolidStar",
+	"HeroiconsSolidStopCircle",
+	"HeroiconsSolidStop",
+	"HeroiconsSolidSun",
+	"HeroiconsSolidSwatch",
+	"HeroiconsSolidTableCells",
+	"HeroiconsSolidTag",
+	"HeroiconsSolidTicket",
+	"HeroiconsSolidTrash",
+	"HeroiconsSolidTrophy",
+	"HeroiconsSolidTruck",
+	"HeroiconsSolidTv",
+	"HeroiconsSolidUserCircle",
+	"HeroiconsSolidUserGroup",
+	"HeroiconsSolidUserMinus",
+	"HeroiconsSolidUserPlus",
+	"HeroiconsSolidUser",
+	"HeroiconsSolidUsers",
+	"HeroiconsSolidVariable",
+	"HeroiconsSolidVideoCameraSlash",
+	"HeroiconsSolidVideoCamera",
+	"HeroiconsSolidViewColumns",
+	"HeroiconsSolidViewfinderCircle",
+	"HeroiconsSolidWallet",
+	"HeroiconsSolidWifi",
+	"HeroiconsSolidWindow",
+	"HeroiconsSolidWrenchScrewdriver",
+	"HeroiconsSolidWrench",
+	"HeroiconsSolidXCircle",
+	"HeroiconsSolidXMark",
+]
+HeroiconsMiniSolidAcademicCap = []
+HeroiconsMiniSolidAdjustmentsHorizontal = []
+HeroiconsMiniSolidAdjustmentsVertical = []
+HeroiconsMiniSolidArchiveBoxArrowDown = []
+HeroiconsMiniSolidArchiveBoxXMark = []
+HeroiconsMiniSolidArchiveBox = []
+HeroiconsMiniSolidArrowDownCircle = []
+HeroiconsMiniSolidArrowDownLeft = []
+HeroiconsMiniSolidArrowDownOnSquareStack = []
+HeroiconsMiniSolidArrowDownOnSquare = []
+HeroiconsMiniSolidArrowDownRight = []
+HeroiconsMiniSolidArrowDownTray = []
+HeroiconsMiniSolidArrowDown = []
+HeroiconsMiniSolidArrowLeftCircle = []
+HeroiconsMiniSolidArrowLeftEndOnRectangle = []
+HeroiconsMiniSolidArrowLeftOnRectangle = []
+HeroiconsMiniSolidArrowLeftStartOnRectangle = []
+HeroiconsMiniSolidArrowLeft = []
+HeroiconsMiniSolidArrowLongDown = []
+HeroiconsMiniSolidArrowLongLeft = []
+HeroiconsMiniSolidArrowLongRight = []
+HeroiconsMiniSolidArrowLongUp = []
+HeroiconsMiniSolidArrowPathRoundedSquare = []
+HeroiconsMiniSolidArrowPath = []
+HeroiconsMiniSolidArrowRightCircle = []
+HeroiconsMiniSolidArrowRightEndOnRectangle = []
+HeroiconsMiniSolidArrowRightOnRectangle = []
+HeroiconsMiniSolidArrowRightStartOnRectangle = []
+HeroiconsMiniSolidArrowRight = []
+HeroiconsMiniSolidArrowSmallDown = []
+HeroiconsMiniSolidArrowSmallLeft = []
+HeroiconsMiniSolidArrowSmallRight = []
+HeroiconsMiniSolidArrowSmallUp = []
+HeroiconsMiniSolidArrowTopRightOnSquare = []
+HeroiconsMiniSolidArrowTrendingDown = []
+HeroiconsMiniSolidArrowTrendingUp = []
+HeroiconsMiniSolidArrowUpCircle = []
+HeroiconsMiniSolidArrowUpLeft = []
+HeroiconsMiniSolidArrowUpOnSquareStack = []
+HeroiconsMiniSolidArrowUpOnSquare = []
+HeroiconsMiniSolidArrowUpRight = []
+HeroiconsMiniSolidArrowUpTray = []
+HeroiconsMiniSolidArrowUp = []
+HeroiconsMiniSolidArrowUturnDown = []
+HeroiconsMiniSolidArrowUturnLeft = []
+HeroiconsMiniSolidArrowUturnRight = []
+HeroiconsMiniSolidArrowUturnUp = []
+HeroiconsMiniSolidArrowsPointingIn = []
+HeroiconsMiniSolidArrowsPointingOut = []
+HeroiconsMiniSolidArrowsRightLeft = []
+HeroiconsMiniSolidArrowsUpDown = []
+HeroiconsMiniSolidAtSymbol = []
+HeroiconsMiniSolidBackspace = []
+HeroiconsMiniSolidBackward = []
+HeroiconsMiniSolidBanknotes = []
+HeroiconsMiniSolidBars2 = []
+HeroiconsMiniSolidBars3BottomLeft = []
+HeroiconsMiniSolidBars3BottomRight = []
+HeroiconsMiniSolidBars3CenterLeft = []
+HeroiconsMiniSolidBars3 = []
+HeroiconsMiniSolidBars4 = []
+HeroiconsMiniSolidBarsArrowDown = []
+HeroiconsMiniSolidBarsArrowUp = []
+HeroiconsMiniSolidBattery0 = []
+HeroiconsMiniSolidBattery100 = []
+HeroiconsMiniSolidBattery50 = []
+HeroiconsMiniSolidBeaker = []
+HeroiconsMiniSolidBellAlert = []
+HeroiconsMiniSolidBellSlash = []
+HeroiconsMiniSolidBellSnooze = []
+HeroiconsMiniSolidBell = []
+HeroiconsMiniSolidBoltSlash = []
+HeroiconsMiniSolidBolt = []
+HeroiconsMiniSolidBookOpen = []
+HeroiconsMiniSolidBookmarkSlash = []
+HeroiconsMiniSolidBookmarkSquare = []
+HeroiconsMiniSolidBookmark = []
+HeroiconsMiniSolidBriefcase = []
+HeroiconsMiniSolidBugAnt = []
+HeroiconsMiniSolidBuildingLibrary = []
+HeroiconsMiniSolidBuildingOffice2 = []
+HeroiconsMiniSolidBuildingOffice = []
+HeroiconsMiniSolidBuildingStorefront = []
+HeroiconsMiniSolidCake = []
+HeroiconsMiniSolidCalculator = []
+HeroiconsMiniSolidCalendarDays = []
+HeroiconsMiniSolidCalendar = []
+HeroiconsMiniSolidCamera = []
+HeroiconsMiniSolidChartBarSquare = []
+HeroiconsMiniSolidChartBar = []
+HeroiconsMiniSolidChartPie = []
+HeroiconsMiniSolidChatBubbleBottomCenterText = []
+HeroiconsMiniSolidChatBubbleBottomCenter = []
+HeroiconsMiniSolidChatBubbleLeftEllipsis = []
+HeroiconsMiniSolidChatBubbleLeftRight = []
+HeroiconsMiniSolidChatBubbleLeft = []
+HeroiconsMiniSolidChatBubbleOvalLeftEllipsis = []
+HeroiconsMiniSolidChatBubbleOvalLeft = []
+HeroiconsMiniSolidCheckBadge = []
+HeroiconsMiniSolidCheckCircle = []
+HeroiconsMiniSolidCheck = []
+HeroiconsMiniSolidChevronDoubleDown = []
+HeroiconsMiniSolidChevronDoubleLeft = []
+HeroiconsMiniSolidChevronDoubleRight = []
+HeroiconsMiniSolidChevronDoubleUp = []
+HeroiconsMiniSolidChevronDown = []
+HeroiconsMiniSolidChevronLeft = []
+HeroiconsMiniSolidChevronRight = []
+HeroiconsMiniSolidChevronUpDown = []
+HeroiconsMiniSolidChevronUp = []
+HeroiconsMiniSolidCircleStack = []
+HeroiconsMiniSolidClipboardDocumentCheck = []
+HeroiconsMiniSolidClipboardDocumentList = []
+HeroiconsMiniSolidClipboardDocument = []
+HeroiconsMiniSolidClipboard = []
+HeroiconsMiniSolidClock = []
+HeroiconsMiniSolidCloudArrowDown = []
+HeroiconsMiniSolidCloudArrowUp = []
+HeroiconsMiniSolidCloud = []
+HeroiconsMiniSolidCodeBracketSquare = []
+HeroiconsMiniSolidCodeBracket = []
+HeroiconsMiniSolidCog6Tooth = []
+HeroiconsMiniSolidCog8Tooth = []
+HeroiconsMiniSolidCog = []
+HeroiconsMiniSolidCommandLine = []
+HeroiconsMiniSolidComputerDesktop = []
+HeroiconsMiniSolidCpuChip = []
+HeroiconsMiniSolidCreditCard = []
+HeroiconsMiniSolidCubeTransparent = []
+HeroiconsMiniSolidCube = []
+HeroiconsMiniSolidCurrencyBangladeshi = []
+HeroiconsMiniSolidCurrencyDollar = []
+HeroiconsMiniSolidCurrencyEuro = []
+HeroiconsMiniSolidCurrencyPound = []
+HeroiconsMiniSolidCurrencyRupee = []
+HeroiconsMiniSolidCurrencyYen = []
+HeroiconsMiniSolidCursorArrowRays = []
+HeroiconsMiniSolidCursorArrowRipple = []
+HeroiconsMiniSolidDevicePhoneMobile = []
+HeroiconsMiniSolidDeviceTablet = []
+HeroiconsMiniSolidDocumentArrowDown = []
+HeroiconsMiniSolidDocumentArrowUp = []
+HeroiconsMiniSolidDocumentChartBar = []
+HeroiconsMiniSolidDocumentCheck = []
+HeroiconsMiniSolidDocumentDuplicate = []
+HeroiconsMiniSolidDocumentMagnifyingGlass = []
+HeroiconsMiniSolidDocumentMinus = []
+HeroiconsMiniSolidDocumentPlus = []
+HeroiconsMiniSolidDocumentText = []
+HeroiconsMiniSolidDocument = []
+HeroiconsMiniSolidEllipsisHorizontalCircle = []
+HeroiconsMiniSolidEllipsisHorizontal = []
+HeroiconsMiniSolidEllipsisVertical = []
+HeroiconsMiniSolidEnvelopeOpen = []
+HeroiconsMiniSolidEnvelope = []
+HeroiconsMiniSolidExclamationCircle = []
+HeroiconsMiniSolidExclamationTriangle = []
+HeroiconsMiniSolidEyeDropper = []
+HeroiconsMiniSolidEyeSlash = []
+HeroiconsMiniSolidEye = []
+HeroiconsMiniSolidFaceFrown = []
+HeroiconsMiniSolidFaceSmile = []
+HeroiconsMiniSolidFilm = []
+HeroiconsMiniSolidFingerPrint = []
+HeroiconsMiniSolidFire = []
+HeroiconsMiniSolidFlag = []
+HeroiconsMiniSolidFolderArrowDown = []
+HeroiconsMiniSolidFolderMinus = []
+HeroiconsMiniSolidFolderOpen = []
+HeroiconsMiniSolidFolderPlus = []
+HeroiconsMiniSolidFolder = []
+HeroiconsMiniSolidForward = []
+HeroiconsMiniSolidFunnel = []
+HeroiconsMiniSolidGif = []
+HeroiconsMiniSolidGiftTop = []
+HeroiconsMiniSolidGift = []
+HeroiconsMiniSolidGlobeAlt = []
+HeroiconsMiniSolidGlobeAmericas = []
+HeroiconsMiniSolidGlobeAsiaAustralia = []
+HeroiconsMiniSolidGlobeEuropeAfrica = []
+HeroiconsMiniSolidHandRaised = []
+HeroiconsMiniSolidHandThumbDown = []
+HeroiconsMiniSolidHandThumbUp = []
+HeroiconsMiniSolidHashtag = []
+HeroiconsMiniSolidHeart = []
+HeroiconsMiniSolidHomeModern = []
+HeroiconsMiniSolidHome = []
+HeroiconsMiniSolidIdentification = []
+HeroiconsMiniSolidInboxArrowDown = []
+HeroiconsMiniSolidInboxStack = []
+HeroiconsMiniSolidInbox = []
+HeroiconsMiniSolidInformationCircle = []
+HeroiconsMiniSolidKey = []
+HeroiconsMiniSolidLanguage = []
+HeroiconsMiniSolidLifebuoy = []
+HeroiconsMiniSolidLightBulb = []
+HeroiconsMiniSolidLink = []
+HeroiconsMiniSolidListBullet = []
+HeroiconsMiniSolidLockClosed = []
+HeroiconsMiniSolidLockOpen = []
+HeroiconsMiniSolidMagnifyingGlassCircle = []
+HeroiconsMiniSolidMagnifyingGlassMinus = []
+HeroiconsMiniSolidMagnifyingGlassPlus = []
+HeroiconsMiniSolidMagnifyingGlass = []
+HeroiconsMiniSolidMapPin = []
+HeroiconsMiniSolidMap = []
+HeroiconsMiniSolidMegaphone = []
+HeroiconsMiniSolidMicrophone = []
+HeroiconsMiniSolidMinusCircle = []
+HeroiconsMiniSolidMinusSmall = []
+HeroiconsMiniSolidMinus = []
+HeroiconsMiniSolidMoon = []
+HeroiconsMiniSolidMusicalNote = []
+HeroiconsMiniSolidNewspaper = []
+HeroiconsMiniSolidNoSymbol = []
+HeroiconsMiniSolidPaintBrush = []
+HeroiconsMiniSolidPaperAirplane = []
+HeroiconsMiniSolidPaperClip = []
+HeroiconsMiniSolidPauseCircle = []
+HeroiconsMiniSolidPause = []
+HeroiconsMiniSolidPencilSquare = []
+HeroiconsMiniSolidPencil = []
+HeroiconsMiniSolidPhoneArrowDownLeft = []
+HeroiconsMiniSolidPhoneArrowUpRight = []
+HeroiconsMiniSolidPhoneXMark = []
+HeroiconsMiniSolidPhone = []
+HeroiconsMiniSolidPhoto = []
+HeroiconsMiniSolidPlayCircle = []
+HeroiconsMiniSolidPlayPause = []
+HeroiconsMiniSolidPlay = []
+HeroiconsMiniSolidPlusCircle = []
+HeroiconsMiniSolidPlusSmall = []
+HeroiconsMiniSolidPlus = []
+HeroiconsMiniSolidPower = []
+HeroiconsMiniSolidPresentationChartBar = []
+HeroiconsMiniSolidPresentationChartLine = []
+HeroiconsMiniSolidPrinter = []
+HeroiconsMiniSolidPuzzlePiece = []
+HeroiconsMiniSolidQrCode = []
+HeroiconsMiniSolidQuestionMarkCircle = []
+HeroiconsMiniSolidQueueList = []
+HeroiconsMiniSolidRadio = []
+HeroiconsMiniSolidReceiptPercent = []
+HeroiconsMiniSolidReceiptRefund = []
+HeroiconsMiniSolidRectangleGroup = []
+HeroiconsMiniSolidRectangleStack = []
+HeroiconsMiniSolidRocketLaunch = []
+HeroiconsMiniSolidRss = []
+HeroiconsMiniSolidScale = []
+HeroiconsMiniSolidScissors = []
+HeroiconsMiniSolidServerStack = []
+HeroiconsMiniSolidServer = []
+HeroiconsMiniSolidShare = []
+HeroiconsMiniSolidShieldCheck = []
+HeroiconsMiniSolidShieldExclamation = []
+HeroiconsMiniSolidShoppingBag = []
+HeroiconsMiniSolidShoppingCart = []
+HeroiconsMiniSolidSignalSlash = []
+HeroiconsMiniSolidSignal = []
+HeroiconsMiniSolidSparkles = []
+HeroiconsMiniSolidSpeakerWave = []
+HeroiconsMiniSolidSpeakerXMark = []
+HeroiconsMiniSolidSquare2Stack = []
+HeroiconsMiniSolidSquare3Stack3D = []
+HeroiconsMiniSolidSquares2X2 = []
+HeroiconsMiniSolidSquaresPlus = []
+HeroiconsMiniSolidStar = []
+HeroiconsMiniSolidStopCircle = []
+HeroiconsMiniSolidStop = []
+HeroiconsMiniSolidSun = []
+HeroiconsMiniSolidSwatch = []
+HeroiconsMiniSolidTableCells = []
+HeroiconsMiniSolidTag = []
+HeroiconsMiniSolidTicket = []
+HeroiconsMiniSolidTrash = []
+HeroiconsMiniSolidTrophy = []
+HeroiconsMiniSolidTruck = []
+HeroiconsMiniSolidTv = []
+HeroiconsMiniSolidUserCircle = []
+HeroiconsMiniSolidUserGroup = []
+HeroiconsMiniSolidUserMinus = []
+HeroiconsMiniSolidUserPlus = []
+HeroiconsMiniSolidUser = []
+HeroiconsMiniSolidUsers = []
+HeroiconsMiniSolidVariable = []
+HeroiconsMiniSolidVideoCameraSlash = []
+HeroiconsMiniSolidVideoCamera = []
+HeroiconsMiniSolidViewColumns = []
+HeroiconsMiniSolidViewfinderCircle = []
+HeroiconsMiniSolidWallet = []
+HeroiconsMiniSolidWifi = []
+HeroiconsMiniSolidWindow = []
+HeroiconsMiniSolidWrenchScrewdriver = []
+HeroiconsMiniSolidWrench = []
+HeroiconsMiniSolidXCircle = []
+HeroiconsMiniSolidXMark = []
+heroicons_mini_solid = [
+	"HeroiconsMiniSolidAcademicCap",
+	"HeroiconsMiniSolidAdjustmentsHorizontal",
+	"HeroiconsMiniSolidAdjustmentsVertical",
+	"HeroiconsMiniSolidArchiveBoxArrowDown",
+	"HeroiconsMiniSolidArchiveBoxXMark",
+	"HeroiconsMiniSolidArchiveBox",
+	"HeroiconsMiniSolidArrowDownCircle",
+	"HeroiconsMiniSolidArrowDownLeft",
+	"HeroiconsMiniSolidArrowDownOnSquareStack",
+	"HeroiconsMiniSolidArrowDownOnSquare",
+	"HeroiconsMiniSolidArrowDownRight",
+	"HeroiconsMiniSolidArrowDownTray",
+	"HeroiconsMiniSolidArrowDown",
+	"HeroiconsMiniSolidArrowLeftCircle",
+	"HeroiconsMiniSolidArrowLeftEndOnRectangle",
+	"HeroiconsMiniSolidArrowLeftOnRectangle",
+	"HeroiconsMiniSolidArrowLeftStartOnRectangle",
+	"HeroiconsMiniSolidArrowLeft",
+	"HeroiconsMiniSolidArrowLongDown",
+	"HeroiconsMiniSolidArrowLongLeft",
+	"HeroiconsMiniSolidArrowLongRight",
+	"HeroiconsMiniSolidArrowLongUp",
+	"HeroiconsMiniSolidArrowPathRoundedSquare",
+	"HeroiconsMiniSolidArrowPath",
+	"HeroiconsMiniSolidArrowRightCircle",
+	"HeroiconsMiniSolidArrowRightEndOnRectangle",
+	"HeroiconsMiniSolidArrowRightOnRectangle",
+	"HeroiconsMiniSolidArrowRightStartOnRectangle",
+	"HeroiconsMiniSolidArrowRight",
+	"HeroiconsMiniSolidArrowSmallDown",
+	"HeroiconsMiniSolidArrowSmallLeft",
+	"HeroiconsMiniSolidArrowSmallRight",
+	"HeroiconsMiniSolidArrowSmallUp",
+	"HeroiconsMiniSolidArrowTopRightOnSquare",
+	"HeroiconsMiniSolidArrowTrendingDown",
+	"HeroiconsMiniSolidArrowTrendingUp",
+	"HeroiconsMiniSolidArrowUpCircle",
+	"HeroiconsMiniSolidArrowUpLeft",
+	"HeroiconsMiniSolidArrowUpOnSquareStack",
+	"HeroiconsMiniSolidArrowUpOnSquare",
+	"HeroiconsMiniSolidArrowUpRight",
+	"HeroiconsMiniSolidArrowUpTray",
+	"HeroiconsMiniSolidArrowUp",
+	"HeroiconsMiniSolidArrowUturnDown",
+	"HeroiconsMiniSolidArrowUturnLeft",
+	"HeroiconsMiniSolidArrowUturnRight",
+	"HeroiconsMiniSolidArrowUturnUp",
+	"HeroiconsMiniSolidArrowsPointingIn",
+	"HeroiconsMiniSolidArrowsPointingOut",
+	"HeroiconsMiniSolidArrowsRightLeft",
+	"HeroiconsMiniSolidArrowsUpDown",
+	"HeroiconsMiniSolidAtSymbol",
+	"HeroiconsMiniSolidBackspace",
+	"HeroiconsMiniSolidBackward",
+	"HeroiconsMiniSolidBanknotes",
+	"HeroiconsMiniSolidBars2",
+	"HeroiconsMiniSolidBars3BottomLeft",
+	"HeroiconsMiniSolidBars3BottomRight",
+	"HeroiconsMiniSolidBars3CenterLeft",
+	"HeroiconsMiniSolidBars3",
+	"HeroiconsMiniSolidBars4",
+	"HeroiconsMiniSolidBarsArrowDown",
+	"HeroiconsMiniSolidBarsArrowUp",
+	"HeroiconsMiniSolidBattery0",
+	"HeroiconsMiniSolidBattery100",
+	"HeroiconsMiniSolidBattery50",
+	"HeroiconsMiniSolidBeaker",
+	"HeroiconsMiniSolidBellAlert",
+	"HeroiconsMiniSolidBellSlash",
+	"HeroiconsMiniSolidBellSnooze",
+	"HeroiconsMiniSolidBell",
+	"HeroiconsMiniSolidBoltSlash",
+	"HeroiconsMiniSolidBolt",
+	"HeroiconsMiniSolidBookOpen",
+	"HeroiconsMiniSolidBookmarkSlash",
+	"HeroiconsMiniSolidBookmarkSquare",
+	"HeroiconsMiniSolidBookmark",
+	"HeroiconsMiniSolidBriefcase",
+	"HeroiconsMiniSolidBugAnt",
+	"HeroiconsMiniSolidBuildingLibrary",
+	"HeroiconsMiniSolidBuildingOffice2",
+	"HeroiconsMiniSolidBuildingOffice",
+	"HeroiconsMiniSolidBuildingStorefront",
+	"HeroiconsMiniSolidCake",
+	"HeroiconsMiniSolidCalculator",
+	"HeroiconsMiniSolidCalendarDays",
+	"HeroiconsMiniSolidCalendar",
+	"HeroiconsMiniSolidCamera",
+	"HeroiconsMiniSolidChartBarSquare",
+	"HeroiconsMiniSolidChartBar",
+	"HeroiconsMiniSolidChartPie",
+	"HeroiconsMiniSolidChatBubbleBottomCenterText",
+	"HeroiconsMiniSolidChatBubbleBottomCenter",
+	"HeroiconsMiniSolidChatBubbleLeftEllipsis",
+	"HeroiconsMiniSolidChatBubbleLeftRight",
+	"HeroiconsMiniSolidChatBubbleLeft",
+	"HeroiconsMiniSolidChatBubbleOvalLeftEllipsis",
+	"HeroiconsMiniSolidChatBubbleOvalLeft",
+	"HeroiconsMiniSolidCheckBadge",
+	"HeroiconsMiniSolidCheckCircle",
+	"HeroiconsMiniSolidCheck",
+	"HeroiconsMiniSolidChevronDoubleDown",
+	"HeroiconsMiniSolidChevronDoubleLeft",
+	"HeroiconsMiniSolidChevronDoubleRight",
+	"HeroiconsMiniSolidChevronDoubleUp",
+	"HeroiconsMiniSolidChevronDown",
+	"HeroiconsMiniSolidChevronLeft",
+	"HeroiconsMiniSolidChevronRight",
+	"HeroiconsMiniSolidChevronUpDown",
+	"HeroiconsMiniSolidChevronUp",
+	"HeroiconsMiniSolidCircleStack",
+	"HeroiconsMiniSolidClipboardDocumentCheck",
+	"HeroiconsMiniSolidClipboardDocumentList",
+	"HeroiconsMiniSolidClipboardDocument",
+	"HeroiconsMiniSolidClipboard",
+	"HeroiconsMiniSolidClock",
+	"HeroiconsMiniSolidCloudArrowDown",
+	"HeroiconsMiniSolidCloudArrowUp",
+	"HeroiconsMiniSolidCloud",
+	"HeroiconsMiniSolidCodeBracketSquare",
+	"HeroiconsMiniSolidCodeBracket",
+	"HeroiconsMiniSolidCog6Tooth",
+	"HeroiconsMiniSolidCog8Tooth",
+	"HeroiconsMiniSolidCog",
+	"HeroiconsMiniSolidCommandLine",
+	"HeroiconsMiniSolidComputerDesktop",
+	"HeroiconsMiniSolidCpuChip",
+	"HeroiconsMiniSolidCreditCard",
+	"HeroiconsMiniSolidCubeTransparent",
+	"HeroiconsMiniSolidCube",
+	"HeroiconsMiniSolidCurrencyBangladeshi",
+	"HeroiconsMiniSolidCurrencyDollar",
+	"HeroiconsMiniSolidCurrencyEuro",
+	"HeroiconsMiniSolidCurrencyPound",
+	"HeroiconsMiniSolidCurrencyRupee",
+	"HeroiconsMiniSolidCurrencyYen",
+	"HeroiconsMiniSolidCursorArrowRays",
+	"HeroiconsMiniSolidCursorArrowRipple",
+	"HeroiconsMiniSolidDevicePhoneMobile",
+	"HeroiconsMiniSolidDeviceTablet",
+	"HeroiconsMiniSolidDocumentArrowDown",
+	"HeroiconsMiniSolidDocumentArrowUp",
+	"HeroiconsMiniSolidDocumentChartBar",
+	"HeroiconsMiniSolidDocumentCheck",
+	"HeroiconsMiniSolidDocumentDuplicate",
+	"HeroiconsMiniSolidDocumentMagnifyingGlass",
+	"HeroiconsMiniSolidDocumentMinus",
+	"HeroiconsMiniSolidDocumentPlus",
+	"HeroiconsMiniSolidDocumentText",
+	"HeroiconsMiniSolidDocument",
+	"HeroiconsMiniSolidEllipsisHorizontalCircle",
+	"HeroiconsMiniSolidEllipsisHorizontal",
+	"HeroiconsMiniSolidEllipsisVertical",
+	"HeroiconsMiniSolidEnvelopeOpen",
+	"HeroiconsMiniSolidEnvelope",
+	"HeroiconsMiniSolidExclamationCircle",
+	"HeroiconsMiniSolidExclamationTriangle",
+	"HeroiconsMiniSolidEyeDropper",
+	"HeroiconsMiniSolidEyeSlash",
+	"HeroiconsMiniSolidEye",
+	"HeroiconsMiniSolidFaceFrown",
+	"HeroiconsMiniSolidFaceSmile",
+	"HeroiconsMiniSolidFilm",
+	"HeroiconsMiniSolidFingerPrint",
+	"HeroiconsMiniSolidFire",
+	"HeroiconsMiniSolidFlag",
+	"HeroiconsMiniSolidFolderArrowDown",
+	"HeroiconsMiniSolidFolderMinus",
+	"HeroiconsMiniSolidFolderOpen",
+	"HeroiconsMiniSolidFolderPlus",
+	"HeroiconsMiniSolidFolder",
+	"HeroiconsMiniSolidForward",
+	"HeroiconsMiniSolidFunnel",
+	"HeroiconsMiniSolidGif",
+	"HeroiconsMiniSolidGiftTop",
+	"HeroiconsMiniSolidGift",
+	"HeroiconsMiniSolidGlobeAlt",
+	"HeroiconsMiniSolidGlobeAmericas",
+	"HeroiconsMiniSolidGlobeAsiaAustralia",
+	"HeroiconsMiniSolidGlobeEuropeAfrica",
+	"HeroiconsMiniSolidHandRaised",
+	"HeroiconsMiniSolidHandThumbDown",
+	"HeroiconsMiniSolidHandThumbUp",
+	"HeroiconsMiniSolidHashtag",
+	"HeroiconsMiniSolidHeart",
+	"HeroiconsMiniSolidHomeModern",
+	"HeroiconsMiniSolidHome",
+	"HeroiconsMiniSolidIdentification",
+	"HeroiconsMiniSolidInboxArrowDown",
+	"HeroiconsMiniSolidInboxStack",
+	"HeroiconsMiniSolidInbox",
+	"HeroiconsMiniSolidInformationCircle",
+	"HeroiconsMiniSolidKey",
+	"HeroiconsMiniSolidLanguage",
+	"HeroiconsMiniSolidLifebuoy",
+	"HeroiconsMiniSolidLightBulb",
+	"HeroiconsMiniSolidLink",
+	"HeroiconsMiniSolidListBullet",
+	"HeroiconsMiniSolidLockClosed",
+	"HeroiconsMiniSolidLockOpen",
+	"HeroiconsMiniSolidMagnifyingGlassCircle",
+	"HeroiconsMiniSolidMagnifyingGlassMinus",
+	"HeroiconsMiniSolidMagnifyingGlassPlus",
+	"HeroiconsMiniSolidMagnifyingGlass",
+	"HeroiconsMiniSolidMapPin",
+	"HeroiconsMiniSolidMap",
+	"HeroiconsMiniSolidMegaphone",
+	"HeroiconsMiniSolidMicrophone",
+	"HeroiconsMiniSolidMinusCircle",
+	"HeroiconsMiniSolidMinusSmall",
+	"HeroiconsMiniSolidMinus",
+	"HeroiconsMiniSolidMoon",
+	"HeroiconsMiniSolidMusicalNote",
+	"HeroiconsMiniSolidNewspaper",
+	"HeroiconsMiniSolidNoSymbol",
+	"HeroiconsMiniSolidPaintBrush",
+	"HeroiconsMiniSolidPaperAirplane",
+	"HeroiconsMiniSolidPaperClip",
+	"HeroiconsMiniSolidPauseCircle",
+	"HeroiconsMiniSolidPause",
+	"HeroiconsMiniSolidPencilSquare",
+	"HeroiconsMiniSolidPencil",
+	"HeroiconsMiniSolidPhoneArrowDownLeft",
+	"HeroiconsMiniSolidPhoneArrowUpRight",
+	"HeroiconsMiniSolidPhoneXMark",
+	"HeroiconsMiniSolidPhone",
+	"HeroiconsMiniSolidPhoto",
+	"HeroiconsMiniSolidPlayCircle",
+	"HeroiconsMiniSolidPlayPause",
+	"HeroiconsMiniSolidPlay",
+	"HeroiconsMiniSolidPlusCircle",
+	"HeroiconsMiniSolidPlusSmall",
+	"HeroiconsMiniSolidPlus",
+	"HeroiconsMiniSolidPower",
+	"HeroiconsMiniSolidPresentationChartBar",
+	"HeroiconsMiniSolidPresentationChartLine",
+	"HeroiconsMiniSolidPrinter",
+	"HeroiconsMiniSolidPuzzlePiece",
+	"HeroiconsMiniSolidQrCode",
+	"HeroiconsMiniSolidQuestionMarkCircle",
+	"HeroiconsMiniSolidQueueList",
+	"HeroiconsMiniSolidRadio",
+	"HeroiconsMiniSolidReceiptPercent",
+	"HeroiconsMiniSolidReceiptRefund",
+	"HeroiconsMiniSolidRectangleGroup",
+	"HeroiconsMiniSolidRectangleStack",
+	"HeroiconsMiniSolidRocketLaunch",
+	"HeroiconsMiniSolidRss",
+	"HeroiconsMiniSolidScale",
+	"HeroiconsMiniSolidScissors",
+	"HeroiconsMiniSolidServerStack",
+	"HeroiconsMiniSolidServer",
+	"HeroiconsMiniSolidShare",
+	"HeroiconsMiniSolidShieldCheck",
+	"HeroiconsMiniSolidShieldExclamation",
+	"HeroiconsMiniSolidShoppingBag",
+	"HeroiconsMiniSolidShoppingCart",
+	"HeroiconsMiniSolidSignalSlash",
+	"HeroiconsMiniSolidSignal",
+	"HeroiconsMiniSolidSparkles",
+	"HeroiconsMiniSolidSpeakerWave",
+	"HeroiconsMiniSolidSpeakerXMark",
+	"HeroiconsMiniSolidSquare2Stack",
+	"HeroiconsMiniSolidSquare3Stack3D",
+	"HeroiconsMiniSolidSquares2X2",
+	"HeroiconsMiniSolidSquaresPlus",
+	"HeroiconsMiniSolidStar",
+	"HeroiconsMiniSolidStopCircle",
+	"HeroiconsMiniSolidStop",
+	"HeroiconsMiniSolidSun",
+	"HeroiconsMiniSolidSwatch",
+	"HeroiconsMiniSolidTableCells",
+	"HeroiconsMiniSolidTag",
+	"HeroiconsMiniSolidTicket",
+	"HeroiconsMiniSolidTrash",
+	"HeroiconsMiniSolidTrophy",
+	"HeroiconsMiniSolidTruck",
+	"HeroiconsMiniSolidTv",
+	"HeroiconsMiniSolidUserCircle",
+	"HeroiconsMiniSolidUserGroup",
+	"HeroiconsMiniSolidUserMinus",
+	"HeroiconsMiniSolidUserPlus",
+	"HeroiconsMiniSolidUser",
+	"HeroiconsMiniSolidUsers",
+	"HeroiconsMiniSolidVariable",
+	"HeroiconsMiniSolidVideoCameraSlash",
+	"HeroiconsMiniSolidVideoCamera",
+	"HeroiconsMiniSolidViewColumns",
+	"HeroiconsMiniSolidViewfinderCircle",
+	"HeroiconsMiniSolidWallet",
+	"HeroiconsMiniSolidWifi",
+	"HeroiconsMiniSolidWindow",
+	"HeroiconsMiniSolidWrenchScrewdriver",
+	"HeroiconsMiniSolidWrench",
+	"HeroiconsMiniSolidXCircle",
+	"HeroiconsMiniSolidXMark",
+]
+LucideAArrowDown = []
+LucideAArrowUp = []
+LucideALargeSmall = []
 LucideAccessibility = []
+LucideActivitySquare = []
 LucideActivity = []
 LucideAirVent = []
 LucideAirplay = []
-LucideAlarmCheck = []
-LucideAlarmClock = []
+LucideAlarmClockCheck = []
+LucideAlarmClockMinus = []
 LucideAlarmClockOff = []
-LucideAlarmMinus = []
-LucideAlarmPlus = []
+LucideAlarmClockPlus = []
+LucideAlarmClock = []
+LucideAlarmSmoke = []
 LucideAlbum = []
 LucideAlertCircle = []
 LucideAlertOctagon = []
 LucideAlertTriangle = []
-LucideAlignCenter = []
 LucideAlignCenterHorizontal = []
 LucideAlignCenterVertical = []
+LucideAlignCenter = []
 LucideAlignEndHorizontal = []
 LucideAlignEndVertical = []
 LucideAlignHorizontalDistributeCenter = []
@@ -954,99 +1865,219 @@ LucideAlignVerticalJustifyEnd = []
 LucideAlignVerticalJustifyStart = []
 LucideAlignVerticalSpaceAround = []
 LucideAlignVerticalSpaceBetween = []
+LucideAmpersand = []
+LucideAmpersands = []
 LucideAnchor = []
 LucideAngry = []
 LucideAnnoyed = []
+LucideAntenna = []
+LucideAnvil = []
 LucideAperture = []
+LucideAppWindow = []
 LucideApple = []
-LucideArchive = []
 LucideArchiveRestore = []
+LucideArchiveX = []
+LucideArchive = []
+LucideAreaChart = []
 LucideArmchair = []
+LucideArrowBigDownDash = []
 LucideArrowBigDown = []
+LucideArrowBigLeftDash = []
 LucideArrowBigLeft = []
+LucideArrowBigRightDash = []
 LucideArrowBigRight = []
+LucideArrowBigUpDash = []
 LucideArrowBigUp = []
-LucideArrowDown = []
+LucideArrowDown01 = []
+LucideArrowDown10 = []
+LucideArrowDownAZ = []
 LucideArrowDownCircle = []
+LucideArrowDownFromLine = []
+LucideArrowDownLeftFromCircle = []
+LucideArrowDownLeftSquare = []
 LucideArrowDownLeft = []
+LucideArrowDownNarrowWide = []
+LucideArrowDownRightFromCircle = []
+LucideArrowDownRightSquare = []
 LucideArrowDownRight = []
-LucideArrowLeft = []
+LucideArrowDownSquare = []
+LucideArrowDownToDot = []
+LucideArrowDownToLine = []
+LucideArrowDownUp = []
+LucideArrowDownWideNarrow = []
+LucideArrowDownZA = []
+LucideArrowDown = []
 LucideArrowLeftCircle = []
+LucideArrowLeftFromLine = []
 LucideArrowLeftRight = []
-LucideArrowRight = []
+LucideArrowLeftSquare = []
+LucideArrowLeftToLine = []
+LucideArrowLeft = []
 LucideArrowRightCircle = []
-LucideArrowUp = []
+LucideArrowRightFromLine = []
+LucideArrowRightLeft = []
+LucideArrowRightSquare = []
+LucideArrowRightToLine = []
+LucideArrowRight = []
+LucideArrowUp01 = []
+LucideArrowUp10 = []
+LucideArrowUpAZ = []
 LucideArrowUpCircle = []
 LucideArrowUpDown = []
+LucideArrowUpFromDot = []
+LucideArrowUpFromLine = []
+LucideArrowUpLeftFromCircle = []
+LucideArrowUpLeftSquare = []
 LucideArrowUpLeft = []
+LucideArrowUpNarrowWide = []
+LucideArrowUpRightFromCircle = []
+LucideArrowUpRightSquare = []
 LucideArrowUpRight = []
+LucideArrowUpSquare = []
+LucideArrowUpToLine = []
+LucideArrowUpWideNarrow = []
+LucideArrowUpZA = []
+LucideArrowUp = []
+LucideArrowsUpFromLine = []
+LucideAsteriskSquare = []
 LucideAsterisk = []
 LucideAtSign = []
+LucideAtom = []
+LucideAudioLines = []
+LucideAudioWaveform = []
 LucideAward = []
 LucideAxe = []
 LucideAxis3D = []
 LucideBaby = []
 LucideBackpack = []
+LucideBadgeAlert = []
+LucideBadgeCent = []
+LucideBadgeCheck = []
+LucideBadgeDollarSign = []
+LucideBadgeEuro = []
+LucideBadgeHelp = []
+LucideBadgeIndianRupee = []
+LucideBadgeInfo = []
+LucideBadgeJapaneseYen = []
+LucideBadgeMinus = []
+LucideBadgePercent = []
+LucideBadgePlus = []
+LucideBadgePoundSterling = []
+LucideBadgeRussianRuble = []
+LucideBadgeSwissFranc = []
+LucideBadgeX = []
+LucideBadge = []
 LucideBaggageClaim = []
+LucideBan = []
 LucideBanana = []
 LucideBanknote = []
-LucideBarChart = []
 LucideBarChart2 = []
 LucideBarChart3 = []
 LucideBarChart4 = []
+LucideBarChartBig = []
+LucideBarChartHorizontalBig = []
 LucideBarChartHorizontal = []
+LucideBarChart = []
+LucideBarcode = []
 LucideBaseline = []
 LucideBath = []
-LucideBattery = []
 LucideBatteryCharging = []
 LucideBatteryFull = []
 LucideBatteryLow = []
 LucideBatteryMedium = []
 LucideBatteryWarning = []
+LucideBattery = []
 LucideBeaker = []
-LucideBean = []
 LucideBeanOff = []
-LucideBed = []
+LucideBean = []
 LucideBedDouble = []
 LucideBedSingle = []
+LucideBed = []
 LucideBeef = []
 LucideBeer = []
-LucideBell = []
+LucideBellDot = []
+LucideBellElectric = []
 LucideBellMinus = []
 LucideBellOff = []
 LucideBellPlus = []
 LucideBellRing = []
+LucideBell = []
+LucideBetweenHorizontalEnd = []
+LucideBetweenHorizontalStart = []
+LucideBetweenVerticalEnd = []
+LucideBetweenVerticalStart = []
 LucideBike = []
 LucideBinary = []
+LucideBiohazard = []
+LucideBird = []
 LucideBitcoin = []
-LucideBluetooth = []
+LucideBlinds = []
+LucideBlocks = []
 LucideBluetoothConnected = []
 LucideBluetoothOff = []
 LucideBluetoothSearching = []
+LucideBluetooth = []
 LucideBold = []
+LucideBolt = []
 LucideBomb = []
 LucideBone = []
-LucideBook = []
-LucideBookOpen = []
+LucideBookA = []
+LucideBookAudio = []
+LucideBookCheck = []
+LucideBookCopy = []
+LucideBookDashed = []
+LucideBookDown = []
+LucideBookHeadphones = []
+LucideBookHeart = []
+LucideBookImage = []
+LucideBookKey = []
+LucideBookLock = []
+LucideBookMarked = []
+LucideBookMinus = []
 LucideBookOpenCheck = []
-LucideBookmark = []
+LucideBookOpenText = []
+LucideBookOpen = []
+LucideBookPlus = []
+LucideBookText = []
+LucideBookType = []
+LucideBookUp2 = []
+LucideBookUp = []
+LucideBookUser = []
+LucideBookX = []
+LucideBook = []
+LucideBookmarkCheck = []
 LucideBookmarkMinus = []
 LucideBookmarkPlus = []
+LucideBookmarkX = []
+LucideBookmark = []
+LucideBoomBox = []
 LucideBot = []
-LucideBox = []
 LucideBoxSelect = []
+LucideBox = []
 LucideBoxes = []
+LucideBraces = []
+LucideBrackets = []
+LucideBrainCircuit = []
+LucideBrainCog = []
+LucideBrain = []
+LucideBrickWall = []
 LucideBriefcase = []
+LucideBringToFront = []
 LucideBrush = []
+LucideBugOff = []
+LucideBugPlay = []
 LucideBug = []
-LucideBuilding = []
 LucideBuilding2 = []
+LucideBuilding = []
+LucideBusFront = []
 LucideBus = []
+LucideCableCar = []
+LucideCable = []
+LucideCakeSlice = []
 LucideCake = []
 LucideCalculator = []
-LucideCalendar = []
-LucideCalendarCheck = []
 LucideCalendarCheck2 = []
+LucideCalendarCheck = []
 LucideCalendarClock = []
 LucideCalendarDays = []
 LucideCalendarHeart = []
@@ -1055,55 +2086,86 @@ LucideCalendarOff = []
 LucideCalendarPlus = []
 LucideCalendarRange = []
 LucideCalendarSearch = []
-LucideCalendarX = []
 LucideCalendarX2 = []
-LucideCamera = []
+LucideCalendarX = []
+LucideCalendar = []
 LucideCameraOff = []
-LucideCandy = []
+LucideCamera = []
+LucideCandlestickChart = []
+LucideCandyCane = []
 LucideCandyOff = []
+LucideCandy = []
+LucideCarFront = []
+LucideCarTaxiFront = []
 LucideCar = []
+LucideCaravan = []
 LucideCarrot = []
+LucideCaseLower = []
+LucideCaseSensitive = []
+LucideCaseUpper = []
+LucideCassetteTape = []
 LucideCast = []
+LucideCastle = []
 LucideCat = []
-LucideCheck = []
+LucideCctv = []
 LucideCheckCheck = []
-LucideCheckCircle = []
 LucideCheckCircle2 = []
+LucideCheckCircle = []
+LucideCheckSquare2 = []
 LucideCheckSquare = []
+LucideCheck = []
 LucideChefHat = []
 LucideCherry = []
+LucideChevronDownCircle = []
+LucideChevronDownSquare = []
 LucideChevronDown = []
 LucideChevronFirst = []
 LucideChevronLast = []
+LucideChevronLeftCircle = []
+LucideChevronLeftSquare = []
 LucideChevronLeft = []
+LucideChevronRightCircle = []
+LucideChevronRightSquare = []
 LucideChevronRight = []
+LucideChevronUpCircle = []
+LucideChevronUpSquare = []
 LucideChevronUp = []
-LucideChevronsDown = []
 LucideChevronsDownUp = []
-LucideChevronsLeft = []
+LucideChevronsDown = []
 LucideChevronsLeftRight = []
-LucideChevronsRight = []
+LucideChevronsLeft = []
 LucideChevronsRightLeft = []
-LucideChevronsUp = []
+LucideChevronsRight = []
 LucideChevronsUpDown = []
+LucideChevronsUp = []
 LucideChrome = []
-LucideCigarette = []
+LucideChurch = []
 LucideCigaretteOff = []
-LucideCircle = []
+LucideCigarette = []
+LucideCircleDashed = []
+LucideCircleDollarSign = []
+LucideCircleDotDashed = []
 LucideCircleDot = []
 LucideCircleEllipsis = []
-LucideCircleSlashed = []
+LucideCircleEqual = []
+LucideCircleOff = []
+LucideCircleSlash2 = []
+LucideCircleSlash = []
+LucideCircleUserRound = []
+LucideCircleUser = []
+LucideCircle = []
+LucideCircuitBoard = []
 LucideCitrus = []
 LucideClapperboard = []
-LucideClipboard = []
 LucideClipboardCheck = []
 LucideClipboardCopy = []
-LucideClipboardEdit = []
 LucideClipboardList = []
-LucideClipboardSignature = []
+LucideClipboardPaste = []
+LucideClipboardPenLine = []
+LucideClipboardPen = []
 LucideClipboardType = []
 LucideClipboardX = []
-LucideClock = []
+LucideClipboard = []
 LucideClock1 = []
 LucideClock10 = []
 LucideClock11 = []
@@ -1116,37 +2178,54 @@ LucideClock6 = []
 LucideClock7 = []
 LucideClock8 = []
 LucideClock9 = []
-LucideCloud = []
+LucideClock = []
 LucideCloudCog = []
 LucideCloudDrizzle = []
 LucideCloudFog = []
 LucideCloudHail = []
 LucideCloudLightning = []
-LucideCloudMoon = []
 LucideCloudMoonRain = []
+LucideCloudMoon = []
 LucideCloudOff = []
-LucideCloudRain = []
 LucideCloudRainWind = []
+LucideCloudRain = []
 LucideCloudSnow = []
-LucideCloudSun = []
 LucideCloudSunRain = []
+LucideCloudSun = []
+LucideCloud = []
 LucideCloudy = []
 LucideClover = []
-LucideCode = []
+LucideClub = []
 LucideCode2 = []
+LucideCodeSquare = []
+LucideCode = []
 LucideCodepen = []
 LucideCodesandbox = []
 LucideCoffee = []
 LucideCog = []
 LucideCoins = []
-LucideColumns = []
+LucideColumns2 = []
+LucideColumns3 = []
+LucideColumns4 = []
+LucideCombine = []
 LucideCommand = []
 LucideCompass = []
 LucideComponent = []
+LucideComputer = []
 LucideConciergeBell = []
+LucideCone = []
+LucideConstruction = []
+LucideContact2 = []
 LucideContact = []
+LucideContainer = []
 LucideContrast = []
 LucideCookie = []
+LucideCookingPot = []
+LucideCopyCheck = []
+LucideCopyMinus = []
+LucideCopyPlus = []
+LucideCopySlash = []
+LucideCopyX = []
 LucideCopy = []
 LucideCopyleft = []
 LucideCopyright = []
@@ -1159,18 +2238,23 @@ LucideCornerRightUp = []
 LucideCornerUpLeft = []
 LucideCornerUpRight = []
 LucideCpu = []
+LucideCreativeCommons = []
 LucideCreditCard = []
 LucideCroissant = []
 LucideCrop = []
 LucideCross = []
 LucideCrosshair = []
 LucideCrown = []
+LucideCuboid = []
 LucideCupSoda = []
-LucideCurlyBraces = []
 LucideCurrency = []
-LucideDatabase = []
+LucideCylinder = []
 LucideDatabaseBackup = []
+LucideDatabaseZap = []
+LucideDatabase = []
 LucideDelete = []
+LucideDessert = []
+LucideDiameter = []
 LucideDiamond = []
 LucideDice1 = []
 LucideDice2 = []
@@ -1180,277 +2264,354 @@ LucideDice5 = []
 LucideDice6 = []
 LucideDices = []
 LucideDiff = []
+LucideDisc2 = []
+LucideDisc3 = []
+LucideDiscAlbum = []
 LucideDisc = []
-LucideDivide = []
 LucideDivideCircle = []
 LucideDivideSquare = []
-LucideDna = []
+LucideDivide = []
 LucideDnaOff = []
+LucideDna = []
 LucideDog = []
 LucideDollarSign = []
-LucideDownload = []
+LucideDonut = []
+LucideDoorClosed = []
+LucideDoorOpen = []
+LucideDotSquare = []
+LucideDot = []
 LucideDownloadCloud = []
+LucideDownload = []
+LucideDraftingCompass = []
+LucideDrama = []
 LucideDribbble = []
+LucideDrill = []
 LucideDroplet = []
 LucideDroplets = []
+LucideDrum = []
 LucideDrumstick = []
 LucideDumbbell = []
-LucideEar = []
 LucideEarOff = []
-LucideEdit = []
-LucideEdit2 = []
-LucideEdit3 = []
-LucideEgg = []
+LucideEar = []
 LucideEggFried = []
 LucideEggOff = []
-LucideEqual = []
+LucideEgg = []
 LucideEqualNot = []
+LucideEqualSquare = []
+LucideEqual = []
 LucideEraser = []
 LucideEuro = []
 LucideExpand = []
 LucideExternalLink = []
-LucideEye = []
 LucideEyeOff = []
+LucideEye = []
 LucideFacebook = []
 LucideFactory = []
 LucideFan = []
 LucideFastForward = []
 LucideFeather = []
+LucideFence = []
+LucideFerrisWheel = []
 LucideFigma = []
-LucideFile = []
 LucideFileArchive = []
-LucideFileAudio = []
 LucideFileAudio2 = []
+LucideFileAudio = []
 LucideFileAxis3D = []
-LucideFileBadge = []
 LucideFileBadge2 = []
-LucideFileBarChart = []
+LucideFileBadge = []
 LucideFileBarChart2 = []
+LucideFileBarChart = []
 LucideFileBox = []
-LucideFileCheck = []
 LucideFileCheck2 = []
+LucideFileCheck = []
 LucideFileClock = []
+LucideFileCode2 = []
 LucideFileCode = []
 LucideFileCog = []
-LucideFileCog2 = []
 LucideFileDiff = []
 LucideFileDigit = []
 LucideFileDown = []
-LucideFileEdit = []
 LucideFileHeart = []
 LucideFileImage = []
 LucideFileInput = []
-LucideFileJson = []
 LucideFileJson2 = []
-LucideFileKey = []
+LucideFileJson = []
 LucideFileKey2 = []
+LucideFileKey = []
 LucideFileLineChart = []
-LucideFileLock = []
 LucideFileLock2 = []
-LucideFileMinus = []
+LucideFileLock = []
 LucideFileMinus2 = []
+LucideFileMinus = []
+LucideFileMusic = []
 LucideFileOutput = []
+LucideFilePenLine = []
+LucideFilePen = []
 LucideFilePieChart = []
-LucideFilePlus = []
 LucideFilePlus2 = []
+LucideFilePlus = []
 LucideFileQuestion = []
 LucideFileScan = []
-LucideFileSearch = []
 LucideFileSearch2 = []
-LucideFileSignature = []
+LucideFileSearch = []
 LucideFileSpreadsheet = []
+LucideFileStack = []
 LucideFileSymlink = []
 LucideFileTerminal = []
 LucideFileText = []
-LucideFileType = []
 LucideFileType2 = []
+LucideFileType = []
 LucideFileUp = []
-LucideFileVideo = []
 LucideFileVideo2 = []
-LucideFileVolume = []
+LucideFileVideo = []
 LucideFileVolume2 = []
+LucideFileVolume = []
 LucideFileWarning = []
-LucideFileX = []
 LucideFileX2 = []
+LucideFileX = []
+LucideFile = []
 LucideFiles = []
 LucideFilm = []
+LucideFilterX = []
 LucideFilter = []
 LucideFingerprint = []
-LucideFish = []
+LucideFireExtinguisher = []
 LucideFishOff = []
-LucideFlag = []
+LucideFishSymbol = []
+LucideFish = []
 LucideFlagOff = []
 LucideFlagTriangleLeft = []
 LucideFlagTriangleRight = []
+LucideFlag = []
+LucideFlameKindling = []
 LucideFlame = []
-LucideFlashlight = []
 LucideFlashlightOff = []
-LucideFlaskConical = []
+LucideFlashlight = []
 LucideFlaskConicalOff = []
+LucideFlaskConical = []
 LucideFlaskRound = []
-LucideFlipHorizontal = []
 LucideFlipHorizontal2 = []
-LucideFlipVertical = []
+LucideFlipHorizontal = []
 LucideFlipVertical2 = []
-LucideFlower = []
+LucideFlipVertical = []
 LucideFlower2 = []
+LucideFlower = []
 LucideFocus = []
-LucideFolder = []
+LucideFoldHorizontal = []
+LucideFoldVertical = []
 LucideFolderArchive = []
 LucideFolderCheck = []
 LucideFolderClock = []
 LucideFolderClosed = []
 LucideFolderCog = []
-LucideFolderCog2 = []
+LucideFolderDot = []
 LucideFolderDown = []
-LucideFolderEdit = []
+LucideFolderGit2 = []
+LucideFolderGit = []
 LucideFolderHeart = []
 LucideFolderInput = []
+LucideFolderKanban = []
 LucideFolderKey = []
 LucideFolderLock = []
 LucideFolderMinus = []
+LucideFolderOpenDot = []
 LucideFolderOpen = []
 LucideFolderOutput = []
+LucideFolderPen = []
 LucideFolderPlus = []
-LucideFolderSearch = []
+LucideFolderRoot = []
 LucideFolderSearch2 = []
+LucideFolderSearch = []
 LucideFolderSymlink = []
+LucideFolderSync = []
 LucideFolderTree = []
 LucideFolderUp = []
 LucideFolderX = []
+LucideFolder = []
 LucideFolders = []
+LucideFootprints = []
+LucideForklift = []
 LucideFormInput = []
 LucideForward = []
 LucideFrame = []
 LucideFramer = []
 LucideFrown = []
 LucideFuel = []
+LucideFullscreen = []
 LucideFunctionSquare = []
-LucideGamepad = []
+LucideGalleryHorizontalEnd = []
+LucideGalleryHorizontal = []
+LucideGalleryThumbnails = []
+LucideGalleryVerticalEnd = []
+LucideGalleryVertical = []
 LucideGamepad2 = []
+LucideGamepad = []
+LucideGanttChartSquare = []
+LucideGanttChart = []
+LucideGaugeCircle = []
 LucideGauge = []
 LucideGavel = []
 LucideGem = []
 LucideGhost = []
 LucideGift = []
-LucideGitBranch = []
 LucideGitBranchPlus = []
-LucideGitCommit = []
+LucideGitBranch = []
+LucideGitCommitHorizontal = []
+LucideGitCommitVertical = []
+LucideGitCompareArrows = []
 LucideGitCompare = []
 LucideGitFork = []
+LucideGitGraph = []
 LucideGitMerge = []
-LucideGitPullRequest = []
+LucideGitPullRequestArrow = []
 LucideGitPullRequestClosed = []
+LucideGitPullRequestCreateArrow = []
+LucideGitPullRequestCreate = []
 LucideGitPullRequestDraft = []
+LucideGitPullRequest = []
 LucideGithub = []
 LucideGitlab = []
 LucideGlassWater = []
 LucideGlasses = []
-LucideGlobe = []
 LucideGlobe2 = []
+LucideGlobe = []
+LucideGoal = []
 LucideGrab = []
 LucideGraduationCap = []
 LucideGrape = []
-LucideGrid = []
+LucideGrid2X2 = []
+LucideGrid3X3 = []
 LucideGripHorizontal = []
 LucideGripVertical = []
+LucideGrip = []
+LucideGroup = []
+LucideGuitar = []
 LucideHammer = []
-LucideHand = []
 LucideHandMetal = []
+LucideHand = []
+LucideHardDriveDownload = []
+LucideHardDriveUpload = []
 LucideHardDrive = []
 LucideHardHat = []
 LucideHash = []
 LucideHaze = []
-LucideHeading = []
+LucideHdmiPort = []
 LucideHeading1 = []
 LucideHeading2 = []
 LucideHeading3 = []
 LucideHeading4 = []
 LucideHeading5 = []
 LucideHeading6 = []
+LucideHeading = []
 LucideHeadphones = []
-LucideHeart = []
 LucideHeartCrack = []
 LucideHeartHandshake = []
 LucideHeartOff = []
 LucideHeartPulse = []
+LucideHeart = []
+LucideHeater = []
 LucideHelpCircle = []
+LucideHelpingHand = []
 LucideHexagon = []
 LucideHighlighter = []
 LucideHistory = []
 LucideHome = []
-LucideHop = []
 LucideHopOff = []
+LucideHop = []
+LucideHotel = []
 LucideHourglass = []
-LucideIceCream = []
 LucideIceCream2 = []
-LucideImage = []
+LucideIceCream = []
+LucideImageDown = []
 LucideImageMinus = []
 LucideImageOff = []
 LucideImagePlus = []
+LucideImage = []
 LucideImport = []
 LucideInbox = []
 LucideIndent = []
 LucideIndianRupee = []
 LucideInfinity = []
 LucideInfo = []
-LucideInspect = []
+LucideInspectionPanel = []
 LucideInstagram = []
 LucideItalic = []
+LucideIterationCcw = []
+LucideIterationCw = []
 LucideJapaneseYen = []
 LucideJoystick = []
+LucideKanbanSquareDashed = []
+LucideKanbanSquare = []
+LucideKanban = []
+LucideKeyRound = []
+LucideKeySquare = []
 LucideKey = []
+LucideKeyboardMusic = []
 LucideKeyboard = []
-LucideLamp = []
 LucideLampCeiling = []
 LucideLampDesk = []
 LucideLampFloor = []
 LucideLampWallDown = []
 LucideLampWallUp = []
+LucideLamp = []
+LucideLandPlot = []
 LucideLandmark = []
 LucideLanguages = []
-LucideLaptop = []
 LucideLaptop2 = []
-LucideLasso = []
+LucideLaptop = []
 LucideLassoSelect = []
+LucideLasso = []
 LucideLaugh = []
+LucideLayers2 = []
+LucideLayers3 = []
 LucideLayers = []
-LucideLayout = []
 LucideLayoutDashboard = []
 LucideLayoutGrid = []
 LucideLayoutList = []
+LucideLayoutPanelLeft = []
+LucideLayoutPanelTop = []
 LucideLayoutTemplate = []
 LucideLeaf = []
+LucideLeafyGreen = []
+LucideLibraryBig = []
+LucideLibrarySquare = []
 LucideLibrary = []
 LucideLifeBuoy = []
-LucideLightbulb = []
+LucideLigature = []
 LucideLightbulbOff = []
+LucideLightbulb = []
 LucideLineChart = []
-LucideLink = []
-LucideLink2 = []
 LucideLink2Off = []
+LucideLink2 = []
+LucideLink = []
 LucideLinkedin = []
-LucideList = []
 LucideListChecks = []
 LucideListEnd = []
+LucideListFilter = []
 LucideListMinus = []
 LucideListMusic = []
 LucideListOrdered = []
 LucideListPlus = []
+LucideListRestart = []
 LucideListStart = []
+LucideListTodo = []
+LucideListTree = []
 LucideListVideo = []
 LucideListX = []
-LucideLoader = []
+LucideList = []
 LucideLoader2 = []
-LucideLocate = []
+LucideLoader = []
 LucideLocateFixed = []
 LucideLocateOff = []
+LucideLocate = []
+LucideLockKeyhole = []
 LucideLock = []
 LucideLogIn = []
 LucideLogOut = []
+LucideLollipop = []
 LucideLuggage = []
+LucideMSquare = []
 LucideMagnet = []
-LucideMail = []
 LucideMailCheck = []
 LucideMailMinus = []
 LucideMailOpen = []
@@ -1459,68 +2620,125 @@ LucideMailQuestion = []
 LucideMailSearch = []
 LucideMailWarning = []
 LucideMailX = []
+LucideMail = []
+LucideMailbox = []
 LucideMails = []
-LucideMap = []
-LucideMapPin = []
 LucideMapPinOff = []
+LucideMapPin = []
+LucideMapPinned = []
+LucideMap = []
 LucideMartini = []
-LucideMaximize = []
 LucideMaximize2 = []
+LucideMaximize = []
 LucideMedal = []
-LucideMegaphone = []
 LucideMegaphoneOff = []
+LucideMegaphone = []
 LucideMeh = []
+LucideMemoryStick = []
+LucideMenuSquare = []
 LucideMenu = []
+LucideMerge = []
+LucideMessageCircleCode = []
+LucideMessageCircleDashed = []
+LucideMessageCircleHeart = []
+LucideMessageCircleMore = []
+LucideMessageCircleOff = []
+LucideMessageCirclePlus = []
+LucideMessageCircleQuestion = []
+LucideMessageCircleReply = []
+LucideMessageCircleWarning = []
+LucideMessageCircleX = []
 LucideMessageCircle = []
+LucideMessageSquareCode = []
+LucideMessageSquareDashed = []
+LucideMessageSquareDiff = []
+LucideMessageSquareDot = []
+LucideMessageSquareHeart = []
+LucideMessageSquareMore = []
+LucideMessageSquareOff = []
+LucideMessageSquarePlus = []
+LucideMessageSquareQuote = []
+LucideMessageSquareReply = []
+LucideMessageSquareShare = []
+LucideMessageSquareText = []
+LucideMessageSquareWarning = []
+LucideMessageSquareX = []
 LucideMessageSquare = []
-LucideMic = []
+LucideMessagesSquare = []
 LucideMic2 = []
 LucideMicOff = []
+LucideMic = []
 LucideMicroscope = []
 LucideMicrowave = []
 LucideMilestone = []
-LucideMilk = []
 LucideMilkOff = []
-LucideMinimize = []
+LucideMilk = []
 LucideMinimize2 = []
-LucideMinus = []
+LucideMinimize = []
 LucideMinusCircle = []
 LucideMinusSquare = []
-LucideMonitor = []
+LucideMinus = []
+LucideMonitorCheck = []
+LucideMonitorDot = []
+LucideMonitorDown = []
 LucideMonitorOff = []
+LucideMonitorPause = []
+LucideMonitorPlay = []
 LucideMonitorSmartphone = []
 LucideMonitorSpeaker = []
+LucideMonitorStop = []
+LucideMonitorUp = []
+LucideMonitorX = []
+LucideMonitor = []
+LucideMoonStar = []
 LucideMoon = []
 LucideMoreHorizontal = []
 LucideMoreVertical = []
-LucideMountain = []
 LucideMountainSnow = []
-LucideMouse = []
-LucideMousePointer = []
+LucideMountain = []
 LucideMousePointer2 = []
 LucideMousePointerClick = []
-LucideMove = []
+LucideMousePointerSquareDashed = []
+LucideMousePointerSquare = []
+LucideMousePointer = []
+LucideMouse = []
 LucideMove3D = []
-LucideMoveDiagonal = []
 LucideMoveDiagonal2 = []
+LucideMoveDiagonal = []
+LucideMoveDownLeft = []
+LucideMoveDownRight = []
+LucideMoveDown = []
 LucideMoveHorizontal = []
+LucideMoveLeft = []
+LucideMoveRight = []
+LucideMoveUpLeft = []
+LucideMoveUpRight = []
+LucideMoveUp = []
 LucideMoveVertical = []
-LucideMusic = []
+LucideMove = []
 LucideMusic2 = []
 LucideMusic3 = []
 LucideMusic4 = []
-LucideNavigation = []
-LucideNavigation2 = []
+LucideMusic = []
 LucideNavigation2Off = []
+LucideNavigation2 = []
 LucideNavigationOff = []
+LucideNavigation = []
 LucideNetwork = []
 LucideNewspaper = []
-LucideNut = []
+LucideNfc = []
+LucideNotebookPen = []
+LucideNotebookTabs = []
+LucideNotebookText = []
+LucideNotebook = []
+LucideNotepadTextDashed = []
+LucideNotepadText = []
 LucideNutOff = []
+LucideNut = []
 LucideOctagon = []
 LucideOption = []
+LucideOrbit = []
 LucideOutdent = []
-LucidePackage = []
 LucidePackage2 = []
 LucidePackageCheck = []
 LucidePackageMinus = []
@@ -1528,167 +2746,301 @@ LucidePackageOpen = []
 LucidePackagePlus = []
 LucidePackageSearch = []
 LucidePackageX = []
+LucidePackage = []
 LucidePaintBucket = []
-LucidePaintbrush = []
 LucidePaintbrush2 = []
+LucidePaintbrush = []
 LucidePalette = []
 LucidePalmtree = []
+LucidePanelBottomClose = []
+LucidePanelBottomDashed = []
+LucidePanelBottomOpen = []
+LucidePanelBottom = []
+LucidePanelLeftClose = []
+LucidePanelLeftDashed = []
+LucidePanelLeftOpen = []
+LucidePanelLeft = []
+LucidePanelRightClose = []
+LucidePanelRightDashed = []
+LucidePanelRightOpen = []
+LucidePanelRight = []
+LucidePanelTopClose = []
+LucidePanelTopDashed = []
+LucidePanelTopOpen = []
+LucidePanelTop = []
+LucidePanelsLeftBottom = []
+LucidePanelsRightBottom = []
+LucidePanelsTopLeft = []
 LucidePaperclip = []
+LucideParentheses = []
+LucideParkingCircleOff = []
+LucideParkingCircle = []
+LucideParkingMeter = []
+LucideParkingSquareOff = []
+LucideParkingSquare = []
 LucidePartyPopper = []
-LucidePause = []
 LucidePauseCircle = []
 LucidePauseOctagon = []
+LucidePause = []
+LucidePawPrint = []
+LucidePcCase = []
+LucidePenLine = []
+LucidePenSquare = []
 LucidePenTool = []
+LucidePen = []
+LucidePencilLine = []
+LucidePencilRuler = []
 LucidePencil = []
+LucidePentagon = []
+LucidePercentCircle = []
+LucidePercentDiamond = []
+LucidePercentSquare = []
 LucidePercent = []
 LucidePersonStanding = []
-LucidePhone = []
 LucidePhoneCall = []
 LucidePhoneForwarded = []
 LucidePhoneIncoming = []
 LucidePhoneMissed = []
 LucidePhoneOff = []
 LucidePhoneOutgoing = []
-LucidePictureInPicture = []
+LucidePhone = []
+LucidePiSquare = []
+LucidePi = []
+LucidePiano = []
 LucidePictureInPicture2 = []
+LucidePictureInPicture = []
 LucidePieChart = []
 LucidePiggyBank = []
+LucidePilcrowSquare = []
 LucidePilcrow = []
-LucidePin = []
+LucidePill = []
 LucidePinOff = []
+LucidePin = []
 LucidePipette = []
 LucidePizza = []
+LucidePlaneLanding = []
+LucidePlaneTakeoff = []
 LucidePlane = []
-LucidePlay = []
 LucidePlayCircle = []
-LucidePlug = []
+LucidePlaySquare = []
+LucidePlay = []
 LucidePlug2 = []
+LucidePlugZap2 = []
 LucidePlugZap = []
-LucidePlus = []
+LucidePlug = []
 LucidePlusCircle = []
 LucidePlusSquare = []
+LucidePlus = []
+LucidePocketKnife = []
 LucidePocket = []
 LucidePodcast = []
+LucidePointerOff = []
 LucidePointer = []
+LucidePopcorn = []
+LucidePopsicle = []
 LucidePoundSterling = []
-LucidePower = []
+LucidePowerCircle = []
 LucidePowerOff = []
+LucidePowerSquare = []
+LucidePower = []
+LucidePresentation = []
 LucidePrinter = []
+LucideProjector = []
 LucidePuzzle = []
+LucidePyramid = []
 LucideQrCode = []
 LucideQuote = []
-LucideRadio = []
+LucideRabbit = []
+LucideRadar = []
+LucideRadiation = []
 LucideRadioReceiver = []
+LucideRadioTower = []
+LucideRadio = []
+LucideRadius = []
+LucideRailSymbol = []
+LucideRainbow = []
+LucideRat = []
+LucideRatio = []
+LucideReceipt = []
 LucideRectangleHorizontal = []
 LucideRectangleVertical = []
 LucideRecycle = []
-LucideRedo = []
 LucideRedo2 = []
+LucideRedoDot = []
+LucideRedo = []
+LucideRefreshCcwDot = []
 LucideRefreshCcw = []
+LucideRefreshCwOff = []
 LucideRefreshCw = []
 LucideRefrigerator = []
 LucideRegex = []
-LucideRepeat = []
+LucideRemoveFormatting = []
 LucideRepeat1 = []
-LucideReply = []
+LucideRepeat2 = []
+LucideRepeat = []
+LucideReplaceAll = []
+LucideReplace = []
 LucideReplyAll = []
+LucideReply = []
 LucideRewind = []
+LucideRibbon = []
 LucideRocket = []
 LucideRockingChair = []
+LucideRollerCoaster = []
 LucideRotate3D = []
 LucideRotateCcw = []
 LucideRotateCw = []
+LucideRouteOff = []
+LucideRoute = []
+LucideRouter = []
+LucideRows2 = []
+LucideRows3 = []
+LucideRows4 = []
 LucideRss = []
 LucideRuler = []
 LucideRussianRuble = []
 LucideSailboat = []
 LucideSalad = []
 LucideSandwich = []
+LucideSatelliteDish = []
+LucideSatellite = []
+LucideSaveAll = []
 LucideSave = []
-LucideScale = []
 LucideScale3D = []
+LucideScale = []
 LucideScaling = []
-LucideScan = []
+LucideScanBarcode = []
+LucideScanEye = []
 LucideScanFace = []
 LucideScanLine = []
+LucideScanSearch = []
+LucideScanText = []
+LucideScan = []
+LucideScatterChart = []
+LucideSchool2 = []
+LucideSchool = []
+LucideScissorsLineDashed = []
+LucideScissorsSquareDashedBottom = []
+LucideScissorsSquare = []
 LucideScissors = []
-LucideScreenShare = []
 LucideScreenShareOff = []
+LucideScreenShare = []
+LucideScrollText = []
 LucideScroll = []
+LucideSearchCheck = []
+LucideSearchCode = []
+LucideSearchSlash = []
+LucideSearchX = []
 LucideSearch = []
+LucideSendHorizontal = []
+LucideSendToBack = []
 LucideSend = []
 LucideSeparatorHorizontal = []
 LucideSeparatorVertical = []
-LucideServer = []
 LucideServerCog = []
 LucideServerCrash = []
 LucideServerOff = []
-LucideSettings = []
+LucideServer = []
 LucideSettings2 = []
-LucideShare = []
+LucideSettings = []
+LucideShapes = []
 LucideShare2 = []
+LucideShare = []
 LucideSheet = []
-LucideShield = []
+LucideShell = []
 LucideShieldAlert = []
+LucideShieldBan = []
 LucideShieldCheck = []
-LucideShieldClose = []
+LucideShieldEllipsis = []
+LucideShieldHalf = []
+LucideShieldMinus = []
 LucideShieldOff = []
+LucideShieldPlus = []
+LucideShieldQuestion = []
+LucideShieldX = []
+LucideShield = []
+LucideShipWheel = []
+LucideShip = []
 LucideShirt = []
 LucideShoppingBag = []
+LucideShoppingBasket = []
 LucideShoppingCart = []
 LucideShovel = []
 LucideShowerHead = []
 LucideShrink = []
 LucideShrub = []
 LucideShuffle = []
-LucideSidebar = []
-LucideSidebarClose = []
-LucideSidebarOpen = []
+LucideSigmaSquare = []
 LucideSigma = []
-LucideSignal = []
 LucideSignalHigh = []
 LucideSignalLow = []
 LucideSignalMedium = []
 LucideSignalZero = []
+LucideSignal = []
+LucideSignpostBig = []
+LucideSignpost = []
 LucideSiren = []
 LucideSkipBack = []
 LucideSkipForward = []
 LucideSkull = []
 LucideSlack = []
+LucideSlashSquare = []
 LucideSlash = []
 LucideSlice = []
-LucideSliders = []
 LucideSlidersHorizontal = []
-LucideSmartphone = []
+LucideSliders = []
 LucideSmartphoneCharging = []
-LucideSmile = []
+LucideSmartphoneNfc = []
+LucideSmartphone = []
 LucideSmilePlus = []
+LucideSmile = []
+LucideSnail = []
 LucideSnowflake = []
 LucideSofa = []
-LucideSortAsc = []
-LucideSortDesc = []
 LucideSoup = []
+LucideSpace = []
+LucideSpade = []
+LucideSparkle = []
+LucideSparkles = []
 LucideSpeaker = []
+LucideSpeech = []
+LucideSpellCheck2 = []
+LucideSpellCheck = []
 LucideSpline = []
+LucideSplitSquareHorizontal = []
+LucideSplitSquareVertical = []
+LucideSplit = []
+LucideSprayCan = []
 LucideSprout = []
+LucideSquareDashedBottomCode = []
+LucideSquareDashedBottom = []
+LucideSquareStack = []
+LucideSquareUserRound = []
+LucideSquareUser = []
 LucideSquare = []
-LucideStar = []
+LucideSquircle = []
+LucideSquirrel = []
+LucideStamp = []
 LucideStarHalf = []
 LucideStarOff = []
+LucideStar = []
+LucideStepBack = []
+LucideStepForward = []
 LucideStethoscope = []
 LucideSticker = []
 LucideStickyNote = []
 LucideStopCircle = []
+LucideStore = []
 LucideStretchHorizontal = []
 LucideStretchVertical = []
 LucideStrikethrough = []
 LucideSubscript = []
 LucideSubtitles = []
-LucideSun = []
 LucideSunDim = []
 LucideSunMedium = []
 LucideSunMoon = []
 LucideSunSnow = []
+LucideSun = []
 LucideSunrise = []
 LucideSunset = []
 LucideSuperscript = []
@@ -1697,1867 +3049,1543 @@ LucideSwitchCamera = []
 LucideSword = []
 LucideSwords = []
 LucideSyringe = []
-LucideTable = []
 LucideTable2 = []
+LucideTableProperties = []
+LucideTable = []
+LucideTabletSmartphone = []
 LucideTablet = []
+LucideTablets = []
 LucideTag = []
 LucideTags = []
+LucideTally1 = []
+LucideTally2 = []
+LucideTally3 = []
+LucideTally4 = []
+LucideTally5 = []
+LucideTangent = []
 LucideTarget = []
+LucideTentTree = []
 LucideTent = []
-LucideTerminal = []
 LucideTerminalSquare = []
-LucideTextCursor = []
+LucideTerminal = []
+LucideTestTube2 = []
+LucideTestTube = []
+LucideTestTubes = []
 LucideTextCursorInput = []
-LucideThermometer = []
+LucideTextCursor = []
+LucideTextQuote = []
+LucideTextSelect = []
+LucideText = []
+LucideTheater = []
 LucideThermometerSnowflake = []
 LucideThermometerSun = []
+LucideThermometer = []
 LucideThumbsDown = []
 LucideThumbsUp = []
 LucideTicket = []
-LucideTimer = []
 LucideTimerOff = []
 LucideTimerReset = []
+LucideTimer = []
 LucideToggleLeft = []
 LucideToggleRight = []
 LucideTornado = []
+LucideTorus = []
+LucideTouchpadOff = []
+LucideTouchpad = []
+LucideTowerControl = []
 LucideToyBrick = []
-LucideTrain = []
-LucideTrash = []
+LucideTractor = []
+LucideTrafficCone = []
+LucideTrainFrontTunnel = []
+LucideTrainFront = []
+LucideTrainTrack = []
+LucideTramFront = []
 LucideTrash2 = []
+LucideTrash = []
 LucideTreeDeciduous = []
 LucideTreePine = []
 LucideTrees = []
 LucideTrello = []
 LucideTrendingDown = []
 LucideTrendingUp = []
+LucideTriangleRight = []
 LucideTriangle = []
 LucideTrophy = []
 LucideTruck = []
-LucideTv = []
+LucideTurtle = []
 LucideTv2 = []
+LucideTv = []
 LucideTwitch = []
 LucideTwitter = []
 LucideType = []
+LucideUmbrellaOff = []
 LucideUmbrella = []
 LucideUnderline = []
-LucideUndo = []
 LucideUndo2 = []
-LucideUnlink = []
+LucideUndoDot = []
+LucideUndo = []
+LucideUnfoldHorizontal = []
+LucideUnfoldVertical = []
+LucideUngroup = []
 LucideUnlink2 = []
+LucideUnlink = []
+LucideUnlockKeyhole = []
 LucideUnlock = []
-LucideUpload = []
+LucideUnplug = []
 LucideUploadCloud = []
+LucideUpload = []
 LucideUsb = []
-LucideUser = []
 LucideUserCheck = []
 LucideUserCog = []
 LucideUserMinus = []
 LucideUserPlus = []
+LucideUserRoundCheck = []
+LucideUserRoundCog = []
+LucideUserRoundMinus = []
+LucideUserRoundPlus = []
+LucideUserRoundSearch = []
+LucideUserRoundX = []
+LucideUserRound = []
+LucideUserSearch = []
 LucideUserX = []
+LucideUser = []
+LucideUsersRound = []
 LucideUsers = []
-LucideUtensils = []
 LucideUtensilsCrossed = []
+LucideUtensils = []
+LucideUtilityPole = []
+LucideVariable = []
+LucideVault = []
 LucideVegan = []
 LucideVenetianMask = []
-LucideVerified = []
-LucideVibrate = []
 LucideVibrateOff = []
-LucideVideo = []
+LucideVibrate = []
 LucideVideoOff = []
+LucideVideo = []
+LucideVideotape = []
 LucideView = []
 LucideVoicemail = []
-LucideVolume = []
 LucideVolume1 = []
 LucideVolume2 = []
 LucideVolumeX = []
+LucideVolume = []
 LucideVote = []
+LucideWallet2 = []
+LucideWalletCards = []
 LucideWallet = []
-LucideWand = []
+LucideWallpaper = []
 LucideWand2 = []
+LucideWand = []
+LucideWarehouse = []
+LucideWashingMachine = []
 LucideWatch = []
 LucideWaves = []
+LucideWaypoints = []
 LucideWebcam = []
 LucideWebhook = []
-LucideWheat = []
+LucideWeight = []
 LucideWheatOff = []
-LucideWifi = []
+LucideWheat = []
+LucideWholeWord = []
 LucideWifiOff = []
+LucideWifi = []
 LucideWind = []
-LucideWine = []
 LucideWineOff = []
+LucideWine = []
+LucideWorkflow = []
 LucideWrapText = []
 LucideWrench = []
-LucideX = []
 LucideXCircle = []
 LucideXOctagon = []
 LucideXSquare = []
+LucideX = []
 LucideYoutube = []
-LucideZap = []
 LucideZapOff = []
+LucideZap = []
 LucideZoomIn = []
 LucideZoomOut = []
-heroicons_mini_solid = [
-    "HeroiconsMiniSolidAcademicCap",
-    "HeroiconsMiniSolidAdjustmentsHorizontal",
-    "HeroiconsMiniSolidAdjustmentsVertical",
-    "HeroiconsMiniSolidArchiveBoxArrowDown",
-    "HeroiconsMiniSolidArchiveBoxXMark",
-    "HeroiconsMiniSolidArchiveBox",
-    "HeroiconsMiniSolidArrowDownCircle",
-    "HeroiconsMiniSolidArrowDownLeft",
-    "HeroiconsMiniSolidArrowDownOnSquareStack",
-    "HeroiconsMiniSolidArrowDownOnSquare",
-    "HeroiconsMiniSolidArrowDownRight",
-    "HeroiconsMiniSolidArrowDownTray",
-    "HeroiconsMiniSolidArrowDown",
-    "HeroiconsMiniSolidArrowLeftCircle",
-    "HeroiconsMiniSolidArrowLeftOnRectangle",
-    "HeroiconsMiniSolidArrowLeft",
-    "HeroiconsMiniSolidArrowLongDown",
-    "HeroiconsMiniSolidArrowLongLeft",
-    "HeroiconsMiniSolidArrowLongRight",
-    "HeroiconsMiniSolidArrowLongUp",
-    "HeroiconsMiniSolidArrowPathRoundedSquare",
-    "HeroiconsMiniSolidArrowPath",
-    "HeroiconsMiniSolidArrowRightCircle",
-    "HeroiconsMiniSolidArrowRightOnRectangle",
-    "HeroiconsMiniSolidArrowRight",
-    "HeroiconsMiniSolidArrowSmallDown",
-    "HeroiconsMiniSolidArrowSmallLeft",
-    "HeroiconsMiniSolidArrowSmallRight",
-    "HeroiconsMiniSolidArrowSmallUp",
-    "HeroiconsMiniSolidArrowTopRightOnSquare",
-    "HeroiconsMiniSolidArrowTrendingDown",
-    "HeroiconsMiniSolidArrowTrendingUp",
-    "HeroiconsMiniSolidArrowUpCircle",
-    "HeroiconsMiniSolidArrowUpLeft",
-    "HeroiconsMiniSolidArrowUpOnSquareStack",
-    "HeroiconsMiniSolidArrowUpOnSquare",
-    "HeroiconsMiniSolidArrowUpRight",
-    "HeroiconsMiniSolidArrowUpTray",
-    "HeroiconsMiniSolidArrowUp",
-    "HeroiconsMiniSolidArrowUturnDown",
-    "HeroiconsMiniSolidArrowUturnLeft",
-    "HeroiconsMiniSolidArrowUturnRight",
-    "HeroiconsMiniSolidArrowUturnUp",
-    "HeroiconsMiniSolidArrowsPointingIn",
-    "HeroiconsMiniSolidArrowsPointingOut",
-    "HeroiconsMiniSolidArrowsRightLeft",
-    "HeroiconsMiniSolidArrowsUpDown",
-    "HeroiconsMiniSolidAtSymbol",
-    "HeroiconsMiniSolidBackspace",
-    "HeroiconsMiniSolidBackward",
-    "HeroiconsMiniSolidBanknotes",
-    "HeroiconsMiniSolidBars2",
-    "HeroiconsMiniSolidBars3BottomLeft",
-    "HeroiconsMiniSolidBars3BottomRight",
-    "HeroiconsMiniSolidBars3CenterLeft",
-    "HeroiconsMiniSolidBars3",
-    "HeroiconsMiniSolidBars4",
-    "HeroiconsMiniSolidBarsArrowDown",
-    "HeroiconsMiniSolidBarsArrowUp",
-    "HeroiconsMiniSolidBattery0",
-    "HeroiconsMiniSolidBattery100",
-    "HeroiconsMiniSolidBattery50",
-    "HeroiconsMiniSolidBeaker",
-    "HeroiconsMiniSolidBellAlert",
-    "HeroiconsMiniSolidBellSlash",
-    "HeroiconsMiniSolidBellSnooze",
-    "HeroiconsMiniSolidBell",
-    "HeroiconsMiniSolidBoltSlash",
-    "HeroiconsMiniSolidBolt",
-    "HeroiconsMiniSolidBookOpen",
-    "HeroiconsMiniSolidBookmarkSlash",
-    "HeroiconsMiniSolidBookmarkSquare",
-    "HeroiconsMiniSolidBookmark",
-    "HeroiconsMiniSolidBriefcase",
-    "HeroiconsMiniSolidBugAnt",
-    "HeroiconsMiniSolidBuildingLibrary",
-    "HeroiconsMiniSolidBuildingOffice2",
-    "HeroiconsMiniSolidBuildingOffice",
-    "HeroiconsMiniSolidBuildingStorefront",
-    "HeroiconsMiniSolidCake",
-    "HeroiconsMiniSolidCalculator",
-    "HeroiconsMiniSolidCalendarDays",
-    "HeroiconsMiniSolidCalendar",
-    "HeroiconsMiniSolidCamera",
-    "HeroiconsMiniSolidChartBarSquare",
-    "HeroiconsMiniSolidChartBar",
-    "HeroiconsMiniSolidChartPie",
-    "HeroiconsMiniSolidChatBubbleBottomCenterText",
-    "HeroiconsMiniSolidChatBubbleBottomCenter",
-    "HeroiconsMiniSolidChatBubbleLeftEllipsis",
-    "HeroiconsMiniSolidChatBubbleLeftRight",
-    "HeroiconsMiniSolidChatBubbleLeft",
-    "HeroiconsMiniSolidChatBubbleOvalLeftEllipsis",
-    "HeroiconsMiniSolidChatBubbleOvalLeft",
-    "HeroiconsMiniSolidCheckBadge",
-    "HeroiconsMiniSolidCheckCircle",
-    "HeroiconsMiniSolidCheck",
-    "HeroiconsMiniSolidChevronDoubleDown",
-    "HeroiconsMiniSolidChevronDoubleLeft",
-    "HeroiconsMiniSolidChevronDoubleRight",
-    "HeroiconsMiniSolidChevronDoubleUp",
-    "HeroiconsMiniSolidChevronDown",
-    "HeroiconsMiniSolidChevronLeft",
-    "HeroiconsMiniSolidChevronRight",
-    "HeroiconsMiniSolidChevronUpDown",
-    "HeroiconsMiniSolidChevronUp",
-    "HeroiconsMiniSolidCircleStack",
-    "HeroiconsMiniSolidClipboardDocumentCheck",
-    "HeroiconsMiniSolidClipboardDocumentList",
-    "HeroiconsMiniSolidClipboardDocument",
-    "HeroiconsMiniSolidClipboard",
-    "HeroiconsMiniSolidClock",
-    "HeroiconsMiniSolidCloudArrowDown",
-    "HeroiconsMiniSolidCloudArrowUp",
-    "HeroiconsMiniSolidCloud",
-    "HeroiconsMiniSolidCodeBracketSquare",
-    "HeroiconsMiniSolidCodeBracket",
-    "HeroiconsMiniSolidCog6Tooth",
-    "HeroiconsMiniSolidCog8Tooth",
-    "HeroiconsMiniSolidCog",
-    "HeroiconsMiniSolidCommandLine",
-    "HeroiconsMiniSolidComputerDesktop",
-    "HeroiconsMiniSolidCpuChip",
-    "HeroiconsMiniSolidCreditCard",
-    "HeroiconsMiniSolidCubeTransparent",
-    "HeroiconsMiniSolidCube",
-    "HeroiconsMiniSolidCurrencyBangladeshi",
-    "HeroiconsMiniSolidCurrencyDollar",
-    "HeroiconsMiniSolidCurrencyEuro",
-    "HeroiconsMiniSolidCurrencyPound",
-    "HeroiconsMiniSolidCurrencyRupee",
-    "HeroiconsMiniSolidCurrencyYen",
-    "HeroiconsMiniSolidCursorArrowRays",
-    "HeroiconsMiniSolidCursorArrowRipple",
-    "HeroiconsMiniSolidDevicePhoneMobile",
-    "HeroiconsMiniSolidDeviceTablet",
-    "HeroiconsMiniSolidDocumentArrowDown",
-    "HeroiconsMiniSolidDocumentArrowUp",
-    "HeroiconsMiniSolidDocumentChartBar",
-    "HeroiconsMiniSolidDocumentCheck",
-    "HeroiconsMiniSolidDocumentDuplicate",
-    "HeroiconsMiniSolidDocumentMagnifyingGlass",
-    "HeroiconsMiniSolidDocumentMinus",
-    "HeroiconsMiniSolidDocumentPlus",
-    "HeroiconsMiniSolidDocumentText",
-    "HeroiconsMiniSolidDocument",
-    "HeroiconsMiniSolidEllipsisHorizontalCircle",
-    "HeroiconsMiniSolidEllipsisHorizontal",
-    "HeroiconsMiniSolidEllipsisVertical",
-    "HeroiconsMiniSolidEnvelopeOpen",
-    "HeroiconsMiniSolidEnvelope",
-    "HeroiconsMiniSolidExclamationCircle",
-    "HeroiconsMiniSolidExclamationTriangle",
-    "HeroiconsMiniSolidEyeDropper",
-    "HeroiconsMiniSolidEyeSlash",
-    "HeroiconsMiniSolidEye",
-    "HeroiconsMiniSolidFaceFrown",
-    "HeroiconsMiniSolidFaceSmile",
-    "HeroiconsMiniSolidFilm",
-    "HeroiconsMiniSolidFingerPrint",
-    "HeroiconsMiniSolidFire",
-    "HeroiconsMiniSolidFlag",
-    "HeroiconsMiniSolidFolderArrowDown",
-    "HeroiconsMiniSolidFolderMinus",
-    "HeroiconsMiniSolidFolderOpen",
-    "HeroiconsMiniSolidFolderPlus",
-    "HeroiconsMiniSolidFolder",
-    "HeroiconsMiniSolidForward",
-    "HeroiconsMiniSolidFunnel",
-    "HeroiconsMiniSolidGif",
-    "HeroiconsMiniSolidGiftTop",
-    "HeroiconsMiniSolidGift",
-    "HeroiconsMiniSolidGlobeAlt",
-    "HeroiconsMiniSolidGlobeAmericas",
-    "HeroiconsMiniSolidGlobeAsiaAustralia",
-    "HeroiconsMiniSolidGlobeEuropeAfrica",
-    "HeroiconsMiniSolidHandRaised",
-    "HeroiconsMiniSolidHandThumbDown",
-    "HeroiconsMiniSolidHandThumbUp",
-    "HeroiconsMiniSolidHashtag",
-    "HeroiconsMiniSolidHeart",
-    "HeroiconsMiniSolidHomeModern",
-    "HeroiconsMiniSolidHome",
-    "HeroiconsMiniSolidIdentification",
-    "HeroiconsMiniSolidInboxArrowDown",
-    "HeroiconsMiniSolidInboxStack",
-    "HeroiconsMiniSolidInbox",
-    "HeroiconsMiniSolidInformationCircle",
-    "HeroiconsMiniSolidKey",
-    "HeroiconsMiniSolidLanguage",
-    "HeroiconsMiniSolidLifebuoy",
-    "HeroiconsMiniSolidLightBulb",
-    "HeroiconsMiniSolidLink",
-    "HeroiconsMiniSolidListBullet",
-    "HeroiconsMiniSolidLockClosed",
-    "HeroiconsMiniSolidLockOpen",
-    "HeroiconsMiniSolidMagnifyingGlassCircle",
-    "HeroiconsMiniSolidMagnifyingGlassMinus",
-    "HeroiconsMiniSolidMagnifyingGlassPlus",
-    "HeroiconsMiniSolidMagnifyingGlass",
-    "HeroiconsMiniSolidMapPin",
-    "HeroiconsMiniSolidMap",
-    "HeroiconsMiniSolidMegaphone",
-    "HeroiconsMiniSolidMicrophone",
-    "HeroiconsMiniSolidMinusCircle",
-    "HeroiconsMiniSolidMinusSmall",
-    "HeroiconsMiniSolidMinus",
-    "HeroiconsMiniSolidMoon",
-    "HeroiconsMiniSolidMusicalNote",
-    "HeroiconsMiniSolidNewspaper",
-    "HeroiconsMiniSolidNoSymbol",
-    "HeroiconsMiniSolidPaintBrush",
-    "HeroiconsMiniSolidPaperAirplane",
-    "HeroiconsMiniSolidPaperClip",
-    "HeroiconsMiniSolidPauseCircle",
-    "HeroiconsMiniSolidPause",
-    "HeroiconsMiniSolidPencilSquare",
-    "HeroiconsMiniSolidPencil",
-    "HeroiconsMiniSolidPhoneArrowDownLeft",
-    "HeroiconsMiniSolidPhoneArrowUpRight",
-    "HeroiconsMiniSolidPhoneXMark",
-    "HeroiconsMiniSolidPhone",
-    "HeroiconsMiniSolidPhoto",
-    "HeroiconsMiniSolidPlayCircle",
-    "HeroiconsMiniSolidPlayPause",
-    "HeroiconsMiniSolidPlay",
-    "HeroiconsMiniSolidPlusCircle",
-    "HeroiconsMiniSolidPlusSmall",
-    "HeroiconsMiniSolidPlus",
-    "HeroiconsMiniSolidPower",
-    "HeroiconsMiniSolidPresentationChartBar",
-    "HeroiconsMiniSolidPresentationChartLine",
-    "HeroiconsMiniSolidPrinter",
-    "HeroiconsMiniSolidPuzzlePiece",
-    "HeroiconsMiniSolidQrCode",
-    "HeroiconsMiniSolidQuestionMarkCircle",
-    "HeroiconsMiniSolidQueueList",
-    "HeroiconsMiniSolidRadio",
-    "HeroiconsMiniSolidReceiptPercent",
-    "HeroiconsMiniSolidReceiptRefund",
-    "HeroiconsMiniSolidRectangleGroup",
-    "HeroiconsMiniSolidRectangleStack",
-    "HeroiconsMiniSolidRocketLaunch",
-    "HeroiconsMiniSolidRss",
-    "HeroiconsMiniSolidScale",
-    "HeroiconsMiniSolidScissors",
-    "HeroiconsMiniSolidServerStack",
-    "HeroiconsMiniSolidServer",
-    "HeroiconsMiniSolidShare",
-    "HeroiconsMiniSolidShieldCheck",
-    "HeroiconsMiniSolidShieldExclamation",
-    "HeroiconsMiniSolidShoppingBag",
-    "HeroiconsMiniSolidShoppingCart",
-    "HeroiconsMiniSolidSignalSlash",
-    "HeroiconsMiniSolidSignal",
-    "HeroiconsMiniSolidSparkles",
-    "HeroiconsMiniSolidSpeakerWave",
-    "HeroiconsMiniSolidSpeakerXMark",
-    "HeroiconsMiniSolidSquare2Stack",
-    "HeroiconsMiniSolidSquare3Stack3D",
-    "HeroiconsMiniSolidSquares2X2",
-    "HeroiconsMiniSolidSquaresPlus",
-    "HeroiconsMiniSolidStar",
-    "HeroiconsMiniSolidStopCircle",
-    "HeroiconsMiniSolidStop",
-    "HeroiconsMiniSolidSun",
-    "HeroiconsMiniSolidSwatch",
-    "HeroiconsMiniSolidTableCells",
-    "HeroiconsMiniSolidTag",
-    "HeroiconsMiniSolidTicket",
-    "HeroiconsMiniSolidTrash",
-    "HeroiconsMiniSolidTrophy",
-    "HeroiconsMiniSolidTruck",
-    "HeroiconsMiniSolidTv",
-    "HeroiconsMiniSolidUserCircle",
-    "HeroiconsMiniSolidUserGroup",
-    "HeroiconsMiniSolidUserMinus",
-    "HeroiconsMiniSolidUserPlus",
-    "HeroiconsMiniSolidUser",
-    "HeroiconsMiniSolidUsers",
-    "HeroiconsMiniSolidVariable",
-    "HeroiconsMiniSolidVideoCameraSlash",
-    "HeroiconsMiniSolidVideoCamera",
-    "HeroiconsMiniSolidViewColumns",
-    "HeroiconsMiniSolidViewfinderCircle",
-    "HeroiconsMiniSolidWallet",
-    "HeroiconsMiniSolidWifi",
-    "HeroiconsMiniSolidWindow",
-    "HeroiconsMiniSolidWrenchScrewdriver",
-    "HeroiconsMiniSolidWrench",
-    "HeroiconsMiniSolidXCircle",
-    "HeroiconsMiniSolidXMark",
-]
-heroicons_outline = [
-    "HeroiconsOutlineAcademicCap",
-    "HeroiconsOutlineAdjustmentsHorizontal",
-    "HeroiconsOutlineAdjustmentsVertical",
-    "HeroiconsOutlineArchiveBoxArrowDown",
-    "HeroiconsOutlineArchiveBoxXMark",
-    "HeroiconsOutlineArchiveBox",
-    "HeroiconsOutlineArrowDownCircle",
-    "HeroiconsOutlineArrowDownLeft",
-    "HeroiconsOutlineArrowDownOnSquareStack",
-    "HeroiconsOutlineArrowDownOnSquare",
-    "HeroiconsOutlineArrowDownRight",
-    "HeroiconsOutlineArrowDownTray",
-    "HeroiconsOutlineArrowDown",
-    "HeroiconsOutlineArrowLeftCircle",
-    "HeroiconsOutlineArrowLeftOnRectangle",
-    "HeroiconsOutlineArrowLeft",
-    "HeroiconsOutlineArrowLongDown",
-    "HeroiconsOutlineArrowLongLeft",
-    "HeroiconsOutlineArrowLongRight",
-    "HeroiconsOutlineArrowLongUp",
-    "HeroiconsOutlineArrowPathRoundedSquare",
-    "HeroiconsOutlineArrowPath",
-    "HeroiconsOutlineArrowRightCircle",
-    "HeroiconsOutlineArrowRightOnRectangle",
-    "HeroiconsOutlineArrowRight",
-    "HeroiconsOutlineArrowSmallDown",
-    "HeroiconsOutlineArrowSmallLeft",
-    "HeroiconsOutlineArrowSmallRight",
-    "HeroiconsOutlineArrowSmallUp",
-    "HeroiconsOutlineArrowTopRightOnSquare",
-    "HeroiconsOutlineArrowTrendingDown",
-    "HeroiconsOutlineArrowTrendingUp",
-    "HeroiconsOutlineArrowUpCircle",
-    "HeroiconsOutlineArrowUpLeft",
-    "HeroiconsOutlineArrowUpOnSquareStack",
-    "HeroiconsOutlineArrowUpOnSquare",
-    "HeroiconsOutlineArrowUpRight",
-    "HeroiconsOutlineArrowUpTray",
-    "HeroiconsOutlineArrowUp",
-    "HeroiconsOutlineArrowUturnDown",
-    "HeroiconsOutlineArrowUturnLeft",
-    "HeroiconsOutlineArrowUturnRight",
-    "HeroiconsOutlineArrowUturnUp",
-    "HeroiconsOutlineArrowsPointingIn",
-    "HeroiconsOutlineArrowsPointingOut",
-    "HeroiconsOutlineArrowsRightLeft",
-    "HeroiconsOutlineArrowsUpDown",
-    "HeroiconsOutlineAtSymbol",
-    "HeroiconsOutlineBackspace",
-    "HeroiconsOutlineBackward",
-    "HeroiconsOutlineBanknotes",
-    "HeroiconsOutlineBars2",
-    "HeroiconsOutlineBars3BottomLeft",
-    "HeroiconsOutlineBars3BottomRight",
-    "HeroiconsOutlineBars3CenterLeft",
-    "HeroiconsOutlineBars3",
-    "HeroiconsOutlineBars4",
-    "HeroiconsOutlineBarsArrowDown",
-    "HeroiconsOutlineBarsArrowUp",
-    "HeroiconsOutlineBattery0",
-    "HeroiconsOutlineBattery100",
-    "HeroiconsOutlineBattery50",
-    "HeroiconsOutlineBeaker",
-    "HeroiconsOutlineBellAlert",
-    "HeroiconsOutlineBellSlash",
-    "HeroiconsOutlineBellSnooze",
-    "HeroiconsOutlineBell",
-    "HeroiconsOutlineBoltSlash",
-    "HeroiconsOutlineBolt",
-    "HeroiconsOutlineBookOpen",
-    "HeroiconsOutlineBookmarkSlash",
-    "HeroiconsOutlineBookmarkSquare",
-    "HeroiconsOutlineBookmark",
-    "HeroiconsOutlineBriefcase",
-    "HeroiconsOutlineBugAnt",
-    "HeroiconsOutlineBuildingLibrary",
-    "HeroiconsOutlineBuildingOffice2",
-    "HeroiconsOutlineBuildingOffice",
-    "HeroiconsOutlineBuildingStorefront",
-    "HeroiconsOutlineCake",
-    "HeroiconsOutlineCalculator",
-    "HeroiconsOutlineCalendarDays",
-    "HeroiconsOutlineCalendar",
-    "HeroiconsOutlineCamera",
-    "HeroiconsOutlineChartBarSquare",
-    "HeroiconsOutlineChartBar",
-    "HeroiconsOutlineChartPie",
-    "HeroiconsOutlineChatBubbleBottomCenterText",
-    "HeroiconsOutlineChatBubbleBottomCenter",
-    "HeroiconsOutlineChatBubbleLeftEllipsis",
-    "HeroiconsOutlineChatBubbleLeftRight",
-    "HeroiconsOutlineChatBubbleLeft",
-    "HeroiconsOutlineChatBubbleOvalLeftEllipsis",
-    "HeroiconsOutlineChatBubbleOvalLeft",
-    "HeroiconsOutlineCheckBadge",
-    "HeroiconsOutlineCheckCircle",
-    "HeroiconsOutlineCheck",
-    "HeroiconsOutlineChevronDoubleDown",
-    "HeroiconsOutlineChevronDoubleLeft",
-    "HeroiconsOutlineChevronDoubleRight",
-    "HeroiconsOutlineChevronDoubleUp",
-    "HeroiconsOutlineChevronDown",
-    "HeroiconsOutlineChevronLeft",
-    "HeroiconsOutlineChevronRight",
-    "HeroiconsOutlineChevronUpDown",
-    "HeroiconsOutlineChevronUp",
-    "HeroiconsOutlineCircleStack",
-    "HeroiconsOutlineClipboardDocumentCheck",
-    "HeroiconsOutlineClipboardDocumentList",
-    "HeroiconsOutlineClipboardDocument",
-    "HeroiconsOutlineClipboard",
-    "HeroiconsOutlineClock",
-    "HeroiconsOutlineCloudArrowDown",
-    "HeroiconsOutlineCloudArrowUp",
-    "HeroiconsOutlineCloud",
-    "HeroiconsOutlineCodeBracketSquare",
-    "HeroiconsOutlineCodeBracket",
-    "HeroiconsOutlineCog6Tooth",
-    "HeroiconsOutlineCog8Tooth",
-    "HeroiconsOutlineCog",
-    "HeroiconsOutlineCommandLine",
-    "HeroiconsOutlineComputerDesktop",
-    "HeroiconsOutlineCpuChip",
-    "HeroiconsOutlineCreditCard",
-    "HeroiconsOutlineCubeTransparent",
-    "HeroiconsOutlineCube",
-    "HeroiconsOutlineCurrencyBangladeshi",
-    "HeroiconsOutlineCurrencyDollar",
-    "HeroiconsOutlineCurrencyEuro",
-    "HeroiconsOutlineCurrencyPound",
-    "HeroiconsOutlineCurrencyRupee",
-    "HeroiconsOutlineCurrencyYen",
-    "HeroiconsOutlineCursorArrowRays",
-    "HeroiconsOutlineCursorArrowRipple",
-    "HeroiconsOutlineDevicePhoneMobile",
-    "HeroiconsOutlineDeviceTablet",
-    "HeroiconsOutlineDocumentArrowDown",
-    "HeroiconsOutlineDocumentArrowUp",
-    "HeroiconsOutlineDocumentChartBar",
-    "HeroiconsOutlineDocumentCheck",
-    "HeroiconsOutlineDocumentDuplicate",
-    "HeroiconsOutlineDocumentMagnifyingGlass",
-    "HeroiconsOutlineDocumentMinus",
-    "HeroiconsOutlineDocumentPlus",
-    "HeroiconsOutlineDocumentText",
-    "HeroiconsOutlineDocument",
-    "HeroiconsOutlineEllipsisHorizontalCircle",
-    "HeroiconsOutlineEllipsisHorizontal",
-    "HeroiconsOutlineEllipsisVertical",
-    "HeroiconsOutlineEnvelopeOpen",
-    "HeroiconsOutlineEnvelope",
-    "HeroiconsOutlineExclamationCircle",
-    "HeroiconsOutlineExclamationTriangle",
-    "HeroiconsOutlineEyeDropper",
-    "HeroiconsOutlineEyeSlash",
-    "HeroiconsOutlineEye",
-    "HeroiconsOutlineFaceFrown",
-    "HeroiconsOutlineFaceSmile",
-    "HeroiconsOutlineFilm",
-    "HeroiconsOutlineFingerPrint",
-    "HeroiconsOutlineFire",
-    "HeroiconsOutlineFlag",
-    "HeroiconsOutlineFolderArrowDown",
-    "HeroiconsOutlineFolderMinus",
-    "HeroiconsOutlineFolderOpen",
-    "HeroiconsOutlineFolderPlus",
-    "HeroiconsOutlineFolder",
-    "HeroiconsOutlineForward",
-    "HeroiconsOutlineFunnel",
-    "HeroiconsOutlineGif",
-    "HeroiconsOutlineGiftTop",
-    "HeroiconsOutlineGift",
-    "HeroiconsOutlineGlobeAlt",
-    "HeroiconsOutlineGlobeAmericas",
-    "HeroiconsOutlineGlobeAsiaAustralia",
-    "HeroiconsOutlineGlobeEuropeAfrica",
-    "HeroiconsOutlineHandRaised",
-    "HeroiconsOutlineHandThumbDown",
-    "HeroiconsOutlineHandThumbUp",
-    "HeroiconsOutlineHashtag",
-    "HeroiconsOutlineHeart",
-    "HeroiconsOutlineHomeModern",
-    "HeroiconsOutlineHome",
-    "HeroiconsOutlineIdentification",
-    "HeroiconsOutlineInboxArrowDown",
-    "HeroiconsOutlineInboxStack",
-    "HeroiconsOutlineInbox",
-    "HeroiconsOutlineInformationCircle",
-    "HeroiconsOutlineKey",
-    "HeroiconsOutlineLanguage",
-    "HeroiconsOutlineLifebuoy",
-    "HeroiconsOutlineLightBulb",
-    "HeroiconsOutlineLink",
-    "HeroiconsOutlineListBullet",
-    "HeroiconsOutlineLockClosed",
-    "HeroiconsOutlineLockOpen",
-    "HeroiconsOutlineMagnifyingGlassCircle",
-    "HeroiconsOutlineMagnifyingGlassMinus",
-    "HeroiconsOutlineMagnifyingGlassPlus",
-    "HeroiconsOutlineMagnifyingGlass",
-    "HeroiconsOutlineMapPin",
-    "HeroiconsOutlineMap",
-    "HeroiconsOutlineMegaphone",
-    "HeroiconsOutlineMicrophone",
-    "HeroiconsOutlineMinusCircle",
-    "HeroiconsOutlineMinusSmall",
-    "HeroiconsOutlineMinus",
-    "HeroiconsOutlineMoon",
-    "HeroiconsOutlineMusicalNote",
-    "HeroiconsOutlineNewspaper",
-    "HeroiconsOutlineNoSymbol",
-    "HeroiconsOutlinePaintBrush",
-    "HeroiconsOutlinePaperAirplane",
-    "HeroiconsOutlinePaperClip",
-    "HeroiconsOutlinePauseCircle",
-    "HeroiconsOutlinePause",
-    "HeroiconsOutlinePencilSquare",
-    "HeroiconsOutlinePencil",
-    "HeroiconsOutlinePhoneArrowDownLeft",
-    "HeroiconsOutlinePhoneArrowUpRight",
-    "HeroiconsOutlinePhoneXMark",
-    "HeroiconsOutlinePhone",
-    "HeroiconsOutlinePhoto",
-    "HeroiconsOutlinePlayCircle",
-    "HeroiconsOutlinePlayPause",
-    "HeroiconsOutlinePlay",
-    "HeroiconsOutlinePlusCircle",
-    "HeroiconsOutlinePlusSmall",
-    "HeroiconsOutlinePlus",
-    "HeroiconsOutlinePower",
-    "HeroiconsOutlinePresentationChartBar",
-    "HeroiconsOutlinePresentationChartLine",
-    "HeroiconsOutlinePrinter",
-    "HeroiconsOutlinePuzzlePiece",
-    "HeroiconsOutlineQrCode",
-    "HeroiconsOutlineQuestionMarkCircle",
-    "HeroiconsOutlineQueueList",
-    "HeroiconsOutlineRadio",
-    "HeroiconsOutlineReceiptPercent",
-    "HeroiconsOutlineReceiptRefund",
-    "HeroiconsOutlineRectangleGroup",
-    "HeroiconsOutlineRectangleStack",
-    "HeroiconsOutlineRocketLaunch",
-    "HeroiconsOutlineRss",
-    "HeroiconsOutlineScale",
-    "HeroiconsOutlineScissors",
-    "HeroiconsOutlineServerStack",
-    "HeroiconsOutlineServer",
-    "HeroiconsOutlineShare",
-    "HeroiconsOutlineShieldCheck",
-    "HeroiconsOutlineShieldExclamation",
-    "HeroiconsOutlineShoppingBag",
-    "HeroiconsOutlineShoppingCart",
-    "HeroiconsOutlineSignalSlash",
-    "HeroiconsOutlineSignal",
-    "HeroiconsOutlineSparkles",
-    "HeroiconsOutlineSpeakerWave",
-    "HeroiconsOutlineSpeakerXMark",
-    "HeroiconsOutlineSquare2Stack",
-    "HeroiconsOutlineSquare3Stack3D",
-    "HeroiconsOutlineSquares2X2",
-    "HeroiconsOutlineSquaresPlus",
-    "HeroiconsOutlineStar",
-    "HeroiconsOutlineStopCircle",
-    "HeroiconsOutlineStop",
-    "HeroiconsOutlineSun",
-    "HeroiconsOutlineSwatch",
-    "HeroiconsOutlineTableCells",
-    "HeroiconsOutlineTag",
-    "HeroiconsOutlineTicket",
-    "HeroiconsOutlineTrash",
-    "HeroiconsOutlineTrophy",
-    "HeroiconsOutlineTruck",
-    "HeroiconsOutlineTv",
-    "HeroiconsOutlineUserCircle",
-    "HeroiconsOutlineUserGroup",
-    "HeroiconsOutlineUserMinus",
-    "HeroiconsOutlineUserPlus",
-    "HeroiconsOutlineUser",
-    "HeroiconsOutlineUsers",
-    "HeroiconsOutlineVariable",
-    "HeroiconsOutlineVideoCameraSlash",
-    "HeroiconsOutlineVideoCamera",
-    "HeroiconsOutlineViewColumns",
-    "HeroiconsOutlineViewfinderCircle",
-    "HeroiconsOutlineWallet",
-    "HeroiconsOutlineWifi",
-    "HeroiconsOutlineWindow",
-    "HeroiconsOutlineWrenchScrewdriver",
-    "HeroiconsOutlineWrench",
-    "HeroiconsOutlineXCircle",
-    "HeroiconsOutlineXMark",
-]
-heroicons_solid = [
-    "HeroiconsSolidAcademicCap",
-    "HeroiconsSolidAdjustmentsHorizontal",
-    "HeroiconsSolidAdjustmentsVertical",
-    "HeroiconsSolidArchiveBoxArrowDown",
-    "HeroiconsSolidArchiveBoxXMark",
-    "HeroiconsSolidArchiveBox",
-    "HeroiconsSolidArrowDownCircle",
-    "HeroiconsSolidArrowDownLeft",
-    "HeroiconsSolidArrowDownOnSquareStack",
-    "HeroiconsSolidArrowDownOnSquare",
-    "HeroiconsSolidArrowDownRight",
-    "HeroiconsSolidArrowDownTray",
-    "HeroiconsSolidArrowDown",
-    "HeroiconsSolidArrowLeftCircle",
-    "HeroiconsSolidArrowLeftOnRectangle",
-    "HeroiconsSolidArrowLeft",
-    "HeroiconsSolidArrowLongDown",
-    "HeroiconsSolidArrowLongLeft",
-    "HeroiconsSolidArrowLongRight",
-    "HeroiconsSolidArrowLongUp",
-    "HeroiconsSolidArrowPathRoundedSquare",
-    "HeroiconsSolidArrowPath",
-    "HeroiconsSolidArrowRightCircle",
-    "HeroiconsSolidArrowRightOnRectangle",
-    "HeroiconsSolidArrowRight",
-    "HeroiconsSolidArrowSmallDown",
-    "HeroiconsSolidArrowSmallLeft",
-    "HeroiconsSolidArrowSmallRight",
-    "HeroiconsSolidArrowSmallUp",
-    "HeroiconsSolidArrowTopRightOnSquare",
-    "HeroiconsSolidArrowTrendingDown",
-    "HeroiconsSolidArrowTrendingUp",
-    "HeroiconsSolidArrowUpCircle",
-    "HeroiconsSolidArrowUpLeft",
-    "HeroiconsSolidArrowUpOnSquareStack",
-    "HeroiconsSolidArrowUpOnSquare",
-    "HeroiconsSolidArrowUpRight",
-    "HeroiconsSolidArrowUpTray",
-    "HeroiconsSolidArrowUp",
-    "HeroiconsSolidArrowUturnDown",
-    "HeroiconsSolidArrowUturnLeft",
-    "HeroiconsSolidArrowUturnRight",
-    "HeroiconsSolidArrowUturnUp",
-    "HeroiconsSolidArrowsPointingIn",
-    "HeroiconsSolidArrowsPointingOut",
-    "HeroiconsSolidArrowsRightLeft",
-    "HeroiconsSolidArrowsUpDown",
-    "HeroiconsSolidAtSymbol",
-    "HeroiconsSolidBackspace",
-    "HeroiconsSolidBackward",
-    "HeroiconsSolidBanknotes",
-    "HeroiconsSolidBars2",
-    "HeroiconsSolidBars3BottomLeft",
-    "HeroiconsSolidBars3BottomRight",
-    "HeroiconsSolidBars3CenterLeft",
-    "HeroiconsSolidBars3",
-    "HeroiconsSolidBars4",
-    "HeroiconsSolidBarsArrowDown",
-    "HeroiconsSolidBarsArrowUp",
-    "HeroiconsSolidBattery0",
-    "HeroiconsSolidBattery100",
-    "HeroiconsSolidBattery50",
-    "HeroiconsSolidBeaker",
-    "HeroiconsSolidBellAlert",
-    "HeroiconsSolidBellSlash",
-    "HeroiconsSolidBellSnooze",
-    "HeroiconsSolidBell",
-    "HeroiconsSolidBoltSlash",
-    "HeroiconsSolidBolt",
-    "HeroiconsSolidBookOpen",
-    "HeroiconsSolidBookmarkSlash",
-    "HeroiconsSolidBookmarkSquare",
-    "HeroiconsSolidBookmark",
-    "HeroiconsSolidBriefcase",
-    "HeroiconsSolidBugAnt",
-    "HeroiconsSolidBuildingLibrary",
-    "HeroiconsSolidBuildingOffice2",
-    "HeroiconsSolidBuildingOffice",
-    "HeroiconsSolidBuildingStorefront",
-    "HeroiconsSolidCake",
-    "HeroiconsSolidCalculator",
-    "HeroiconsSolidCalendarDays",
-    "HeroiconsSolidCalendar",
-    "HeroiconsSolidCamera",
-    "HeroiconsSolidChartBarSquare",
-    "HeroiconsSolidChartBar",
-    "HeroiconsSolidChartPie",
-    "HeroiconsSolidChatBubbleBottomCenterText",
-    "HeroiconsSolidChatBubbleBottomCenter",
-    "HeroiconsSolidChatBubbleLeftEllipsis",
-    "HeroiconsSolidChatBubbleLeftRight",
-    "HeroiconsSolidChatBubbleLeft",
-    "HeroiconsSolidChatBubbleOvalLeftEllipsis",
-    "HeroiconsSolidChatBubbleOvalLeft",
-    "HeroiconsSolidCheckBadge",
-    "HeroiconsSolidCheckCircle",
-    "HeroiconsSolidCheck",
-    "HeroiconsSolidChevronDoubleDown",
-    "HeroiconsSolidChevronDoubleLeft",
-    "HeroiconsSolidChevronDoubleRight",
-    "HeroiconsSolidChevronDoubleUp",
-    "HeroiconsSolidChevronDown",
-    "HeroiconsSolidChevronLeft",
-    "HeroiconsSolidChevronRight",
-    "HeroiconsSolidChevronUpDown",
-    "HeroiconsSolidChevronUp",
-    "HeroiconsSolidCircleStack",
-    "HeroiconsSolidClipboardDocumentCheck",
-    "HeroiconsSolidClipboardDocumentList",
-    "HeroiconsSolidClipboardDocument",
-    "HeroiconsSolidClipboard",
-    "HeroiconsSolidClock",
-    "HeroiconsSolidCloudArrowDown",
-    "HeroiconsSolidCloudArrowUp",
-    "HeroiconsSolidCloud",
-    "HeroiconsSolidCodeBracketSquare",
-    "HeroiconsSolidCodeBracket",
-    "HeroiconsSolidCog6Tooth",
-    "HeroiconsSolidCog8Tooth",
-    "HeroiconsSolidCog",
-    "HeroiconsSolidCommandLine",
-    "HeroiconsSolidComputerDesktop",
-    "HeroiconsSolidCpuChip",
-    "HeroiconsSolidCreditCard",
-    "HeroiconsSolidCubeTransparent",
-    "HeroiconsSolidCube",
-    "HeroiconsSolidCurrencyBangladeshi",
-    "HeroiconsSolidCurrencyDollar",
-    "HeroiconsSolidCurrencyEuro",
-    "HeroiconsSolidCurrencyPound",
-    "HeroiconsSolidCurrencyRupee",
-    "HeroiconsSolidCurrencyYen",
-    "HeroiconsSolidCursorArrowRays",
-    "HeroiconsSolidCursorArrowRipple",
-    "HeroiconsSolidDevicePhoneMobile",
-    "HeroiconsSolidDeviceTablet",
-    "HeroiconsSolidDocumentArrowDown",
-    "HeroiconsSolidDocumentArrowUp",
-    "HeroiconsSolidDocumentChartBar",
-    "HeroiconsSolidDocumentCheck",
-    "HeroiconsSolidDocumentDuplicate",
-    "HeroiconsSolidDocumentMagnifyingGlass",
-    "HeroiconsSolidDocumentMinus",
-    "HeroiconsSolidDocumentPlus",
-    "HeroiconsSolidDocumentText",
-    "HeroiconsSolidDocument",
-    "HeroiconsSolidEllipsisHorizontalCircle",
-    "HeroiconsSolidEllipsisHorizontal",
-    "HeroiconsSolidEllipsisVertical",
-    "HeroiconsSolidEnvelopeOpen",
-    "HeroiconsSolidEnvelope",
-    "HeroiconsSolidExclamationCircle",
-    "HeroiconsSolidExclamationTriangle",
-    "HeroiconsSolidEyeDropper",
-    "HeroiconsSolidEyeSlash",
-    "HeroiconsSolidEye",
-    "HeroiconsSolidFaceFrown",
-    "HeroiconsSolidFaceSmile",
-    "HeroiconsSolidFilm",
-    "HeroiconsSolidFingerPrint",
-    "HeroiconsSolidFire",
-    "HeroiconsSolidFlag",
-    "HeroiconsSolidFolderArrowDown",
-    "HeroiconsSolidFolderMinus",
-    "HeroiconsSolidFolderOpen",
-    "HeroiconsSolidFolderPlus",
-    "HeroiconsSolidFolder",
-    "HeroiconsSolidForward",
-    "HeroiconsSolidFunnel",
-    "HeroiconsSolidGif",
-    "HeroiconsSolidGiftTop",
-    "HeroiconsSolidGift",
-    "HeroiconsSolidGlobeAlt",
-    "HeroiconsSolidGlobeAmericas",
-    "HeroiconsSolidGlobeAsiaAustralia",
-    "HeroiconsSolidGlobeEuropeAfrica",
-    "HeroiconsSolidHandRaised",
-    "HeroiconsSolidHandThumbDown",
-    "HeroiconsSolidHandThumbUp",
-    "HeroiconsSolidHashtag",
-    "HeroiconsSolidHeart",
-    "HeroiconsSolidHomeModern",
-    "HeroiconsSolidHome",
-    "HeroiconsSolidIdentification",
-    "HeroiconsSolidInboxArrowDown",
-    "HeroiconsSolidInboxStack",
-    "HeroiconsSolidInbox",
-    "HeroiconsSolidInformationCircle",
-    "HeroiconsSolidKey",
-    "HeroiconsSolidLanguage",
-    "HeroiconsSolidLifebuoy",
-    "HeroiconsSolidLightBulb",
-    "HeroiconsSolidLink",
-    "HeroiconsSolidListBullet",
-    "HeroiconsSolidLockClosed",
-    "HeroiconsSolidLockOpen",
-    "HeroiconsSolidMagnifyingGlassCircle",
-    "HeroiconsSolidMagnifyingGlassMinus",
-    "HeroiconsSolidMagnifyingGlassPlus",
-    "HeroiconsSolidMagnifyingGlass",
-    "HeroiconsSolidMapPin",
-    "HeroiconsSolidMap",
-    "HeroiconsSolidMegaphone",
-    "HeroiconsSolidMicrophone",
-    "HeroiconsSolidMinusCircle",
-    "HeroiconsSolidMinusSmall",
-    "HeroiconsSolidMinus",
-    "HeroiconsSolidMoon",
-    "HeroiconsSolidMusicalNote",
-    "HeroiconsSolidNewspaper",
-    "HeroiconsSolidNoSymbol",
-    "HeroiconsSolidPaintBrush",
-    "HeroiconsSolidPaperAirplane",
-    "HeroiconsSolidPaperClip",
-    "HeroiconsSolidPauseCircle",
-    "HeroiconsSolidPause",
-    "HeroiconsSolidPencilSquare",
-    "HeroiconsSolidPencil",
-    "HeroiconsSolidPhoneArrowDownLeft",
-    "HeroiconsSolidPhoneArrowUpRight",
-    "HeroiconsSolidPhoneXMark",
-    "HeroiconsSolidPhone",
-    "HeroiconsSolidPhoto",
-    "HeroiconsSolidPlayCircle",
-    "HeroiconsSolidPlayPause",
-    "HeroiconsSolidPlay",
-    "HeroiconsSolidPlusCircle",
-    "HeroiconsSolidPlusSmall",
-    "HeroiconsSolidPlus",
-    "HeroiconsSolidPower",
-    "HeroiconsSolidPresentationChartBar",
-    "HeroiconsSolidPresentationChartLine",
-    "HeroiconsSolidPrinter",
-    "HeroiconsSolidPuzzlePiece",
-    "HeroiconsSolidQrCode",
-    "HeroiconsSolidQuestionMarkCircle",
-    "HeroiconsSolidQueueList",
-    "HeroiconsSolidRadio",
-    "HeroiconsSolidReceiptPercent",
-    "HeroiconsSolidReceiptRefund",
-    "HeroiconsSolidRectangleGroup",
-    "HeroiconsSolidRectangleStack",
-    "HeroiconsSolidRocketLaunch",
-    "HeroiconsSolidRss",
-    "HeroiconsSolidScale",
-    "HeroiconsSolidScissors",
-    "HeroiconsSolidServerStack",
-    "HeroiconsSolidServer",
-    "HeroiconsSolidShare",
-    "HeroiconsSolidShieldCheck",
-    "HeroiconsSolidShieldExclamation",
-    "HeroiconsSolidShoppingBag",
-    "HeroiconsSolidShoppingCart",
-    "HeroiconsSolidSignalSlash",
-    "HeroiconsSolidSignal",
-    "HeroiconsSolidSparkles",
-    "HeroiconsSolidSpeakerWave",
-    "HeroiconsSolidSpeakerXMark",
-    "HeroiconsSolidSquare2Stack",
-    "HeroiconsSolidSquare3Stack3D",
-    "HeroiconsSolidSquares2X2",
-    "HeroiconsSolidSquaresPlus",
-    "HeroiconsSolidStar",
-    "HeroiconsSolidStopCircle",
-    "HeroiconsSolidStop",
-    "HeroiconsSolidSun",
-    "HeroiconsSolidSwatch",
-    "HeroiconsSolidTableCells",
-    "HeroiconsSolidTag",
-    "HeroiconsSolidTicket",
-    "HeroiconsSolidTrash",
-    "HeroiconsSolidTrophy",
-    "HeroiconsSolidTruck",
-    "HeroiconsSolidTv",
-    "HeroiconsSolidUserCircle",
-    "HeroiconsSolidUserGroup",
-    "HeroiconsSolidUserMinus",
-    "HeroiconsSolidUserPlus",
-    "HeroiconsSolidUser",
-    "HeroiconsSolidUsers",
-    "HeroiconsSolidVariable",
-    "HeroiconsSolidVideoCameraSlash",
-    "HeroiconsSolidVideoCamera",
-    "HeroiconsSolidViewColumns",
-    "HeroiconsSolidViewfinderCircle",
-    "HeroiconsSolidWallet",
-    "HeroiconsSolidWifi",
-    "HeroiconsSolidWindow",
-    "HeroiconsSolidWrenchScrewdriver",
-    "HeroiconsSolidWrench",
-    "HeroiconsSolidXCircle",
-    "HeroiconsSolidXMark",
-]
 lucide = [
-    "LucideAccessibility",
-    "LucideActivity",
-    "LucideAirVent",
-    "LucideAirplay",
-    "LucideAlarmCheck",
-    "LucideAlarmClockOff",
-    "LucideAlarmClock",
-    "LucideAlarmMinus",
-    "LucideAlarmPlus",
-    "LucideAlbum",
-    "LucideAlertCircle",
-    "LucideAlertOctagon",
-    "LucideAlertTriangle",
-    "LucideAlignCenterHorizontal",
-    "LucideAlignCenterVertical",
-    "LucideAlignCenter",
-    "LucideAlignEndHorizontal",
-    "LucideAlignEndVertical",
-    "LucideAlignHorizontalDistributeCenter",
-    "LucideAlignHorizontalDistributeEnd",
-    "LucideAlignHorizontalDistributeStart",
-    "LucideAlignHorizontalJustifyCenter",
-    "LucideAlignHorizontalJustifyEnd",
-    "LucideAlignHorizontalJustifyStart",
-    "LucideAlignHorizontalSpaceAround",
-    "LucideAlignHorizontalSpaceBetween",
-    "LucideAlignJustify",
-    "LucideAlignLeft",
-    "LucideAlignRight",
-    "LucideAlignStartHorizontal",
-    "LucideAlignStartVertical",
-    "LucideAlignVerticalDistributeCenter",
-    "LucideAlignVerticalDistributeEnd",
-    "LucideAlignVerticalDistributeStart",
-    "LucideAlignVerticalJustifyCenter",
-    "LucideAlignVerticalJustifyEnd",
-    "LucideAlignVerticalJustifyStart",
-    "LucideAlignVerticalSpaceAround",
-    "LucideAlignVerticalSpaceBetween",
-    "LucideAnchor",
-    "LucideAngry",
-    "LucideAnnoyed",
-    "LucideAperture",
-    "LucideApple",
-    "LucideArchiveRestore",
-    "LucideArchive",
-    "LucideArmchair",
-    "LucideArrowBigDown",
-    "LucideArrowBigLeft",
-    "LucideArrowBigRight",
-    "LucideArrowBigUp",
-    "LucideArrowDownCircle",
-    "LucideArrowDownLeft",
-    "LucideArrowDownRight",
-    "LucideArrowDown",
-    "LucideArrowLeftCircle",
-    "LucideArrowLeftRight",
-    "LucideArrowLeft",
-    "LucideArrowRightCircle",
-    "LucideArrowRight",
-    "LucideArrowUpCircle",
-    "LucideArrowUpDown",
-    "LucideArrowUpLeft",
-    "LucideArrowUpRight",
-    "LucideArrowUp",
-    "LucideAsterisk",
-    "LucideAtSign",
-    "LucideAward",
-    "LucideAxe",
-    "LucideAxis3D",
-    "LucideBaby",
-    "LucideBackpack",
-    "LucideBaggageClaim",
-    "LucideBanana",
-    "LucideBanknote",
-    "LucideBarChart2",
-    "LucideBarChart3",
-    "LucideBarChart4",
-    "LucideBarChartHorizontal",
-    "LucideBarChart",
-    "LucideBaseline",
-    "LucideBath",
-    "LucideBatteryCharging",
-    "LucideBatteryFull",
-    "LucideBatteryLow",
-    "LucideBatteryMedium",
-    "LucideBatteryWarning",
-    "LucideBattery",
-    "LucideBeaker",
-    "LucideBeanOff",
-    "LucideBean",
-    "LucideBedDouble",
-    "LucideBedSingle",
-    "LucideBed",
-    "LucideBeef",
-    "LucideBeer",
-    "LucideBellMinus",
-    "LucideBellOff",
-    "LucideBellPlus",
-    "LucideBellRing",
-    "LucideBell",
-    "LucideBike",
-    "LucideBinary",
-    "LucideBitcoin",
-    "LucideBluetoothConnected",
-    "LucideBluetoothOff",
-    "LucideBluetoothSearching",
-    "LucideBluetooth",
-    "LucideBold",
-    "LucideBomb",
-    "LucideBone",
-    "LucideBookOpenCheck",
-    "LucideBookOpen",
-    "LucideBook",
-    "LucideBookmarkMinus",
-    "LucideBookmarkPlus",
-    "LucideBookmark",
-    "LucideBot",
-    "LucideBoxSelect",
-    "LucideBox",
-    "LucideBoxes",
-    "LucideBriefcase",
-    "LucideBrush",
-    "LucideBug",
-    "LucideBuilding2",
-    "LucideBuilding",
-    "LucideBus",
-    "LucideCake",
-    "LucideCalculator",
-    "LucideCalendarCheck2",
-    "LucideCalendarCheck",
-    "LucideCalendarClock",
-    "LucideCalendarDays",
-    "LucideCalendarHeart",
-    "LucideCalendarMinus",
-    "LucideCalendarOff",
-    "LucideCalendarPlus",
-    "LucideCalendarRange",
-    "LucideCalendarSearch",
-    "LucideCalendarX2",
-    "LucideCalendarX",
-    "LucideCalendar",
-    "LucideCameraOff",
-    "LucideCamera",
-    "LucideCandyOff",
-    "LucideCandy",
-    "LucideCar",
-    "LucideCarrot",
-    "LucideCast",
-    "LucideCat",
-    "LucideCheckCheck",
-    "LucideCheckCircle2",
-    "LucideCheckCircle",
-    "LucideCheckSquare",
-    "LucideCheck",
-    "LucideChefHat",
-    "LucideCherry",
-    "LucideChevronDown",
-    "LucideChevronFirst",
-    "LucideChevronLast",
-    "LucideChevronLeft",
-    "LucideChevronRight",
-    "LucideChevronUp",
-    "LucideChevronsDownUp",
-    "LucideChevronsDown",
-    "LucideChevronsLeftRight",
-    "LucideChevronsLeft",
-    "LucideChevronsRightLeft",
-    "LucideChevronsRight",
-    "LucideChevronsUpDown",
-    "LucideChevronsUp",
-    "LucideChrome",
-    "LucideCigaretteOff",
-    "LucideCigarette",
-    "LucideCircleDot",
-    "LucideCircleEllipsis",
-    "LucideCircleSlashed",
-    "LucideCircle",
-    "LucideCitrus",
-    "LucideClapperboard",
-    "LucideClipboardCheck",
-    "LucideClipboardCopy",
-    "LucideClipboardEdit",
-    "LucideClipboardList",
-    "LucideClipboardSignature",
-    "LucideClipboardType",
-    "LucideClipboardX",
-    "LucideClipboard",
-    "LucideClock1",
-    "LucideClock10",
-    "LucideClock11",
-    "LucideClock12",
-    "LucideClock2",
-    "LucideClock3",
-    "LucideClock4",
-    "LucideClock5",
-    "LucideClock6",
-    "LucideClock7",
-    "LucideClock8",
-    "LucideClock9",
-    "LucideClock",
-    "LucideCloudCog",
-    "LucideCloudDrizzle",
-    "LucideCloudFog",
-    "LucideCloudHail",
-    "LucideCloudLightning",
-    "LucideCloudMoonRain",
-    "LucideCloudMoon",
-    "LucideCloudOff",
-    "LucideCloudRainWind",
-    "LucideCloudRain",
-    "LucideCloudSnow",
-    "LucideCloudSunRain",
-    "LucideCloudSun",
-    "LucideCloud",
-    "LucideCloudy",
-    "LucideClover",
-    "LucideCode2",
-    "LucideCode",
-    "LucideCodepen",
-    "LucideCodesandbox",
-    "LucideCoffee",
-    "LucideCog",
-    "LucideCoins",
-    "LucideColumns",
-    "LucideCommand",
-    "LucideCompass",
-    "LucideComponent",
-    "LucideConciergeBell",
-    "LucideContact",
-    "LucideContrast",
-    "LucideCookie",
-    "LucideCopy",
-    "LucideCopyleft",
-    "LucideCopyright",
-    "LucideCornerDownLeft",
-    "LucideCornerDownRight",
-    "LucideCornerLeftDown",
-    "LucideCornerLeftUp",
-    "LucideCornerRightDown",
-    "LucideCornerRightUp",
-    "LucideCornerUpLeft",
-    "LucideCornerUpRight",
-    "LucideCpu",
-    "LucideCreditCard",
-    "LucideCroissant",
-    "LucideCrop",
-    "LucideCross",
-    "LucideCrosshair",
-    "LucideCrown",
-    "LucideCupSoda",
-    "LucideCurlyBraces",
-    "LucideCurrency",
-    "LucideDatabaseBackup",
-    "LucideDatabase",
-    "LucideDelete",
-    "LucideDiamond",
-    "LucideDice1",
-    "LucideDice2",
-    "LucideDice3",
-    "LucideDice4",
-    "LucideDice5",
-    "LucideDice6",
-    "LucideDices",
-    "LucideDiff",
-    "LucideDisc",
-    "LucideDivideCircle",
-    "LucideDivideSquare",
-    "LucideDivide",
-    "LucideDnaOff",
-    "LucideDna",
-    "LucideDog",
-    "LucideDollarSign",
-    "LucideDownloadCloud",
-    "LucideDownload",
-    "LucideDribbble",
-    "LucideDroplet",
-    "LucideDroplets",
-    "LucideDrumstick",
-    "LucideDumbbell",
-    "LucideEarOff",
-    "LucideEar",
-    "LucideEdit2",
-    "LucideEdit3",
-    "LucideEdit",
-    "LucideEggFried",
-    "LucideEggOff",
-    "LucideEgg",
-    "LucideEqualNot",
-    "LucideEqual",
-    "LucideEraser",
-    "LucideEuro",
-    "LucideExpand",
-    "LucideExternalLink",
-    "LucideEyeOff",
-    "LucideEye",
-    "LucideFacebook",
-    "LucideFactory",
-    "LucideFan",
-    "LucideFastForward",
-    "LucideFeather",
-    "LucideFigma",
-    "LucideFileArchive",
-    "LucideFileAudio2",
-    "LucideFileAudio",
-    "LucideFileAxis3D",
-    "LucideFileBadge2",
-    "LucideFileBadge",
-    "LucideFileBarChart2",
-    "LucideFileBarChart",
-    "LucideFileBox",
-    "LucideFileCheck2",
-    "LucideFileCheck",
-    "LucideFileClock",
-    "LucideFileCode",
-    "LucideFileCog2",
-    "LucideFileCog",
-    "LucideFileDiff",
-    "LucideFileDigit",
-    "LucideFileDown",
-    "LucideFileEdit",
-    "LucideFileHeart",
-    "LucideFileImage",
-    "LucideFileInput",
-    "LucideFileJson2",
-    "LucideFileJson",
-    "LucideFileKey2",
-    "LucideFileKey",
-    "LucideFileLineChart",
-    "LucideFileLock2",
-    "LucideFileLock",
-    "LucideFileMinus2",
-    "LucideFileMinus",
-    "LucideFileOutput",
-    "LucideFilePieChart",
-    "LucideFilePlus2",
-    "LucideFilePlus",
-    "LucideFileQuestion",
-    "LucideFileScan",
-    "LucideFileSearch2",
-    "LucideFileSearch",
-    "LucideFileSignature",
-    "LucideFileSpreadsheet",
-    "LucideFileSymlink",
-    "LucideFileTerminal",
-    "LucideFileText",
-    "LucideFileType2",
-    "LucideFileType",
-    "LucideFileUp",
-    "LucideFileVideo2",
-    "LucideFileVideo",
-    "LucideFileVolume2",
-    "LucideFileVolume",
-    "LucideFileWarning",
-    "LucideFileX2",
-    "LucideFileX",
-    "LucideFile",
-    "LucideFiles",
-    "LucideFilm",
-    "LucideFilter",
-    "LucideFingerprint",
-    "LucideFishOff",
-    "LucideFish",
-    "LucideFlagOff",
-    "LucideFlagTriangleLeft",
-    "LucideFlagTriangleRight",
-    "LucideFlag",
-    "LucideFlame",
-    "LucideFlashlightOff",
-    "LucideFlashlight",
-    "LucideFlaskConicalOff",
-    "LucideFlaskConical",
-    "LucideFlaskRound",
-    "LucideFlipHorizontal2",
-    "LucideFlipHorizontal",
-    "LucideFlipVertical2",
-    "LucideFlipVertical",
-    "LucideFlower2",
-    "LucideFlower",
-    "LucideFocus",
-    "LucideFolderArchive",
-    "LucideFolderCheck",
-    "LucideFolderClock",
-    "LucideFolderClosed",
-    "LucideFolderCog2",
-    "LucideFolderCog",
-    "LucideFolderDown",
-    "LucideFolderEdit",
-    "LucideFolderHeart",
-    "LucideFolderInput",
-    "LucideFolderKey",
-    "LucideFolderLock",
-    "LucideFolderMinus",
-    "LucideFolderOpen",
-    "LucideFolderOutput",
-    "LucideFolderPlus",
-    "LucideFolderSearch2",
-    "LucideFolderSearch",
-    "LucideFolderSymlink",
-    "LucideFolderTree",
-    "LucideFolderUp",
-    "LucideFolderX",
-    "LucideFolder",
-    "LucideFolders",
-    "LucideFormInput",
-    "LucideForward",
-    "LucideFrame",
-    "LucideFramer",
-    "LucideFrown",
-    "LucideFuel",
-    "LucideFunctionSquare",
-    "LucideGamepad2",
-    "LucideGamepad",
-    "LucideGauge",
-    "LucideGavel",
-    "LucideGem",
-    "LucideGhost",
-    "LucideGift",
-    "LucideGitBranchPlus",
-    "LucideGitBranch",
-    "LucideGitCommit",
-    "LucideGitCompare",
-    "LucideGitFork",
-    "LucideGitMerge",
-    "LucideGitPullRequestClosed",
-    "LucideGitPullRequestDraft",
-    "LucideGitPullRequest",
-    "LucideGithub",
-    "LucideGitlab",
-    "LucideGlassWater",
-    "LucideGlasses",
-    "LucideGlobe2",
-    "LucideGlobe",
-    "LucideGrab",
-    "LucideGraduationCap",
-    "LucideGrape",
-    "LucideGrid",
-    "LucideGripHorizontal",
-    "LucideGripVertical",
-    "LucideHammer",
-    "LucideHandMetal",
-    "LucideHand",
-    "LucideHardDrive",
-    "LucideHardHat",
-    "LucideHash",
-    "LucideHaze",
-    "LucideHeading1",
-    "LucideHeading2",
-    "LucideHeading3",
-    "LucideHeading4",
-    "LucideHeading5",
-    "LucideHeading6",
-    "LucideHeading",
-    "LucideHeadphones",
-    "LucideHeartCrack",
-    "LucideHeartHandshake",
-    "LucideHeartOff",
-    "LucideHeartPulse",
-    "LucideHeart",
-    "LucideHelpCircle",
-    "LucideHexagon",
-    "LucideHighlighter",
-    "LucideHistory",
-    "LucideHome",
-    "LucideHopOff",
-    "LucideHop",
-    "LucideHourglass",
-    "LucideIceCream2",
-    "LucideIceCream",
-    "LucideImageMinus",
-    "LucideImageOff",
-    "LucideImagePlus",
-    "LucideImage",
-    "LucideImport",
-    "LucideInbox",
-    "LucideIndent",
-    "LucideIndianRupee",
-    "LucideInfinity",
-    "LucideInfo",
-    "LucideInspect",
-    "LucideInstagram",
-    "LucideItalic",
-    "LucideJapaneseYen",
-    "LucideJoystick",
-    "LucideKey",
-    "LucideKeyboard",
-    "LucideLampCeiling",
-    "LucideLampDesk",
-    "LucideLampFloor",
-    "LucideLampWallDown",
-    "LucideLampWallUp",
-    "LucideLamp",
-    "LucideLandmark",
-    "LucideLanguages",
-    "LucideLaptop2",
-    "LucideLaptop",
-    "LucideLassoSelect",
-    "LucideLasso",
-    "LucideLaugh",
-    "LucideLayers",
-    "LucideLayoutDashboard",
-    "LucideLayoutGrid",
-    "LucideLayoutList",
-    "LucideLayoutTemplate",
-    "LucideLayout",
-    "LucideLeaf",
-    "LucideLibrary",
-    "LucideLifeBuoy",
-    "LucideLightbulbOff",
-    "LucideLightbulb",
-    "LucideLineChart",
-    "LucideLink2Off",
-    "LucideLink2",
-    "LucideLink",
-    "LucideLinkedin",
-    "LucideListChecks",
-    "LucideListEnd",
-    "LucideListMinus",
-    "LucideListMusic",
-    "LucideListOrdered",
-    "LucideListPlus",
-    "LucideListStart",
-    "LucideListVideo",
-    "LucideListX",
-    "LucideList",
-    "LucideLoader2",
-    "LucideLoader",
-    "LucideLocateFixed",
-    "LucideLocateOff",
-    "LucideLocate",
-    "LucideLock",
-    "LucideLogIn",
-    "LucideLogOut",
-    "LucideLuggage",
-    "LucideMagnet",
-    "LucideMailCheck",
-    "LucideMailMinus",
-    "LucideMailOpen",
-    "LucideMailPlus",
-    "LucideMailQuestion",
-    "LucideMailSearch",
-    "LucideMailWarning",
-    "LucideMailX",
-    "LucideMail",
-    "LucideMails",
-    "LucideMapPinOff",
-    "LucideMapPin",
-    "LucideMap",
-    "LucideMartini",
-    "LucideMaximize2",
-    "LucideMaximize",
-    "LucideMedal",
-    "LucideMegaphoneOff",
-    "LucideMegaphone",
-    "LucideMeh",
-    "LucideMenu",
-    "LucideMessageCircle",
-    "LucideMessageSquare",
-    "LucideMic2",
-    "LucideMicOff",
-    "LucideMic",
-    "LucideMicroscope",
-    "LucideMicrowave",
-    "LucideMilestone",
-    "LucideMilkOff",
-    "LucideMilk",
-    "LucideMinimize2",
-    "LucideMinimize",
-    "LucideMinusCircle",
-    "LucideMinusSquare",
-    "LucideMinus",
-    "LucideMonitorOff",
-    "LucideMonitorSmartphone",
-    "LucideMonitorSpeaker",
-    "LucideMonitor",
-    "LucideMoon",
-    "LucideMoreHorizontal",
-    "LucideMoreVertical",
-    "LucideMountainSnow",
-    "LucideMountain",
-    "LucideMousePointer2",
-    "LucideMousePointerClick",
-    "LucideMousePointer",
-    "LucideMouse",
-    "LucideMove3D",
-    "LucideMoveDiagonal2",
-    "LucideMoveDiagonal",
-    "LucideMoveHorizontal",
-    "LucideMoveVertical",
-    "LucideMove",
-    "LucideMusic2",
-    "LucideMusic3",
-    "LucideMusic4",
-    "LucideMusic",
-    "LucideNavigation2Off",
-    "LucideNavigation2",
-    "LucideNavigationOff",
-    "LucideNavigation",
-    "LucideNetwork",
-    "LucideNewspaper",
-    "LucideNutOff",
-    "LucideNut",
-    "LucideOctagon",
-    "LucideOption",
-    "LucideOutdent",
-    "LucidePackage2",
-    "LucidePackageCheck",
-    "LucidePackageMinus",
-    "LucidePackageOpen",
-    "LucidePackagePlus",
-    "LucidePackageSearch",
-    "LucidePackageX",
-    "LucidePackage",
-    "LucidePaintBucket",
-    "LucidePaintbrush2",
-    "LucidePaintbrush",
-    "LucidePalette",
-    "LucidePalmtree",
-    "LucidePaperclip",
-    "LucidePartyPopper",
-    "LucidePauseCircle",
-    "LucidePauseOctagon",
-    "LucidePause",
-    "LucidePenTool",
-    "LucidePencil",
-    "LucidePercent",
-    "LucidePersonStanding",
-    "LucidePhoneCall",
-    "LucidePhoneForwarded",
-    "LucidePhoneIncoming",
-    "LucidePhoneMissed",
-    "LucidePhoneOff",
-    "LucidePhoneOutgoing",
-    "LucidePhone",
-    "LucidePictureInPicture2",
-    "LucidePictureInPicture",
-    "LucidePieChart",
-    "LucidePiggyBank",
-    "LucidePilcrow",
-    "LucidePinOff",
-    "LucidePin",
-    "LucidePipette",
-    "LucidePizza",
-    "LucidePlane",
-    "LucidePlayCircle",
-    "LucidePlay",
-    "LucidePlug2",
-    "LucidePlugZap",
-    "LucidePlug",
-    "LucidePlusCircle",
-    "LucidePlusSquare",
-    "LucidePlus",
-    "LucidePocket",
-    "LucidePodcast",
-    "LucidePointer",
-    "LucidePoundSterling",
-    "LucidePowerOff",
-    "LucidePower",
-    "LucidePrinter",
-    "LucidePuzzle",
-    "LucideQrCode",
-    "LucideQuote",
-    "LucideRadioReceiver",
-    "LucideRadio",
-    "LucideRectangleHorizontal",
-    "LucideRectangleVertical",
-    "LucideRecycle",
-    "LucideRedo2",
-    "LucideRedo",
-    "LucideRefreshCcw",
-    "LucideRefreshCw",
-    "LucideRefrigerator",
-    "LucideRegex",
-    "LucideRepeat1",
-    "LucideRepeat",
-    "LucideReplyAll",
-    "LucideReply",
-    "LucideRewind",
-    "LucideRocket",
-    "LucideRockingChair",
-    "LucideRotate3D",
-    "LucideRotateCcw",
-    "LucideRotateCw",
-    "LucideRss",
-    "LucideRuler",
-    "LucideRussianRuble",
-    "LucideSailboat",
-    "LucideSalad",
-    "LucideSandwich",
-    "LucideSave",
-    "LucideScale3D",
-    "LucideScale",
-    "LucideScaling",
-    "LucideScanFace",
-    "LucideScanLine",
-    "LucideScan",
-    "LucideScissors",
-    "LucideScreenShareOff",
-    "LucideScreenShare",
-    "LucideScroll",
-    "LucideSearch",
-    "LucideSend",
-    "LucideSeparatorHorizontal",
-    "LucideSeparatorVertical",
-    "LucideServerCog",
-    "LucideServerCrash",
-    "LucideServerOff",
-    "LucideServer",
-    "LucideSettings2",
-    "LucideSettings",
-    "LucideShare2",
-    "LucideShare",
-    "LucideSheet",
-    "LucideShieldAlert",
-    "LucideShieldCheck",
-    "LucideShieldClose",
-    "LucideShieldOff",
-    "LucideShield",
-    "LucideShirt",
-    "LucideShoppingBag",
-    "LucideShoppingCart",
-    "LucideShovel",
-    "LucideShowerHead",
-    "LucideShrink",
-    "LucideShrub",
-    "LucideShuffle",
-    "LucideSidebarClose",
-    "LucideSidebarOpen",
-    "LucideSidebar",
-    "LucideSigma",
-    "LucideSignalHigh",
-    "LucideSignalLow",
-    "LucideSignalMedium",
-    "LucideSignalZero",
-    "LucideSignal",
-    "LucideSiren",
-    "LucideSkipBack",
-    "LucideSkipForward",
-    "LucideSkull",
-    "LucideSlack",
-    "LucideSlash",
-    "LucideSlice",
-    "LucideSlidersHorizontal",
-    "LucideSliders",
-    "LucideSmartphoneCharging",
-    "LucideSmartphone",
-    "LucideSmilePlus",
-    "LucideSmile",
-    "LucideSnowflake",
-    "LucideSofa",
-    "LucideSortAsc",
-    "LucideSortDesc",
-    "LucideSoup",
-    "LucideSpeaker",
-    "LucideSpline",
-    "LucideSprout",
-    "LucideSquare",
-    "LucideStarHalf",
-    "LucideStarOff",
-    "LucideStar",
-    "LucideStethoscope",
-    "LucideSticker",
-    "LucideStickyNote",
-    "LucideStopCircle",
-    "LucideStretchHorizontal",
-    "LucideStretchVertical",
-    "LucideStrikethrough",
-    "LucideSubscript",
-    "LucideSubtitles",
-    "LucideSunDim",
-    "LucideSunMedium",
-    "LucideSunMoon",
-    "LucideSunSnow",
-    "LucideSun",
-    "LucideSunrise",
-    "LucideSunset",
-    "LucideSuperscript",
-    "LucideSwissFranc",
-    "LucideSwitchCamera",
-    "LucideSword",
-    "LucideSwords",
-    "LucideSyringe",
-    "LucideTable2",
-    "LucideTable",
-    "LucideTablet",
-    "LucideTag",
-    "LucideTags",
-    "LucideTarget",
-    "LucideTent",
-    "LucideTerminalSquare",
-    "LucideTerminal",
-    "LucideTextCursorInput",
-    "LucideTextCursor",
-    "LucideThermometerSnowflake",
-    "LucideThermometerSun",
-    "LucideThermometer",
-    "LucideThumbsDown",
-    "LucideThumbsUp",
-    "LucideTicket",
-    "LucideTimerOff",
-    "LucideTimerReset",
-    "LucideTimer",
-    "LucideToggleLeft",
-    "LucideToggleRight",
-    "LucideTornado",
-    "LucideToyBrick",
-    "LucideTrain",
-    "LucideTrash2",
-    "LucideTrash",
-    "LucideTreeDeciduous",
-    "LucideTreePine",
-    "LucideTrees",
-    "LucideTrello",
-    "LucideTrendingDown",
-    "LucideTrendingUp",
-    "LucideTriangle",
-    "LucideTrophy",
-    "LucideTruck",
-    "LucideTv2",
-    "LucideTv",
-    "LucideTwitch",
-    "LucideTwitter",
-    "LucideType",
-    "LucideUmbrella",
-    "LucideUnderline",
-    "LucideUndo2",
-    "LucideUndo",
-    "LucideUnlink2",
-    "LucideUnlink",
-    "LucideUnlock",
-    "LucideUploadCloud",
-    "LucideUpload",
-    "LucideUsb",
-    "LucideUserCheck",
-    "LucideUserCog",
-    "LucideUserMinus",
-    "LucideUserPlus",
-    "LucideUserX",
-    "LucideUser",
-    "LucideUsers",
-    "LucideUtensilsCrossed",
-    "LucideUtensils",
-    "LucideVegan",
-    "LucideVenetianMask",
-    "LucideVerified",
-    "LucideVibrateOff",
-    "LucideVibrate",
-    "LucideVideoOff",
-    "LucideVideo",
-    "LucideView",
-    "LucideVoicemail",
-    "LucideVolume1",
-    "LucideVolume2",
-    "LucideVolumeX",
-    "LucideVolume",
-    "LucideVote",
-    "LucideWallet",
-    "LucideWand2",
-    "LucideWand",
-    "LucideWatch",
-    "LucideWaves",
-    "LucideWebcam",
-    "LucideWebhook",
-    "LucideWheatOff",
-    "LucideWheat",
-    "LucideWifiOff",
-    "LucideWifi",
-    "LucideWind",
-    "LucideWineOff",
-    "LucideWine",
-    "LucideWrapText",
-    "LucideWrench",
-    "LucideXCircle",
-    "LucideXOctagon",
-    "LucideXSquare",
-    "LucideX",
-    "LucideYoutube",
-    "LucideZapOff",
-    "LucideZap",
-    "LucideZoomIn",
-    "LucideZoomOut",
+	"LucideAArrowDown",
+	"LucideAArrowUp",
+	"LucideALargeSmall",
+	"LucideAccessibility",
+	"LucideActivitySquare",
+	"LucideActivity",
+	"LucideAirVent",
+	"LucideAirplay",
+	"LucideAlarmClockCheck",
+	"LucideAlarmClockMinus",
+	"LucideAlarmClockOff",
+	"LucideAlarmClockPlus",
+	"LucideAlarmClock",
+	"LucideAlarmSmoke",
+	"LucideAlbum",
+	"LucideAlertCircle",
+	"LucideAlertOctagon",
+	"LucideAlertTriangle",
+	"LucideAlignCenterHorizontal",
+	"LucideAlignCenterVertical",
+	"LucideAlignCenter",
+	"LucideAlignEndHorizontal",
+	"LucideAlignEndVertical",
+	"LucideAlignHorizontalDistributeCenter",
+	"LucideAlignHorizontalDistributeEnd",
+	"LucideAlignHorizontalDistributeStart",
+	"LucideAlignHorizontalJustifyCenter",
+	"LucideAlignHorizontalJustifyEnd",
+	"LucideAlignHorizontalJustifyStart",
+	"LucideAlignHorizontalSpaceAround",
+	"LucideAlignHorizontalSpaceBetween",
+	"LucideAlignJustify",
+	"LucideAlignLeft",
+	"LucideAlignRight",
+	"LucideAlignStartHorizontal",
+	"LucideAlignStartVertical",
+	"LucideAlignVerticalDistributeCenter",
+	"LucideAlignVerticalDistributeEnd",
+	"LucideAlignVerticalDistributeStart",
+	"LucideAlignVerticalJustifyCenter",
+	"LucideAlignVerticalJustifyEnd",
+	"LucideAlignVerticalJustifyStart",
+	"LucideAlignVerticalSpaceAround",
+	"LucideAlignVerticalSpaceBetween",
+	"LucideAmpersand",
+	"LucideAmpersands",
+	"LucideAnchor",
+	"LucideAngry",
+	"LucideAnnoyed",
+	"LucideAntenna",
+	"LucideAnvil",
+	"LucideAperture",
+	"LucideAppWindow",
+	"LucideApple",
+	"LucideArchiveRestore",
+	"LucideArchiveX",
+	"LucideArchive",
+	"LucideAreaChart",
+	"LucideArmchair",
+	"LucideArrowBigDownDash",
+	"LucideArrowBigDown",
+	"LucideArrowBigLeftDash",
+	"LucideArrowBigLeft",
+	"LucideArrowBigRightDash",
+	"LucideArrowBigRight",
+	"LucideArrowBigUpDash",
+	"LucideArrowBigUp",
+	"LucideArrowDown01",
+	"LucideArrowDown10",
+	"LucideArrowDownAZ",
+	"LucideArrowDownCircle",
+	"LucideArrowDownFromLine",
+	"LucideArrowDownLeftFromCircle",
+	"LucideArrowDownLeftSquare",
+	"LucideArrowDownLeft",
+	"LucideArrowDownNarrowWide",
+	"LucideArrowDownRightFromCircle",
+	"LucideArrowDownRightSquare",
+	"LucideArrowDownRight",
+	"LucideArrowDownSquare",
+	"LucideArrowDownToDot",
+	"LucideArrowDownToLine",
+	"LucideArrowDownUp",
+	"LucideArrowDownWideNarrow",
+	"LucideArrowDownZA",
+	"LucideArrowDown",
+	"LucideArrowLeftCircle",
+	"LucideArrowLeftFromLine",
+	"LucideArrowLeftRight",
+	"LucideArrowLeftSquare",
+	"LucideArrowLeftToLine",
+	"LucideArrowLeft",
+	"LucideArrowRightCircle",
+	"LucideArrowRightFromLine",
+	"LucideArrowRightLeft",
+	"LucideArrowRightSquare",
+	"LucideArrowRightToLine",
+	"LucideArrowRight",
+	"LucideArrowUp01",
+	"LucideArrowUp10",
+	"LucideArrowUpAZ",
+	"LucideArrowUpCircle",
+	"LucideArrowUpDown",
+	"LucideArrowUpFromDot",
+	"LucideArrowUpFromLine",
+	"LucideArrowUpLeftFromCircle",
+	"LucideArrowUpLeftSquare",
+	"LucideArrowUpLeft",
+	"LucideArrowUpNarrowWide",
+	"LucideArrowUpRightFromCircle",
+	"LucideArrowUpRightSquare",
+	"LucideArrowUpRight",
+	"LucideArrowUpSquare",
+	"LucideArrowUpToLine",
+	"LucideArrowUpWideNarrow",
+	"LucideArrowUpZA",
+	"LucideArrowUp",
+	"LucideArrowsUpFromLine",
+	"LucideAsteriskSquare",
+	"LucideAsterisk",
+	"LucideAtSign",
+	"LucideAtom",
+	"LucideAudioLines",
+	"LucideAudioWaveform",
+	"LucideAward",
+	"LucideAxe",
+	"LucideAxis3D",
+	"LucideBaby",
+	"LucideBackpack",
+	"LucideBadgeAlert",
+	"LucideBadgeCent",
+	"LucideBadgeCheck",
+	"LucideBadgeDollarSign",
+	"LucideBadgeEuro",
+	"LucideBadgeHelp",
+	"LucideBadgeIndianRupee",
+	"LucideBadgeInfo",
+	"LucideBadgeJapaneseYen",
+	"LucideBadgeMinus",
+	"LucideBadgePercent",
+	"LucideBadgePlus",
+	"LucideBadgePoundSterling",
+	"LucideBadgeRussianRuble",
+	"LucideBadgeSwissFranc",
+	"LucideBadgeX",
+	"LucideBadge",
+	"LucideBaggageClaim",
+	"LucideBan",
+	"LucideBanana",
+	"LucideBanknote",
+	"LucideBarChart2",
+	"LucideBarChart3",
+	"LucideBarChart4",
+	"LucideBarChartBig",
+	"LucideBarChartHorizontalBig",
+	"LucideBarChartHorizontal",
+	"LucideBarChart",
+	"LucideBarcode",
+	"LucideBaseline",
+	"LucideBath",
+	"LucideBatteryCharging",
+	"LucideBatteryFull",
+	"LucideBatteryLow",
+	"LucideBatteryMedium",
+	"LucideBatteryWarning",
+	"LucideBattery",
+	"LucideBeaker",
+	"LucideBeanOff",
+	"LucideBean",
+	"LucideBedDouble",
+	"LucideBedSingle",
+	"LucideBed",
+	"LucideBeef",
+	"LucideBeer",
+	"LucideBellDot",
+	"LucideBellElectric",
+	"LucideBellMinus",
+	"LucideBellOff",
+	"LucideBellPlus",
+	"LucideBellRing",
+	"LucideBell",
+	"LucideBetweenHorizontalEnd",
+	"LucideBetweenHorizontalStart",
+	"LucideBetweenVerticalEnd",
+	"LucideBetweenVerticalStart",
+	"LucideBike",
+	"LucideBinary",
+	"LucideBiohazard",
+	"LucideBird",
+	"LucideBitcoin",
+	"LucideBlinds",
+	"LucideBlocks",
+	"LucideBluetoothConnected",
+	"LucideBluetoothOff",
+	"LucideBluetoothSearching",
+	"LucideBluetooth",
+	"LucideBold",
+	"LucideBolt",
+	"LucideBomb",
+	"LucideBone",
+	"LucideBookA",
+	"LucideBookAudio",
+	"LucideBookCheck",
+	"LucideBookCopy",
+	"LucideBookDashed",
+	"LucideBookDown",
+	"LucideBookHeadphones",
+	"LucideBookHeart",
+	"LucideBookImage",
+	"LucideBookKey",
+	"LucideBookLock",
+	"LucideBookMarked",
+	"LucideBookMinus",
+	"LucideBookOpenCheck",
+	"LucideBookOpenText",
+	"LucideBookOpen",
+	"LucideBookPlus",
+	"LucideBookText",
+	"LucideBookType",
+	"LucideBookUp2",
+	"LucideBookUp",
+	"LucideBookUser",
+	"LucideBookX",
+	"LucideBook",
+	"LucideBookmarkCheck",
+	"LucideBookmarkMinus",
+	"LucideBookmarkPlus",
+	"LucideBookmarkX",
+	"LucideBookmark",
+	"LucideBoomBox",
+	"LucideBot",
+	"LucideBoxSelect",
+	"LucideBox",
+	"LucideBoxes",
+	"LucideBraces",
+	"LucideBrackets",
+	"LucideBrainCircuit",
+	"LucideBrainCog",
+	"LucideBrain",
+	"LucideBrickWall",
+	"LucideBriefcase",
+	"LucideBringToFront",
+	"LucideBrush",
+	"LucideBugOff",
+	"LucideBugPlay",
+	"LucideBug",
+	"LucideBuilding2",
+	"LucideBuilding",
+	"LucideBusFront",
+	"LucideBus",
+	"LucideCableCar",
+	"LucideCable",
+	"LucideCakeSlice",
+	"LucideCake",
+	"LucideCalculator",
+	"LucideCalendarCheck2",
+	"LucideCalendarCheck",
+	"LucideCalendarClock",
+	"LucideCalendarDays",
+	"LucideCalendarHeart",
+	"LucideCalendarMinus",
+	"LucideCalendarOff",
+	"LucideCalendarPlus",
+	"LucideCalendarRange",
+	"LucideCalendarSearch",
+	"LucideCalendarX2",
+	"LucideCalendarX",
+	"LucideCalendar",
+	"LucideCameraOff",
+	"LucideCamera",
+	"LucideCandlestickChart",
+	"LucideCandyCane",
+	"LucideCandyOff",
+	"LucideCandy",
+	"LucideCarFront",
+	"LucideCarTaxiFront",
+	"LucideCar",
+	"LucideCaravan",
+	"LucideCarrot",
+	"LucideCaseLower",
+	"LucideCaseSensitive",
+	"LucideCaseUpper",
+	"LucideCassetteTape",
+	"LucideCast",
+	"LucideCastle",
+	"LucideCat",
+	"LucideCctv",
+	"LucideCheckCheck",
+	"LucideCheckCircle2",
+	"LucideCheckCircle",
+	"LucideCheckSquare2",
+	"LucideCheckSquare",
+	"LucideCheck",
+	"LucideChefHat",
+	"LucideCherry",
+	"LucideChevronDownCircle",
+	"LucideChevronDownSquare",
+	"LucideChevronDown",
+	"LucideChevronFirst",
+	"LucideChevronLast",
+	"LucideChevronLeftCircle",
+	"LucideChevronLeftSquare",
+	"LucideChevronLeft",
+	"LucideChevronRightCircle",
+	"LucideChevronRightSquare",
+	"LucideChevronRight",
+	"LucideChevronUpCircle",
+	"LucideChevronUpSquare",
+	"LucideChevronUp",
+	"LucideChevronsDownUp",
+	"LucideChevronsDown",
+	"LucideChevronsLeftRight",
+	"LucideChevronsLeft",
+	"LucideChevronsRightLeft",
+	"LucideChevronsRight",
+	"LucideChevronsUpDown",
+	"LucideChevronsUp",
+	"LucideChrome",
+	"LucideChurch",
+	"LucideCigaretteOff",
+	"LucideCigarette",
+	"LucideCircleDashed",
+	"LucideCircleDollarSign",
+	"LucideCircleDotDashed",
+	"LucideCircleDot",
+	"LucideCircleEllipsis",
+	"LucideCircleEqual",
+	"LucideCircleOff",
+	"LucideCircleSlash2",
+	"LucideCircleSlash",
+	"LucideCircleUserRound",
+	"LucideCircleUser",
+	"LucideCircle",
+	"LucideCircuitBoard",
+	"LucideCitrus",
+	"LucideClapperboard",
+	"LucideClipboardCheck",
+	"LucideClipboardCopy",
+	"LucideClipboardList",
+	"LucideClipboardPaste",
+	"LucideClipboardPenLine",
+	"LucideClipboardPen",
+	"LucideClipboardType",
+	"LucideClipboardX",
+	"LucideClipboard",
+	"LucideClock1",
+	"LucideClock10",
+	"LucideClock11",
+	"LucideClock12",
+	"LucideClock2",
+	"LucideClock3",
+	"LucideClock4",
+	"LucideClock5",
+	"LucideClock6",
+	"LucideClock7",
+	"LucideClock8",
+	"LucideClock9",
+	"LucideClock",
+	"LucideCloudCog",
+	"LucideCloudDrizzle",
+	"LucideCloudFog",
+	"LucideCloudHail",
+	"LucideCloudLightning",
+	"LucideCloudMoonRain",
+	"LucideCloudMoon",
+	"LucideCloudOff",
+	"LucideCloudRainWind",
+	"LucideCloudRain",
+	"LucideCloudSnow",
+	"LucideCloudSunRain",
+	"LucideCloudSun",
+	"LucideCloud",
+	"LucideCloudy",
+	"LucideClover",
+	"LucideClub",
+	"LucideCode2",
+	"LucideCodeSquare",
+	"LucideCode",
+	"LucideCodepen",
+	"LucideCodesandbox",
+	"LucideCoffee",
+	"LucideCog",
+	"LucideCoins",
+	"LucideColumns2",
+	"LucideColumns3",
+	"LucideColumns4",
+	"LucideCombine",
+	"LucideCommand",
+	"LucideCompass",
+	"LucideComponent",
+	"LucideComputer",
+	"LucideConciergeBell",
+	"LucideCone",
+	"LucideConstruction",
+	"LucideContact2",
+	"LucideContact",
+	"LucideContainer",
+	"LucideContrast",
+	"LucideCookie",
+	"LucideCookingPot",
+	"LucideCopyCheck",
+	"LucideCopyMinus",
+	"LucideCopyPlus",
+	"LucideCopySlash",
+	"LucideCopyX",
+	"LucideCopy",
+	"LucideCopyleft",
+	"LucideCopyright",
+	"LucideCornerDownLeft",
+	"LucideCornerDownRight",
+	"LucideCornerLeftDown",
+	"LucideCornerLeftUp",
+	"LucideCornerRightDown",
+	"LucideCornerRightUp",
+	"LucideCornerUpLeft",
+	"LucideCornerUpRight",
+	"LucideCpu",
+	"LucideCreativeCommons",
+	"LucideCreditCard",
+	"LucideCroissant",
+	"LucideCrop",
+	"LucideCross",
+	"LucideCrosshair",
+	"LucideCrown",
+	"LucideCuboid",
+	"LucideCupSoda",
+	"LucideCurrency",
+	"LucideCylinder",
+	"LucideDatabaseBackup",
+	"LucideDatabaseZap",
+	"LucideDatabase",
+	"LucideDelete",
+	"LucideDessert",
+	"LucideDiameter",
+	"LucideDiamond",
+	"LucideDice1",
+	"LucideDice2",
+	"LucideDice3",
+	"LucideDice4",
+	"LucideDice5",
+	"LucideDice6",
+	"LucideDices",
+	"LucideDiff",
+	"LucideDisc2",
+	"LucideDisc3",
+	"LucideDiscAlbum",
+	"LucideDisc",
+	"LucideDivideCircle",
+	"LucideDivideSquare",
+	"LucideDivide",
+	"LucideDnaOff",
+	"LucideDna",
+	"LucideDog",
+	"LucideDollarSign",
+	"LucideDonut",
+	"LucideDoorClosed",
+	"LucideDoorOpen",
+	"LucideDotSquare",
+	"LucideDot",
+	"LucideDownloadCloud",
+	"LucideDownload",
+	"LucideDraftingCompass",
+	"LucideDrama",
+	"LucideDribbble",
+	"LucideDrill",
+	"LucideDroplet",
+	"LucideDroplets",
+	"LucideDrum",
+	"LucideDrumstick",
+	"LucideDumbbell",
+	"LucideEarOff",
+	"LucideEar",
+	"LucideEggFried",
+	"LucideEggOff",
+	"LucideEgg",
+	"LucideEqualNot",
+	"LucideEqualSquare",
+	"LucideEqual",
+	"LucideEraser",
+	"LucideEuro",
+	"LucideExpand",
+	"LucideExternalLink",
+	"LucideEyeOff",
+	"LucideEye",
+	"LucideFacebook",
+	"LucideFactory",
+	"LucideFan",
+	"LucideFastForward",
+	"LucideFeather",
+	"LucideFence",
+	"LucideFerrisWheel",
+	"LucideFigma",
+	"LucideFileArchive",
+	"LucideFileAudio2",
+	"LucideFileAudio",
+	"LucideFileAxis3D",
+	"LucideFileBadge2",
+	"LucideFileBadge",
+	"LucideFileBarChart2",
+	"LucideFileBarChart",
+	"LucideFileBox",
+	"LucideFileCheck2",
+	"LucideFileCheck",
+	"LucideFileClock",
+	"LucideFileCode2",
+	"LucideFileCode",
+	"LucideFileCog",
+	"LucideFileDiff",
+	"LucideFileDigit",
+	"LucideFileDown",
+	"LucideFileHeart",
+	"LucideFileImage",
+	"LucideFileInput",
+	"LucideFileJson2",
+	"LucideFileJson",
+	"LucideFileKey2",
+	"LucideFileKey",
+	"LucideFileLineChart",
+	"LucideFileLock2",
+	"LucideFileLock",
+	"LucideFileMinus2",
+	"LucideFileMinus",
+	"LucideFileMusic",
+	"LucideFileOutput",
+	"LucideFilePenLine",
+	"LucideFilePen",
+	"LucideFilePieChart",
+	"LucideFilePlus2",
+	"LucideFilePlus",
+	"LucideFileQuestion",
+	"LucideFileScan",
+	"LucideFileSearch2",
+	"LucideFileSearch",
+	"LucideFileSpreadsheet",
+	"LucideFileStack",
+	"LucideFileSymlink",
+	"LucideFileTerminal",
+	"LucideFileText",
+	"LucideFileType2",
+	"LucideFileType",
+	"LucideFileUp",
+	"LucideFileVideo2",
+	"LucideFileVideo",
+	"LucideFileVolume2",
+	"LucideFileVolume",
+	"LucideFileWarning",
+	"LucideFileX2",
+	"LucideFileX",
+	"LucideFile",
+	"LucideFiles",
+	"LucideFilm",
+	"LucideFilterX",
+	"LucideFilter",
+	"LucideFingerprint",
+	"LucideFireExtinguisher",
+	"LucideFishOff",
+	"LucideFishSymbol",
+	"LucideFish",
+	"LucideFlagOff",
+	"LucideFlagTriangleLeft",
+	"LucideFlagTriangleRight",
+	"LucideFlag",
+	"LucideFlameKindling",
+	"LucideFlame",
+	"LucideFlashlightOff",
+	"LucideFlashlight",
+	"LucideFlaskConicalOff",
+	"LucideFlaskConical",
+	"LucideFlaskRound",
+	"LucideFlipHorizontal2",
+	"LucideFlipHorizontal",
+	"LucideFlipVertical2",
+	"LucideFlipVertical",
+	"LucideFlower2",
+	"LucideFlower",
+	"LucideFocus",
+	"LucideFoldHorizontal",
+	"LucideFoldVertical",
+	"LucideFolderArchive",
+	"LucideFolderCheck",
+	"LucideFolderClock",
+	"LucideFolderClosed",
+	"LucideFolderCog",
+	"LucideFolderDot",
+	"LucideFolderDown",
+	"LucideFolderGit2",
+	"LucideFolderGit",
+	"LucideFolderHeart",
+	"LucideFolderInput",
+	"LucideFolderKanban",
+	"LucideFolderKey",
+	"LucideFolderLock",
+	"LucideFolderMinus",
+	"LucideFolderOpenDot",
+	"LucideFolderOpen",
+	"LucideFolderOutput",
+	"LucideFolderPen",
+	"LucideFolderPlus",
+	"LucideFolderRoot",
+	"LucideFolderSearch2",
+	"LucideFolderSearch",
+	"LucideFolderSymlink",
+	"LucideFolderSync",
+	"LucideFolderTree",
+	"LucideFolderUp",
+	"LucideFolderX",
+	"LucideFolder",
+	"LucideFolders",
+	"LucideFootprints",
+	"LucideForklift",
+	"LucideFormInput",
+	"LucideForward",
+	"LucideFrame",
+	"LucideFramer",
+	"LucideFrown",
+	"LucideFuel",
+	"LucideFullscreen",
+	"LucideFunctionSquare",
+	"LucideGalleryHorizontalEnd",
+	"LucideGalleryHorizontal",
+	"LucideGalleryThumbnails",
+	"LucideGalleryVerticalEnd",
+	"LucideGalleryVertical",
+	"LucideGamepad2",
+	"LucideGamepad",
+	"LucideGanttChartSquare",
+	"LucideGanttChart",
+	"LucideGaugeCircle",
+	"LucideGauge",
+	"LucideGavel",
+	"LucideGem",
+	"LucideGhost",
+	"LucideGift",
+	"LucideGitBranchPlus",
+	"LucideGitBranch",
+	"LucideGitCommitHorizontal",
+	"LucideGitCommitVertical",
+	"LucideGitCompareArrows",
+	"LucideGitCompare",
+	"LucideGitFork",
+	"LucideGitGraph",
+	"LucideGitMerge",
+	"LucideGitPullRequestArrow",
+	"LucideGitPullRequestClosed",
+	"LucideGitPullRequestCreateArrow",
+	"LucideGitPullRequestCreate",
+	"LucideGitPullRequestDraft",
+	"LucideGitPullRequest",
+	"LucideGithub",
+	"LucideGitlab",
+	"LucideGlassWater",
+	"LucideGlasses",
+	"LucideGlobe2",
+	"LucideGlobe",
+	"LucideGoal",
+	"LucideGrab",
+	"LucideGraduationCap",
+	"LucideGrape",
+	"LucideGrid2X2",
+	"LucideGrid3X3",
+	"LucideGripHorizontal",
+	"LucideGripVertical",
+	"LucideGrip",
+	"LucideGroup",
+	"LucideGuitar",
+	"LucideHammer",
+	"LucideHandMetal",
+	"LucideHand",
+	"LucideHardDriveDownload",
+	"LucideHardDriveUpload",
+	"LucideHardDrive",
+	"LucideHardHat",
+	"LucideHash",
+	"LucideHaze",
+	"LucideHdmiPort",
+	"LucideHeading1",
+	"LucideHeading2",
+	"LucideHeading3",
+	"LucideHeading4",
+	"LucideHeading5",
+	"LucideHeading6",
+	"LucideHeading",
+	"LucideHeadphones",
+	"LucideHeartCrack",
+	"LucideHeartHandshake",
+	"LucideHeartOff",
+	"LucideHeartPulse",
+	"LucideHeart",
+	"LucideHeater",
+	"LucideHelpCircle",
+	"LucideHelpingHand",
+	"LucideHexagon",
+	"LucideHighlighter",
+	"LucideHistory",
+	"LucideHome",
+	"LucideHopOff",
+	"LucideHop",
+	"LucideHotel",
+	"LucideHourglass",
+	"LucideIceCream2",
+	"LucideIceCream",
+	"LucideImageDown",
+	"LucideImageMinus",
+	"LucideImageOff",
+	"LucideImagePlus",
+	"LucideImage",
+	"LucideImport",
+	"LucideInbox",
+	"LucideIndent",
+	"LucideIndianRupee",
+	"LucideInfinity",
+	"LucideInfo",
+	"LucideInspectionPanel",
+	"LucideInstagram",
+	"LucideItalic",
+	"LucideIterationCcw",
+	"LucideIterationCw",
+	"LucideJapaneseYen",
+	"LucideJoystick",
+	"LucideKanbanSquareDashed",
+	"LucideKanbanSquare",
+	"LucideKanban",
+	"LucideKeyRound",
+	"LucideKeySquare",
+	"LucideKey",
+	"LucideKeyboardMusic",
+	"LucideKeyboard",
+	"LucideLampCeiling",
+	"LucideLampDesk",
+	"LucideLampFloor",
+	"LucideLampWallDown",
+	"LucideLampWallUp",
+	"LucideLamp",
+	"LucideLandPlot",
+	"LucideLandmark",
+	"LucideLanguages",
+	"LucideLaptop2",
+	"LucideLaptop",
+	"LucideLassoSelect",
+	"LucideLasso",
+	"LucideLaugh",
+	"LucideLayers2",
+	"LucideLayers3",
+	"LucideLayers",
+	"LucideLayoutDashboard",
+	"LucideLayoutGrid",
+	"LucideLayoutList",
+	"LucideLayoutPanelLeft",
+	"LucideLayoutPanelTop",
+	"LucideLayoutTemplate",
+	"LucideLeaf",
+	"LucideLeafyGreen",
+	"LucideLibraryBig",
+	"LucideLibrarySquare",
+	"LucideLibrary",
+	"LucideLifeBuoy",
+	"LucideLigature",
+	"LucideLightbulbOff",
+	"LucideLightbulb",
+	"LucideLineChart",
+	"LucideLink2Off",
+	"LucideLink2",
+	"LucideLink",
+	"LucideLinkedin",
+	"LucideListChecks",
+	"LucideListEnd",
+	"LucideListFilter",
+	"LucideListMinus",
+	"LucideListMusic",
+	"LucideListOrdered",
+	"LucideListPlus",
+	"LucideListRestart",
+	"LucideListStart",
+	"LucideListTodo",
+	"LucideListTree",
+	"LucideListVideo",
+	"LucideListX",
+	"LucideList",
+	"LucideLoader2",
+	"LucideLoader",
+	"LucideLocateFixed",
+	"LucideLocateOff",
+	"LucideLocate",
+	"LucideLockKeyhole",
+	"LucideLock",
+	"LucideLogIn",
+	"LucideLogOut",
+	"LucideLollipop",
+	"LucideLuggage",
+	"LucideMSquare",
+	"LucideMagnet",
+	"LucideMailCheck",
+	"LucideMailMinus",
+	"LucideMailOpen",
+	"LucideMailPlus",
+	"LucideMailQuestion",
+	"LucideMailSearch",
+	"LucideMailWarning",
+	"LucideMailX",
+	"LucideMail",
+	"LucideMailbox",
+	"LucideMails",
+	"LucideMapPinOff",
+	"LucideMapPin",
+	"LucideMapPinned",
+	"LucideMap",
+	"LucideMartini",
+	"LucideMaximize2",
+	"LucideMaximize",
+	"LucideMedal",
+	"LucideMegaphoneOff",
+	"LucideMegaphone",
+	"LucideMeh",
+	"LucideMemoryStick",
+	"LucideMenuSquare",
+	"LucideMenu",
+	"LucideMerge",
+	"LucideMessageCircleCode",
+	"LucideMessageCircleDashed",
+	"LucideMessageCircleHeart",
+	"LucideMessageCircleMore",
+	"LucideMessageCircleOff",
+	"LucideMessageCirclePlus",
+	"LucideMessageCircleQuestion",
+	"LucideMessageCircleReply",
+	"LucideMessageCircleWarning",
+	"LucideMessageCircleX",
+	"LucideMessageCircle",
+	"LucideMessageSquareCode",
+	"LucideMessageSquareDashed",
+	"LucideMessageSquareDiff",
+	"LucideMessageSquareDot",
+	"LucideMessageSquareHeart",
+	"LucideMessageSquareMore",
+	"LucideMessageSquareOff",
+	"LucideMessageSquarePlus",
+	"LucideMessageSquareQuote",
+	"LucideMessageSquareReply",
+	"LucideMessageSquareShare",
+	"LucideMessageSquareText",
+	"LucideMessageSquareWarning",
+	"LucideMessageSquareX",
+	"LucideMessageSquare",
+	"LucideMessagesSquare",
+	"LucideMic2",
+	"LucideMicOff",
+	"LucideMic",
+	"LucideMicroscope",
+	"LucideMicrowave",
+	"LucideMilestone",
+	"LucideMilkOff",
+	"LucideMilk",
+	"LucideMinimize2",
+	"LucideMinimize",
+	"LucideMinusCircle",
+	"LucideMinusSquare",
+	"LucideMinus",
+	"LucideMonitorCheck",
+	"LucideMonitorDot",
+	"LucideMonitorDown",
+	"LucideMonitorOff",
+	"LucideMonitorPause",
+	"LucideMonitorPlay",
+	"LucideMonitorSmartphone",
+	"LucideMonitorSpeaker",
+	"LucideMonitorStop",
+	"LucideMonitorUp",
+	"LucideMonitorX",
+	"LucideMonitor",
+	"LucideMoonStar",
+	"LucideMoon",
+	"LucideMoreHorizontal",
+	"LucideMoreVertical",
+	"LucideMountainSnow",
+	"LucideMountain",
+	"LucideMousePointer2",
+	"LucideMousePointerClick",
+	"LucideMousePointerSquareDashed",
+	"LucideMousePointerSquare",
+	"LucideMousePointer",
+	"LucideMouse",
+	"LucideMove3D",
+	"LucideMoveDiagonal2",
+	"LucideMoveDiagonal",
+	"LucideMoveDownLeft",
+	"LucideMoveDownRight",
+	"LucideMoveDown",
+	"LucideMoveHorizontal",
+	"LucideMoveLeft",
+	"LucideMoveRight",
+	"LucideMoveUpLeft",
+	"LucideMoveUpRight",
+	"LucideMoveUp",
+	"LucideMoveVertical",
+	"LucideMove",
+	"LucideMusic2",
+	"LucideMusic3",
+	"LucideMusic4",
+	"LucideMusic",
+	"LucideNavigation2Off",
+	"LucideNavigation2",
+	"LucideNavigationOff",
+	"LucideNavigation",
+	"LucideNetwork",
+	"LucideNewspaper",
+	"LucideNfc",
+	"LucideNotebookPen",
+	"LucideNotebookTabs",
+	"LucideNotebookText",
+	"LucideNotebook",
+	"LucideNotepadTextDashed",
+	"LucideNotepadText",
+	"LucideNutOff",
+	"LucideNut",
+	"LucideOctagon",
+	"LucideOption",
+	"LucideOrbit",
+	"LucideOutdent",
+	"LucidePackage2",
+	"LucidePackageCheck",
+	"LucidePackageMinus",
+	"LucidePackageOpen",
+	"LucidePackagePlus",
+	"LucidePackageSearch",
+	"LucidePackageX",
+	"LucidePackage",
+	"LucidePaintBucket",
+	"LucidePaintbrush2",
+	"LucidePaintbrush",
+	"LucidePalette",
+	"LucidePalmtree",
+	"LucidePanelBottomClose",
+	"LucidePanelBottomDashed",
+	"LucidePanelBottomOpen",
+	"LucidePanelBottom",
+	"LucidePanelLeftClose",
+	"LucidePanelLeftDashed",
+	"LucidePanelLeftOpen",
+	"LucidePanelLeft",
+	"LucidePanelRightClose",
+	"LucidePanelRightDashed",
+	"LucidePanelRightOpen",
+	"LucidePanelRight",
+	"LucidePanelTopClose",
+	"LucidePanelTopDashed",
+	"LucidePanelTopOpen",
+	"LucidePanelTop",
+	"LucidePanelsLeftBottom",
+	"LucidePanelsRightBottom",
+	"LucidePanelsTopLeft",
+	"LucidePaperclip",
+	"LucideParentheses",
+	"LucideParkingCircleOff",
+	"LucideParkingCircle",
+	"LucideParkingMeter",
+	"LucideParkingSquareOff",
+	"LucideParkingSquare",
+	"LucidePartyPopper",
+	"LucidePauseCircle",
+	"LucidePauseOctagon",
+	"LucidePause",
+	"LucidePawPrint",
+	"LucidePcCase",
+	"LucidePenLine",
+	"LucidePenSquare",
+	"LucidePenTool",
+	"LucidePen",
+	"LucidePencilLine",
+	"LucidePencilRuler",
+	"LucidePencil",
+	"LucidePentagon",
+	"LucidePercentCircle",
+	"LucidePercentDiamond",
+	"LucidePercentSquare",
+	"LucidePercent",
+	"LucidePersonStanding",
+	"LucidePhoneCall",
+	"LucidePhoneForwarded",
+	"LucidePhoneIncoming",
+	"LucidePhoneMissed",
+	"LucidePhoneOff",
+	"LucidePhoneOutgoing",
+	"LucidePhone",
+	"LucidePiSquare",
+	"LucidePi",
+	"LucidePiano",
+	"LucidePictureInPicture2",
+	"LucidePictureInPicture",
+	"LucidePieChart",
+	"LucidePiggyBank",
+	"LucidePilcrowSquare",
+	"LucidePilcrow",
+	"LucidePill",
+	"LucidePinOff",
+	"LucidePin",
+	"LucidePipette",
+	"LucidePizza",
+	"LucidePlaneLanding",
+	"LucidePlaneTakeoff",
+	"LucidePlane",
+	"LucidePlayCircle",
+	"LucidePlaySquare",
+	"LucidePlay",
+	"LucidePlug2",
+	"LucidePlugZap2",
+	"LucidePlugZap",
+	"LucidePlug",
+	"LucidePlusCircle",
+	"LucidePlusSquare",
+	"LucidePlus",
+	"LucidePocketKnife",
+	"LucidePocket",
+	"LucidePodcast",
+	"LucidePointerOff",
+	"LucidePointer",
+	"LucidePopcorn",
+	"LucidePopsicle",
+	"LucidePoundSterling",
+	"LucidePowerCircle",
+	"LucidePowerOff",
+	"LucidePowerSquare",
+	"LucidePower",
+	"LucidePresentation",
+	"LucidePrinter",
+	"LucideProjector",
+	"LucidePuzzle",
+	"LucidePyramid",
+	"LucideQrCode",
+	"LucideQuote",
+	"LucideRabbit",
+	"LucideRadar",
+	"LucideRadiation",
+	"LucideRadioReceiver",
+	"LucideRadioTower",
+	"LucideRadio",
+	"LucideRadius",
+	"LucideRailSymbol",
+	"LucideRainbow",
+	"LucideRat",
+	"LucideRatio",
+	"LucideReceipt",
+	"LucideRectangleHorizontal",
+	"LucideRectangleVertical",
+	"LucideRecycle",
+	"LucideRedo2",
+	"LucideRedoDot",
+	"LucideRedo",
+	"LucideRefreshCcwDot",
+	"LucideRefreshCcw",
+	"LucideRefreshCwOff",
+	"LucideRefreshCw",
+	"LucideRefrigerator",
+	"LucideRegex",
+	"LucideRemoveFormatting",
+	"LucideRepeat1",
+	"LucideRepeat2",
+	"LucideRepeat",
+	"LucideReplaceAll",
+	"LucideReplace",
+	"LucideReplyAll",
+	"LucideReply",
+	"LucideRewind",
+	"LucideRibbon",
+	"LucideRocket",
+	"LucideRockingChair",
+	"LucideRollerCoaster",
+	"LucideRotate3D",
+	"LucideRotateCcw",
+	"LucideRotateCw",
+	"LucideRouteOff",
+	"LucideRoute",
+	"LucideRouter",
+	"LucideRows2",
+	"LucideRows3",
+	"LucideRows4",
+	"LucideRss",
+	"LucideRuler",
+	"LucideRussianRuble",
+	"LucideSailboat",
+	"LucideSalad",
+	"LucideSandwich",
+	"LucideSatelliteDish",
+	"LucideSatellite",
+	"LucideSaveAll",
+	"LucideSave",
+	"LucideScale3D",
+	"LucideScale",
+	"LucideScaling",
+	"LucideScanBarcode",
+	"LucideScanEye",
+	"LucideScanFace",
+	"LucideScanLine",
+	"LucideScanSearch",
+	"LucideScanText",
+	"LucideScan",
+	"LucideScatterChart",
+	"LucideSchool2",
+	"LucideSchool",
+	"LucideScissorsLineDashed",
+	"LucideScissorsSquareDashedBottom",
+	"LucideScissorsSquare",
+	"LucideScissors",
+	"LucideScreenShareOff",
+	"LucideScreenShare",
+	"LucideScrollText",
+	"LucideScroll",
+	"LucideSearchCheck",
+	"LucideSearchCode",
+	"LucideSearchSlash",
+	"LucideSearchX",
+	"LucideSearch",
+	"LucideSendHorizontal",
+	"LucideSendToBack",
+	"LucideSend",
+	"LucideSeparatorHorizontal",
+	"LucideSeparatorVertical",
+	"LucideServerCog",
+	"LucideServerCrash",
+	"LucideServerOff",
+	"LucideServer",
+	"LucideSettings2",
+	"LucideSettings",
+	"LucideShapes",
+	"LucideShare2",
+	"LucideShare",
+	"LucideSheet",
+	"LucideShell",
+	"LucideShieldAlert",
+	"LucideShieldBan",
+	"LucideShieldCheck",
+	"LucideShieldEllipsis",
+	"LucideShieldHalf",
+	"LucideShieldMinus",
+	"LucideShieldOff",
+	"LucideShieldPlus",
+	"LucideShieldQuestion",
+	"LucideShieldX",
+	"LucideShield",
+	"LucideShipWheel",
+	"LucideShip",
+	"LucideShirt",
+	"LucideShoppingBag",
+	"LucideShoppingBasket",
+	"LucideShoppingCart",
+	"LucideShovel",
+	"LucideShowerHead",
+	"LucideShrink",
+	"LucideShrub",
+	"LucideShuffle",
+	"LucideSigmaSquare",
+	"LucideSigma",
+	"LucideSignalHigh",
+	"LucideSignalLow",
+	"LucideSignalMedium",
+	"LucideSignalZero",
+	"LucideSignal",
+	"LucideSignpostBig",
+	"LucideSignpost",
+	"LucideSiren",
+	"LucideSkipBack",
+	"LucideSkipForward",
+	"LucideSkull",
+	"LucideSlack",
+	"LucideSlashSquare",
+	"LucideSlash",
+	"LucideSlice",
+	"LucideSlidersHorizontal",
+	"LucideSliders",
+	"LucideSmartphoneCharging",
+	"LucideSmartphoneNfc",
+	"LucideSmartphone",
+	"LucideSmilePlus",
+	"LucideSmile",
+	"LucideSnail",
+	"LucideSnowflake",
+	"LucideSofa",
+	"LucideSoup",
+	"LucideSpace",
+	"LucideSpade",
+	"LucideSparkle",
+	"LucideSparkles",
+	"LucideSpeaker",
+	"LucideSpeech",
+	"LucideSpellCheck2",
+	"LucideSpellCheck",
+	"LucideSpline",
+	"LucideSplitSquareHorizontal",
+	"LucideSplitSquareVertical",
+	"LucideSplit",
+	"LucideSprayCan",
+	"LucideSprout",
+	"LucideSquareDashedBottomCode",
+	"LucideSquareDashedBottom",
+	"LucideSquareStack",
+	"LucideSquareUserRound",
+	"LucideSquareUser",
+	"LucideSquare",
+	"LucideSquircle",
+	"LucideSquirrel",
+	"LucideStamp",
+	"LucideStarHalf",
+	"LucideStarOff",
+	"LucideStar",
+	"LucideStepBack",
+	"LucideStepForward",
+	"LucideStethoscope",
+	"LucideSticker",
+	"LucideStickyNote",
+	"LucideStopCircle",
+	"LucideStore",
+	"LucideStretchHorizontal",
+	"LucideStretchVertical",
+	"LucideStrikethrough",
+	"LucideSubscript",
+	"LucideSubtitles",
+	"LucideSunDim",
+	"LucideSunMedium",
+	"LucideSunMoon",
+	"LucideSunSnow",
+	"LucideSun",
+	"LucideSunrise",
+	"LucideSunset",
+	"LucideSuperscript",
+	"LucideSwissFranc",
+	"LucideSwitchCamera",
+	"LucideSword",
+	"LucideSwords",
+	"LucideSyringe",
+	"LucideTable2",
+	"LucideTableProperties",
+	"LucideTable",
+	"LucideTabletSmartphone",
+	"LucideTablet",
+	"LucideTablets",
+	"LucideTag",
+	"LucideTags",
+	"LucideTally1",
+	"LucideTally2",
+	"LucideTally3",
+	"LucideTally4",
+	"LucideTally5",
+	"LucideTangent",
+	"LucideTarget",
+	"LucideTentTree",
+	"LucideTent",
+	"LucideTerminalSquare",
+	"LucideTerminal",
+	"LucideTestTube2",
+	"LucideTestTube",
+	"LucideTestTubes",
+	"LucideTextCursorInput",
+	"LucideTextCursor",
+	"LucideTextQuote",
+	"LucideTextSelect",
+	"LucideText",
+	"LucideTheater",
+	"LucideThermometerSnowflake",
+	"LucideThermometerSun",
+	"LucideThermometer",
+	"LucideThumbsDown",
+	"LucideThumbsUp",
+	"LucideTicket",
+	"LucideTimerOff",
+	"LucideTimerReset",
+	"LucideTimer",
+	"LucideToggleLeft",
+	"LucideToggleRight",
+	"LucideTornado",
+	"LucideTorus",
+	"LucideTouchpadOff",
+	"LucideTouchpad",
+	"LucideTowerControl",
+	"LucideToyBrick",
+	"LucideTractor",
+	"LucideTrafficCone",
+	"LucideTrainFrontTunnel",
+	"LucideTrainFront",
+	"LucideTrainTrack",
+	"LucideTramFront",
+	"LucideTrash2",
+	"LucideTrash",
+	"LucideTreeDeciduous",
+	"LucideTreePine",
+	"LucideTrees",
+	"LucideTrello",
+	"LucideTrendingDown",
+	"LucideTrendingUp",
+	"LucideTriangleRight",
+	"LucideTriangle",
+	"LucideTrophy",
+	"LucideTruck",
+	"LucideTurtle",
+	"LucideTv2",
+	"LucideTv",
+	"LucideTwitch",
+	"LucideTwitter",
+	"LucideType",
+	"LucideUmbrellaOff",
+	"LucideUmbrella",
+	"LucideUnderline",
+	"LucideUndo2",
+	"LucideUndoDot",
+	"LucideUndo",
+	"LucideUnfoldHorizontal",
+	"LucideUnfoldVertical",
+	"LucideUngroup",
+	"LucideUnlink2",
+	"LucideUnlink",
+	"LucideUnlockKeyhole",
+	"LucideUnlock",
+	"LucideUnplug",
+	"LucideUploadCloud",
+	"LucideUpload",
+	"LucideUsb",
+	"LucideUserCheck",
+	"LucideUserCog",
+	"LucideUserMinus",
+	"LucideUserPlus",
+	"LucideUserRoundCheck",
+	"LucideUserRoundCog",
+	"LucideUserRoundMinus",
+	"LucideUserRoundPlus",
+	"LucideUserRoundSearch",
+	"LucideUserRoundX",
+	"LucideUserRound",
+	"LucideUserSearch",
+	"LucideUserX",
+	"LucideUser",
+	"LucideUsersRound",
+	"LucideUsers",
+	"LucideUtensilsCrossed",
+	"LucideUtensils",
+	"LucideUtilityPole",
+	"LucideVariable",
+	"LucideVault",
+	"LucideVegan",
+	"LucideVenetianMask",
+	"LucideVibrateOff",
+	"LucideVibrate",
+	"LucideVideoOff",
+	"LucideVideo",
+	"LucideVideotape",
+	"LucideView",
+	"LucideVoicemail",
+	"LucideVolume1",
+	"LucideVolume2",
+	"LucideVolumeX",
+	"LucideVolume",
+	"LucideVote",
+	"LucideWallet2",
+	"LucideWalletCards",
+	"LucideWallet",
+	"LucideWallpaper",
+	"LucideWand2",
+	"LucideWand",
+	"LucideWarehouse",
+	"LucideWashingMachine",
+	"LucideWatch",
+	"LucideWaves",
+	"LucideWaypoints",
+	"LucideWebcam",
+	"LucideWebhook",
+	"LucideWeight",
+	"LucideWheatOff",
+	"LucideWheat",
+	"LucideWholeWord",
+	"LucideWifiOff",
+	"LucideWifi",
+	"LucideWind",
+	"LucideWineOff",
+	"LucideWine",
+	"LucideWorkflow",
+	"LucideWrapText",
+	"LucideWrench",
+	"LucideXCircle",
+	"LucideXOctagon",
+	"LucideXSquare",
+	"LucideX",
+	"LucideYoutube",
+	"LucideZapOff",
+	"LucideZap",
+	"LucideZoomIn",
+	"LucideZoomOut",
 ]

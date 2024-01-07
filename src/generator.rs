@@ -2,7 +2,7 @@ use convert_case::{Case, Casing};
 use proc_macro2::{Ident, Span, TokenStream};
 use quote::quote;
 use regex::Regex;
-use std::fs::{create_dir_all, read, read_dir, remove_dir_all, write};
+use std::fs::{create_dir_all, read, read_dir, remove_dir_all, write, File};
 use std::io::Write;
 use std::process::{Command, Stdio};
 use std::str::FromStr;
@@ -22,6 +22,18 @@ fn main() {
 
     remove_dir_all("src/generated").unwrap();
     create_dir_all("src/generated").unwrap();
+
+    let cargo_file = String::from_utf8(read("Cargo.toml").unwrap()).unwrap();
+    let start_i = cargo_file.find("\"base64\"]").unwrap() + 10;
+
+    write("Cargo.toml", 
+        cargo_file[..start_i].to_owned() + "\n"
+    ).unwrap();
+
+    let mut cargo_toml = File::options()
+        .append(true)
+        .open("Cargo.toml")
+        .unwrap();
 
     let mut generate = |prefix: &str, dir: &str, icon_type: &str| {
         let mut function_mods = Vec::new();
@@ -107,8 +119,11 @@ fn main() {
             write(
                 format!("src/generated/{}/{}.rs", feature_name, function_name),
                 output,
-            )
-            .unwrap();
+            ).unwrap();
+
+            cargo_toml.write(
+                format!("{} = []\n", variant_name).as_bytes()
+            ).unwrap();
 
             function_mods.push(quote! {
                 #[cfg(feature = #variant_name)]
@@ -118,15 +133,25 @@ fn main() {
             });
         }
 
+        cargo_toml.write(
+            format!("{} = [\n", feature_name).as_bytes()
+        ).unwrap();
+    
         let children: Vec<_> = collection_feature
             .children
             .iter()
             .map(|f| {
+                cargo_toml.write(
+                    format!("\t\"{}\",\n", f).as_bytes()
+                ).unwrap();
+
                 quote! {
                     feature = #f
                 }
             })
             .collect();
+
+        cargo_toml.write("]\n".as_bytes()).unwrap();
 
         imports.push(quote! {
             cfg_if::cfg_if! {
@@ -179,7 +204,7 @@ fn main() {
     write("src/generated.rs", output).unwrap();
 
     features.sort_unstable_by_key(|feature| feature.name.clone());
-
+    
     for feature in features {
         println!(
             r##"{} = [{}]"##,
