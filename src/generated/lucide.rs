@@ -3856,10 +3856,6 @@ pub use lucide_pc_case::*;
 mod lucide_pen_line;
 #[cfg(feature = "LucidePenLine")]
 pub use lucide_pen_line::*;
-#[cfg(feature = "LucidePenSquare")]
-mod lucide_pen_square;
-#[cfg(feature = "LucidePenSquare")]
-pub use lucide_pen_square::*;
 #[cfg(feature = "LucidePenTool")]
 mod lucide_pen_tool;
 #[cfg(feature = "LucidePenTool")]
@@ -4772,6 +4768,10 @@ pub use lucide_square_dashed_bottom_code::*;
 mod lucide_square_dashed_bottom;
 #[cfg(feature = "LucideSquareDashedBottom")]
 pub use lucide_square_dashed_bottom::*;
+#[cfg(feature = "LucideSquarePen")]
+mod lucide_square_pen;
+#[cfg(feature = "LucideSquarePen")]
+pub use lucide_square_pen::*;
 #[cfg(feature = "LucideSquareStack")]
 mod lucide_square_stack;
 #[cfg(feature = "LucideSquareStack")]

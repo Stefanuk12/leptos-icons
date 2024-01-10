@@ -2785,7 +2785,6 @@ LucidePause = []
 LucidePawPrint = []
 LucidePcCase = []
 LucidePenLine = []
-LucidePenSquare = []
 LucidePenTool = []
 LucidePen = []
 LucidePencilLine = []
@@ -3014,6 +3013,7 @@ LucideSprayCan = []
 LucideSprout = []
 LucideSquareDashedBottomCode = []
 LucideSquareDashedBottom = []
+LucideSquarePen = []
 LucideSquareStack = []
 LucideSquareUserRound = []
 LucideSquareUser = []
@@ -4169,7 +4169,6 @@ lucide = [
 	"LucidePawPrint",
 	"LucidePcCase",
 	"LucidePenLine",
-	"LucidePenSquare",
 	"LucidePenTool",
 	"LucidePen",
 	"LucidePencilLine",
@@ -4398,6 +4397,7 @@ lucide = [
 	"LucideSprout",
 	"LucideSquareDashedBottomCode",
 	"LucideSquareDashedBottom",
+	"LucideSquarePen",
 	"LucideSquareStack",
 	"LucideSquareUserRound",
 	"LucideSquareUser",
