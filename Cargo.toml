@@ -2586,6 +2586,7 @@ LucideLink2 = []
 LucideLink = []
 LucideLinkedin = []
 LucideListChecks = []
+LucideListCollapse = []
 LucideListEnd = []
 LucideListFilter = []
 LucideListMinus = []
@@ -3970,6 +3971,7 @@ lucide = [
 	"LucideLink",
 	"LucideLinkedin",
 	"LucideListChecks",
+	"LucideListCollapse",
 	"LucideListEnd",
 	"LucideListFilter",
 	"LucideListMinus",

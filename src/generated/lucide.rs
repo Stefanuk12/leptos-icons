@@ -3060,6 +3060,10 @@ pub use lucide_linkedin::*;
 mod lucide_list_checks;
 #[cfg(feature = "LucideListChecks")]
 pub use lucide_list_checks::*;
+#[cfg(feature = "LucideListCollapse")]
+mod lucide_list_collapse;
+#[cfg(feature = "LucideListCollapse")]
+pub use lucide_list_collapse::*;
 #[cfg(feature = "LucideListEnd")]
 mod lucide_list_end;
 #[cfg(feature = "LucideListEnd")]
