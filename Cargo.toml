@@ -1894,10 +1894,12 @@ LucideArrowDownAZ = []
 LucideArrowDownCircle = []
 LucideArrowDownFromLine = []
 LucideArrowDownLeftFromCircle = []
+LucideArrowDownLeftFromSquare = []
 LucideArrowDownLeftSquare = []
 LucideArrowDownLeft = []
 LucideArrowDownNarrowWide = []
 LucideArrowDownRightFromCircle = []
+LucideArrowDownRightFromSquare = []
 LucideArrowDownRightSquare = []
 LucideArrowDownRight = []
 LucideArrowDownSquare = []
@@ -1927,10 +1929,12 @@ LucideArrowUpDown = []
 LucideArrowUpFromDot = []
 LucideArrowUpFromLine = []
 LucideArrowUpLeftFromCircle = []
+LucideArrowUpLeftFromSquare = []
 LucideArrowUpLeftSquare = []
 LucideArrowUpLeft = []
 LucideArrowUpNarrowWide = []
 LucideArrowUpRightFromCircle = []
+LucideArrowUpRightFromSquare = []
 LucideArrowUpRightSquare = []
 LucideArrowUpRight = []
 LucideArrowUpSquare = []
@@ -2011,6 +2015,7 @@ LucideBinary = []
 LucideBiohazard = []
 LucideBird = []
 LucideBitcoin = []
+LucideBlend = []
 LucideBlinds = []
 LucideBlocks = []
 LucideBluetoothConnected = []
@@ -2293,6 +2298,7 @@ LucideDrumstick = []
 LucideDumbbell = []
 LucideEarOff = []
 LucideEar = []
+LucideEclipse = []
 LucideEggFried = []
 LucideEggOff = []
 LucideEgg = []
@@ -2354,6 +2360,7 @@ LucideFileQuestion = []
 LucideFileScan = []
 LucideFileSearch2 = []
 LucideFileSearch = []
+LucideFileSliders = []
 LucideFileSpreadsheet = []
 LucideFileStack = []
 LucideFileSymlink = []
@@ -2749,6 +2756,7 @@ LucidePackageSearch = []
 LucidePackageX = []
 LucidePackage = []
 LucidePaintBucket = []
+LucidePaintRoller = []
 LucidePaintbrush2 = []
 LucidePaintbrush = []
 LucidePalette = []
@@ -3045,6 +3053,7 @@ LucideSun = []
 LucideSunrise = []
 LucideSunset = []
 LucideSuperscript = []
+LucideSwatchBook = []
 LucideSwissFranc = []
 LucideSwitchCamera = []
 LucideSword = []
@@ -3279,10 +3288,12 @@ lucide = [
 	"LucideArrowDownCircle",
 	"LucideArrowDownFromLine",
 	"LucideArrowDownLeftFromCircle",
+	"LucideArrowDownLeftFromSquare",
 	"LucideArrowDownLeftSquare",
 	"LucideArrowDownLeft",
 	"LucideArrowDownNarrowWide",
 	"LucideArrowDownRightFromCircle",
+	"LucideArrowDownRightFromSquare",
 	"LucideArrowDownRightSquare",
 	"LucideArrowDownRight",
 	"LucideArrowDownSquare",
@@ -3312,10 +3323,12 @@ lucide = [
 	"LucideArrowUpFromDot",
 	"LucideArrowUpFromLine",
 	"LucideArrowUpLeftFromCircle",
+	"LucideArrowUpLeftFromSquare",
 	"LucideArrowUpLeftSquare",
 	"LucideArrowUpLeft",
 	"LucideArrowUpNarrowWide",
 	"LucideArrowUpRightFromCircle",
+	"LucideArrowUpRightFromSquare",
 	"LucideArrowUpRightSquare",
 	"LucideArrowUpRight",
 	"LucideArrowUpSquare",
@@ -3396,6 +3409,7 @@ lucide = [
 	"LucideBiohazard",
 	"LucideBird",
 	"LucideBitcoin",
+	"LucideBlend",
 	"LucideBlinds",
 	"LucideBlocks",
 	"LucideBluetoothConnected",
@@ -3678,6 +3692,7 @@ lucide = [
 	"LucideDumbbell",
 	"LucideEarOff",
 	"LucideEar",
+	"LucideEclipse",
 	"LucideEggFried",
 	"LucideEggOff",
 	"LucideEgg",
@@ -3739,6 +3754,7 @@ lucide = [
 	"LucideFileScan",
 	"LucideFileSearch2",
 	"LucideFileSearch",
+	"LucideFileSliders",
 	"LucideFileSpreadsheet",
 	"LucideFileStack",
 	"LucideFileSymlink",
@@ -4134,6 +4150,7 @@ lucide = [
 	"LucidePackageX",
 	"LucidePackage",
 	"LucidePaintBucket",
+	"LucidePaintRoller",
 	"LucidePaintbrush2",
 	"LucidePaintbrush",
 	"LucidePalette",
@@ -4430,6 +4447,7 @@ lucide = [
 	"LucideSunrise",
 	"LucideSunset",
 	"LucideSuperscript",
+	"LucideSwatchBook",
 	"LucideSwissFranc",
 	"LucideSwitchCamera",
 	"LucideSword",
