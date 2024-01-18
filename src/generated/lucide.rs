@@ -4192,6 +4192,38 @@ pub use lucide_rat::*;
 mod lucide_ratio;
 #[cfg(feature = "LucideRatio")]
 pub use lucide_ratio::*;
+#[cfg(feature = "LucideReceiptCent")]
+mod lucide_receipt_cent;
+#[cfg(feature = "LucideReceiptCent")]
+pub use lucide_receipt_cent::*;
+#[cfg(feature = "LucideReceiptEuro")]
+mod lucide_receipt_euro;
+#[cfg(feature = "LucideReceiptEuro")]
+pub use lucide_receipt_euro::*;
+#[cfg(feature = "LucideReceiptIndianRupee")]
+mod lucide_receipt_indian_rupee;
+#[cfg(feature = "LucideReceiptIndianRupee")]
+pub use lucide_receipt_indian_rupee::*;
+#[cfg(feature = "LucideReceiptJapaneseYen")]
+mod lucide_receipt_japanese_yen;
+#[cfg(feature = "LucideReceiptJapaneseYen")]
+pub use lucide_receipt_japanese_yen::*;
+#[cfg(feature = "LucideReceiptPoundSterling")]
+mod lucide_receipt_pound_sterling;
+#[cfg(feature = "LucideReceiptPoundSterling")]
+pub use lucide_receipt_pound_sterling::*;
+#[cfg(feature = "LucideReceiptRussianRuble")]
+mod lucide_receipt_russian_ruble;
+#[cfg(feature = "LucideReceiptRussianRuble")]
+pub use lucide_receipt_russian_ruble::*;
+#[cfg(feature = "LucideReceiptSwissFranc")]
+mod lucide_receipt_swiss_franc;
+#[cfg(feature = "LucideReceiptSwissFranc")]
+pub use lucide_receipt_swiss_franc::*;
+#[cfg(feature = "LucideReceiptText")]
+mod lucide_receipt_text;
+#[cfg(feature = "LucideReceiptText")]
+pub use lucide_receipt_text::*;
 #[cfg(feature = "LucideReceipt")]
 mod lucide_receipt;
 #[cfg(feature = "LucideReceipt")]

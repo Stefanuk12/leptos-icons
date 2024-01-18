@@ -2869,6 +2869,14 @@ LucideRailSymbol = []
 LucideRainbow = []
 LucideRat = []
 LucideRatio = []
+LucideReceiptCent = []
+LucideReceiptEuro = []
+LucideReceiptIndianRupee = []
+LucideReceiptJapaneseYen = []
+LucideReceiptPoundSterling = []
+LucideReceiptRussianRuble = []
+LucideReceiptSwissFranc = []
+LucideReceiptText = []
 LucideReceipt = []
 LucideRectangleHorizontal = []
 LucideRectangleVertical = []
@@ -4263,6 +4271,14 @@ lucide = [
 	"LucideRainbow",
 	"LucideRat",
 	"LucideRatio",
+	"LucideReceiptCent",
+	"LucideReceiptEuro",
+	"LucideReceiptIndianRupee",
+	"LucideReceiptJapaneseYen",
+	"LucideReceiptPoundSterling",
+	"LucideReceiptRussianRuble",
+	"LucideReceiptSwissFranc",
+	"LucideReceiptText",
 	"LucideReceipt",
 	"LucideRectangleHorizontal",
 	"LucideRectangleVertical",
