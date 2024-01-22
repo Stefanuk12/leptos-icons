@@ -5084,6 +5084,10 @@ pub use lucide_text_cursor::*;
 mod lucide_text_quote;
 #[cfg(feature = "LucideTextQuote")]
 pub use lucide_text_quote::*;
+#[cfg(feature = "LucideTextSearch")]
+mod lucide_text_search;
+#[cfg(feature = "LucideTextSearch")]
+pub use lucide_text_search::*;
 #[cfg(feature = "LucideTextSelect")]
 mod lucide_text_select;
 #[cfg(feature = "LucideTextSelect")]
@@ -5116,6 +5120,30 @@ pub use lucide_thumbs_down::*;
 mod lucide_thumbs_up;
 #[cfg(feature = "LucideThumbsUp")]
 pub use lucide_thumbs_up::*;
+#[cfg(feature = "LucideTicketCheck")]
+mod lucide_ticket_check;
+#[cfg(feature = "LucideTicketCheck")]
+pub use lucide_ticket_check::*;
+#[cfg(feature = "LucideTicketMinus")]
+mod lucide_ticket_minus;
+#[cfg(feature = "LucideTicketMinus")]
+pub use lucide_ticket_minus::*;
+#[cfg(feature = "LucideTicketPercent")]
+mod lucide_ticket_percent;
+#[cfg(feature = "LucideTicketPercent")]
+pub use lucide_ticket_percent::*;
+#[cfg(feature = "LucideTicketPlus")]
+mod lucide_ticket_plus;
+#[cfg(feature = "LucideTicketPlus")]
+pub use lucide_ticket_plus::*;
+#[cfg(feature = "LucideTicketSlash")]
+mod lucide_ticket_slash;
+#[cfg(feature = "LucideTicketSlash")]
+pub use lucide_ticket_slash::*;
+#[cfg(feature = "LucideTicketX")]
+mod lucide_ticket_x;
+#[cfg(feature = "LucideTicketX")]
+pub use lucide_ticket_x::*;
 #[cfg(feature = "LucideTicket")]
 mod lucide_ticket;
 #[cfg(feature = "LucideTicket")]

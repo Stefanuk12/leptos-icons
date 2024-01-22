@@ -3092,6 +3092,7 @@ LucideTestTubes = []
 LucideTextCursorInput = []
 LucideTextCursor = []
 LucideTextQuote = []
+LucideTextSearch = []
 LucideTextSelect = []
 LucideText = []
 LucideTheater = []
@@ -3100,6 +3101,12 @@ LucideThermometerSun = []
 LucideThermometer = []
 LucideThumbsDown = []
 LucideThumbsUp = []
+LucideTicketCheck = []
+LucideTicketMinus = []
+LucideTicketPercent = []
+LucideTicketPlus = []
+LucideTicketSlash = []
+LucideTicketX = []
 LucideTicket = []
 LucideTimerOff = []
 LucideTimerReset = []
@@ -4494,6 +4501,7 @@ lucide = [
 	"LucideTextCursorInput",
 	"LucideTextCursor",
 	"LucideTextQuote",
+	"LucideTextSearch",
 	"LucideTextSelect",
 	"LucideText",
 	"LucideTheater",
@@ -4502,6 +4510,12 @@ lucide = [
 	"LucideThermometer",
 	"LucideThumbsDown",
 	"LucideThumbsUp",
+	"LucideTicketCheck",
+	"LucideTicketMinus",
+	"LucideTicketPercent",
+	"LucideTicketPlus",
+	"LucideTicketSlash",
+	"LucideTicketX",
 	"LucideTicket",
 	"LucideTimerOff",
 	"LucideTimerReset",
