@@ -1056,10 +1056,18 @@ pub use lucide_calendar_clock::*;
 mod lucide_calendar_days;
 #[cfg(feature = "LucideCalendarDays")]
 pub use lucide_calendar_days::*;
+#[cfg(feature = "LucideCalendarFold")]
+mod lucide_calendar_fold;
+#[cfg(feature = "LucideCalendarFold")]
+pub use lucide_calendar_fold::*;
 #[cfg(feature = "LucideCalendarHeart")]
 mod lucide_calendar_heart;
 #[cfg(feature = "LucideCalendarHeart")]
 pub use lucide_calendar_heart::*;
+#[cfg(feature = "LucideCalendarMinus2")]
+mod lucide_calendar_minus_2;
+#[cfg(feature = "LucideCalendarMinus2")]
+pub use lucide_calendar_minus_2::*;
 #[cfg(feature = "LucideCalendarMinus")]
 mod lucide_calendar_minus;
 #[cfg(feature = "LucideCalendarMinus")]
@@ -1068,6 +1076,10 @@ pub use lucide_calendar_minus::*;
 mod lucide_calendar_off;
 #[cfg(feature = "LucideCalendarOff")]
 pub use lucide_calendar_off::*;
+#[cfg(feature = "LucideCalendarPlus2")]
+mod lucide_calendar_plus_2;
+#[cfg(feature = "LucideCalendarPlus2")]
+pub use lucide_calendar_plus_2::*;
 #[cfg(feature = "LucideCalendarPlus")]
 mod lucide_calendar_plus;
 #[cfg(feature = "LucideCalendarPlus")]

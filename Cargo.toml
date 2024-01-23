@@ -2085,9 +2085,12 @@ LucideCalendarCheck2 = []
 LucideCalendarCheck = []
 LucideCalendarClock = []
 LucideCalendarDays = []
+LucideCalendarFold = []
 LucideCalendarHeart = []
+LucideCalendarMinus2 = []
 LucideCalendarMinus = []
 LucideCalendarOff = []
+LucideCalendarPlus2 = []
 LucideCalendarPlus = []
 LucideCalendarRange = []
 LucideCalendarSearch = []
@@ -3494,9 +3497,12 @@ lucide = [
 	"LucideCalendarCheck",
 	"LucideCalendarClock",
 	"LucideCalendarDays",
+	"LucideCalendarFold",
 	"LucideCalendarHeart",
+	"LucideCalendarMinus2",
 	"LucideCalendarMinus",
 	"LucideCalendarOff",
+	"LucideCalendarPlus2",
 	"LucideCalendarPlus",
 	"LucideCalendarRange",
 	"LucideCalendarSearch",
