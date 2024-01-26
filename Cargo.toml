@@ -3210,6 +3210,7 @@ LucideWatch = []
 LucideWaves = []
 LucideWaypoints = []
 LucideWebcam = []
+LucideWebhookOff = []
 LucideWebhook = []
 LucideWeight = []
 LucideWheatOff = []
@@ -4622,6 +4623,7 @@ lucide = [
 	"LucideWaves",
 	"LucideWaypoints",
 	"LucideWebcam",
+	"LucideWebhookOff",
 	"LucideWebhook",
 	"LucideWeight",
 	"LucideWheatOff",
