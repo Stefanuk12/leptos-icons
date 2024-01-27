@@ -2497,7 +2497,11 @@ LucideGrip = []
 LucideGroup = []
 LucideGuitar = []
 LucideHammer = []
+LucideHandCoins = []
+LucideHandHeart = []
+LucideHandHelping = []
 LucideHandMetal = []
+LucideHandPlatter = []
 LucideHand = []
 LucideHardDriveDownload = []
 LucideHardDriveUpload = []
@@ -2521,7 +2525,6 @@ LucideHeartPulse = []
 LucideHeart = []
 LucideHeater = []
 LucideHelpCircle = []
-LucideHelpingHand = []
 LucideHexagon = []
 LucideHighlighter = []
 LucideHistory = []
@@ -3910,7 +3913,11 @@ lucide = [
 	"LucideGroup",
 	"LucideGuitar",
 	"LucideHammer",
+	"LucideHandCoins",
+	"LucideHandHeart",
+	"LucideHandHelping",
 	"LucideHandMetal",
+	"LucideHandPlatter",
 	"LucideHand",
 	"LucideHardDriveDownload",
 	"LucideHardDriveUpload",
@@ -3934,7 +3941,6 @@ lucide = [
 	"LucideHeart",
 	"LucideHeater",
 	"LucideHelpCircle",
-	"LucideHelpingHand",
 	"LucideHexagon",
 	"LucideHighlighter",
 	"LucideHistory",

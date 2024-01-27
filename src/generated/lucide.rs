@@ -2704,10 +2704,26 @@ pub use lucide_guitar::*;
 mod lucide_hammer;
 #[cfg(feature = "LucideHammer")]
 pub use lucide_hammer::*;
+#[cfg(feature = "LucideHandCoins")]
+mod lucide_hand_coins;
+#[cfg(feature = "LucideHandCoins")]
+pub use lucide_hand_coins::*;
+#[cfg(feature = "LucideHandHeart")]
+mod lucide_hand_heart;
+#[cfg(feature = "LucideHandHeart")]
+pub use lucide_hand_heart::*;
+#[cfg(feature = "LucideHandHelping")]
+mod lucide_hand_helping;
+#[cfg(feature = "LucideHandHelping")]
+pub use lucide_hand_helping::*;
 #[cfg(feature = "LucideHandMetal")]
 mod lucide_hand_metal;
 #[cfg(feature = "LucideHandMetal")]
 pub use lucide_hand_metal::*;
+#[cfg(feature = "LucideHandPlatter")]
+mod lucide_hand_platter;
+#[cfg(feature = "LucideHandPlatter")]
+pub use lucide_hand_platter::*;
 #[cfg(feature = "LucideHand")]
 mod lucide_hand;
 #[cfg(feature = "LucideHand")]
@@ -2800,10 +2816,6 @@ pub use lucide_heater::*;
 mod lucide_help_circle;
 #[cfg(feature = "LucideHelpCircle")]
 pub use lucide_help_circle::*;
-#[cfg(feature = "LucideHelpingHand")]
-mod lucide_helping_hand;
-#[cfg(feature = "LucideHelpingHand")]
-pub use lucide_helping_hand::*;
 #[cfg(feature = "LucideHexagon")]
 mod lucide_hexagon;
 #[cfg(feature = "LucideHexagon")]
