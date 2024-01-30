@@ -1865,6 +1865,7 @@ LucideAlignVerticalJustifyEnd = []
 LucideAlignVerticalJustifyStart = []
 LucideAlignVerticalSpaceAround = []
 LucideAlignVerticalSpaceBetween = []
+LucideAmbulance = []
 LucideAmpersand = []
 LucideAmpersands = []
 LucideAnchor = []
@@ -3281,6 +3282,7 @@ lucide = [
 	"LucideAlignVerticalJustifyStart",
 	"LucideAlignVerticalSpaceAround",
 	"LucideAlignVerticalSpaceBetween",
+	"LucideAmbulance",
 	"LucideAmpersand",
 	"LucideAmpersands",
 	"LucideAnchor",

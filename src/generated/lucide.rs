@@ -176,6 +176,10 @@ pub use lucide_align_vertical_space_around::*;
 mod lucide_align_vertical_space_between;
 #[cfg(feature = "LucideAlignVerticalSpaceBetween")]
 pub use lucide_align_vertical_space_between::*;
+#[cfg(feature = "LucideAmbulance")]
+mod lucide_ambulance;
+#[cfg(feature = "LucideAmbulance")]
+pub use lucide_ambulance::*;
 #[cfg(feature = "LucideAmpersand")]
 mod lucide_ampersand;
 #[cfg(feature = "LucideAmpersand")]
