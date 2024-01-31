@@ -2157,6 +2157,7 @@ LucideCircleDotDashed = []
 LucideCircleDot = []
 LucideCircleEllipsis = []
 LucideCircleEqual = []
+LucideCircleFadingPlus = []
 LucideCircleOff = []
 LucideCircleSlash2 = []
 LucideCircleSlash = []
@@ -2519,6 +2520,7 @@ LucideHeading5 = []
 LucideHeading6 = []
 LucideHeading = []
 LucideHeadphones = []
+LucideHeadset = []
 LucideHeartCrack = []
 LucideHeartHandshake = []
 LucideHeartOff = []
@@ -3574,6 +3576,7 @@ lucide = [
 	"LucideCircleDot",
 	"LucideCircleEllipsis",
 	"LucideCircleEqual",
+	"LucideCircleFadingPlus",
 	"LucideCircleOff",
 	"LucideCircleSlash2",
 	"LucideCircleSlash",
@@ -3936,6 +3939,7 @@ lucide = [
 	"LucideHeading6",
 	"LucideHeading",
 	"LucideHeadphones",
+	"LucideHeadset",
 	"LucideHeartCrack",
 	"LucideHeartHandshake",
 	"LucideHeartOff",

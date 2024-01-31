@@ -1344,6 +1344,10 @@ pub use lucide_circle_ellipsis::*;
 mod lucide_circle_equal;
 #[cfg(feature = "LucideCircleEqual")]
 pub use lucide_circle_equal::*;
+#[cfg(feature = "LucideCircleFadingPlus")]
+mod lucide_circle_fading_plus;
+#[cfg(feature = "LucideCircleFadingPlus")]
+pub use lucide_circle_fading_plus::*;
 #[cfg(feature = "LucideCircleOff")]
 mod lucide_circle_off;
 #[cfg(feature = "LucideCircleOff")]
@@ -2792,6 +2796,10 @@ pub use lucide_heading::*;
 mod lucide_headphones;
 #[cfg(feature = "LucideHeadphones")]
 pub use lucide_headphones::*;
+#[cfg(feature = "LucideHeadset")]
+mod lucide_headset;
+#[cfg(feature = "LucideHeadset")]
+pub use lucide_headset::*;
 #[cfg(feature = "LucideHeartCrack")]
 mod lucide_heart_crack;
 #[cfg(feature = "LucideHeartCrack")]
