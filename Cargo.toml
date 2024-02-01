@@ -2170,9 +2170,11 @@ LucideClapperboard = []
 LucideClipboardCheck = []
 LucideClipboardCopy = []
 LucideClipboardList = []
+LucideClipboardMinus = []
 LucideClipboardPaste = []
 LucideClipboardPenLine = []
 LucideClipboardPen = []
+LucideClipboardPlus = []
 LucideClipboardType = []
 LucideClipboardX = []
 LucideClipboard = []
@@ -3589,9 +3591,11 @@ lucide = [
 	"LucideClipboardCheck",
 	"LucideClipboardCopy",
 	"LucideClipboardList",
+	"LucideClipboardMinus",
 	"LucideClipboardPaste",
 	"LucideClipboardPenLine",
 	"LucideClipboardPen",
+	"LucideClipboardPlus",
 	"LucideClipboardType",
 	"LucideClipboardX",
 	"LucideClipboard",

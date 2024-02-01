@@ -1396,6 +1396,10 @@ pub use lucide_clipboard_copy::*;
 mod lucide_clipboard_list;
 #[cfg(feature = "LucideClipboardList")]
 pub use lucide_clipboard_list::*;
+#[cfg(feature = "LucideClipboardMinus")]
+mod lucide_clipboard_minus;
+#[cfg(feature = "LucideClipboardMinus")]
+pub use lucide_clipboard_minus::*;
 #[cfg(feature = "LucideClipboardPaste")]
 mod lucide_clipboard_paste;
 #[cfg(feature = "LucideClipboardPaste")]
@@ -1408,6 +1412,10 @@ pub use lucide_clipboard_pen_line::*;
 mod lucide_clipboard_pen;
 #[cfg(feature = "LucideClipboardPen")]
 pub use lucide_clipboard_pen::*;
+#[cfg(feature = "LucideClipboardPlus")]
+mod lucide_clipboard_plus;
+#[cfg(feature = "LucideClipboardPlus")]
+pub use lucide_clipboard_plus::*;
 #[cfg(feature = "LucideClipboardType")]
 mod lucide_clipboard_type;
 #[cfg(feature = "LucideClipboardType")]
