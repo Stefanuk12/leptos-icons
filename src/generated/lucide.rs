@@ -2744,6 +2744,10 @@ pub use lucide_hand_platter::*;
 mod lucide_hand;
 #[cfg(feature = "LucideHand")]
 pub use lucide_hand::*;
+#[cfg(feature = "LucideHandshake")]
+mod lucide_handshake;
+#[cfg(feature = "LucideHandshake")]
+pub use lucide_handshake::*;
 #[cfg(feature = "LucideHardDriveDownload")]
 mod lucide_hard_drive_download;
 #[cfg(feature = "LucideHardDriveDownload")]

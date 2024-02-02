@@ -2507,6 +2507,7 @@ LucideHandHelping = []
 LucideHandMetal = []
 LucideHandPlatter = []
 LucideHand = []
+LucideHandshake = []
 LucideHardDriveDownload = []
 LucideHardDriveUpload = []
 LucideHardDrive = []
@@ -3928,6 +3929,7 @@ lucide = [
 	"LucideHandMetal",
 	"LucideHandPlatter",
 	"LucideHand",
+	"LucideHandshake",
 	"LucideHardDriveDownload",
 	"LucideHardDriveUpload",
 	"LucideHardDrive",
