@@ -1132,6 +1132,14 @@ pub use lucide_candy_off::*;
 mod lucide_candy;
 #[cfg(feature = "LucideCandy")]
 pub use lucide_candy::*;
+#[cfg(feature = "LucideCaptionsOff")]
+mod lucide_captions_off;
+#[cfg(feature = "LucideCaptionsOff")]
+pub use lucide_captions_off::*;
+#[cfg(feature = "LucideCaptions")]
+mod lucide_captions;
+#[cfg(feature = "LucideCaptions")]
+pub use lucide_captions::*;
 #[cfg(feature = "LucideCarFront")]
 mod lucide_car_front;
 #[cfg(feature = "LucideCarFront")]
@@ -4972,10 +4980,6 @@ pub use lucide_strikethrough::*;
 mod lucide_subscript;
 #[cfg(feature = "LucideSubscript")]
 pub use lucide_subscript::*;
-#[cfg(feature = "LucideSubtitles")]
-mod lucide_subtitles;
-#[cfg(feature = "LucideSubtitles")]
-pub use lucide_subtitles::*;
 #[cfg(feature = "LucideSunDim")]
 mod lucide_sun_dim;
 #[cfg(feature = "LucideSunDim")]

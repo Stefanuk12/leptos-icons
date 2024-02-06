@@ -2104,6 +2104,8 @@ LucideCandlestickChart = []
 LucideCandyCane = []
 LucideCandyOff = []
 LucideCandy = []
+LucideCaptionsOff = []
+LucideCaptions = []
 LucideCarFront = []
 LucideCarTaxiFront = []
 LucideCar = []
@@ -3064,7 +3066,6 @@ LucideStretchHorizontal = []
 LucideStretchVertical = []
 LucideStrikethrough = []
 LucideSubscript = []
-LucideSubtitles = []
 LucideSunDim = []
 LucideSunMedium = []
 LucideSunMoon = []
@@ -3526,6 +3527,8 @@ lucide = [
 	"LucideCandyCane",
 	"LucideCandyOff",
 	"LucideCandy",
+	"LucideCaptionsOff",
+	"LucideCaptions",
 	"LucideCarFront",
 	"LucideCarTaxiFront",
 	"LucideCar",
@@ -4486,7 +4489,6 @@ lucide = [
 	"LucideStretchVertical",
 	"LucideStrikethrough",
 	"LucideSubscript",
-	"LucideSubtitles",
 	"LucideSunDim",
 	"LucideSunMedium",
 	"LucideSunMoon",
