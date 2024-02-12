@@ -2875,6 +2875,7 @@ LucideQuote = []
 LucideRabbit = []
 LucideRadar = []
 LucideRadiation = []
+LucideRadical = []
 LucideRadioReceiver = []
 LucideRadioTower = []
 LucideRadio = []
@@ -3045,6 +3046,7 @@ LucideSprout = []
 LucideSquareDashedBottomCode = []
 LucideSquareDashedBottom = []
 LucideSquarePen = []
+LucideSquareRadical = []
 LucideSquareStack = []
 LucideSquareUserRound = []
 LucideSquareUser = []
@@ -4298,6 +4300,7 @@ lucide = [
 	"LucideRabbit",
 	"LucideRadar",
 	"LucideRadiation",
+	"LucideRadical",
 	"LucideRadioReceiver",
 	"LucideRadioTower",
 	"LucideRadio",
@@ -4468,6 +4471,7 @@ lucide = [
 	"LucideSquareDashedBottomCode",
 	"LucideSquareDashedBottom",
 	"LucideSquarePen",
+	"LucideSquareRadical",
 	"LucideSquareStack",
 	"LucideSquareUserRound",
 	"LucideSquareUser",

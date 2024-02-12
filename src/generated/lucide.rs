@@ -4216,6 +4216,10 @@ pub use lucide_radar::*;
 mod lucide_radiation;
 #[cfg(feature = "LucideRadiation")]
 pub use lucide_radiation::*;
+#[cfg(feature = "LucideRadical")]
+mod lucide_radical;
+#[cfg(feature = "LucideRadical")]
+pub use lucide_radical::*;
 #[cfg(feature = "LucideRadioReceiver")]
 mod lucide_radio_receiver;
 #[cfg(feature = "LucideRadioReceiver")]
@@ -4896,6 +4900,10 @@ pub use lucide_square_dashed_bottom::*;
 mod lucide_square_pen;
 #[cfg(feature = "LucideSquarePen")]
 pub use lucide_square_pen::*;
+#[cfg(feature = "LucideSquareRadical")]
+mod lucide_square_radical;
+#[cfg(feature = "LucideSquareRadical")]
+pub use lucide_square_radical::*;
 #[cfg(feature = "LucideSquareStack")]
 mod lucide_square_stack;
 #[cfg(feature = "LucideSquareStack")]

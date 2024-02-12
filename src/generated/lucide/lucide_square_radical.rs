@@ -1,0 +1,1 @@
+use leptos :: * ; use crate :: { IconType , Path } ; fn icon_path () -> Fragment { view ! { < > < path d = "M7 12h2l2 5 2-10h4" /> < rect x = "3" y = "3" width = "18" height = "18" rx = "2" /> < / > } } pub const LucideSquareRadical : Path = Path { path : icon_path , icon_type : IconType::Lucide , } ;
