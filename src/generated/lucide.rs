@@ -2908,6 +2908,10 @@ pub use lucide_image_plus::*;
 mod lucide_image;
 #[cfg(feature = "LucideImage")]
 pub use lucide_image::*;
+#[cfg(feature = "LucideImages")]
+mod lucide_images;
+#[cfg(feature = "LucideImages")]
+pub use lucide_images::*;
 #[cfg(feature = "LucideImport")]
 mod lucide_import;
 #[cfg(feature = "LucideImport")]

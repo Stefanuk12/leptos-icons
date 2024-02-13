@@ -2548,6 +2548,7 @@ LucideImageMinus = []
 LucideImageOff = []
 LucideImagePlus = []
 LucideImage = []
+LucideImages = []
 LucideImport = []
 LucideInbox = []
 LucideIndent = []
@@ -3973,6 +3974,7 @@ lucide = [
 	"LucideImageOff",
 	"LucideImagePlus",
 	"LucideImage",
+	"LucideImages",
 	"LucideImport",
 	"LucideInbox",
 	"LucideIndent",
