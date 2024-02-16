@@ -3098,6 +3098,7 @@ LucideTally4 = []
 LucideTally5 = []
 LucideTangent = []
 LucideTarget = []
+LucideTelescope = []
 LucideTentTree = []
 LucideTent = []
 LucideTerminalSquare = []
@@ -4524,6 +4525,7 @@ lucide = [
 	"LucideTally5",
 	"LucideTangent",
 	"LucideTarget",
+	"LucideTelescope",
 	"LucideTentTree",
 	"LucideTent",
 	"LucideTerminalSquare",

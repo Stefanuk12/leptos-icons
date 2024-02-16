@@ -5108,6 +5108,10 @@ pub use lucide_tangent::*;
 mod lucide_target;
 #[cfg(feature = "LucideTarget")]
 pub use lucide_target::*;
+#[cfg(feature = "LucideTelescope")]
+mod lucide_telescope;
+#[cfg(feature = "LucideTelescope")]
+pub use lucide_telescope::*;
 #[cfg(feature = "LucideTentTree")]
 mod lucide_tent_tree;
 #[cfg(feature = "LucideTentTree")]
