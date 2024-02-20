@@ -2830,6 +2830,7 @@ LucidePhone = []
 LucidePiSquare = []
 LucidePi = []
 LucidePiano = []
+LucidePickaxe = []
 LucidePictureInPicture2 = []
 LucidePictureInPicture = []
 LucidePieChart = []
@@ -4257,6 +4258,7 @@ lucide = [
 	"LucidePiSquare",
 	"LucidePi",
 	"LucidePiano",
+	"LucidePickaxe",
 	"LucidePictureInPicture2",
 	"LucidePictureInPicture",
 	"LucidePieChart",

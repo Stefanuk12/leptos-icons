@@ -4036,6 +4036,10 @@ pub use lucide_pi::*;
 mod lucide_piano;
 #[cfg(feature = "LucidePiano")]
 pub use lucide_piano::*;
+#[cfg(feature = "LucidePickaxe")]
+mod lucide_pickaxe;
+#[cfg(feature = "LucidePickaxe")]
+pub use lucide_pickaxe::*;
 #[cfg(feature = "LucidePictureInPicture2")]
 mod lucide_picture_in_picture_2;
 #[cfg(feature = "LucidePictureInPicture2")]
