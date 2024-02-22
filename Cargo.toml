@@ -31,13 +31,14 @@ quote = { version = "1.0", optional = true }
 convert_case = { version = "0.6", optional = true }
 proc-macro2 = { version = "1.0", optional = true }
 enum-iterator = { version = "1.4", optional = true }
-regex = { version = "1", optional = true }
 base64 = { version = "0.21", optional = true }
+tl = { version = "0.7", optional = true }
 cfg-if = "1.0.0"
 
 [features]
 default = []
-generator = ["quote", "convert_case", "proc-macro2", "regex", "base64"]
+generator = ["quote", "tl", "convert_case", "proc-macro2", "base64"]
+
 HeroiconsOutlineAcademicCap = []
 HeroiconsOutlineAdjustmentsHorizontal = []
 HeroiconsOutlineAdjustmentsVertical = []

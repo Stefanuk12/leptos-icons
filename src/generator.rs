@@ -1,7 +1,6 @@
 use convert_case::{Case, Casing};
 use proc_macro2::{Ident, Span, TokenStream};
 use quote::quote;
-use regex::Regex;
 use std::fs::{create_dir_all, read, read_dir, remove_dir_all, write, File};
 use std::io::Write;
 use std::process::{Command, Stdio};
@@ -17,25 +16,17 @@ fn main() {
     let mut features = Vec::new();
     let mut imports = Vec::new();
 
-    let ssvg = Regex::new(r##"<svg[^>]+>"##).unwrap();
-    let esvg = Regex::new(r##"</svg>"##).unwrap();
-
     remove_dir_all("src/generated").unwrap();
     create_dir_all("src/generated").unwrap();
 
     let cargo_file = String::from_utf8(read("Cargo.toml").unwrap()).unwrap();
     let start_i = cargo_file.find("\"base64\"]").unwrap() + 10;
 
-    write("Cargo.toml", 
-        cargo_file[..start_i].to_owned() + "\n"
-    ).unwrap();
+    write("Cargo.toml", cargo_file[..start_i].to_owned() + "\n").unwrap();
 
-    let mut cargo_toml = File::options()
-        .append(true)
-        .open("Cargo.toml")
-        .unwrap();
+    let mut cargo_toml = File::options().append(true).open("Cargo.toml").unwrap();
 
-    let mut generate = |prefix: &str, dir: &str, icon_type: &str| {
+    let mut generate = |prefix: &str, dir: &str| {
         let mut function_mods = Vec::new();
 
         let feature_name = prefix.to_case(Case::Snake);
@@ -70,10 +61,40 @@ fn main() {
             let contents = read(&path).expect(&path);
             let svg = std::str::from_utf8(&contents).unwrap();
 
-            let svg = ssvg.replace(&svg, "");
-            let svg = esvg.replace(&svg, "");
+            let Ok(dom) = tl::parse(&svg, tl::ParserOptions::default()) else {
+                println!("Failed to parse svg: {}", path);
+                continue;
+            };
+            let parser = dom.parser();
+            let Some(svg_tag) = dom
+                .query_selector("svg")
+                .unwrap()
+                .next()
+                .and_then(|x| x.get(&parser).and_then(|y| y.as_tag()))
+            else {
+                println!("Failed to get svg: {}", path);
+                continue;
+            };
 
-            let svg_tokens = TokenStream::from_str(&svg).expect(&path);
+            let mut svg_props = svg_tag
+                .attributes()
+                .iter()
+                .fold("&[".to_owned(), |acc, (k, v)| {
+                    if let Some(v) = v {
+                        format!("{}(\"{}\",\"{}\"),", acc, k, v)
+                    } else {
+                        acc
+                    }
+                });
+            svg_props.pop();
+
+            let mut inner_html = svg_tag.inner_html(parser);
+            if let Some(x) = inner_html.find("<path") {
+                inner_html = inner_html[x..].to_owned();
+            }
+
+            let svg_props = TokenStream::from_str((svg_props + "]").as_str()).expect(&path);
+            let svg_tokens = TokenStream::from_str(&inner_html).expect(&path);
 
             let function_name = name.to_case(Case::Snake);
             let function_ident = to_ident(&function_name);
@@ -91,13 +112,10 @@ fn main() {
                 children: Vec::new(),
             });
 
-
-            //let icon_type = to_ident(&icon_type);
-
             // Don't need when export separate mods #[cfg(feature = #variant_name)]
             let tokens = quote! {
                 use leptos::*;
-                use crate::{IconType, Path};
+                use crate::Path;
 
                 fn icon_path() -> Fragment {
                     view! {
@@ -109,21 +127,21 @@ fn main() {
 
                 pub const #variant: Path = Path {
                     path: icon_path,
-                    icon_type: {},
+                    props: #svg_props
                 };
             };
 
             let output = tokens.to_string(); // reformat(tokens.to_string(), true).unwrap();
-            let output = output.replace("{ }", icon_type);
 
             write(
                 format!("src/generated/{}/{}.rs", feature_name, function_name),
                 output,
-            ).unwrap();
+            )
+            .unwrap();
 
-            cargo_toml.write(
-                format!("{} = []\n", variant_name).as_bytes()
-            ).unwrap();
+            cargo_toml
+                .write(format!("{} = []\n", variant_name).as_bytes())
+                .unwrap();
 
             function_mods.push(quote! {
                 #[cfg(feature = #variant_name)]
@@ -133,17 +151,17 @@ fn main() {
             });
         }
 
-        cargo_toml.write(
-            format!("{} = [\n", feature_name).as_bytes()
-        ).unwrap();
-    
+        cargo_toml
+            .write(format!("{} = [\n", feature_name).as_bytes())
+            .unwrap();
+
         let children: Vec<_> = collection_feature
             .children
             .iter()
             .map(|f| {
-                cargo_toml.write(
-                    format!("\t\"{}\",\n", f).as_bytes()
-                ).unwrap();
+                cargo_toml
+                    .write(format!("\t\"{}\",\n", f).as_bytes())
+                    .unwrap();
 
                 quote! {
                     feature = #f
@@ -174,41 +192,13 @@ fn main() {
         write(format!("src/generated/{}.rs", feature_name), output).unwrap();
     };
 
-    generate(
-        "HeroiconsOutline",
-        "heroicons/optimized/24/outline",
-        "IconType::HeroIcons(crate::HeroIconsType::Outline)",
-    );
-    generate(
-        "HeroiconsSolid",
-        "heroicons/optimized/24/solid",
-        "IconType::HeroIcons(crate::HeroIconsType::Solid)",
-    );
-    generate(
-        "HeroiconsMiniSolid",
-        "heroicons/optimized/20/solid",
-        "IconType::HeroIcons(crate::HeroIconsType::Mini)",
-    );
-    generate(
-        "Lucide",
-        "lucide/icons",
-        "IconType::Lucide",
-    );
-    generate(
-        "FontAwesomeBrands",
-        "fontawesome/svgs/brands",
-        "IconType::FontAwesome(crate::FontAwesomeType::Brands)",
-    );
-    generate(
-        "FontAwesomeRegular",
-        "fontawesome/svgs/regular",
-        "IconType::FontAwesome(crate::FontAwesomeType::Regular)",
-    );
-    generate(
-        "FontAwesomeSolid",
-        "fontawesome/svgs/solid",
-        "IconType::FontAwesome(crate::FontAwesomeType::Solid)",
-    );
+    generate("HeroiconsOutline", "heroicons/optimized/24/outline");
+    generate("HeroiconsSolid", "heroicons/optimized/24/solid");
+    generate("HeroiconsMiniSolid", "heroicons/optimized/20/solid");
+    generate("Lucide", "lucide/icons");
+    generate("FontAwesomeBrands", "fontawesome/svgs/brands");
+    generate("FontAwesomeRegular", "fontawesome/svgs/regular");
+    generate("FontAwesomeSolid", "fontawesome/svgs/solid");
 
     let tokens = quote! {
         #(#imports)*
@@ -219,7 +209,7 @@ fn main() {
     write("src/generated.rs", output).unwrap();
 
     features.sort_unstable_by_key(|feature| feature.name.clone());
-    
+
     for feature in features {
         println!(
             r##"{} = [{}]"##,
