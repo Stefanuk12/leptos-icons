@@ -4,3 +4,6 @@
 [submodule "lucide"]
 	path = lucide
 	url = https://github.com/lucide-icons/lucide
+[submodule "fontawesome"]
+	path = fontawesome
+	url = https://github.com/FortAwesome/Font-Awesome
