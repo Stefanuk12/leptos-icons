@@ -194,6 +194,21 @@ fn main() {
         "lucide/icons",
         "IconType::Lucide",
     );
+    generate(
+        "FontAwesomeBrands",
+        "fontawesome/svgs/brands",
+        "IconType::FontAwesome(crate::FontAwesomeType::Brands)",
+    );
+    generate(
+        "FontAwesomeRegular",
+        "fontawesome/svgs/regular",
+        "IconType::FontAwesome(crate::FontAwesomeType::Regular)",
+    );
+    generate(
+        "FontAwesomeSolid",
+        "fontawesome/svgs/solid",
+        "IconType::FontAwesome(crate::FontAwesomeType::Solid)",
+    );
 
     let tokens = quote! {
         #(#imports)*
