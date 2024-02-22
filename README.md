@@ -2,7 +2,8 @@
 This crate makes it easy to use [SVG icons](#) from the following collections (more may be added in the future):
 
 - TODO: [Bootstrap](https://icons.getbootstrap.com/) - MIT License
-- TODO: [Font Awesome](https://fontawesome.com/icons) - CC BY 4.0 License
+- [Font Awesome](https://fontawesome.com/icons) - CC BY 4.0 License
+  - Brands
   - Regular
   - Solid
 - [Heroicons](https://github.com/tailwindlabs/heroicons) - MIT License
