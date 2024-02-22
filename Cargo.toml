@@ -3085,7 +3085,11 @@ LucideSword = []
 LucideSwords = []
 LucideSyringe = []
 LucideTable2 = []
+LucideTableCellsMerge = []
+LucideTableCellsSplit = []
+LucideTableColumnsSplit = []
 LucideTableProperties = []
+LucideTableRowsSplit = []
 LucideTable = []
 LucideTabletSmartphone = []
 LucideTablet = []
@@ -4513,7 +4517,11 @@ lucide = [
 	"LucideSwords",
 	"LucideSyringe",
 	"LucideTable2",
+	"LucideTableCellsMerge",
+	"LucideTableCellsSplit",
+	"LucideTableColumnsSplit",
 	"LucideTableProperties",
+	"LucideTableRowsSplit",
 	"LucideTable",
 	"LucideTabletSmartphone",
 	"LucideTablet",

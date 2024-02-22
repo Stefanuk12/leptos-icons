@@ -5056,10 +5056,26 @@ pub use lucide_syringe::*;
 mod lucide_table_2;
 #[cfg(feature = "LucideTable2")]
 pub use lucide_table_2::*;
+#[cfg(feature = "LucideTableCellsMerge")]
+mod lucide_table_cells_merge;
+#[cfg(feature = "LucideTableCellsMerge")]
+pub use lucide_table_cells_merge::*;
+#[cfg(feature = "LucideTableCellsSplit")]
+mod lucide_table_cells_split;
+#[cfg(feature = "LucideTableCellsSplit")]
+pub use lucide_table_cells_split::*;
+#[cfg(feature = "LucideTableColumnsSplit")]
+mod lucide_table_columns_split;
+#[cfg(feature = "LucideTableColumnsSplit")]
+pub use lucide_table_columns_split::*;
 #[cfg(feature = "LucideTableProperties")]
 mod lucide_table_properties;
 #[cfg(feature = "LucideTableProperties")]
 pub use lucide_table_properties::*;
+#[cfg(feature = "LucideTableRowsSplit")]
+mod lucide_table_rows_split;
+#[cfg(feature = "LucideTableRowsSplit")]
+pub use lucide_table_rows_split::*;
 #[cfg(feature = "LucideTable")]
 mod lucide_table;
 #[cfg(feature = "LucideTable")]
