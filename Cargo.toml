@@ -2547,6 +2547,7 @@ LucideImageDown = []
 LucideImageMinus = []
 LucideImageOff = []
 LucideImagePlus = []
+LucideImageUp = []
 LucideImage = []
 LucideImages = []
 LucideImport = []
@@ -3979,6 +3980,7 @@ lucide = [
 	"LucideImageMinus",
 	"LucideImageOff",
 	"LucideImagePlus",
+	"LucideImageUp",
 	"LucideImage",
 	"LucideImages",
 	"LucideImport",

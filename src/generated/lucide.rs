@@ -2904,6 +2904,10 @@ pub use lucide_image_off::*;
 mod lucide_image_plus;
 #[cfg(feature = "LucideImagePlus")]
 pub use lucide_image_plus::*;
+#[cfg(feature = "LucideImageUp")]
+mod lucide_image_up;
+#[cfg(feature = "LucideImageUp")]
+pub use lucide_image_up::*;
 #[cfg(feature = "LucideImage")]
 mod lucide_image;
 #[cfg(feature = "LucideImage")]
