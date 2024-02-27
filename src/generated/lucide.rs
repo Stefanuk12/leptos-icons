@@ -1944,6 +1944,14 @@ pub use lucide_ear_off::*;
 mod lucide_ear;
 #[cfg(feature = "LucideEar")]
 pub use lucide_ear::*;
+#[cfg(feature = "LucideEarthLock")]
+mod lucide_earth_lock;
+#[cfg(feature = "LucideEarthLock")]
+pub use lucide_earth_lock::*;
+#[cfg(feature = "LucideEarth")]
+mod lucide_earth;
+#[cfg(feature = "LucideEarth")]
+pub use lucide_earth::*;
 #[cfg(feature = "LucideEclipse")]
 mod lucide_eclipse;
 #[cfg(feature = "LucideEclipse")]
@@ -2672,10 +2680,10 @@ pub use lucide_glass_water::*;
 mod lucide_glasses;
 #[cfg(feature = "LucideGlasses")]
 pub use lucide_glasses::*;
-#[cfg(feature = "LucideGlobe2")]
-mod lucide_globe_2;
-#[cfg(feature = "LucideGlobe2")]
-pub use lucide_globe_2::*;
+#[cfg(feature = "LucideGlobeLock")]
+mod lucide_globe_lock;
+#[cfg(feature = "LucideGlobeLock")]
+pub use lucide_globe_lock::*;
 #[cfg(feature = "LucideGlobe")]
 mod lucide_globe;
 #[cfg(feature = "LucideGlobe")]
