@@ -944,6 +944,10 @@ pub use lucide_bookmark::*;
 mod lucide_boom_box;
 #[cfg(feature = "LucideBoomBox")]
 pub use lucide_boom_box::*;
+#[cfg(feature = "LucideBotMessageSquare")]
+mod lucide_bot_message_square;
+#[cfg(feature = "LucideBotMessageSquare")]
+pub use lucide_bot_message_square::*;
 #[cfg(feature = "LucideBot")]
 mod lucide_bot;
 #[cfg(feature = "LucideBot")]

@@ -2057,6 +2057,7 @@ LucideBookmarkPlus = []
 LucideBookmarkX = []
 LucideBookmark = []
 LucideBoomBox = []
+LucideBotMessageSquare = []
 LucideBot = []
 LucideBoxSelect = []
 LucideBox = []
@@ -3492,6 +3493,7 @@ lucide = [
 	"LucideBookmarkX",
 	"LucideBookmark",
 	"LucideBoomBox",
+	"LucideBotMessageSquare",
 	"LucideBot",
 	"LucideBoxSelect",
 	"LucideBox",
