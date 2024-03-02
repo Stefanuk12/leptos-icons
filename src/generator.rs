@@ -89,8 +89,8 @@ fn main() {
             svg_props.pop();
 
             let mut inner_html = svg_tag.inner_html(parser);
-            if let Some(x) = inner_html.find("<path") {
-                inner_html = inner_html[x..].to_owned();
+            if let Some(x) = inner_html.find("-->") {
+                inner_html = inner_html[x + 3..].to_owned();
             }
 
             let svg_props = TokenStream::from_str((svg_props + "]").as_str()).expect(&path);
