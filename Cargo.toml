@@ -38,6 +38,7 @@ cfg-if = "1.0.0"
 [features]
 default = []
 generator = ["quote", "tl", "convert_case", "proc-macro2", "base64"]
+
 HeroiconsOutlineAcademicCap = []
 HeroiconsOutlineAdjustmentsHorizontal = []
 HeroiconsOutlineAdjustmentsVertical = []
