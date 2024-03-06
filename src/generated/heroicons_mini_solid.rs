@@ -1,1186 +1,1186 @@
 // Generated file, do not edit by hand, see `src/generator.rs`
 
-#[cfg(feature = "HeroiconsMiniSolidAcademicCap")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ACADEMIC_CAP")]
 mod heroicons_mini_solid_academic_cap;
-#[cfg(feature = "HeroiconsMiniSolidAcademicCap")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ACADEMIC_CAP")]
 pub use heroicons_mini_solid_academic_cap::*;
-#[cfg(feature = "HeroiconsMiniSolidAdjustmentsHorizontal")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ADJUSTMENTS_HORIZONTAL")]
 mod heroicons_mini_solid_adjustments_horizontal;
-#[cfg(feature = "HeroiconsMiniSolidAdjustmentsHorizontal")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ADJUSTMENTS_HORIZONTAL")]
 pub use heroicons_mini_solid_adjustments_horizontal::*;
-#[cfg(feature = "HeroiconsMiniSolidAdjustmentsVertical")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ADJUSTMENTS_VERTICAL")]
 mod heroicons_mini_solid_adjustments_vertical;
-#[cfg(feature = "HeroiconsMiniSolidAdjustmentsVertical")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ADJUSTMENTS_VERTICAL")]
 pub use heroicons_mini_solid_adjustments_vertical::*;
-#[cfg(feature = "HeroiconsMiniSolidArchiveBoxArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARCHIVE_BOX_ARROW_DOWN")]
 mod heroicons_mini_solid_archive_box_arrow_down;
-#[cfg(feature = "HeroiconsMiniSolidArchiveBoxArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARCHIVE_BOX_ARROW_DOWN")]
 pub use heroicons_mini_solid_archive_box_arrow_down::*;
-#[cfg(feature = "HeroiconsMiniSolidArchiveBoxXMark")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARCHIVE_BOX_X_MARK")]
 mod heroicons_mini_solid_archive_box_x_mark;
-#[cfg(feature = "HeroiconsMiniSolidArchiveBoxXMark")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARCHIVE_BOX_X_MARK")]
 pub use heroicons_mini_solid_archive_box_x_mark::*;
-#[cfg(feature = "HeroiconsMiniSolidArchiveBox")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARCHIVE_BOX")]
 mod heroicons_mini_solid_archive_box;
-#[cfg(feature = "HeroiconsMiniSolidArchiveBox")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARCHIVE_BOX")]
 pub use heroicons_mini_solid_archive_box::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_CIRCLE")]
 mod heroicons_mini_solid_arrow_down_circle;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_CIRCLE")]
 pub use heroicons_mini_solid_arrow_down_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_LEFT")]
 mod heroicons_mini_solid_arrow_down_left;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_LEFT")]
 pub use heroicons_mini_solid_arrow_down_left::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownOnSquareStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_ON_SQUARE_STACK")]
 mod heroicons_mini_solid_arrow_down_on_square_stack;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownOnSquareStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_ON_SQUARE_STACK")]
 pub use heroicons_mini_solid_arrow_down_on_square_stack::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownOnSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_ON_SQUARE")]
 mod heroicons_mini_solid_arrow_down_on_square;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownOnSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_ON_SQUARE")]
 pub use heroicons_mini_solid_arrow_down_on_square::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_RIGHT")]
 mod heroicons_mini_solid_arrow_down_right;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_RIGHT")]
 pub use heroicons_mini_solid_arrow_down_right::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownTray")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_TRAY")]
 mod heroicons_mini_solid_arrow_down_tray;
-#[cfg(feature = "HeroiconsMiniSolidArrowDownTray")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN_TRAY")]
 pub use heroicons_mini_solid_arrow_down_tray::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN")]
 mod heroicons_mini_solid_arrow_down;
-#[cfg(feature = "HeroiconsMiniSolidArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_DOWN")]
 pub use heroicons_mini_solid_arrow_down::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowLeftCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LEFT_CIRCLE")]
 mod heroicons_mini_solid_arrow_left_circle;
-#[cfg(feature = "HeroiconsMiniSolidArrowLeftCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LEFT_CIRCLE")]
 pub use heroicons_mini_solid_arrow_left_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowLeftEndOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LEFT_END_ON_RECTANGLE")]
 mod heroicons_mini_solid_arrow_left_end_on_rectangle;
-#[cfg(feature = "HeroiconsMiniSolidArrowLeftEndOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LEFT_END_ON_RECTANGLE")]
 pub use heroicons_mini_solid_arrow_left_end_on_rectangle::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowLeftOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LEFT_ON_RECTANGLE")]
 mod heroicons_mini_solid_arrow_left_on_rectangle;
-#[cfg(feature = "HeroiconsMiniSolidArrowLeftOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LEFT_ON_RECTANGLE")]
 pub use heroicons_mini_solid_arrow_left_on_rectangle::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowLeftStartOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LEFT_START_ON_RECTANGLE")]
 mod heroicons_mini_solid_arrow_left_start_on_rectangle;
-#[cfg(feature = "HeroiconsMiniSolidArrowLeftStartOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LEFT_START_ON_RECTANGLE")]
 pub use heroicons_mini_solid_arrow_left_start_on_rectangle::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LEFT")]
 mod heroicons_mini_solid_arrow_left;
-#[cfg(feature = "HeroiconsMiniSolidArrowLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LEFT")]
 pub use heroicons_mini_solid_arrow_left::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowLongDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LONG_DOWN")]
 mod heroicons_mini_solid_arrow_long_down;
-#[cfg(feature = "HeroiconsMiniSolidArrowLongDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LONG_DOWN")]
 pub use heroicons_mini_solid_arrow_long_down::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowLongLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LONG_LEFT")]
 mod heroicons_mini_solid_arrow_long_left;
-#[cfg(feature = "HeroiconsMiniSolidArrowLongLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LONG_LEFT")]
 pub use heroicons_mini_solid_arrow_long_left::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowLongRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LONG_RIGHT")]
 mod heroicons_mini_solid_arrow_long_right;
-#[cfg(feature = "HeroiconsMiniSolidArrowLongRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LONG_RIGHT")]
 pub use heroicons_mini_solid_arrow_long_right::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowLongUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LONG_UP")]
 mod heroicons_mini_solid_arrow_long_up;
-#[cfg(feature = "HeroiconsMiniSolidArrowLongUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_LONG_UP")]
 pub use heroicons_mini_solid_arrow_long_up::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowPathRoundedSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_PATH_ROUNDED_SQUARE")]
 mod heroicons_mini_solid_arrow_path_rounded_square;
-#[cfg(feature = "HeroiconsMiniSolidArrowPathRoundedSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_PATH_ROUNDED_SQUARE")]
 pub use heroicons_mini_solid_arrow_path_rounded_square::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowPath")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_PATH")]
 mod heroicons_mini_solid_arrow_path;
-#[cfg(feature = "HeroiconsMiniSolidArrowPath")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_PATH")]
 pub use heroicons_mini_solid_arrow_path::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowRightCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_RIGHT_CIRCLE")]
 mod heroicons_mini_solid_arrow_right_circle;
-#[cfg(feature = "HeroiconsMiniSolidArrowRightCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_RIGHT_CIRCLE")]
 pub use heroicons_mini_solid_arrow_right_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowRightEndOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_RIGHT_END_ON_RECTANGLE")]
 mod heroicons_mini_solid_arrow_right_end_on_rectangle;
-#[cfg(feature = "HeroiconsMiniSolidArrowRightEndOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_RIGHT_END_ON_RECTANGLE")]
 pub use heroicons_mini_solid_arrow_right_end_on_rectangle::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowRightOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_RIGHT_ON_RECTANGLE")]
 mod heroicons_mini_solid_arrow_right_on_rectangle;
-#[cfg(feature = "HeroiconsMiniSolidArrowRightOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_RIGHT_ON_RECTANGLE")]
 pub use heroicons_mini_solid_arrow_right_on_rectangle::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowRightStartOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_RIGHT_START_ON_RECTANGLE")]
 mod heroicons_mini_solid_arrow_right_start_on_rectangle;
-#[cfg(feature = "HeroiconsMiniSolidArrowRightStartOnRectangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_RIGHT_START_ON_RECTANGLE")]
 pub use heroicons_mini_solid_arrow_right_start_on_rectangle::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_RIGHT")]
 mod heroicons_mini_solid_arrow_right;
-#[cfg(feature = "HeroiconsMiniSolidArrowRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_RIGHT")]
 pub use heroicons_mini_solid_arrow_right::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowSmallDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_SMALL_DOWN")]
 mod heroicons_mini_solid_arrow_small_down;
-#[cfg(feature = "HeroiconsMiniSolidArrowSmallDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_SMALL_DOWN")]
 pub use heroicons_mini_solid_arrow_small_down::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowSmallLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_SMALL_LEFT")]
 mod heroicons_mini_solid_arrow_small_left;
-#[cfg(feature = "HeroiconsMiniSolidArrowSmallLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_SMALL_LEFT")]
 pub use heroicons_mini_solid_arrow_small_left::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowSmallRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_SMALL_RIGHT")]
 mod heroicons_mini_solid_arrow_small_right;
-#[cfg(feature = "HeroiconsMiniSolidArrowSmallRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_SMALL_RIGHT")]
 pub use heroicons_mini_solid_arrow_small_right::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowSmallUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_SMALL_UP")]
 mod heroicons_mini_solid_arrow_small_up;
-#[cfg(feature = "HeroiconsMiniSolidArrowSmallUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_SMALL_UP")]
 pub use heroicons_mini_solid_arrow_small_up::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowTopRightOnSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TOP_RIGHT_ON_SQUARE")]
 mod heroicons_mini_solid_arrow_top_right_on_square;
-#[cfg(feature = "HeroiconsMiniSolidArrowTopRightOnSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TOP_RIGHT_ON_SQUARE")]
 pub use heroicons_mini_solid_arrow_top_right_on_square::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowTrendingDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TRENDING_DOWN")]
 mod heroicons_mini_solid_arrow_trending_down;
-#[cfg(feature = "HeroiconsMiniSolidArrowTrendingDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TRENDING_DOWN")]
 pub use heroicons_mini_solid_arrow_trending_down::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowTrendingUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TRENDING_UP")]
 mod heroicons_mini_solid_arrow_trending_up;
-#[cfg(feature = "HeroiconsMiniSolidArrowTrendingUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TRENDING_UP")]
 pub use heroicons_mini_solid_arrow_trending_up::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_CIRCLE")]
 mod heroicons_mini_solid_arrow_up_circle;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_CIRCLE")]
 pub use heroicons_mini_solid_arrow_up_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_LEFT")]
 mod heroicons_mini_solid_arrow_up_left;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_LEFT")]
 pub use heroicons_mini_solid_arrow_up_left::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpOnSquareStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_ON_SQUARE_STACK")]
 mod heroicons_mini_solid_arrow_up_on_square_stack;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpOnSquareStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_ON_SQUARE_STACK")]
 pub use heroicons_mini_solid_arrow_up_on_square_stack::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpOnSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_ON_SQUARE")]
 mod heroicons_mini_solid_arrow_up_on_square;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpOnSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_ON_SQUARE")]
 pub use heroicons_mini_solid_arrow_up_on_square::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_RIGHT")]
 mod heroicons_mini_solid_arrow_up_right;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_RIGHT")]
 pub use heroicons_mini_solid_arrow_up_right::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpTray")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_TRAY")]
 mod heroicons_mini_solid_arrow_up_tray;
-#[cfg(feature = "HeroiconsMiniSolidArrowUpTray")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_TRAY")]
 pub use heroicons_mini_solid_arrow_up_tray::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP")]
 mod heroicons_mini_solid_arrow_up;
-#[cfg(feature = "HeroiconsMiniSolidArrowUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP")]
 pub use heroicons_mini_solid_arrow_up::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUturnDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UTURN_DOWN")]
 mod heroicons_mini_solid_arrow_uturn_down;
-#[cfg(feature = "HeroiconsMiniSolidArrowUturnDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UTURN_DOWN")]
 pub use heroicons_mini_solid_arrow_uturn_down::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUturnLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UTURN_LEFT")]
 mod heroicons_mini_solid_arrow_uturn_left;
-#[cfg(feature = "HeroiconsMiniSolidArrowUturnLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UTURN_LEFT")]
 pub use heroicons_mini_solid_arrow_uturn_left::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUturnRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UTURN_RIGHT")]
 mod heroicons_mini_solid_arrow_uturn_right;
-#[cfg(feature = "HeroiconsMiniSolidArrowUturnRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UTURN_RIGHT")]
 pub use heroicons_mini_solid_arrow_uturn_right::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowUturnUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UTURN_UP")]
 mod heroicons_mini_solid_arrow_uturn_up;
-#[cfg(feature = "HeroiconsMiniSolidArrowUturnUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UTURN_UP")]
 pub use heroicons_mini_solid_arrow_uturn_up::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowsPointingIn")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROWS_POINTING_IN")]
 mod heroicons_mini_solid_arrows_pointing_in;
-#[cfg(feature = "HeroiconsMiniSolidArrowsPointingIn")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROWS_POINTING_IN")]
 pub use heroicons_mini_solid_arrows_pointing_in::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowsPointingOut")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROWS_POINTING_OUT")]
 mod heroicons_mini_solid_arrows_pointing_out;
-#[cfg(feature = "HeroiconsMiniSolidArrowsPointingOut")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROWS_POINTING_OUT")]
 pub use heroicons_mini_solid_arrows_pointing_out::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowsRightLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROWS_RIGHT_LEFT")]
 mod heroicons_mini_solid_arrows_right_left;
-#[cfg(feature = "HeroiconsMiniSolidArrowsRightLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROWS_RIGHT_LEFT")]
 pub use heroicons_mini_solid_arrows_right_left::*;
-#[cfg(feature = "HeroiconsMiniSolidArrowsUpDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROWS_UP_DOWN")]
 mod heroicons_mini_solid_arrows_up_down;
-#[cfg(feature = "HeroiconsMiniSolidArrowsUpDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROWS_UP_DOWN")]
 pub use heroicons_mini_solid_arrows_up_down::*;
-#[cfg(feature = "HeroiconsMiniSolidAtSymbol")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_AT_SYMBOL")]
 mod heroicons_mini_solid_at_symbol;
-#[cfg(feature = "HeroiconsMiniSolidAtSymbol")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_AT_SYMBOL")]
 pub use heroicons_mini_solid_at_symbol::*;
-#[cfg(feature = "HeroiconsMiniSolidBackspace")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BACKSPACE")]
 mod heroicons_mini_solid_backspace;
-#[cfg(feature = "HeroiconsMiniSolidBackspace")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BACKSPACE")]
 pub use heroicons_mini_solid_backspace::*;
-#[cfg(feature = "HeroiconsMiniSolidBackward")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BACKWARD")]
 mod heroicons_mini_solid_backward;
-#[cfg(feature = "HeroiconsMiniSolidBackward")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BACKWARD")]
 pub use heroicons_mini_solid_backward::*;
-#[cfg(feature = "HeroiconsMiniSolidBanknotes")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BANKNOTES")]
 mod heroicons_mini_solid_banknotes;
-#[cfg(feature = "HeroiconsMiniSolidBanknotes")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BANKNOTES")]
 pub use heroicons_mini_solid_banknotes::*;
-#[cfg(feature = "HeroiconsMiniSolidBars2")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_2")]
 mod heroicons_mini_solid_bars_2;
-#[cfg(feature = "HeroiconsMiniSolidBars2")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_2")]
 pub use heroicons_mini_solid_bars_2::*;
-#[cfg(feature = "HeroiconsMiniSolidBars3BottomLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_3_BOTTOM_LEFT")]
 mod heroicons_mini_solid_bars_3_bottom_left;
-#[cfg(feature = "HeroiconsMiniSolidBars3BottomLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_3_BOTTOM_LEFT")]
 pub use heroicons_mini_solid_bars_3_bottom_left::*;
-#[cfg(feature = "HeroiconsMiniSolidBars3BottomRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_3_BOTTOM_RIGHT")]
 mod heroicons_mini_solid_bars_3_bottom_right;
-#[cfg(feature = "HeroiconsMiniSolidBars3BottomRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_3_BOTTOM_RIGHT")]
 pub use heroicons_mini_solid_bars_3_bottom_right::*;
-#[cfg(feature = "HeroiconsMiniSolidBars3CenterLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_3_CENTER_LEFT")]
 mod heroicons_mini_solid_bars_3_center_left;
-#[cfg(feature = "HeroiconsMiniSolidBars3CenterLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_3_CENTER_LEFT")]
 pub use heroicons_mini_solid_bars_3_center_left::*;
-#[cfg(feature = "HeroiconsMiniSolidBars3")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_3")]
 mod heroicons_mini_solid_bars_3;
-#[cfg(feature = "HeroiconsMiniSolidBars3")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_3")]
 pub use heroicons_mini_solid_bars_3::*;
-#[cfg(feature = "HeroiconsMiniSolidBars4")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_4")]
 mod heroicons_mini_solid_bars_4;
-#[cfg(feature = "HeroiconsMiniSolidBars4")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_4")]
 pub use heroicons_mini_solid_bars_4::*;
-#[cfg(feature = "HeroiconsMiniSolidBarsArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_ARROW_DOWN")]
 mod heroicons_mini_solid_bars_arrow_down;
-#[cfg(feature = "HeroiconsMiniSolidBarsArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_ARROW_DOWN")]
 pub use heroicons_mini_solid_bars_arrow_down::*;
-#[cfg(feature = "HeroiconsMiniSolidBarsArrowUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_ARROW_UP")]
 mod heroicons_mini_solid_bars_arrow_up;
-#[cfg(feature = "HeroiconsMiniSolidBarsArrowUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BARS_ARROW_UP")]
 pub use heroicons_mini_solid_bars_arrow_up::*;
-#[cfg(feature = "HeroiconsMiniSolidBattery0")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BATTERY_0")]
 mod heroicons_mini_solid_battery_0;
-#[cfg(feature = "HeroiconsMiniSolidBattery0")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BATTERY_0")]
 pub use heroicons_mini_solid_battery_0::*;
-#[cfg(feature = "HeroiconsMiniSolidBattery100")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BATTERY_100")]
 mod heroicons_mini_solid_battery_100;
-#[cfg(feature = "HeroiconsMiniSolidBattery100")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BATTERY_100")]
 pub use heroicons_mini_solid_battery_100::*;
-#[cfg(feature = "HeroiconsMiniSolidBattery50")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BATTERY_50")]
 mod heroicons_mini_solid_battery_50;
-#[cfg(feature = "HeroiconsMiniSolidBattery50")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BATTERY_50")]
 pub use heroicons_mini_solid_battery_50::*;
-#[cfg(feature = "HeroiconsMiniSolidBeaker")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BEAKER")]
 mod heroicons_mini_solid_beaker;
-#[cfg(feature = "HeroiconsMiniSolidBeaker")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BEAKER")]
 pub use heroicons_mini_solid_beaker::*;
-#[cfg(feature = "HeroiconsMiniSolidBellAlert")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BELL_ALERT")]
 mod heroicons_mini_solid_bell_alert;
-#[cfg(feature = "HeroiconsMiniSolidBellAlert")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BELL_ALERT")]
 pub use heroicons_mini_solid_bell_alert::*;
-#[cfg(feature = "HeroiconsMiniSolidBellSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BELL_SLASH")]
 mod heroicons_mini_solid_bell_slash;
-#[cfg(feature = "HeroiconsMiniSolidBellSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BELL_SLASH")]
 pub use heroicons_mini_solid_bell_slash::*;
-#[cfg(feature = "HeroiconsMiniSolidBellSnooze")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BELL_SNOOZE")]
 mod heroicons_mini_solid_bell_snooze;
-#[cfg(feature = "HeroiconsMiniSolidBellSnooze")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BELL_SNOOZE")]
 pub use heroicons_mini_solid_bell_snooze::*;
-#[cfg(feature = "HeroiconsMiniSolidBell")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BELL")]
 mod heroicons_mini_solid_bell;
-#[cfg(feature = "HeroiconsMiniSolidBell")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BELL")]
 pub use heroicons_mini_solid_bell::*;
-#[cfg(feature = "HeroiconsMiniSolidBoltSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOLT_SLASH")]
 mod heroicons_mini_solid_bolt_slash;
-#[cfg(feature = "HeroiconsMiniSolidBoltSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOLT_SLASH")]
 pub use heroicons_mini_solid_bolt_slash::*;
-#[cfg(feature = "HeroiconsMiniSolidBolt")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOLT")]
 mod heroicons_mini_solid_bolt;
-#[cfg(feature = "HeroiconsMiniSolidBolt")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOLT")]
 pub use heroicons_mini_solid_bolt::*;
-#[cfg(feature = "HeroiconsMiniSolidBookOpen")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOOK_OPEN")]
 mod heroicons_mini_solid_book_open;
-#[cfg(feature = "HeroiconsMiniSolidBookOpen")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOOK_OPEN")]
 pub use heroicons_mini_solid_book_open::*;
-#[cfg(feature = "HeroiconsMiniSolidBookmarkSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOOKMARK_SLASH")]
 mod heroicons_mini_solid_bookmark_slash;
-#[cfg(feature = "HeroiconsMiniSolidBookmarkSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOOKMARK_SLASH")]
 pub use heroicons_mini_solid_bookmark_slash::*;
-#[cfg(feature = "HeroiconsMiniSolidBookmarkSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOOKMARK_SQUARE")]
 mod heroicons_mini_solid_bookmark_square;
-#[cfg(feature = "HeroiconsMiniSolidBookmarkSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOOKMARK_SQUARE")]
 pub use heroicons_mini_solid_bookmark_square::*;
-#[cfg(feature = "HeroiconsMiniSolidBookmark")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOOKMARK")]
 mod heroicons_mini_solid_bookmark;
-#[cfg(feature = "HeroiconsMiniSolidBookmark")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOOKMARK")]
 pub use heroicons_mini_solid_bookmark::*;
-#[cfg(feature = "HeroiconsMiniSolidBriefcase")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BRIEFCASE")]
 mod heroicons_mini_solid_briefcase;
-#[cfg(feature = "HeroiconsMiniSolidBriefcase")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BRIEFCASE")]
 pub use heroicons_mini_solid_briefcase::*;
-#[cfg(feature = "HeroiconsMiniSolidBugAnt")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BUG_ANT")]
 mod heroicons_mini_solid_bug_ant;
-#[cfg(feature = "HeroiconsMiniSolidBugAnt")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BUG_ANT")]
 pub use heroicons_mini_solid_bug_ant::*;
-#[cfg(feature = "HeroiconsMiniSolidBuildingLibrary")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BUILDING_LIBRARY")]
 mod heroicons_mini_solid_building_library;
-#[cfg(feature = "HeroiconsMiniSolidBuildingLibrary")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BUILDING_LIBRARY")]
 pub use heroicons_mini_solid_building_library::*;
-#[cfg(feature = "HeroiconsMiniSolidBuildingOffice2")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BUILDING_OFFICE_2")]
 mod heroicons_mini_solid_building_office_2;
-#[cfg(feature = "HeroiconsMiniSolidBuildingOffice2")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BUILDING_OFFICE_2")]
 pub use heroicons_mini_solid_building_office_2::*;
-#[cfg(feature = "HeroiconsMiniSolidBuildingOffice")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BUILDING_OFFICE")]
 mod heroicons_mini_solid_building_office;
-#[cfg(feature = "HeroiconsMiniSolidBuildingOffice")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BUILDING_OFFICE")]
 pub use heroicons_mini_solid_building_office::*;
-#[cfg(feature = "HeroiconsMiniSolidBuildingStorefront")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BUILDING_STOREFRONT")]
 mod heroicons_mini_solid_building_storefront;
-#[cfg(feature = "HeroiconsMiniSolidBuildingStorefront")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_BUILDING_STOREFRONT")]
 pub use heroicons_mini_solid_building_storefront::*;
-#[cfg(feature = "HeroiconsMiniSolidCake")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CAKE")]
 mod heroicons_mini_solid_cake;
-#[cfg(feature = "HeroiconsMiniSolidCake")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CAKE")]
 pub use heroicons_mini_solid_cake::*;
-#[cfg(feature = "HeroiconsMiniSolidCalculator")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CALCULATOR")]
 mod heroicons_mini_solid_calculator;
-#[cfg(feature = "HeroiconsMiniSolidCalculator")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CALCULATOR")]
 pub use heroicons_mini_solid_calculator::*;
-#[cfg(feature = "HeroiconsMiniSolidCalendarDays")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CALENDAR_DAYS")]
 mod heroicons_mini_solid_calendar_days;
-#[cfg(feature = "HeroiconsMiniSolidCalendarDays")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CALENDAR_DAYS")]
 pub use heroicons_mini_solid_calendar_days::*;
-#[cfg(feature = "HeroiconsMiniSolidCalendar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CALENDAR")]
 mod heroicons_mini_solid_calendar;
-#[cfg(feature = "HeroiconsMiniSolidCalendar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CALENDAR")]
 pub use heroicons_mini_solid_calendar::*;
-#[cfg(feature = "HeroiconsMiniSolidCamera")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CAMERA")]
 mod heroicons_mini_solid_camera;
-#[cfg(feature = "HeroiconsMiniSolidCamera")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CAMERA")]
 pub use heroicons_mini_solid_camera::*;
-#[cfg(feature = "HeroiconsMiniSolidChartBarSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHART_BAR_SQUARE")]
 mod heroicons_mini_solid_chart_bar_square;
-#[cfg(feature = "HeroiconsMiniSolidChartBarSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHART_BAR_SQUARE")]
 pub use heroicons_mini_solid_chart_bar_square::*;
-#[cfg(feature = "HeroiconsMiniSolidChartBar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHART_BAR")]
 mod heroicons_mini_solid_chart_bar;
-#[cfg(feature = "HeroiconsMiniSolidChartBar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHART_BAR")]
 pub use heroicons_mini_solid_chart_bar::*;
-#[cfg(feature = "HeroiconsMiniSolidChartPie")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHART_PIE")]
 mod heroicons_mini_solid_chart_pie;
-#[cfg(feature = "HeroiconsMiniSolidChartPie")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHART_PIE")]
 pub use heroicons_mini_solid_chart_pie::*;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleBottomCenterText")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_BOTTOM_CENTER_TEXT")]
 mod heroicons_mini_solid_chat_bubble_bottom_center_text;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleBottomCenterText")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_BOTTOM_CENTER_TEXT")]
 pub use heroicons_mini_solid_chat_bubble_bottom_center_text::*;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleBottomCenter")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_BOTTOM_CENTER")]
 mod heroicons_mini_solid_chat_bubble_bottom_center;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleBottomCenter")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_BOTTOM_CENTER")]
 pub use heroicons_mini_solid_chat_bubble_bottom_center::*;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleLeftEllipsis")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_LEFT_ELLIPSIS")]
 mod heroicons_mini_solid_chat_bubble_left_ellipsis;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleLeftEllipsis")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_LEFT_ELLIPSIS")]
 pub use heroicons_mini_solid_chat_bubble_left_ellipsis::*;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleLeftRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_LEFT_RIGHT")]
 mod heroicons_mini_solid_chat_bubble_left_right;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleLeftRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_LEFT_RIGHT")]
 pub use heroicons_mini_solid_chat_bubble_left_right::*;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_LEFT")]
 mod heroicons_mini_solid_chat_bubble_left;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_LEFT")]
 pub use heroicons_mini_solid_chat_bubble_left::*;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleOvalLeftEllipsis")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_OVAL_LEFT_ELLIPSIS")]
 mod heroicons_mini_solid_chat_bubble_oval_left_ellipsis;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleOvalLeftEllipsis")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_OVAL_LEFT_ELLIPSIS")]
 pub use heroicons_mini_solid_chat_bubble_oval_left_ellipsis::*;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleOvalLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_OVAL_LEFT")]
 mod heroicons_mini_solid_chat_bubble_oval_left;
-#[cfg(feature = "HeroiconsMiniSolidChatBubbleOvalLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHAT_BUBBLE_OVAL_LEFT")]
 pub use heroicons_mini_solid_chat_bubble_oval_left::*;
-#[cfg(feature = "HeroiconsMiniSolidCheckBadge")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHECK_BADGE")]
 mod heroicons_mini_solid_check_badge;
-#[cfg(feature = "HeroiconsMiniSolidCheckBadge")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHECK_BADGE")]
 pub use heroicons_mini_solid_check_badge::*;
-#[cfg(feature = "HeroiconsMiniSolidCheckCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHECK_CIRCLE")]
 mod heroicons_mini_solid_check_circle;
-#[cfg(feature = "HeroiconsMiniSolidCheckCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHECK_CIRCLE")]
 pub use heroicons_mini_solid_check_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidCheck")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHECK")]
 mod heroicons_mini_solid_check;
-#[cfg(feature = "HeroiconsMiniSolidCheck")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHECK")]
 pub use heroicons_mini_solid_check::*;
-#[cfg(feature = "HeroiconsMiniSolidChevronDoubleDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_DOWN")]
 mod heroicons_mini_solid_chevron_double_down;
-#[cfg(feature = "HeroiconsMiniSolidChevronDoubleDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_DOWN")]
 pub use heroicons_mini_solid_chevron_double_down::*;
-#[cfg(feature = "HeroiconsMiniSolidChevronDoubleLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_LEFT")]
 mod heroicons_mini_solid_chevron_double_left;
-#[cfg(feature = "HeroiconsMiniSolidChevronDoubleLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_LEFT")]
 pub use heroicons_mini_solid_chevron_double_left::*;
-#[cfg(feature = "HeroiconsMiniSolidChevronDoubleRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_RIGHT")]
 mod heroicons_mini_solid_chevron_double_right;
-#[cfg(feature = "HeroiconsMiniSolidChevronDoubleRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_RIGHT")]
 pub use heroicons_mini_solid_chevron_double_right::*;
-#[cfg(feature = "HeroiconsMiniSolidChevronDoubleUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_UP")]
 mod heroicons_mini_solid_chevron_double_up;
-#[cfg(feature = "HeroiconsMiniSolidChevronDoubleUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_DOUBLE_UP")]
 pub use heroicons_mini_solid_chevron_double_up::*;
-#[cfg(feature = "HeroiconsMiniSolidChevronDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_DOWN")]
 mod heroicons_mini_solid_chevron_down;
-#[cfg(feature = "HeroiconsMiniSolidChevronDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_DOWN")]
 pub use heroicons_mini_solid_chevron_down::*;
-#[cfg(feature = "HeroiconsMiniSolidChevronLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_LEFT")]
 mod heroicons_mini_solid_chevron_left;
-#[cfg(feature = "HeroiconsMiniSolidChevronLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_LEFT")]
 pub use heroicons_mini_solid_chevron_left::*;
-#[cfg(feature = "HeroiconsMiniSolidChevronRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_RIGHT")]
 mod heroicons_mini_solid_chevron_right;
-#[cfg(feature = "HeroiconsMiniSolidChevronRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_RIGHT")]
 pub use heroicons_mini_solid_chevron_right::*;
-#[cfg(feature = "HeroiconsMiniSolidChevronUpDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_UP_DOWN")]
 mod heroicons_mini_solid_chevron_up_down;
-#[cfg(feature = "HeroiconsMiniSolidChevronUpDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_UP_DOWN")]
 pub use heroicons_mini_solid_chevron_up_down::*;
-#[cfg(feature = "HeroiconsMiniSolidChevronUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_UP")]
 mod heroicons_mini_solid_chevron_up;
-#[cfg(feature = "HeroiconsMiniSolidChevronUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CHEVRON_UP")]
 pub use heroicons_mini_solid_chevron_up::*;
-#[cfg(feature = "HeroiconsMiniSolidCircleStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CIRCLE_STACK")]
 mod heroicons_mini_solid_circle_stack;
-#[cfg(feature = "HeroiconsMiniSolidCircleStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CIRCLE_STACK")]
 pub use heroicons_mini_solid_circle_stack::*;
-#[cfg(feature = "HeroiconsMiniSolidClipboardDocumentCheck")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLIPBOARD_DOCUMENT_CHECK")]
 mod heroicons_mini_solid_clipboard_document_check;
-#[cfg(feature = "HeroiconsMiniSolidClipboardDocumentCheck")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLIPBOARD_DOCUMENT_CHECK")]
 pub use heroicons_mini_solid_clipboard_document_check::*;
-#[cfg(feature = "HeroiconsMiniSolidClipboardDocumentList")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLIPBOARD_DOCUMENT_LIST")]
 mod heroicons_mini_solid_clipboard_document_list;
-#[cfg(feature = "HeroiconsMiniSolidClipboardDocumentList")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLIPBOARD_DOCUMENT_LIST")]
 pub use heroicons_mini_solid_clipboard_document_list::*;
-#[cfg(feature = "HeroiconsMiniSolidClipboardDocument")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLIPBOARD_DOCUMENT")]
 mod heroicons_mini_solid_clipboard_document;
-#[cfg(feature = "HeroiconsMiniSolidClipboardDocument")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLIPBOARD_DOCUMENT")]
 pub use heroicons_mini_solid_clipboard_document::*;
-#[cfg(feature = "HeroiconsMiniSolidClipboard")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLIPBOARD")]
 mod heroicons_mini_solid_clipboard;
-#[cfg(feature = "HeroiconsMiniSolidClipboard")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLIPBOARD")]
 pub use heroicons_mini_solid_clipboard::*;
-#[cfg(feature = "HeroiconsMiniSolidClock")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLOCK")]
 mod heroicons_mini_solid_clock;
-#[cfg(feature = "HeroiconsMiniSolidClock")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLOCK")]
 pub use heroicons_mini_solid_clock::*;
-#[cfg(feature = "HeroiconsMiniSolidCloudArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLOUD_ARROW_DOWN")]
 mod heroicons_mini_solid_cloud_arrow_down;
-#[cfg(feature = "HeroiconsMiniSolidCloudArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLOUD_ARROW_DOWN")]
 pub use heroicons_mini_solid_cloud_arrow_down::*;
-#[cfg(feature = "HeroiconsMiniSolidCloudArrowUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLOUD_ARROW_UP")]
 mod heroicons_mini_solid_cloud_arrow_up;
-#[cfg(feature = "HeroiconsMiniSolidCloudArrowUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLOUD_ARROW_UP")]
 pub use heroicons_mini_solid_cloud_arrow_up::*;
-#[cfg(feature = "HeroiconsMiniSolidCloud")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLOUD")]
 mod heroicons_mini_solid_cloud;
-#[cfg(feature = "HeroiconsMiniSolidCloud")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CLOUD")]
 pub use heroicons_mini_solid_cloud::*;
-#[cfg(feature = "HeroiconsMiniSolidCodeBracketSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CODE_BRACKET_SQUARE")]
 mod heroicons_mini_solid_code_bracket_square;
-#[cfg(feature = "HeroiconsMiniSolidCodeBracketSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CODE_BRACKET_SQUARE")]
 pub use heroicons_mini_solid_code_bracket_square::*;
-#[cfg(feature = "HeroiconsMiniSolidCodeBracket")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CODE_BRACKET")]
 mod heroicons_mini_solid_code_bracket;
-#[cfg(feature = "HeroiconsMiniSolidCodeBracket")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CODE_BRACKET")]
 pub use heroicons_mini_solid_code_bracket::*;
-#[cfg(feature = "HeroiconsMiniSolidCog6Tooth")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_COG_6_TOOTH")]
 mod heroicons_mini_solid_cog_6_tooth;
-#[cfg(feature = "HeroiconsMiniSolidCog6Tooth")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_COG_6_TOOTH")]
 pub use heroicons_mini_solid_cog_6_tooth::*;
-#[cfg(feature = "HeroiconsMiniSolidCog8Tooth")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_COG_8_TOOTH")]
 mod heroicons_mini_solid_cog_8_tooth;
-#[cfg(feature = "HeroiconsMiniSolidCog8Tooth")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_COG_8_TOOTH")]
 pub use heroicons_mini_solid_cog_8_tooth::*;
-#[cfg(feature = "HeroiconsMiniSolidCog")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_COG")]
 mod heroicons_mini_solid_cog;
-#[cfg(feature = "HeroiconsMiniSolidCog")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_COG")]
 pub use heroicons_mini_solid_cog::*;
-#[cfg(feature = "HeroiconsMiniSolidCommandLine")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_COMMAND_LINE")]
 mod heroicons_mini_solid_command_line;
-#[cfg(feature = "HeroiconsMiniSolidCommandLine")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_COMMAND_LINE")]
 pub use heroicons_mini_solid_command_line::*;
-#[cfg(feature = "HeroiconsMiniSolidComputerDesktop")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_COMPUTER_DESKTOP")]
 mod heroicons_mini_solid_computer_desktop;
-#[cfg(feature = "HeroiconsMiniSolidComputerDesktop")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_COMPUTER_DESKTOP")]
 pub use heroicons_mini_solid_computer_desktop::*;
-#[cfg(feature = "HeroiconsMiniSolidCpuChip")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CPU_CHIP")]
 mod heroicons_mini_solid_cpu_chip;
-#[cfg(feature = "HeroiconsMiniSolidCpuChip")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CPU_CHIP")]
 pub use heroicons_mini_solid_cpu_chip::*;
-#[cfg(feature = "HeroiconsMiniSolidCreditCard")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CREDIT_CARD")]
 mod heroicons_mini_solid_credit_card;
-#[cfg(feature = "HeroiconsMiniSolidCreditCard")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CREDIT_CARD")]
 pub use heroicons_mini_solid_credit_card::*;
-#[cfg(feature = "HeroiconsMiniSolidCubeTransparent")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CUBE_TRANSPARENT")]
 mod heroicons_mini_solid_cube_transparent;
-#[cfg(feature = "HeroiconsMiniSolidCubeTransparent")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CUBE_TRANSPARENT")]
 pub use heroicons_mini_solid_cube_transparent::*;
-#[cfg(feature = "HeroiconsMiniSolidCube")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CUBE")]
 mod heroicons_mini_solid_cube;
-#[cfg(feature = "HeroiconsMiniSolidCube")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CUBE")]
 pub use heroicons_mini_solid_cube::*;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyBangladeshi")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_BANGLADESHI")]
 mod heroicons_mini_solid_currency_bangladeshi;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyBangladeshi")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_BANGLADESHI")]
 pub use heroicons_mini_solid_currency_bangladeshi::*;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyDollar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_DOLLAR")]
 mod heroicons_mini_solid_currency_dollar;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyDollar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_DOLLAR")]
 pub use heroicons_mini_solid_currency_dollar::*;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyEuro")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_EURO")]
 mod heroicons_mini_solid_currency_euro;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyEuro")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_EURO")]
 pub use heroicons_mini_solid_currency_euro::*;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyPound")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_POUND")]
 mod heroicons_mini_solid_currency_pound;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyPound")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_POUND")]
 pub use heroicons_mini_solid_currency_pound::*;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyRupee")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_RUPEE")]
 mod heroicons_mini_solid_currency_rupee;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyRupee")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_RUPEE")]
 pub use heroicons_mini_solid_currency_rupee::*;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyYen")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_YEN")]
 mod heroicons_mini_solid_currency_yen;
-#[cfg(feature = "HeroiconsMiniSolidCurrencyYen")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURRENCY_YEN")]
 pub use heroicons_mini_solid_currency_yen::*;
-#[cfg(feature = "HeroiconsMiniSolidCursorArrowRays")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURSOR_ARROW_RAYS")]
 mod heroicons_mini_solid_cursor_arrow_rays;
-#[cfg(feature = "HeroiconsMiniSolidCursorArrowRays")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURSOR_ARROW_RAYS")]
 pub use heroicons_mini_solid_cursor_arrow_rays::*;
-#[cfg(feature = "HeroiconsMiniSolidCursorArrowRipple")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURSOR_ARROW_RIPPLE")]
 mod heroicons_mini_solid_cursor_arrow_ripple;
-#[cfg(feature = "HeroiconsMiniSolidCursorArrowRipple")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_CURSOR_ARROW_RIPPLE")]
 pub use heroicons_mini_solid_cursor_arrow_ripple::*;
-#[cfg(feature = "HeroiconsMiniSolidDevicePhoneMobile")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DEVICE_PHONE_MOBILE")]
 mod heroicons_mini_solid_device_phone_mobile;
-#[cfg(feature = "HeroiconsMiniSolidDevicePhoneMobile")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DEVICE_PHONE_MOBILE")]
 pub use heroicons_mini_solid_device_phone_mobile::*;
-#[cfg(feature = "HeroiconsMiniSolidDeviceTablet")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DEVICE_TABLET")]
 mod heroicons_mini_solid_device_tablet;
-#[cfg(feature = "HeroiconsMiniSolidDeviceTablet")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DEVICE_TABLET")]
 pub use heroicons_mini_solid_device_tablet::*;
-#[cfg(feature = "HeroiconsMiniSolidDocumentArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_ARROW_DOWN")]
 mod heroicons_mini_solid_document_arrow_down;
-#[cfg(feature = "HeroiconsMiniSolidDocumentArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_ARROW_DOWN")]
 pub use heroicons_mini_solid_document_arrow_down::*;
-#[cfg(feature = "HeroiconsMiniSolidDocumentArrowUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_ARROW_UP")]
 mod heroicons_mini_solid_document_arrow_up;
-#[cfg(feature = "HeroiconsMiniSolidDocumentArrowUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_ARROW_UP")]
 pub use heroicons_mini_solid_document_arrow_up::*;
-#[cfg(feature = "HeroiconsMiniSolidDocumentChartBar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CHART_BAR")]
 mod heroicons_mini_solid_document_chart_bar;
-#[cfg(feature = "HeroiconsMiniSolidDocumentChartBar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CHART_BAR")]
 pub use heroicons_mini_solid_document_chart_bar::*;
-#[cfg(feature = "HeroiconsMiniSolidDocumentCheck")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CHECK")]
 mod heroicons_mini_solid_document_check;
-#[cfg(feature = "HeroiconsMiniSolidDocumentCheck")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CHECK")]
 pub use heroicons_mini_solid_document_check::*;
-#[cfg(feature = "HeroiconsMiniSolidDocumentDuplicate")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_DUPLICATE")]
 mod heroicons_mini_solid_document_duplicate;
-#[cfg(feature = "HeroiconsMiniSolidDocumentDuplicate")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_DUPLICATE")]
 pub use heroicons_mini_solid_document_duplicate::*;
-#[cfg(feature = "HeroiconsMiniSolidDocumentMagnifyingGlass")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_MAGNIFYING_GLASS")]
 mod heroicons_mini_solid_document_magnifying_glass;
-#[cfg(feature = "HeroiconsMiniSolidDocumentMagnifyingGlass")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_MAGNIFYING_GLASS")]
 pub use heroicons_mini_solid_document_magnifying_glass::*;
-#[cfg(feature = "HeroiconsMiniSolidDocumentMinus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_MINUS")]
 mod heroicons_mini_solid_document_minus;
-#[cfg(feature = "HeroiconsMiniSolidDocumentMinus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_MINUS")]
 pub use heroicons_mini_solid_document_minus::*;
-#[cfg(feature = "HeroiconsMiniSolidDocumentPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_PLUS")]
 mod heroicons_mini_solid_document_plus;
-#[cfg(feature = "HeroiconsMiniSolidDocumentPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_PLUS")]
 pub use heroicons_mini_solid_document_plus::*;
-#[cfg(feature = "HeroiconsMiniSolidDocumentText")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_TEXT")]
 mod heroicons_mini_solid_document_text;
-#[cfg(feature = "HeroiconsMiniSolidDocumentText")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_TEXT")]
 pub use heroicons_mini_solid_document_text::*;
-#[cfg(feature = "HeroiconsMiniSolidDocument")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT")]
 mod heroicons_mini_solid_document;
-#[cfg(feature = "HeroiconsMiniSolidDocument")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT")]
 pub use heroicons_mini_solid_document::*;
-#[cfg(feature = "HeroiconsMiniSolidEllipsisHorizontalCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ELLIPSIS_HORIZONTAL_CIRCLE")]
 mod heroicons_mini_solid_ellipsis_horizontal_circle;
-#[cfg(feature = "HeroiconsMiniSolidEllipsisHorizontalCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ELLIPSIS_HORIZONTAL_CIRCLE")]
 pub use heroicons_mini_solid_ellipsis_horizontal_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidEllipsisHorizontal")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ELLIPSIS_HORIZONTAL")]
 mod heroicons_mini_solid_ellipsis_horizontal;
-#[cfg(feature = "HeroiconsMiniSolidEllipsisHorizontal")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ELLIPSIS_HORIZONTAL")]
 pub use heroicons_mini_solid_ellipsis_horizontal::*;
-#[cfg(feature = "HeroiconsMiniSolidEllipsisVertical")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ELLIPSIS_VERTICAL")]
 mod heroicons_mini_solid_ellipsis_vertical;
-#[cfg(feature = "HeroiconsMiniSolidEllipsisVertical")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ELLIPSIS_VERTICAL")]
 pub use heroicons_mini_solid_ellipsis_vertical::*;
-#[cfg(feature = "HeroiconsMiniSolidEnvelopeOpen")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ENVELOPE_OPEN")]
 mod heroicons_mini_solid_envelope_open;
-#[cfg(feature = "HeroiconsMiniSolidEnvelopeOpen")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ENVELOPE_OPEN")]
 pub use heroicons_mini_solid_envelope_open::*;
-#[cfg(feature = "HeroiconsMiniSolidEnvelope")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ENVELOPE")]
 mod heroicons_mini_solid_envelope;
-#[cfg(feature = "HeroiconsMiniSolidEnvelope")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ENVELOPE")]
 pub use heroicons_mini_solid_envelope::*;
-#[cfg(feature = "HeroiconsMiniSolidExclamationCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_EXCLAMATION_CIRCLE")]
 mod heroicons_mini_solid_exclamation_circle;
-#[cfg(feature = "HeroiconsMiniSolidExclamationCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_EXCLAMATION_CIRCLE")]
 pub use heroicons_mini_solid_exclamation_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidExclamationTriangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_EXCLAMATION_TRIANGLE")]
 mod heroicons_mini_solid_exclamation_triangle;
-#[cfg(feature = "HeroiconsMiniSolidExclamationTriangle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_EXCLAMATION_TRIANGLE")]
 pub use heroicons_mini_solid_exclamation_triangle::*;
-#[cfg(feature = "HeroiconsMiniSolidEyeDropper")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_EYE_DROPPER")]
 mod heroicons_mini_solid_eye_dropper;
-#[cfg(feature = "HeroiconsMiniSolidEyeDropper")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_EYE_DROPPER")]
 pub use heroicons_mini_solid_eye_dropper::*;
-#[cfg(feature = "HeroiconsMiniSolidEyeSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_EYE_SLASH")]
 mod heroicons_mini_solid_eye_slash;
-#[cfg(feature = "HeroiconsMiniSolidEyeSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_EYE_SLASH")]
 pub use heroicons_mini_solid_eye_slash::*;
-#[cfg(feature = "HeroiconsMiniSolidEye")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_EYE")]
 mod heroicons_mini_solid_eye;
-#[cfg(feature = "HeroiconsMiniSolidEye")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_EYE")]
 pub use heroicons_mini_solid_eye::*;
-#[cfg(feature = "HeroiconsMiniSolidFaceFrown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FACE_FROWN")]
 mod heroicons_mini_solid_face_frown;
-#[cfg(feature = "HeroiconsMiniSolidFaceFrown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FACE_FROWN")]
 pub use heroicons_mini_solid_face_frown::*;
-#[cfg(feature = "HeroiconsMiniSolidFaceSmile")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FACE_SMILE")]
 mod heroicons_mini_solid_face_smile;
-#[cfg(feature = "HeroiconsMiniSolidFaceSmile")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FACE_SMILE")]
 pub use heroicons_mini_solid_face_smile::*;
-#[cfg(feature = "HeroiconsMiniSolidFilm")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FILM")]
 mod heroicons_mini_solid_film;
-#[cfg(feature = "HeroiconsMiniSolidFilm")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FILM")]
 pub use heroicons_mini_solid_film::*;
-#[cfg(feature = "HeroiconsMiniSolidFingerPrint")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FINGER_PRINT")]
 mod heroicons_mini_solid_finger_print;
-#[cfg(feature = "HeroiconsMiniSolidFingerPrint")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FINGER_PRINT")]
 pub use heroicons_mini_solid_finger_print::*;
-#[cfg(feature = "HeroiconsMiniSolidFire")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FIRE")]
 mod heroicons_mini_solid_fire;
-#[cfg(feature = "HeroiconsMiniSolidFire")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FIRE")]
 pub use heroicons_mini_solid_fire::*;
-#[cfg(feature = "HeroiconsMiniSolidFlag")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FLAG")]
 mod heroicons_mini_solid_flag;
-#[cfg(feature = "HeroiconsMiniSolidFlag")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FLAG")]
 pub use heroicons_mini_solid_flag::*;
-#[cfg(feature = "HeroiconsMiniSolidFolderArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FOLDER_ARROW_DOWN")]
 mod heroicons_mini_solid_folder_arrow_down;
-#[cfg(feature = "HeroiconsMiniSolidFolderArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FOLDER_ARROW_DOWN")]
 pub use heroicons_mini_solid_folder_arrow_down::*;
-#[cfg(feature = "HeroiconsMiniSolidFolderMinus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FOLDER_MINUS")]
 mod heroicons_mini_solid_folder_minus;
-#[cfg(feature = "HeroiconsMiniSolidFolderMinus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FOLDER_MINUS")]
 pub use heroicons_mini_solid_folder_minus::*;
-#[cfg(feature = "HeroiconsMiniSolidFolderOpen")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FOLDER_OPEN")]
 mod heroicons_mini_solid_folder_open;
-#[cfg(feature = "HeroiconsMiniSolidFolderOpen")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FOLDER_OPEN")]
 pub use heroicons_mini_solid_folder_open::*;
-#[cfg(feature = "HeroiconsMiniSolidFolderPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FOLDER_PLUS")]
 mod heroicons_mini_solid_folder_plus;
-#[cfg(feature = "HeroiconsMiniSolidFolderPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FOLDER_PLUS")]
 pub use heroicons_mini_solid_folder_plus::*;
-#[cfg(feature = "HeroiconsMiniSolidFolder")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FOLDER")]
 mod heroicons_mini_solid_folder;
-#[cfg(feature = "HeroiconsMiniSolidFolder")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FOLDER")]
 pub use heroicons_mini_solid_folder::*;
-#[cfg(feature = "HeroiconsMiniSolidForward")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FORWARD")]
 mod heroicons_mini_solid_forward;
-#[cfg(feature = "HeroiconsMiniSolidForward")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FORWARD")]
 pub use heroicons_mini_solid_forward::*;
-#[cfg(feature = "HeroiconsMiniSolidFunnel")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FUNNEL")]
 mod heroicons_mini_solid_funnel;
-#[cfg(feature = "HeroiconsMiniSolidFunnel")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_FUNNEL")]
 pub use heroicons_mini_solid_funnel::*;
-#[cfg(feature = "HeroiconsMiniSolidGif")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GIF")]
 mod heroicons_mini_solid_gif;
-#[cfg(feature = "HeroiconsMiniSolidGif")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GIF")]
 pub use heroicons_mini_solid_gif::*;
-#[cfg(feature = "HeroiconsMiniSolidGiftTop")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GIFT_TOP")]
 mod heroicons_mini_solid_gift_top;
-#[cfg(feature = "HeroiconsMiniSolidGiftTop")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GIFT_TOP")]
 pub use heroicons_mini_solid_gift_top::*;
-#[cfg(feature = "HeroiconsMiniSolidGift")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GIFT")]
 mod heroicons_mini_solid_gift;
-#[cfg(feature = "HeroiconsMiniSolidGift")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GIFT")]
 pub use heroicons_mini_solid_gift::*;
-#[cfg(feature = "HeroiconsMiniSolidGlobeAlt")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GLOBE_ALT")]
 mod heroicons_mini_solid_globe_alt;
-#[cfg(feature = "HeroiconsMiniSolidGlobeAlt")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GLOBE_ALT")]
 pub use heroicons_mini_solid_globe_alt::*;
-#[cfg(feature = "HeroiconsMiniSolidGlobeAmericas")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GLOBE_AMERICAS")]
 mod heroicons_mini_solid_globe_americas;
-#[cfg(feature = "HeroiconsMiniSolidGlobeAmericas")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GLOBE_AMERICAS")]
 pub use heroicons_mini_solid_globe_americas::*;
-#[cfg(feature = "HeroiconsMiniSolidGlobeAsiaAustralia")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GLOBE_ASIA_AUSTRALIA")]
 mod heroicons_mini_solid_globe_asia_australia;
-#[cfg(feature = "HeroiconsMiniSolidGlobeAsiaAustralia")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GLOBE_ASIA_AUSTRALIA")]
 pub use heroicons_mini_solid_globe_asia_australia::*;
-#[cfg(feature = "HeroiconsMiniSolidGlobeEuropeAfrica")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GLOBE_EUROPE_AFRICA")]
 mod heroicons_mini_solid_globe_europe_africa;
-#[cfg(feature = "HeroiconsMiniSolidGlobeEuropeAfrica")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_GLOBE_EUROPE_AFRICA")]
 pub use heroicons_mini_solid_globe_europe_africa::*;
-#[cfg(feature = "HeroiconsMiniSolidHandRaised")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HAND_RAISED")]
 mod heroicons_mini_solid_hand_raised;
-#[cfg(feature = "HeroiconsMiniSolidHandRaised")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HAND_RAISED")]
 pub use heroicons_mini_solid_hand_raised::*;
-#[cfg(feature = "HeroiconsMiniSolidHandThumbDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HAND_THUMB_DOWN")]
 mod heroicons_mini_solid_hand_thumb_down;
-#[cfg(feature = "HeroiconsMiniSolidHandThumbDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HAND_THUMB_DOWN")]
 pub use heroicons_mini_solid_hand_thumb_down::*;
-#[cfg(feature = "HeroiconsMiniSolidHandThumbUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HAND_THUMB_UP")]
 mod heroicons_mini_solid_hand_thumb_up;
-#[cfg(feature = "HeroiconsMiniSolidHandThumbUp")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HAND_THUMB_UP")]
 pub use heroicons_mini_solid_hand_thumb_up::*;
-#[cfg(feature = "HeroiconsMiniSolidHashtag")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HASHTAG")]
 mod heroicons_mini_solid_hashtag;
-#[cfg(feature = "HeroiconsMiniSolidHashtag")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HASHTAG")]
 pub use heroicons_mini_solid_hashtag::*;
-#[cfg(feature = "HeroiconsMiniSolidHeart")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HEART")]
 mod heroicons_mini_solid_heart;
-#[cfg(feature = "HeroiconsMiniSolidHeart")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HEART")]
 pub use heroicons_mini_solid_heart::*;
-#[cfg(feature = "HeroiconsMiniSolidHomeModern")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HOME_MODERN")]
 mod heroicons_mini_solid_home_modern;
-#[cfg(feature = "HeroiconsMiniSolidHomeModern")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HOME_MODERN")]
 pub use heroicons_mini_solid_home_modern::*;
-#[cfg(feature = "HeroiconsMiniSolidHome")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HOME")]
 mod heroicons_mini_solid_home;
-#[cfg(feature = "HeroiconsMiniSolidHome")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_HOME")]
 pub use heroicons_mini_solid_home::*;
-#[cfg(feature = "HeroiconsMiniSolidIdentification")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_IDENTIFICATION")]
 mod heroicons_mini_solid_identification;
-#[cfg(feature = "HeroiconsMiniSolidIdentification")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_IDENTIFICATION")]
 pub use heroicons_mini_solid_identification::*;
-#[cfg(feature = "HeroiconsMiniSolidInboxArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_INBOX_ARROW_DOWN")]
 mod heroicons_mini_solid_inbox_arrow_down;
-#[cfg(feature = "HeroiconsMiniSolidInboxArrowDown")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_INBOX_ARROW_DOWN")]
 pub use heroicons_mini_solid_inbox_arrow_down::*;
-#[cfg(feature = "HeroiconsMiniSolidInboxStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_INBOX_STACK")]
 mod heroicons_mini_solid_inbox_stack;
-#[cfg(feature = "HeroiconsMiniSolidInboxStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_INBOX_STACK")]
 pub use heroicons_mini_solid_inbox_stack::*;
-#[cfg(feature = "HeroiconsMiniSolidInbox")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_INBOX")]
 mod heroicons_mini_solid_inbox;
-#[cfg(feature = "HeroiconsMiniSolidInbox")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_INBOX")]
 pub use heroicons_mini_solid_inbox::*;
-#[cfg(feature = "HeroiconsMiniSolidInformationCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_INFORMATION_CIRCLE")]
 mod heroicons_mini_solid_information_circle;
-#[cfg(feature = "HeroiconsMiniSolidInformationCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_INFORMATION_CIRCLE")]
 pub use heroicons_mini_solid_information_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidKey")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_KEY")]
 mod heroicons_mini_solid_key;
-#[cfg(feature = "HeroiconsMiniSolidKey")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_KEY")]
 pub use heroicons_mini_solid_key::*;
-#[cfg(feature = "HeroiconsMiniSolidLanguage")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LANGUAGE")]
 mod heroicons_mini_solid_language;
-#[cfg(feature = "HeroiconsMiniSolidLanguage")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LANGUAGE")]
 pub use heroicons_mini_solid_language::*;
-#[cfg(feature = "HeroiconsMiniSolidLifebuoy")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LIFEBUOY")]
 mod heroicons_mini_solid_lifebuoy;
-#[cfg(feature = "HeroiconsMiniSolidLifebuoy")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LIFEBUOY")]
 pub use heroicons_mini_solid_lifebuoy::*;
-#[cfg(feature = "HeroiconsMiniSolidLightBulb")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LIGHT_BULB")]
 mod heroicons_mini_solid_light_bulb;
-#[cfg(feature = "HeroiconsMiniSolidLightBulb")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LIGHT_BULB")]
 pub use heroicons_mini_solid_light_bulb::*;
-#[cfg(feature = "HeroiconsMiniSolidLink")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LINK")]
 mod heroicons_mini_solid_link;
-#[cfg(feature = "HeroiconsMiniSolidLink")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LINK")]
 pub use heroicons_mini_solid_link::*;
-#[cfg(feature = "HeroiconsMiniSolidListBullet")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LIST_BULLET")]
 mod heroicons_mini_solid_list_bullet;
-#[cfg(feature = "HeroiconsMiniSolidListBullet")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LIST_BULLET")]
 pub use heroicons_mini_solid_list_bullet::*;
-#[cfg(feature = "HeroiconsMiniSolidLockClosed")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LOCK_CLOSED")]
 mod heroicons_mini_solid_lock_closed;
-#[cfg(feature = "HeroiconsMiniSolidLockClosed")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LOCK_CLOSED")]
 pub use heroicons_mini_solid_lock_closed::*;
-#[cfg(feature = "HeroiconsMiniSolidLockOpen")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LOCK_OPEN")]
 mod heroicons_mini_solid_lock_open;
-#[cfg(feature = "HeroiconsMiniSolidLockOpen")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_LOCK_OPEN")]
 pub use heroicons_mini_solid_lock_open::*;
-#[cfg(feature = "HeroiconsMiniSolidMagnifyingGlassCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAGNIFYING_GLASS_CIRCLE")]
 mod heroicons_mini_solid_magnifying_glass_circle;
-#[cfg(feature = "HeroiconsMiniSolidMagnifyingGlassCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAGNIFYING_GLASS_CIRCLE")]
 pub use heroicons_mini_solid_magnifying_glass_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidMagnifyingGlassMinus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAGNIFYING_GLASS_MINUS")]
 mod heroicons_mini_solid_magnifying_glass_minus;
-#[cfg(feature = "HeroiconsMiniSolidMagnifyingGlassMinus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAGNIFYING_GLASS_MINUS")]
 pub use heroicons_mini_solid_magnifying_glass_minus::*;
-#[cfg(feature = "HeroiconsMiniSolidMagnifyingGlassPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAGNIFYING_GLASS_PLUS")]
 mod heroicons_mini_solid_magnifying_glass_plus;
-#[cfg(feature = "HeroiconsMiniSolidMagnifyingGlassPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAGNIFYING_GLASS_PLUS")]
 pub use heroicons_mini_solid_magnifying_glass_plus::*;
-#[cfg(feature = "HeroiconsMiniSolidMagnifyingGlass")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAGNIFYING_GLASS")]
 mod heroicons_mini_solid_magnifying_glass;
-#[cfg(feature = "HeroiconsMiniSolidMagnifyingGlass")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAGNIFYING_GLASS")]
 pub use heroicons_mini_solid_magnifying_glass::*;
-#[cfg(feature = "HeroiconsMiniSolidMapPin")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAP_PIN")]
 mod heroicons_mini_solid_map_pin;
-#[cfg(feature = "HeroiconsMiniSolidMapPin")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAP_PIN")]
 pub use heroicons_mini_solid_map_pin::*;
-#[cfg(feature = "HeroiconsMiniSolidMap")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAP")]
 mod heroicons_mini_solid_map;
-#[cfg(feature = "HeroiconsMiniSolidMap")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MAP")]
 pub use heroicons_mini_solid_map::*;
-#[cfg(feature = "HeroiconsMiniSolidMegaphone")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MEGAPHONE")]
 mod heroicons_mini_solid_megaphone;
-#[cfg(feature = "HeroiconsMiniSolidMegaphone")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MEGAPHONE")]
 pub use heroicons_mini_solid_megaphone::*;
-#[cfg(feature = "HeroiconsMiniSolidMicrophone")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MICROPHONE")]
 mod heroicons_mini_solid_microphone;
-#[cfg(feature = "HeroiconsMiniSolidMicrophone")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MICROPHONE")]
 pub use heroicons_mini_solid_microphone::*;
-#[cfg(feature = "HeroiconsMiniSolidMinusCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MINUS_CIRCLE")]
 mod heroicons_mini_solid_minus_circle;
-#[cfg(feature = "HeroiconsMiniSolidMinusCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MINUS_CIRCLE")]
 pub use heroicons_mini_solid_minus_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidMinusSmall")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MINUS_SMALL")]
 mod heroicons_mini_solid_minus_small;
-#[cfg(feature = "HeroiconsMiniSolidMinusSmall")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MINUS_SMALL")]
 pub use heroicons_mini_solid_minus_small::*;
-#[cfg(feature = "HeroiconsMiniSolidMinus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MINUS")]
 mod heroicons_mini_solid_minus;
-#[cfg(feature = "HeroiconsMiniSolidMinus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MINUS")]
 pub use heroicons_mini_solid_minus::*;
-#[cfg(feature = "HeroiconsMiniSolidMoon")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MOON")]
 mod heroicons_mini_solid_moon;
-#[cfg(feature = "HeroiconsMiniSolidMoon")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MOON")]
 pub use heroicons_mini_solid_moon::*;
-#[cfg(feature = "HeroiconsMiniSolidMusicalNote")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MUSICAL_NOTE")]
 mod heroicons_mini_solid_musical_note;
-#[cfg(feature = "HeroiconsMiniSolidMusicalNote")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_MUSICAL_NOTE")]
 pub use heroicons_mini_solid_musical_note::*;
-#[cfg(feature = "HeroiconsMiniSolidNewspaper")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_NEWSPAPER")]
 mod heroicons_mini_solid_newspaper;
-#[cfg(feature = "HeroiconsMiniSolidNewspaper")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_NEWSPAPER")]
 pub use heroicons_mini_solid_newspaper::*;
-#[cfg(feature = "HeroiconsMiniSolidNoSymbol")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_NO_SYMBOL")]
 mod heroicons_mini_solid_no_symbol;
-#[cfg(feature = "HeroiconsMiniSolidNoSymbol")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_NO_SYMBOL")]
 pub use heroicons_mini_solid_no_symbol::*;
-#[cfg(feature = "HeroiconsMiniSolidPaintBrush")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PAINT_BRUSH")]
 mod heroicons_mini_solid_paint_brush;
-#[cfg(feature = "HeroiconsMiniSolidPaintBrush")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PAINT_BRUSH")]
 pub use heroicons_mini_solid_paint_brush::*;
-#[cfg(feature = "HeroiconsMiniSolidPaperAirplane")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PAPER_AIRPLANE")]
 mod heroicons_mini_solid_paper_airplane;
-#[cfg(feature = "HeroiconsMiniSolidPaperAirplane")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PAPER_AIRPLANE")]
 pub use heroicons_mini_solid_paper_airplane::*;
-#[cfg(feature = "HeroiconsMiniSolidPaperClip")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PAPER_CLIP")]
 mod heroicons_mini_solid_paper_clip;
-#[cfg(feature = "HeroiconsMiniSolidPaperClip")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PAPER_CLIP")]
 pub use heroicons_mini_solid_paper_clip::*;
-#[cfg(feature = "HeroiconsMiniSolidPauseCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PAUSE_CIRCLE")]
 mod heroicons_mini_solid_pause_circle;
-#[cfg(feature = "HeroiconsMiniSolidPauseCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PAUSE_CIRCLE")]
 pub use heroicons_mini_solid_pause_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidPause")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PAUSE")]
 mod heroicons_mini_solid_pause;
-#[cfg(feature = "HeroiconsMiniSolidPause")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PAUSE")]
 pub use heroicons_mini_solid_pause::*;
-#[cfg(feature = "HeroiconsMiniSolidPencilSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PENCIL_SQUARE")]
 mod heroicons_mini_solid_pencil_square;
-#[cfg(feature = "HeroiconsMiniSolidPencilSquare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PENCIL_SQUARE")]
 pub use heroicons_mini_solid_pencil_square::*;
-#[cfg(feature = "HeroiconsMiniSolidPencil")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PENCIL")]
 mod heroicons_mini_solid_pencil;
-#[cfg(feature = "HeroiconsMiniSolidPencil")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PENCIL")]
 pub use heroicons_mini_solid_pencil::*;
-#[cfg(feature = "HeroiconsMiniSolidPhoneArrowDownLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PHONE_ARROW_DOWN_LEFT")]
 mod heroicons_mini_solid_phone_arrow_down_left;
-#[cfg(feature = "HeroiconsMiniSolidPhoneArrowDownLeft")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PHONE_ARROW_DOWN_LEFT")]
 pub use heroicons_mini_solid_phone_arrow_down_left::*;
-#[cfg(feature = "HeroiconsMiniSolidPhoneArrowUpRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PHONE_ARROW_UP_RIGHT")]
 mod heroicons_mini_solid_phone_arrow_up_right;
-#[cfg(feature = "HeroiconsMiniSolidPhoneArrowUpRight")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PHONE_ARROW_UP_RIGHT")]
 pub use heroicons_mini_solid_phone_arrow_up_right::*;
-#[cfg(feature = "HeroiconsMiniSolidPhoneXMark")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PHONE_X_MARK")]
 mod heroicons_mini_solid_phone_x_mark;
-#[cfg(feature = "HeroiconsMiniSolidPhoneXMark")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PHONE_X_MARK")]
 pub use heroicons_mini_solid_phone_x_mark::*;
-#[cfg(feature = "HeroiconsMiniSolidPhone")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PHONE")]
 mod heroicons_mini_solid_phone;
-#[cfg(feature = "HeroiconsMiniSolidPhone")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PHONE")]
 pub use heroicons_mini_solid_phone::*;
-#[cfg(feature = "HeroiconsMiniSolidPhoto")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PHOTO")]
 mod heroicons_mini_solid_photo;
-#[cfg(feature = "HeroiconsMiniSolidPhoto")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PHOTO")]
 pub use heroicons_mini_solid_photo::*;
-#[cfg(feature = "HeroiconsMiniSolidPlayCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLAY_CIRCLE")]
 mod heroicons_mini_solid_play_circle;
-#[cfg(feature = "HeroiconsMiniSolidPlayCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLAY_CIRCLE")]
 pub use heroicons_mini_solid_play_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidPlayPause")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLAY_PAUSE")]
 mod heroicons_mini_solid_play_pause;
-#[cfg(feature = "HeroiconsMiniSolidPlayPause")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLAY_PAUSE")]
 pub use heroicons_mini_solid_play_pause::*;
-#[cfg(feature = "HeroiconsMiniSolidPlay")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLAY")]
 mod heroicons_mini_solid_play;
-#[cfg(feature = "HeroiconsMiniSolidPlay")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLAY")]
 pub use heroicons_mini_solid_play::*;
-#[cfg(feature = "HeroiconsMiniSolidPlusCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLUS_CIRCLE")]
 mod heroicons_mini_solid_plus_circle;
-#[cfg(feature = "HeroiconsMiniSolidPlusCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLUS_CIRCLE")]
 pub use heroicons_mini_solid_plus_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidPlusSmall")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLUS_SMALL")]
 mod heroicons_mini_solid_plus_small;
-#[cfg(feature = "HeroiconsMiniSolidPlusSmall")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLUS_SMALL")]
 pub use heroicons_mini_solid_plus_small::*;
-#[cfg(feature = "HeroiconsMiniSolidPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLUS")]
 mod heroicons_mini_solid_plus;
-#[cfg(feature = "HeroiconsMiniSolidPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PLUS")]
 pub use heroicons_mini_solid_plus::*;
-#[cfg(feature = "HeroiconsMiniSolidPower")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_POWER")]
 mod heroicons_mini_solid_power;
-#[cfg(feature = "HeroiconsMiniSolidPower")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_POWER")]
 pub use heroicons_mini_solid_power::*;
-#[cfg(feature = "HeroiconsMiniSolidPresentationChartBar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PRESENTATION_CHART_BAR")]
 mod heroicons_mini_solid_presentation_chart_bar;
-#[cfg(feature = "HeroiconsMiniSolidPresentationChartBar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PRESENTATION_CHART_BAR")]
 pub use heroicons_mini_solid_presentation_chart_bar::*;
-#[cfg(feature = "HeroiconsMiniSolidPresentationChartLine")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PRESENTATION_CHART_LINE")]
 mod heroicons_mini_solid_presentation_chart_line;
-#[cfg(feature = "HeroiconsMiniSolidPresentationChartLine")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PRESENTATION_CHART_LINE")]
 pub use heroicons_mini_solid_presentation_chart_line::*;
-#[cfg(feature = "HeroiconsMiniSolidPrinter")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PRINTER")]
 mod heroicons_mini_solid_printer;
-#[cfg(feature = "HeroiconsMiniSolidPrinter")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PRINTER")]
 pub use heroicons_mini_solid_printer::*;
-#[cfg(feature = "HeroiconsMiniSolidPuzzlePiece")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PUZZLE_PIECE")]
 mod heroicons_mini_solid_puzzle_piece;
-#[cfg(feature = "HeroiconsMiniSolidPuzzlePiece")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_PUZZLE_PIECE")]
 pub use heroicons_mini_solid_puzzle_piece::*;
-#[cfg(feature = "HeroiconsMiniSolidQrCode")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_QR_CODE")]
 mod heroicons_mini_solid_qr_code;
-#[cfg(feature = "HeroiconsMiniSolidQrCode")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_QR_CODE")]
 pub use heroicons_mini_solid_qr_code::*;
-#[cfg(feature = "HeroiconsMiniSolidQuestionMarkCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_QUESTION_MARK_CIRCLE")]
 mod heroicons_mini_solid_question_mark_circle;
-#[cfg(feature = "HeroiconsMiniSolidQuestionMarkCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_QUESTION_MARK_CIRCLE")]
 pub use heroicons_mini_solid_question_mark_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidQueueList")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_QUEUE_LIST")]
 mod heroicons_mini_solid_queue_list;
-#[cfg(feature = "HeroiconsMiniSolidQueueList")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_QUEUE_LIST")]
 pub use heroicons_mini_solid_queue_list::*;
-#[cfg(feature = "HeroiconsMiniSolidRadio")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RADIO")]
 mod heroicons_mini_solid_radio;
-#[cfg(feature = "HeroiconsMiniSolidRadio")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RADIO")]
 pub use heroicons_mini_solid_radio::*;
-#[cfg(feature = "HeroiconsMiniSolidReceiptPercent")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RECEIPT_PERCENT")]
 mod heroicons_mini_solid_receipt_percent;
-#[cfg(feature = "HeroiconsMiniSolidReceiptPercent")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RECEIPT_PERCENT")]
 pub use heroicons_mini_solid_receipt_percent::*;
-#[cfg(feature = "HeroiconsMiniSolidReceiptRefund")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RECEIPT_REFUND")]
 mod heroicons_mini_solid_receipt_refund;
-#[cfg(feature = "HeroiconsMiniSolidReceiptRefund")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RECEIPT_REFUND")]
 pub use heroicons_mini_solid_receipt_refund::*;
-#[cfg(feature = "HeroiconsMiniSolidRectangleGroup")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RECTANGLE_GROUP")]
 mod heroicons_mini_solid_rectangle_group;
-#[cfg(feature = "HeroiconsMiniSolidRectangleGroup")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RECTANGLE_GROUP")]
 pub use heroicons_mini_solid_rectangle_group::*;
-#[cfg(feature = "HeroiconsMiniSolidRectangleStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RECTANGLE_STACK")]
 mod heroicons_mini_solid_rectangle_stack;
-#[cfg(feature = "HeroiconsMiniSolidRectangleStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RECTANGLE_STACK")]
 pub use heroicons_mini_solid_rectangle_stack::*;
-#[cfg(feature = "HeroiconsMiniSolidRocketLaunch")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ROCKET_LAUNCH")]
 mod heroicons_mini_solid_rocket_launch;
-#[cfg(feature = "HeroiconsMiniSolidRocketLaunch")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_ROCKET_LAUNCH")]
 pub use heroicons_mini_solid_rocket_launch::*;
-#[cfg(feature = "HeroiconsMiniSolidRss")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RSS")]
 mod heroicons_mini_solid_rss;
-#[cfg(feature = "HeroiconsMiniSolidRss")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_RSS")]
 pub use heroicons_mini_solid_rss::*;
-#[cfg(feature = "HeroiconsMiniSolidScale")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SCALE")]
 mod heroicons_mini_solid_scale;
-#[cfg(feature = "HeroiconsMiniSolidScale")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SCALE")]
 pub use heroicons_mini_solid_scale::*;
-#[cfg(feature = "HeroiconsMiniSolidScissors")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SCISSORS")]
 mod heroicons_mini_solid_scissors;
-#[cfg(feature = "HeroiconsMiniSolidScissors")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SCISSORS")]
 pub use heroicons_mini_solid_scissors::*;
-#[cfg(feature = "HeroiconsMiniSolidServerStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SERVER_STACK")]
 mod heroicons_mini_solid_server_stack;
-#[cfg(feature = "HeroiconsMiniSolidServerStack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SERVER_STACK")]
 pub use heroicons_mini_solid_server_stack::*;
-#[cfg(feature = "HeroiconsMiniSolidServer")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SERVER")]
 mod heroicons_mini_solid_server;
-#[cfg(feature = "HeroiconsMiniSolidServer")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SERVER")]
 pub use heroicons_mini_solid_server::*;
-#[cfg(feature = "HeroiconsMiniSolidShare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SHARE")]
 mod heroicons_mini_solid_share;
-#[cfg(feature = "HeroiconsMiniSolidShare")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SHARE")]
 pub use heroicons_mini_solid_share::*;
-#[cfg(feature = "HeroiconsMiniSolidShieldCheck")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SHIELD_CHECK")]
 mod heroicons_mini_solid_shield_check;
-#[cfg(feature = "HeroiconsMiniSolidShieldCheck")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SHIELD_CHECK")]
 pub use heroicons_mini_solid_shield_check::*;
-#[cfg(feature = "HeroiconsMiniSolidShieldExclamation")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SHIELD_EXCLAMATION")]
 mod heroicons_mini_solid_shield_exclamation;
-#[cfg(feature = "HeroiconsMiniSolidShieldExclamation")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SHIELD_EXCLAMATION")]
 pub use heroicons_mini_solid_shield_exclamation::*;
-#[cfg(feature = "HeroiconsMiniSolidShoppingBag")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SHOPPING_BAG")]
 mod heroicons_mini_solid_shopping_bag;
-#[cfg(feature = "HeroiconsMiniSolidShoppingBag")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SHOPPING_BAG")]
 pub use heroicons_mini_solid_shopping_bag::*;
-#[cfg(feature = "HeroiconsMiniSolidShoppingCart")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SHOPPING_CART")]
 mod heroicons_mini_solid_shopping_cart;
-#[cfg(feature = "HeroiconsMiniSolidShoppingCart")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SHOPPING_CART")]
 pub use heroicons_mini_solid_shopping_cart::*;
-#[cfg(feature = "HeroiconsMiniSolidSignalSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SIGNAL_SLASH")]
 mod heroicons_mini_solid_signal_slash;
-#[cfg(feature = "HeroiconsMiniSolidSignalSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SIGNAL_SLASH")]
 pub use heroicons_mini_solid_signal_slash::*;
-#[cfg(feature = "HeroiconsMiniSolidSignal")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SIGNAL")]
 mod heroicons_mini_solid_signal;
-#[cfg(feature = "HeroiconsMiniSolidSignal")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SIGNAL")]
 pub use heroicons_mini_solid_signal::*;
-#[cfg(feature = "HeroiconsMiniSolidSparkles")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SPARKLES")]
 mod heroicons_mini_solid_sparkles;
-#[cfg(feature = "HeroiconsMiniSolidSparkles")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SPARKLES")]
 pub use heroicons_mini_solid_sparkles::*;
-#[cfg(feature = "HeroiconsMiniSolidSpeakerWave")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SPEAKER_WAVE")]
 mod heroicons_mini_solid_speaker_wave;
-#[cfg(feature = "HeroiconsMiniSolidSpeakerWave")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SPEAKER_WAVE")]
 pub use heroicons_mini_solid_speaker_wave::*;
-#[cfg(feature = "HeroiconsMiniSolidSpeakerXMark")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SPEAKER_X_MARK")]
 mod heroicons_mini_solid_speaker_x_mark;
-#[cfg(feature = "HeroiconsMiniSolidSpeakerXMark")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SPEAKER_X_MARK")]
 pub use heroicons_mini_solid_speaker_x_mark::*;
-#[cfg(feature = "HeroiconsMiniSolidSquare2Stack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SQUARE_2_STACK")]
 mod heroicons_mini_solid_square_2_stack;
-#[cfg(feature = "HeroiconsMiniSolidSquare2Stack")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SQUARE_2_STACK")]
 pub use heroicons_mini_solid_square_2_stack::*;
-#[cfg(feature = "HeroiconsMiniSolidSquare3Stack3D")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SQUARE_3_STACK_3_D")]
 mod heroicons_mini_solid_square_3_stack_3_d;
-#[cfg(feature = "HeroiconsMiniSolidSquare3Stack3D")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SQUARE_3_STACK_3_D")]
 pub use heroicons_mini_solid_square_3_stack_3_d::*;
-#[cfg(feature = "HeroiconsMiniSolidSquares2X2")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SQUARES_2_X_2")]
 mod heroicons_mini_solid_squares_2_x_2;
-#[cfg(feature = "HeroiconsMiniSolidSquares2X2")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SQUARES_2_X_2")]
 pub use heroicons_mini_solid_squares_2_x_2::*;
-#[cfg(feature = "HeroiconsMiniSolidSquaresPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SQUARES_PLUS")]
 mod heroicons_mini_solid_squares_plus;
-#[cfg(feature = "HeroiconsMiniSolidSquaresPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SQUARES_PLUS")]
 pub use heroicons_mini_solid_squares_plus::*;
-#[cfg(feature = "HeroiconsMiniSolidStar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_STAR")]
 mod heroicons_mini_solid_star;
-#[cfg(feature = "HeroiconsMiniSolidStar")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_STAR")]
 pub use heroicons_mini_solid_star::*;
-#[cfg(feature = "HeroiconsMiniSolidStopCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_STOP_CIRCLE")]
 mod heroicons_mini_solid_stop_circle;
-#[cfg(feature = "HeroiconsMiniSolidStopCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_STOP_CIRCLE")]
 pub use heroicons_mini_solid_stop_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidStop")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_STOP")]
 mod heroicons_mini_solid_stop;
-#[cfg(feature = "HeroiconsMiniSolidStop")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_STOP")]
 pub use heroicons_mini_solid_stop::*;
-#[cfg(feature = "HeroiconsMiniSolidSun")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SUN")]
 mod heroicons_mini_solid_sun;
-#[cfg(feature = "HeroiconsMiniSolidSun")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SUN")]
 pub use heroicons_mini_solid_sun::*;
-#[cfg(feature = "HeroiconsMiniSolidSwatch")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SWATCH")]
 mod heroicons_mini_solid_swatch;
-#[cfg(feature = "HeroiconsMiniSolidSwatch")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_SWATCH")]
 pub use heroicons_mini_solid_swatch::*;
-#[cfg(feature = "HeroiconsMiniSolidTableCells")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TABLE_CELLS")]
 mod heroicons_mini_solid_table_cells;
-#[cfg(feature = "HeroiconsMiniSolidTableCells")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TABLE_CELLS")]
 pub use heroicons_mini_solid_table_cells::*;
-#[cfg(feature = "HeroiconsMiniSolidTag")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TAG")]
 mod heroicons_mini_solid_tag;
-#[cfg(feature = "HeroiconsMiniSolidTag")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TAG")]
 pub use heroicons_mini_solid_tag::*;
-#[cfg(feature = "HeroiconsMiniSolidTicket")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TICKET")]
 mod heroicons_mini_solid_ticket;
-#[cfg(feature = "HeroiconsMiniSolidTicket")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TICKET")]
 pub use heroicons_mini_solid_ticket::*;
-#[cfg(feature = "HeroiconsMiniSolidTrash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TRASH")]
 mod heroicons_mini_solid_trash;
-#[cfg(feature = "HeroiconsMiniSolidTrash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TRASH")]
 pub use heroicons_mini_solid_trash::*;
-#[cfg(feature = "HeroiconsMiniSolidTrophy")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TROPHY")]
 mod heroicons_mini_solid_trophy;
-#[cfg(feature = "HeroiconsMiniSolidTrophy")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TROPHY")]
 pub use heroicons_mini_solid_trophy::*;
-#[cfg(feature = "HeroiconsMiniSolidTruck")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TRUCK")]
 mod heroicons_mini_solid_truck;
-#[cfg(feature = "HeroiconsMiniSolidTruck")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TRUCK")]
 pub use heroicons_mini_solid_truck::*;
-#[cfg(feature = "HeroiconsMiniSolidTv")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TV")]
 mod heroicons_mini_solid_tv;
-#[cfg(feature = "HeroiconsMiniSolidTv")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_TV")]
 pub use heroicons_mini_solid_tv::*;
-#[cfg(feature = "HeroiconsMiniSolidUserCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USER_CIRCLE")]
 mod heroicons_mini_solid_user_circle;
-#[cfg(feature = "HeroiconsMiniSolidUserCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USER_CIRCLE")]
 pub use heroicons_mini_solid_user_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidUserGroup")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USER_GROUP")]
 mod heroicons_mini_solid_user_group;
-#[cfg(feature = "HeroiconsMiniSolidUserGroup")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USER_GROUP")]
 pub use heroicons_mini_solid_user_group::*;
-#[cfg(feature = "HeroiconsMiniSolidUserMinus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USER_MINUS")]
 mod heroicons_mini_solid_user_minus;
-#[cfg(feature = "HeroiconsMiniSolidUserMinus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USER_MINUS")]
 pub use heroicons_mini_solid_user_minus::*;
-#[cfg(feature = "HeroiconsMiniSolidUserPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USER_PLUS")]
 mod heroicons_mini_solid_user_plus;
-#[cfg(feature = "HeroiconsMiniSolidUserPlus")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USER_PLUS")]
 pub use heroicons_mini_solid_user_plus::*;
-#[cfg(feature = "HeroiconsMiniSolidUser")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USER")]
 mod heroicons_mini_solid_user;
-#[cfg(feature = "HeroiconsMiniSolidUser")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USER")]
 pub use heroicons_mini_solid_user::*;
-#[cfg(feature = "HeroiconsMiniSolidUsers")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USERS")]
 mod heroicons_mini_solid_users;
-#[cfg(feature = "HeroiconsMiniSolidUsers")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_USERS")]
 pub use heroicons_mini_solid_users::*;
-#[cfg(feature = "HeroiconsMiniSolidVariable")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_VARIABLE")]
 mod heroicons_mini_solid_variable;
-#[cfg(feature = "HeroiconsMiniSolidVariable")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_VARIABLE")]
 pub use heroicons_mini_solid_variable::*;
-#[cfg(feature = "HeroiconsMiniSolidVideoCameraSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_VIDEO_CAMERA_SLASH")]
 mod heroicons_mini_solid_video_camera_slash;
-#[cfg(feature = "HeroiconsMiniSolidVideoCameraSlash")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_VIDEO_CAMERA_SLASH")]
 pub use heroicons_mini_solid_video_camera_slash::*;
-#[cfg(feature = "HeroiconsMiniSolidVideoCamera")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_VIDEO_CAMERA")]
 mod heroicons_mini_solid_video_camera;
-#[cfg(feature = "HeroiconsMiniSolidVideoCamera")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_VIDEO_CAMERA")]
 pub use heroicons_mini_solid_video_camera::*;
-#[cfg(feature = "HeroiconsMiniSolidViewColumns")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_VIEW_COLUMNS")]
 mod heroicons_mini_solid_view_columns;
-#[cfg(feature = "HeroiconsMiniSolidViewColumns")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_VIEW_COLUMNS")]
 pub use heroicons_mini_solid_view_columns::*;
-#[cfg(feature = "HeroiconsMiniSolidViewfinderCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_VIEWFINDER_CIRCLE")]
 mod heroicons_mini_solid_viewfinder_circle;
-#[cfg(feature = "HeroiconsMiniSolidViewfinderCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_VIEWFINDER_CIRCLE")]
 pub use heroicons_mini_solid_viewfinder_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidWallet")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_WALLET")]
 mod heroicons_mini_solid_wallet;
-#[cfg(feature = "HeroiconsMiniSolidWallet")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_WALLET")]
 pub use heroicons_mini_solid_wallet::*;
-#[cfg(feature = "HeroiconsMiniSolidWifi")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_WIFI")]
 mod heroicons_mini_solid_wifi;
-#[cfg(feature = "HeroiconsMiniSolidWifi")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_WIFI")]
 pub use heroicons_mini_solid_wifi::*;
-#[cfg(feature = "HeroiconsMiniSolidWindow")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_WINDOW")]
 mod heroicons_mini_solid_window;
-#[cfg(feature = "HeroiconsMiniSolidWindow")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_WINDOW")]
 pub use heroicons_mini_solid_window::*;
-#[cfg(feature = "HeroiconsMiniSolidWrenchScrewdriver")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_WRENCH_SCREWDRIVER")]
 mod heroicons_mini_solid_wrench_screwdriver;
-#[cfg(feature = "HeroiconsMiniSolidWrenchScrewdriver")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_WRENCH_SCREWDRIVER")]
 pub use heroicons_mini_solid_wrench_screwdriver::*;
-#[cfg(feature = "HeroiconsMiniSolidWrench")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_WRENCH")]
 mod heroicons_mini_solid_wrench;
-#[cfg(feature = "HeroiconsMiniSolidWrench")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_WRENCH")]
 pub use heroicons_mini_solid_wrench::*;
-#[cfg(feature = "HeroiconsMiniSolidXCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_X_CIRCLE")]
 mod heroicons_mini_solid_x_circle;
-#[cfg(feature = "HeroiconsMiniSolidXCircle")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_X_CIRCLE")]
 pub use heroicons_mini_solid_x_circle::*;
-#[cfg(feature = "HeroiconsMiniSolidXMark")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_X_MARK")]
 mod heroicons_mini_solid_x_mark;
-#[cfg(feature = "HeroiconsMiniSolidXMark")]
+#[cfg(feature = "HEROICONS_MINI_SOLID_X_MARK")]
 pub use heroicons_mini_solid_x_mark::*;
