@@ -32,7 +32,8 @@ macro_rules! attr_if_exists {
 /// Icon
 #[component]
 pub fn Icon(
-    path: Path,
+    #[prop(into)]
+    path: MaybeSignal<Path>,
 
     #[prop(into)]
     #[prop(optional)]
@@ -64,7 +65,8 @@ pub fn Icon(
 ) -> impl IntoView {
     let svg = move || {
         let mut svg = leptos::svg::svg();
-        let mut props = path
+        let path_obj = path.get();
+        let mut props = path_obj
             .props
             .iter()
             .map(|x| x.to_owned())
@@ -82,7 +84,7 @@ pub fn Icon(
             svg = svg.attr(k, v);
         }
 
-        svg.child((path.path)())
+        svg.child((path_obj.path)())
     };
 
     svg.into_view()
