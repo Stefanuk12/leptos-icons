@@ -99,7 +99,7 @@ fn main() {
             let function_name = name.to_case(Case::Snake);
             let function_ident = to_ident(&function_name);
 
-            let variant_name = name.to_case(Case::UpperCamel);
+            let variant_name = name.to_case(Case::ScreamingSnake);
             let variant = to_ident(&variant_name);
             variants.push(quote! {
                 #[cfg(feature = #variant_name)]
