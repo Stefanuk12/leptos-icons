@@ -2700,6 +2700,10 @@ pub use lucide_group::*;
 mod lucide_guitar;
 #[cfg(feature = "LUCIDE_GUITAR")]
 pub use lucide_guitar::*;
+#[cfg(feature = "LUCIDE_HAM")]
+mod lucide_ham;
+#[cfg(feature = "LUCIDE_HAM")]
+pub use lucide_ham::*;
 #[cfg(feature = "LUCIDE_HAMMER")]
 mod lucide_hammer;
 #[cfg(feature = "LUCIDE_HAMMER")]
