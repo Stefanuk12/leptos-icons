@@ -2848,6 +2848,10 @@ pub use lucide_hop_off::*;
 mod lucide_hop;
 #[cfg(feature = "LUCIDE_HOP")]
 pub use lucide_hop::*;
+#[cfg(feature = "LUCIDE_HOSPITAL")]
+mod lucide_hospital;
+#[cfg(feature = "LUCIDE_HOSPITAL")]
+pub use lucide_hospital::*;
 #[cfg(feature = "LUCIDE_HOTEL")]
 mod lucide_hotel;
 #[cfg(feature = "LUCIDE_HOTEL")]
