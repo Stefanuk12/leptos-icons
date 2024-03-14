@@ -616,6 +616,10 @@ pub use lucide_bed::*;
 mod lucide_beef;
 #[cfg(feature = "LUCIDE_BEEF")]
 pub use lucide_beef::*;
+#[cfg(feature = "LUCIDE_BEER_OFF")]
+mod lucide_beer_off;
+#[cfg(feature = "LUCIDE_BEER_OFF")]
+pub use lucide_beer_off::*;
 #[cfg(feature = "LUCIDE_BEER")]
 mod lucide_beer;
 #[cfg(feature = "LUCIDE_BEER")]
