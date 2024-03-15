@@ -5752,6 +5752,10 @@ pub use lucide_wine::*;
 mod lucide_workflow;
 #[cfg(feature = "LUCIDE_WORKFLOW")]
 pub use lucide_workflow::*;
+#[cfg(feature = "LUCIDE_WORM")]
+mod lucide_worm;
+#[cfg(feature = "LUCIDE_WORM")]
+pub use lucide_worm::*;
 #[cfg(feature = "LUCIDE_WRAP_TEXT")]
 mod lucide_wrap_text;
 #[cfg(feature = "LUCIDE_WRAP_TEXT")]
