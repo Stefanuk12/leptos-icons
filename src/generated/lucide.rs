@@ -3556,6 +3556,10 @@ pub use lucide_mountain_snow::*;
 mod lucide_mountain;
 #[cfg(feature = "LUCIDE_MOUNTAIN")]
 pub use lucide_mountain::*;
+#[cfg(feature = "LUCIDE_MOUSE_OFF")]
+mod lucide_mouse_off;
+#[cfg(feature = "LUCIDE_MOUSE_OFF")]
+pub use lucide_mouse_off::*;
 #[cfg(feature = "LUCIDE_MOUSE_POINTER_2")]
 mod lucide_mouse_pointer_2;
 #[cfg(feature = "LUCIDE_MOUSE_POINTER_2")]
