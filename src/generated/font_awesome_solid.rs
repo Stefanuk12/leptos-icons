@@ -4736,10 +4736,18 @@ pub use font_awesome_solid_syringe::*;
 mod font_awesome_solid_t;
 #[cfg(feature = "FONT_AWESOME_SOLID_T")]
 pub use font_awesome_solid_t::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS_COLUMN_LOCK")]
+mod font_awesome_solid_table_cells_column_lock;
+#[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS_COLUMN_LOCK")]
+pub use font_awesome_solid_table_cells_column_lock::*;
 #[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS_LARGE")]
 mod font_awesome_solid_table_cells_large;
 #[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS_LARGE")]
 pub use font_awesome_solid_table_cells_large::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS_ROW_LOCK")]
+mod font_awesome_solid_table_cells_row_lock;
+#[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS_ROW_LOCK")]
+pub use font_awesome_solid_table_cells_row_lock::*;
 #[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS")]
 mod font_awesome_solid_table_cells;
 #[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS")]

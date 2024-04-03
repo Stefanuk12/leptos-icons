@@ -168,6 +168,10 @@ pub use font_awesome_brands_blogger_b::*;
 mod font_awesome_brands_blogger;
 #[cfg(feature = "FONT_AWESOME_BRANDS_BLOGGER")]
 pub use font_awesome_brands_blogger::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_BLUESKY")]
+mod font_awesome_brands_bluesky;
+#[cfg(feature = "FONT_AWESOME_BRANDS_BLUESKY")]
+pub use font_awesome_brands_bluesky::*;
 #[cfg(feature = "FONT_AWESOME_BRANDS_BLUETOOTH_B")]
 mod font_awesome_brands_bluetooth_b;
 #[cfg(feature = "FONT_AWESOME_BRANDS_BLUETOOTH_B")]
@@ -896,6 +900,10 @@ pub use font_awesome_brands_js::*;
 mod font_awesome_brands_jsfiddle;
 #[cfg(feature = "FONT_AWESOME_BRANDS_JSFIDDLE")]
 pub use font_awesome_brands_jsfiddle::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_JXL")]
+mod font_awesome_brands_jxl;
+#[cfg(feature = "FONT_AWESOME_BRANDS_JXL")]
+pub use font_awesome_brands_jxl::*;
 #[cfg(feature = "FONT_AWESOME_BRANDS_KAGGLE")]
 mod font_awesome_brands_kaggle;
 #[cfg(feature = "FONT_AWESOME_BRANDS_KAGGLE")]
@@ -1540,6 +1548,10 @@ pub use font_awesome_brands_square_tumblr::*;
 mod font_awesome_brands_square_twitter;
 #[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_TWITTER")]
 pub use font_awesome_brands_square_twitter::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_UPWORK")]
+mod font_awesome_brands_square_upwork;
+#[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_UPWORK")]
+pub use font_awesome_brands_square_upwork::*;
 #[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_VIADEO")]
 mod font_awesome_brands_square_viadeo;
 #[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_VIADEO")]
@@ -1548,6 +1560,14 @@ pub use font_awesome_brands_square_viadeo::*;
 mod font_awesome_brands_square_vimeo;
 #[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_VIMEO")]
 pub use font_awesome_brands_square_vimeo::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_WEB_AWESOME_STROKE")]
+mod font_awesome_brands_square_web_awesome_stroke;
+#[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_WEB_AWESOME_STROKE")]
+pub use font_awesome_brands_square_web_awesome_stroke::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_WEB_AWESOME")]
+mod font_awesome_brands_square_web_awesome;
+#[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_WEB_AWESOME")]
+pub use font_awesome_brands_square_web_awesome::*;
 #[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_WHATSAPP")]
 mod font_awesome_brands_square_whatsapp;
 #[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_WHATSAPP")]
@@ -1808,6 +1828,10 @@ pub use font_awesome_brands_watchman_monitoring::*;
 mod font_awesome_brands_waze;
 #[cfg(feature = "FONT_AWESOME_BRANDS_WAZE")]
 pub use font_awesome_brands_waze::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_WEB_AWESOME")]
+mod font_awesome_brands_web_awesome;
+#[cfg(feature = "FONT_AWESOME_BRANDS_WEB_AWESOME")]
+pub use font_awesome_brands_web_awesome::*;
 #[cfg(feature = "FONT_AWESOME_BRANDS_WEBFLOW")]
 mod font_awesome_brands_webflow;
 #[cfg(feature = "FONT_AWESOME_BRANDS_WEBFLOW")]
