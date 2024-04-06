@@ -3980,6 +3980,14 @@ pub use lucide_pie_chart::*;
 mod lucide_piggy_bank;
 #[cfg(feature = "LUCIDE_PIGGY_BANK")]
 pub use lucide_piggy_bank::*;
+#[cfg(feature = "LUCIDE_PILCROW_LEFT")]
+mod lucide_pilcrow_left;
+#[cfg(feature = "LUCIDE_PILCROW_LEFT")]
+pub use lucide_pilcrow_left::*;
+#[cfg(feature = "LUCIDE_PILCROW_RIGHT")]
+mod lucide_pilcrow_right;
+#[cfg(feature = "LUCIDE_PILCROW_RIGHT")]
+pub use lucide_pilcrow_right::*;
 #[cfg(feature = "LUCIDE_PILCROW")]
 mod lucide_pilcrow;
 #[cfg(feature = "LUCIDE_PILCROW")]
