@@ -2976,6 +2976,10 @@ pub use lucide_key::*;
 mod lucide_keyboard_music;
 #[cfg(feature = "LUCIDE_KEYBOARD_MUSIC")]
 pub use lucide_keyboard_music::*;
+#[cfg(feature = "LUCIDE_KEYBOARD_OFF")]
+mod lucide_keyboard_off;
+#[cfg(feature = "LUCIDE_KEYBOARD_OFF")]
+pub use lucide_keyboard_off::*;
 #[cfg(feature = "LUCIDE_KEYBOARD")]
 mod lucide_keyboard;
 #[cfg(feature = "LUCIDE_KEYBOARD")]
