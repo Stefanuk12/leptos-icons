@@ -2884,6 +2884,10 @@ pub use lucide_image_minus::*;
 mod lucide_image_off;
 #[cfg(feature = "LUCIDE_IMAGE_OFF")]
 pub use lucide_image_off::*;
+#[cfg(feature = "LUCIDE_IMAGE_PLAY")]
+mod lucide_image_play;
+#[cfg(feature = "LUCIDE_IMAGE_PLAY")]
+pub use lucide_image_play::*;
 #[cfg(feature = "LUCIDE_IMAGE_PLUS")]
 mod lucide_image_plus;
 #[cfg(feature = "LUCIDE_IMAGE_PLUS")]
