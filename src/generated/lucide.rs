@@ -856,6 +856,10 @@ pub use lucide_boom_box::*;
 mod lucide_bot_message_square;
 #[cfg(feature = "LUCIDE_BOT_MESSAGE_SQUARE")]
 pub use lucide_bot_message_square::*;
+#[cfg(feature = "LUCIDE_BOT_OFF")]
+mod lucide_bot_off;
+#[cfg(feature = "LUCIDE_BOT_OFF")]
+pub use lucide_bot_off::*;
 #[cfg(feature = "LUCIDE_BOT")]
 mod lucide_bot;
 #[cfg(feature = "LUCIDE_BOT")]
