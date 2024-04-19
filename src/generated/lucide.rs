@@ -1788,10 +1788,18 @@ pub use lucide_dessert::*;
 mod lucide_diameter;
 #[cfg(feature = "LUCIDE_DIAMETER")]
 pub use lucide_diameter::*;
+#[cfg(feature = "LUCIDE_DIAMOND_MINUS")]
+mod lucide_diamond_minus;
+#[cfg(feature = "LUCIDE_DIAMOND_MINUS")]
+pub use lucide_diamond_minus::*;
 #[cfg(feature = "LUCIDE_DIAMOND_PERCENT")]
 mod lucide_diamond_percent;
 #[cfg(feature = "LUCIDE_DIAMOND_PERCENT")]
 pub use lucide_diamond_percent::*;
+#[cfg(feature = "LUCIDE_DIAMOND_PLUS")]
+mod lucide_diamond_plus;
+#[cfg(feature = "LUCIDE_DIAMOND_PLUS")]
+pub use lucide_diamond_plus::*;
 #[cfg(feature = "LUCIDE_DIAMOND")]
 mod lucide_diamond;
 #[cfg(feature = "LUCIDE_DIAMOND")]
