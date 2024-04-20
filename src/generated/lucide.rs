@@ -3752,6 +3752,10 @@ pub use lucide_option::*;
 mod lucide_orbit;
 #[cfg(feature = "LUCIDE_ORBIT")]
 pub use lucide_orbit::*;
+#[cfg(feature = "LUCIDE_ORIGAMI")]
+mod lucide_origami;
+#[cfg(feature = "LUCIDE_ORIGAMI")]
+pub use lucide_origami::*;
 #[cfg(feature = "LUCIDE_PACKAGE_2")]
 mod lucide_package_2;
 #[cfg(feature = "LUCIDE_PACKAGE_2")]
