@@ -2688,6 +2688,14 @@ pub use lucide_graduation_cap::*;
 mod lucide_grape;
 #[cfg(feature = "LUCIDE_GRAPE")]
 pub use lucide_grape::*;
+#[cfg(feature = "LUCIDE_GRID_2_X_2_CHECK")]
+mod lucide_grid_2_x_2_check;
+#[cfg(feature = "LUCIDE_GRID_2_X_2_CHECK")]
+pub use lucide_grid_2_x_2_check::*;
+#[cfg(feature = "LUCIDE_GRID_2_X_2_X")]
+mod lucide_grid_2_x_2_x;
+#[cfg(feature = "LUCIDE_GRID_2_X_2_X")]
+pub use lucide_grid_2_x_2_x::*;
 #[cfg(feature = "LUCIDE_GRID_2_X_2")]
 mod lucide_grid_2_x_2;
 #[cfg(feature = "LUCIDE_GRID_2_X_2")]
