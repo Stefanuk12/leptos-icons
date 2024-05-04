@@ -3216,6 +3216,10 @@ pub use lucide_list::*;
 mod lucide_loader_circle;
 #[cfg(feature = "LUCIDE_LOADER_CIRCLE")]
 pub use lucide_loader_circle::*;
+#[cfg(feature = "LUCIDE_LOADER_PINWHEEL")]
+mod lucide_loader_pinwheel;
+#[cfg(feature = "LUCIDE_LOADER_PINWHEEL")]
+pub use lucide_loader_pinwheel::*;
 #[cfg(feature = "LUCIDE_LOADER")]
 mod lucide_loader;
 #[cfg(feature = "LUCIDE_LOADER")]
@@ -3592,6 +3596,10 @@ pub use lucide_mouse_off::*;
 mod lucide_mouse_pointer_2;
 #[cfg(feature = "LUCIDE_MOUSE_POINTER_2")]
 pub use lucide_mouse_pointer_2::*;
+#[cfg(feature = "LUCIDE_MOUSE_POINTER_BAN")]
+mod lucide_mouse_pointer_ban;
+#[cfg(feature = "LUCIDE_MOUSE_POINTER_BAN")]
+pub use lucide_mouse_pointer_ban::*;
 #[cfg(feature = "LUCIDE_MOUSE_POINTER_CLICK")]
 mod lucide_mouse_pointer_click;
 #[cfg(feature = "LUCIDE_MOUSE_POINTER_CLICK")]
