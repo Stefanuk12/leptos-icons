@@ -3812,10 +3812,10 @@ pub use lucide_paint_bucket::*;
 mod lucide_paint_roller;
 #[cfg(feature = "LUCIDE_PAINT_ROLLER")]
 pub use lucide_paint_roller::*;
-#[cfg(feature = "LUCIDE_PAINTBRUSH_2")]
-mod lucide_paintbrush_2;
-#[cfg(feature = "LUCIDE_PAINTBRUSH_2")]
-pub use lucide_paintbrush_2::*;
+#[cfg(feature = "LUCIDE_PAINTBRUSH_VERTICAL")]
+mod lucide_paintbrush_vertical;
+#[cfg(feature = "LUCIDE_PAINTBRUSH_VERTICAL")]
+pub use lucide_paintbrush_vertical::*;
 #[cfg(feature = "LUCIDE_PAINTBRUSH")]
 mod lucide_paintbrush;
 #[cfg(feature = "LUCIDE_PAINTBRUSH")]
