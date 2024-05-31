@@ -3108,6 +3108,10 @@ pub use lucide_leaf::*;
 mod lucide_leafy_green;
 #[cfg(feature = "LUCIDE_LEAFY_GREEN")]
 pub use lucide_leafy_green::*;
+#[cfg(feature = "LUCIDE_LECTERN")]
+mod lucide_lectern;
+#[cfg(feature = "LUCIDE_LECTERN")]
+pub use lucide_lectern::*;
 #[cfg(feature = "LUCIDE_LIBRARY_BIG")]
 mod lucide_library_big;
 #[cfg(feature = "LUCIDE_LIBRARY_BIG")]
@@ -4524,6 +4528,10 @@ pub use lucide_search_x::*;
 mod lucide_search;
 #[cfg(feature = "LUCIDE_SEARCH")]
 pub use lucide_search::*;
+#[cfg(feature = "LUCIDE_SECTION")]
+mod lucide_section;
+#[cfg(feature = "LUCIDE_SECTION")]
+pub use lucide_section::*;
 #[cfg(feature = "LUCIDE_SEND_HORIZONTAL")]
 mod lucide_send_horizontal;
 #[cfg(feature = "LUCIDE_SEND_HORIZONTAL")]
