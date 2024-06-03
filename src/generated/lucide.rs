@@ -4036,6 +4036,10 @@ pub use lucide_pilcrow_right::*;
 mod lucide_pilcrow;
 #[cfg(feature = "LUCIDE_PILCROW")]
 pub use lucide_pilcrow::*;
+#[cfg(feature = "LUCIDE_PILL_BOTTLE")]
+mod lucide_pill_bottle;
+#[cfg(feature = "LUCIDE_PILL_BOTTLE")]
+pub use lucide_pill_bottle::*;
 #[cfg(feature = "LUCIDE_PILL")]
 mod lucide_pill;
 #[cfg(feature = "LUCIDE_PILL")]
