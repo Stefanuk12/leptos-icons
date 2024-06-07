@@ -668,6 +668,10 @@ pub use lucide_between_vertical_end::*;
 mod lucide_between_vertical_start;
 #[cfg(feature = "LUCIDE_BETWEEN_VERTICAL_START")]
 pub use lucide_between_vertical_start::*;
+#[cfg(feature = "LUCIDE_BICEPS_FLEXED")]
+mod lucide_biceps_flexed;
+#[cfg(feature = "LUCIDE_BICEPS_FLEXED")]
+pub use lucide_biceps_flexed::*;
 #[cfg(feature = "LUCIDE_BIKE")]
 mod lucide_bike;
 #[cfg(feature = "LUCIDE_BIKE")]
@@ -980,6 +984,10 @@ pub use lucide_calendar_check::*;
 mod lucide_calendar_clock;
 #[cfg(feature = "LUCIDE_CALENDAR_CLOCK")]
 pub use lucide_calendar_clock::*;
+#[cfg(feature = "LUCIDE_CALENDAR_COG")]
+mod lucide_calendar_cog;
+#[cfg(feature = "LUCIDE_CALENDAR_COG")]
+pub use lucide_calendar_cog::*;
 #[cfg(feature = "LUCIDE_CALENDAR_DAYS")]
 mod lucide_calendar_days;
 #[cfg(feature = "LUCIDE_CALENDAR_DAYS")]
@@ -5500,10 +5508,14 @@ pub use lucide_truck::*;
 mod lucide_turtle;
 #[cfg(feature = "LUCIDE_TURTLE")]
 pub use lucide_turtle::*;
-#[cfg(feature = "LUCIDE_TV_2")]
-mod lucide_tv_2;
-#[cfg(feature = "LUCIDE_TV_2")]
-pub use lucide_tv_2::*;
+#[cfg(feature = "LUCIDE_TV_MINIMAL_PLAY")]
+mod lucide_tv_minimal_play;
+#[cfg(feature = "LUCIDE_TV_MINIMAL_PLAY")]
+pub use lucide_tv_minimal_play::*;
+#[cfg(feature = "LUCIDE_TV_MINIMAL")]
+mod lucide_tv_minimal;
+#[cfg(feature = "LUCIDE_TV_MINIMAL")]
+pub use lucide_tv_minimal::*;
 #[cfg(feature = "LUCIDE_TV")]
 mod lucide_tv;
 #[cfg(feature = "LUCIDE_TV")]
