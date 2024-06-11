@@ -3944,6 +3944,10 @@ pub use lucide_pc_case::*;
 mod lucide_pen_line;
 #[cfg(feature = "LUCIDE_PEN_LINE")]
 pub use lucide_pen_line::*;
+#[cfg(feature = "LUCIDE_PEN_OFF")]
+mod lucide_pen_off;
+#[cfg(feature = "LUCIDE_PEN_OFF")]
+pub use lucide_pen_off::*;
 #[cfg(feature = "LUCIDE_PEN_TOOL")]
 mod lucide_pen_tool;
 #[cfg(feature = "LUCIDE_PEN_TOOL")]
@@ -3956,6 +3960,10 @@ pub use lucide_pen::*;
 mod lucide_pencil_line;
 #[cfg(feature = "LUCIDE_PENCIL_LINE")]
 pub use lucide_pencil_line::*;
+#[cfg(feature = "LUCIDE_PENCIL_OFF")]
+mod lucide_pencil_off;
+#[cfg(feature = "LUCIDE_PENCIL_OFF")]
+pub use lucide_pencil_off::*;
 #[cfg(feature = "LUCIDE_PENCIL_RULER")]
 mod lucide_pencil_ruler;
 #[cfg(feature = "LUCIDE_PENCIL_RULER")]
