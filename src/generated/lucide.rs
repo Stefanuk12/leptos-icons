@@ -2868,10 +2868,6 @@ pub use lucide_highlighter::*;
 mod lucide_history;
 #[cfg(feature = "LUCIDE_HISTORY")]
 pub use lucide_history::*;
-#[cfg(feature = "LUCIDE_HOME")]
-mod lucide_home;
-#[cfg(feature = "LUCIDE_HOME")]
-pub use lucide_home::*;
 #[cfg(feature = "LUCIDE_HOP_OFF")]
 mod lucide_hop_off;
 #[cfg(feature = "LUCIDE_HOP_OFF")]
@@ -2892,6 +2888,18 @@ pub use lucide_hotel::*;
 mod lucide_hourglass;
 #[cfg(feature = "LUCIDE_HOURGLASS")]
 pub use lucide_hourglass::*;
+#[cfg(feature = "LUCIDE_HOUSE_PLUG")]
+mod lucide_house_plug;
+#[cfg(feature = "LUCIDE_HOUSE_PLUG")]
+pub use lucide_house_plug::*;
+#[cfg(feature = "LUCIDE_HOUSE_PLUS")]
+mod lucide_house_plus;
+#[cfg(feature = "LUCIDE_HOUSE_PLUS")]
+pub use lucide_house_plus::*;
+#[cfg(feature = "LUCIDE_HOUSE")]
+mod lucide_house;
+#[cfg(feature = "LUCIDE_HOUSE")]
+pub use lucide_house::*;
 #[cfg(feature = "LUCIDE_ICE_CREAM_BOWL")]
 mod lucide_ice_cream_bowl;
 #[cfg(feature = "LUCIDE_ICE_CREAM_BOWL")]
