@@ -4736,6 +4736,10 @@ pub use lucide_signal_zero::*;
 mod lucide_signal;
 #[cfg(feature = "LUCIDE_SIGNAL")]
 pub use lucide_signal::*;
+#[cfg(feature = "LUCIDE_SIGNATURE")]
+mod lucide_signature;
+#[cfg(feature = "LUCIDE_SIGNATURE")]
+pub use lucide_signature::*;
 #[cfg(feature = "LUCIDE_SIGNPOST_BIG")]
 mod lucide_signpost_big;
 #[cfg(feature = "LUCIDE_SIGNPOST_BIG")]
