@@ -3280,6 +3280,10 @@ pub use lucide_log_in::*;
 mod lucide_log_out;
 #[cfg(feature = "LUCIDE_LOG_OUT")]
 pub use lucide_log_out::*;
+#[cfg(feature = "LUCIDE_LOGS")]
+mod lucide_logs;
+#[cfg(feature = "LUCIDE_LOGS")]
+pub use lucide_logs::*;
 #[cfg(feature = "LUCIDE_LOLLIPOP")]
 mod lucide_lollipop;
 #[cfg(feature = "LUCIDE_LOLLIPOP")]
@@ -4460,6 +4464,10 @@ pub use lucide_satellite::*;
 mod lucide_save_all;
 #[cfg(feature = "LUCIDE_SAVE_ALL")]
 pub use lucide_save_all::*;
+#[cfg(feature = "LUCIDE_SAVE_OFF")]
+mod lucide_save_off;
+#[cfg(feature = "LUCIDE_SAVE_OFF")]
+pub use lucide_save_off::*;
 #[cfg(feature = "LUCIDE_SAVE")]
 mod lucide_save;
 #[cfg(feature = "LUCIDE_SAVE")]
