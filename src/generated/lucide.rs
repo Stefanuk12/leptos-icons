@@ -4168,6 +4168,10 @@ pub use lucide_power::*;
 mod lucide_presentation;
 #[cfg(feature = "LUCIDE_PRESENTATION")]
 pub use lucide_presentation::*;
+#[cfg(feature = "LUCIDE_PRINTER_CHECK")]
+mod lucide_printer_check;
+#[cfg(feature = "LUCIDE_PRINTER_CHECK")]
+pub use lucide_printer_check::*;
 #[cfg(feature = "LUCIDE_PRINTER")]
 mod lucide_printer;
 #[cfg(feature = "LUCIDE_PRINTER")]
