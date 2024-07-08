@@ -4504,6 +4504,10 @@ pub use lucide_scan_face::*;
 mod lucide_scan_line;
 #[cfg(feature = "LUCIDE_SCAN_LINE")]
 pub use lucide_scan_line::*;
+#[cfg(feature = "LUCIDE_SCAN_QR_CODE")]
+mod lucide_scan_qr_code;
+#[cfg(feature = "LUCIDE_SCAN_QR_CODE")]
+pub use lucide_scan_qr_code::*;
 #[cfg(feature = "LUCIDE_SCAN_SEARCH")]
 mod lucide_scan_search;
 #[cfg(feature = "LUCIDE_SCAN_SEARCH")]
