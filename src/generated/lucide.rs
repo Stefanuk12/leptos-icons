@@ -3172,6 +3172,10 @@ pub use lucide_link::*;
 mod lucide_linkedin;
 #[cfg(feature = "LUCIDE_LINKEDIN")]
 pub use lucide_linkedin::*;
+#[cfg(feature = "LUCIDE_LIST_CHECK")]
+mod lucide_list_check;
+#[cfg(feature = "LUCIDE_LIST_CHECK")]
+pub use lucide_list_check::*;
 #[cfg(feature = "LUCIDE_LIST_CHECKS")]
 mod lucide_list_checks;
 #[cfg(feature = "LUCIDE_LIST_CHECKS")]
@@ -5840,10 +5844,22 @@ pub use lucide_wheat::*;
 mod lucide_whole_word;
 #[cfg(feature = "LUCIDE_WHOLE_WORD")]
 pub use lucide_whole_word::*;
+#[cfg(feature = "LUCIDE_WIFI_HIGH")]
+mod lucide_wifi_high;
+#[cfg(feature = "LUCIDE_WIFI_HIGH")]
+pub use lucide_wifi_high::*;
+#[cfg(feature = "LUCIDE_WIFI_LOW")]
+mod lucide_wifi_low;
+#[cfg(feature = "LUCIDE_WIFI_LOW")]
+pub use lucide_wifi_low::*;
 #[cfg(feature = "LUCIDE_WIFI_OFF")]
 mod lucide_wifi_off;
 #[cfg(feature = "LUCIDE_WIFI_OFF")]
 pub use lucide_wifi_off::*;
+#[cfg(feature = "LUCIDE_WIFI_ZERO")]
+mod lucide_wifi_zero;
+#[cfg(feature = "LUCIDE_WIFI_ZERO")]
+pub use lucide_wifi_zero::*;
 #[cfg(feature = "LUCIDE_WIFI")]
 mod lucide_wifi;
 #[cfg(feature = "LUCIDE_WIFI")]
