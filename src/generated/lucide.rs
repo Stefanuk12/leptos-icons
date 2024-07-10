@@ -972,6 +972,14 @@ pub use lucide_cake::*;
 mod lucide_calculator;
 #[cfg(feature = "LUCIDE_CALCULATOR")]
 pub use lucide_calculator::*;
+#[cfg(feature = "LUCIDE_CALENDAR_ARROW_DOWN")]
+mod lucide_calendar_arrow_down;
+#[cfg(feature = "LUCIDE_CALENDAR_ARROW_DOWN")]
+pub use lucide_calendar_arrow_down::*;
+#[cfg(feature = "LUCIDE_CALENDAR_ARROW_UP")]
+mod lucide_calendar_arrow_up;
+#[cfg(feature = "LUCIDE_CALENDAR_ARROW_UP")]
+pub use lucide_calendar_arrow_up::*;
 #[cfg(feature = "LUCIDE_CALENDAR_CHECK_2")]
 mod lucide_calendar_check_2;
 #[cfg(feature = "LUCIDE_CALENDAR_CHECK_2")]
@@ -1484,6 +1492,14 @@ pub use lucide_clock_8::*;
 mod lucide_clock_9;
 #[cfg(feature = "LUCIDE_CLOCK_9")]
 pub use lucide_clock_9::*;
+#[cfg(feature = "LUCIDE_CLOCK_ARROW_DOWN")]
+mod lucide_clock_arrow_down;
+#[cfg(feature = "LUCIDE_CLOCK_ARROW_DOWN")]
+pub use lucide_clock_arrow_down::*;
+#[cfg(feature = "LUCIDE_CLOCK_ARROW_UP")]
+mod lucide_clock_arrow_up;
+#[cfg(feature = "LUCIDE_CLOCK_ARROW_UP")]
+pub use lucide_clock_arrow_up::*;
 #[cfg(feature = "LUCIDE_CLOCK")]
 mod lucide_clock;
 #[cfg(feature = "LUCIDE_CLOCK")]
@@ -2408,6 +2424,10 @@ pub use lucide_folder_clock::*;
 mod lucide_folder_closed;
 #[cfg(feature = "LUCIDE_FOLDER_CLOSED")]
 pub use lucide_folder_closed::*;
+#[cfg(feature = "LUCIDE_FOLDER_CODE")]
+mod lucide_folder_code;
+#[cfg(feature = "LUCIDE_FOLDER_CODE")]
+pub use lucide_folder_code::*;
 #[cfg(feature = "LUCIDE_FOLDER_COG")]
 mod lucide_folder_cog;
 #[cfg(feature = "LUCIDE_FOLDER_COG")]
@@ -5568,6 +5588,10 @@ pub use lucide_twitch::*;
 mod lucide_twitter;
 #[cfg(feature = "LUCIDE_TWITTER")]
 pub use lucide_twitter::*;
+#[cfg(feature = "LUCIDE_TYPE_OUTLINE")]
+mod lucide_type_outline;
+#[cfg(feature = "LUCIDE_TYPE_OUTLINE")]
+pub use lucide_type_outline::*;
 #[cfg(feature = "LUCIDE_TYPE")]
 mod lucide_type;
 #[cfg(feature = "LUCIDE_TYPE")]
@@ -5644,6 +5668,10 @@ pub use lucide_user_cog::*;
 mod lucide_user_minus;
 #[cfg(feature = "LUCIDE_USER_MINUS")]
 pub use lucide_user_minus::*;
+#[cfg(feature = "LUCIDE_USER_PEN")]
+mod lucide_user_pen;
+#[cfg(feature = "LUCIDE_USER_PEN")]
+pub use lucide_user_pen::*;
 #[cfg(feature = "LUCIDE_USER_PLUS")]
 mod lucide_user_plus;
 #[cfg(feature = "LUCIDE_USER_PLUS")]
@@ -5660,6 +5688,10 @@ pub use lucide_user_round_cog::*;
 mod lucide_user_round_minus;
 #[cfg(feature = "LUCIDE_USER_ROUND_MINUS")]
 pub use lucide_user_round_minus::*;
+#[cfg(feature = "LUCIDE_USER_ROUND_PEN")]
+mod lucide_user_round_pen;
+#[cfg(feature = "LUCIDE_USER_ROUND_PEN")]
+pub use lucide_user_round_pen::*;
 #[cfg(feature = "LUCIDE_USER_ROUND_PLUS")]
 mod lucide_user_round_plus;
 #[cfg(feature = "LUCIDE_USER_ROUND_PLUS")]
