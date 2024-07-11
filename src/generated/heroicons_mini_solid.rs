@@ -144,6 +144,38 @@ pub use heroicons_mini_solid_arrow_trending_down::*;
 mod heroicons_mini_solid_arrow_trending_up;
 #[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TRENDING_UP")]
 pub use heroicons_mini_solid_arrow_trending_up::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_DOWN_LEFT")]
+mod heroicons_mini_solid_arrow_turn_down_left;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_DOWN_LEFT")]
+pub use heroicons_mini_solid_arrow_turn_down_left::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_DOWN_RIGHT")]
+mod heroicons_mini_solid_arrow_turn_down_right;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_DOWN_RIGHT")]
+pub use heroicons_mini_solid_arrow_turn_down_right::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_LEFT_DOWN")]
+mod heroicons_mini_solid_arrow_turn_left_down;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_LEFT_DOWN")]
+pub use heroicons_mini_solid_arrow_turn_left_down::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_LEFT_UP")]
+mod heroicons_mini_solid_arrow_turn_left_up;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_LEFT_UP")]
+pub use heroicons_mini_solid_arrow_turn_left_up::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_RIGHT_DOWN")]
+mod heroicons_mini_solid_arrow_turn_right_down;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_RIGHT_DOWN")]
+pub use heroicons_mini_solid_arrow_turn_right_down::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_RIGHT_UP")]
+mod heroicons_mini_solid_arrow_turn_right_up;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_RIGHT_UP")]
+pub use heroicons_mini_solid_arrow_turn_right_up::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_UP_LEFT")]
+mod heroicons_mini_solid_arrow_turn_up_left;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_UP_LEFT")]
+pub use heroicons_mini_solid_arrow_turn_up_left::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_UP_RIGHT")]
+mod heroicons_mini_solid_arrow_turn_up_right;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_TURN_UP_RIGHT")]
+pub use heroicons_mini_solid_arrow_turn_up_right::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_CIRCLE")]
 mod heroicons_mini_solid_arrow_up_circle;
 #[cfg(feature = "HEROICONS_MINI_SOLID_ARROW_UP_CIRCLE")]
@@ -284,6 +316,10 @@ pub use heroicons_mini_solid_bell_snooze::*;
 mod heroicons_mini_solid_bell;
 #[cfg(feature = "HEROICONS_MINI_SOLID_BELL")]
 pub use heroicons_mini_solid_bell::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOLD")]
+mod heroicons_mini_solid_bold;
+#[cfg(feature = "HEROICONS_MINI_SOLID_BOLD")]
+pub use heroicons_mini_solid_bold::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_BOLT_SLASH")]
 mod heroicons_mini_solid_bolt_slash;
 #[cfg(feature = "HEROICONS_MINI_SOLID_BOLT_SLASH")]
@@ -340,6 +376,10 @@ pub use heroicons_mini_solid_cake::*;
 mod heroicons_mini_solid_calculator;
 #[cfg(feature = "HEROICONS_MINI_SOLID_CALCULATOR")]
 pub use heroicons_mini_solid_calculator::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_CALENDAR_DATE_RANGE")]
+mod heroicons_mini_solid_calendar_date_range;
+#[cfg(feature = "HEROICONS_MINI_SOLID_CALENDAR_DATE_RANGE")]
+pub use heroicons_mini_solid_calendar_date_range::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_CALENDAR_DAYS")]
 mod heroicons_mini_solid_calendar_days;
 #[cfg(feature = "HEROICONS_MINI_SOLID_CALENDAR_DAYS")]
@@ -560,6 +600,10 @@ pub use heroicons_mini_solid_device_phone_mobile::*;
 mod heroicons_mini_solid_device_tablet;
 #[cfg(feature = "HEROICONS_MINI_SOLID_DEVICE_TABLET")]
 pub use heroicons_mini_solid_device_tablet::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DIVIDE")]
+mod heroicons_mini_solid_divide;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DIVIDE")]
+pub use heroicons_mini_solid_divide::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_ARROW_DOWN")]
 mod heroicons_mini_solid_document_arrow_down;
 #[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_ARROW_DOWN")]
@@ -576,6 +620,30 @@ pub use heroicons_mini_solid_document_chart_bar::*;
 mod heroicons_mini_solid_document_check;
 #[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CHECK")]
 pub use heroicons_mini_solid_document_check::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_BANGLADESHI")]
+mod heroicons_mini_solid_document_currency_bangladeshi;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_BANGLADESHI")]
+pub use heroicons_mini_solid_document_currency_bangladeshi::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_DOLLAR")]
+mod heroicons_mini_solid_document_currency_dollar;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_DOLLAR")]
+pub use heroicons_mini_solid_document_currency_dollar::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_EURO")]
+mod heroicons_mini_solid_document_currency_euro;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_EURO")]
+pub use heroicons_mini_solid_document_currency_euro::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_POUND")]
+mod heroicons_mini_solid_document_currency_pound;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_POUND")]
+pub use heroicons_mini_solid_document_currency_pound::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_RUPEE")]
+mod heroicons_mini_solid_document_currency_rupee;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_RUPEE")]
+pub use heroicons_mini_solid_document_currency_rupee::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_YEN")]
+mod heroicons_mini_solid_document_currency_yen;
+#[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_CURRENCY_YEN")]
+pub use heroicons_mini_solid_document_currency_yen::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_DUPLICATE")]
 mod heroicons_mini_solid_document_duplicate;
 #[cfg(feature = "HEROICONS_MINI_SOLID_DOCUMENT_DUPLICATE")]
@@ -620,6 +688,10 @@ pub use heroicons_mini_solid_envelope_open::*;
 mod heroicons_mini_solid_envelope;
 #[cfg(feature = "HEROICONS_MINI_SOLID_ENVELOPE")]
 pub use heroicons_mini_solid_envelope::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_EQUALS")]
+mod heroicons_mini_solid_equals;
+#[cfg(feature = "HEROICONS_MINI_SOLID_EQUALS")]
+pub use heroicons_mini_solid_equals::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_EXCLAMATION_CIRCLE")]
 mod heroicons_mini_solid_exclamation_circle;
 #[cfg(feature = "HEROICONS_MINI_SOLID_EXCLAMATION_CIRCLE")]
@@ -720,6 +792,18 @@ pub use heroicons_mini_solid_globe_asia_australia::*;
 mod heroicons_mini_solid_globe_europe_africa;
 #[cfg(feature = "HEROICONS_MINI_SOLID_GLOBE_EUROPE_AFRICA")]
 pub use heroicons_mini_solid_globe_europe_africa::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_H_1")]
+mod heroicons_mini_solid_h_1;
+#[cfg(feature = "HEROICONS_MINI_SOLID_H_1")]
+pub use heroicons_mini_solid_h_1::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_H_2")]
+mod heroicons_mini_solid_h_2;
+#[cfg(feature = "HEROICONS_MINI_SOLID_H_2")]
+pub use heroicons_mini_solid_h_2::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_H_3")]
+mod heroicons_mini_solid_h_3;
+#[cfg(feature = "HEROICONS_MINI_SOLID_H_3")]
+pub use heroicons_mini_solid_h_3::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_HAND_RAISED")]
 mod heroicons_mini_solid_hand_raised;
 #[cfg(feature = "HEROICONS_MINI_SOLID_HAND_RAISED")]
@@ -768,6 +852,10 @@ pub use heroicons_mini_solid_inbox::*;
 mod heroicons_mini_solid_information_circle;
 #[cfg(feature = "HEROICONS_MINI_SOLID_INFORMATION_CIRCLE")]
 pub use heroicons_mini_solid_information_circle::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ITALIC")]
+mod heroicons_mini_solid_italic;
+#[cfg(feature = "HEROICONS_MINI_SOLID_ITALIC")]
+pub use heroicons_mini_solid_italic::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_KEY")]
 mod heroicons_mini_solid_key;
 #[cfg(feature = "HEROICONS_MINI_SOLID_KEY")]
@@ -784,6 +872,10 @@ pub use heroicons_mini_solid_lifebuoy::*;
 mod heroicons_mini_solid_light_bulb;
 #[cfg(feature = "HEROICONS_MINI_SOLID_LIGHT_BULB")]
 pub use heroicons_mini_solid_light_bulb::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_LINK_SLASH")]
+mod heroicons_mini_solid_link_slash;
+#[cfg(feature = "HEROICONS_MINI_SOLID_LINK_SLASH")]
+pub use heroicons_mini_solid_link_slash::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_LINK")]
 mod heroicons_mini_solid_link;
 #[cfg(feature = "HEROICONS_MINI_SOLID_LINK")]
@@ -860,6 +952,10 @@ pub use heroicons_mini_solid_newspaper::*;
 mod heroicons_mini_solid_no_symbol;
 #[cfg(feature = "HEROICONS_MINI_SOLID_NO_SYMBOL")]
 pub use heroicons_mini_solid_no_symbol::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_NUMBERED_LIST")]
+mod heroicons_mini_solid_numbered_list;
+#[cfg(feature = "HEROICONS_MINI_SOLID_NUMBERED_LIST")]
+pub use heroicons_mini_solid_numbered_list::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_PAINT_BRUSH")]
 mod heroicons_mini_solid_paint_brush;
 #[cfg(feature = "HEROICONS_MINI_SOLID_PAINT_BRUSH")]
@@ -888,6 +984,10 @@ pub use heroicons_mini_solid_pencil_square::*;
 mod heroicons_mini_solid_pencil;
 #[cfg(feature = "HEROICONS_MINI_SOLID_PENCIL")]
 pub use heroicons_mini_solid_pencil::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_PERCENT_BADGE")]
+mod heroicons_mini_solid_percent_badge;
+#[cfg(feature = "HEROICONS_MINI_SOLID_PERCENT_BADGE")]
+pub use heroicons_mini_solid_percent_badge::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_PHONE_ARROW_DOWN_LEFT")]
 mod heroicons_mini_solid_phone_arrow_down_left;
 #[cfg(feature = "HEROICONS_MINI_SOLID_PHONE_ARROW_DOWN_LEFT")]
@@ -1036,6 +1136,10 @@ pub use heroicons_mini_solid_signal_slash::*;
 mod heroicons_mini_solid_signal;
 #[cfg(feature = "HEROICONS_MINI_SOLID_SIGNAL")]
 pub use heroicons_mini_solid_signal::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_SLASH")]
+mod heroicons_mini_solid_slash;
+#[cfg(feature = "HEROICONS_MINI_SOLID_SLASH")]
+pub use heroicons_mini_solid_slash::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_SPARKLES")]
 mod heroicons_mini_solid_sparkles;
 #[cfg(feature = "HEROICONS_MINI_SOLID_SPARKLES")]
@@ -1076,6 +1180,10 @@ pub use heroicons_mini_solid_stop_circle::*;
 mod heroicons_mini_solid_stop;
 #[cfg(feature = "HEROICONS_MINI_SOLID_STOP")]
 pub use heroicons_mini_solid_stop::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_STRIKETHROUGH")]
+mod heroicons_mini_solid_strikethrough;
+#[cfg(feature = "HEROICONS_MINI_SOLID_STRIKETHROUGH")]
+pub use heroicons_mini_solid_strikethrough::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_SUN")]
 mod heroicons_mini_solid_sun;
 #[cfg(feature = "HEROICONS_MINI_SOLID_SUN")]
@@ -1112,6 +1220,10 @@ pub use heroicons_mini_solid_truck::*;
 mod heroicons_mini_solid_tv;
 #[cfg(feature = "HEROICONS_MINI_SOLID_TV")]
 pub use heroicons_mini_solid_tv::*;
+#[cfg(feature = "HEROICONS_MINI_SOLID_UNDERLINE")]
+mod heroicons_mini_solid_underline;
+#[cfg(feature = "HEROICONS_MINI_SOLID_UNDERLINE")]
+pub use heroicons_mini_solid_underline::*;
 #[cfg(feature = "HEROICONS_MINI_SOLID_USER_CIRCLE")]
 mod heroicons_mini_solid_user_circle;
 #[cfg(feature = "HEROICONS_MINI_SOLID_USER_CIRCLE")]

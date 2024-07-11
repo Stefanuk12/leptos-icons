@@ -144,6 +144,38 @@ pub use heroicons_outline_arrow_trending_down::*;
 mod heroicons_outline_arrow_trending_up;
 #[cfg(feature = "HEROICONS_OUTLINE_ARROW_TRENDING_UP")]
 pub use heroicons_outline_arrow_trending_up::*;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_DOWN_LEFT")]
+mod heroicons_outline_arrow_turn_down_left;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_DOWN_LEFT")]
+pub use heroicons_outline_arrow_turn_down_left::*;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_DOWN_RIGHT")]
+mod heroicons_outline_arrow_turn_down_right;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_DOWN_RIGHT")]
+pub use heroicons_outline_arrow_turn_down_right::*;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_LEFT_DOWN")]
+mod heroicons_outline_arrow_turn_left_down;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_LEFT_DOWN")]
+pub use heroicons_outline_arrow_turn_left_down::*;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_LEFT_UP")]
+mod heroicons_outline_arrow_turn_left_up;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_LEFT_UP")]
+pub use heroicons_outline_arrow_turn_left_up::*;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_RIGHT_DOWN")]
+mod heroicons_outline_arrow_turn_right_down;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_RIGHT_DOWN")]
+pub use heroicons_outline_arrow_turn_right_down::*;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_RIGHT_UP")]
+mod heroicons_outline_arrow_turn_right_up;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_RIGHT_UP")]
+pub use heroicons_outline_arrow_turn_right_up::*;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_UP_LEFT")]
+mod heroicons_outline_arrow_turn_up_left;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_UP_LEFT")]
+pub use heroicons_outline_arrow_turn_up_left::*;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_UP_RIGHT")]
+mod heroicons_outline_arrow_turn_up_right;
+#[cfg(feature = "HEROICONS_OUTLINE_ARROW_TURN_UP_RIGHT")]
+pub use heroicons_outline_arrow_turn_up_right::*;
 #[cfg(feature = "HEROICONS_OUTLINE_ARROW_UP_CIRCLE")]
 mod heroicons_outline_arrow_up_circle;
 #[cfg(feature = "HEROICONS_OUTLINE_ARROW_UP_CIRCLE")]
@@ -284,6 +316,10 @@ pub use heroicons_outline_bell_snooze::*;
 mod heroicons_outline_bell;
 #[cfg(feature = "HEROICONS_OUTLINE_BELL")]
 pub use heroicons_outline_bell::*;
+#[cfg(feature = "HEROICONS_OUTLINE_BOLD")]
+mod heroicons_outline_bold;
+#[cfg(feature = "HEROICONS_OUTLINE_BOLD")]
+pub use heroicons_outline_bold::*;
 #[cfg(feature = "HEROICONS_OUTLINE_BOLT_SLASH")]
 mod heroicons_outline_bolt_slash;
 #[cfg(feature = "HEROICONS_OUTLINE_BOLT_SLASH")]
@@ -340,6 +376,10 @@ pub use heroicons_outline_cake::*;
 mod heroicons_outline_calculator;
 #[cfg(feature = "HEROICONS_OUTLINE_CALCULATOR")]
 pub use heroicons_outline_calculator::*;
+#[cfg(feature = "HEROICONS_OUTLINE_CALENDAR_DATE_RANGE")]
+mod heroicons_outline_calendar_date_range;
+#[cfg(feature = "HEROICONS_OUTLINE_CALENDAR_DATE_RANGE")]
+pub use heroicons_outline_calendar_date_range::*;
 #[cfg(feature = "HEROICONS_OUTLINE_CALENDAR_DAYS")]
 mod heroicons_outline_calendar_days;
 #[cfg(feature = "HEROICONS_OUTLINE_CALENDAR_DAYS")]
@@ -560,6 +600,10 @@ pub use heroicons_outline_device_phone_mobile::*;
 mod heroicons_outline_device_tablet;
 #[cfg(feature = "HEROICONS_OUTLINE_DEVICE_TABLET")]
 pub use heroicons_outline_device_tablet::*;
+#[cfg(feature = "HEROICONS_OUTLINE_DIVIDE")]
+mod heroicons_outline_divide;
+#[cfg(feature = "HEROICONS_OUTLINE_DIVIDE")]
+pub use heroicons_outline_divide::*;
 #[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_ARROW_DOWN")]
 mod heroicons_outline_document_arrow_down;
 #[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_ARROW_DOWN")]
@@ -576,6 +620,30 @@ pub use heroicons_outline_document_chart_bar::*;
 mod heroicons_outline_document_check;
 #[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CHECK")]
 pub use heroicons_outline_document_check::*;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_BANGLADESHI")]
+mod heroicons_outline_document_currency_bangladeshi;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_BANGLADESHI")]
+pub use heroicons_outline_document_currency_bangladeshi::*;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_DOLLAR")]
+mod heroicons_outline_document_currency_dollar;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_DOLLAR")]
+pub use heroicons_outline_document_currency_dollar::*;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_EURO")]
+mod heroicons_outline_document_currency_euro;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_EURO")]
+pub use heroicons_outline_document_currency_euro::*;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_POUND")]
+mod heroicons_outline_document_currency_pound;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_POUND")]
+pub use heroicons_outline_document_currency_pound::*;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_RUPEE")]
+mod heroicons_outline_document_currency_rupee;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_RUPEE")]
+pub use heroicons_outline_document_currency_rupee::*;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_YEN")]
+mod heroicons_outline_document_currency_yen;
+#[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_CURRENCY_YEN")]
+pub use heroicons_outline_document_currency_yen::*;
 #[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_DUPLICATE")]
 mod heroicons_outline_document_duplicate;
 #[cfg(feature = "HEROICONS_OUTLINE_DOCUMENT_DUPLICATE")]
@@ -620,6 +688,10 @@ pub use heroicons_outline_envelope_open::*;
 mod heroicons_outline_envelope;
 #[cfg(feature = "HEROICONS_OUTLINE_ENVELOPE")]
 pub use heroicons_outline_envelope::*;
+#[cfg(feature = "HEROICONS_OUTLINE_EQUALS")]
+mod heroicons_outline_equals;
+#[cfg(feature = "HEROICONS_OUTLINE_EQUALS")]
+pub use heroicons_outline_equals::*;
 #[cfg(feature = "HEROICONS_OUTLINE_EXCLAMATION_CIRCLE")]
 mod heroicons_outline_exclamation_circle;
 #[cfg(feature = "HEROICONS_OUTLINE_EXCLAMATION_CIRCLE")]
@@ -720,6 +792,18 @@ pub use heroicons_outline_globe_asia_australia::*;
 mod heroicons_outline_globe_europe_africa;
 #[cfg(feature = "HEROICONS_OUTLINE_GLOBE_EUROPE_AFRICA")]
 pub use heroicons_outline_globe_europe_africa::*;
+#[cfg(feature = "HEROICONS_OUTLINE_H_1")]
+mod heroicons_outline_h_1;
+#[cfg(feature = "HEROICONS_OUTLINE_H_1")]
+pub use heroicons_outline_h_1::*;
+#[cfg(feature = "HEROICONS_OUTLINE_H_2")]
+mod heroicons_outline_h_2;
+#[cfg(feature = "HEROICONS_OUTLINE_H_2")]
+pub use heroicons_outline_h_2::*;
+#[cfg(feature = "HEROICONS_OUTLINE_H_3")]
+mod heroicons_outline_h_3;
+#[cfg(feature = "HEROICONS_OUTLINE_H_3")]
+pub use heroicons_outline_h_3::*;
 #[cfg(feature = "HEROICONS_OUTLINE_HAND_RAISED")]
 mod heroicons_outline_hand_raised;
 #[cfg(feature = "HEROICONS_OUTLINE_HAND_RAISED")]
@@ -768,6 +852,10 @@ pub use heroicons_outline_inbox::*;
 mod heroicons_outline_information_circle;
 #[cfg(feature = "HEROICONS_OUTLINE_INFORMATION_CIRCLE")]
 pub use heroicons_outline_information_circle::*;
+#[cfg(feature = "HEROICONS_OUTLINE_ITALIC")]
+mod heroicons_outline_italic;
+#[cfg(feature = "HEROICONS_OUTLINE_ITALIC")]
+pub use heroicons_outline_italic::*;
 #[cfg(feature = "HEROICONS_OUTLINE_KEY")]
 mod heroicons_outline_key;
 #[cfg(feature = "HEROICONS_OUTLINE_KEY")]
@@ -784,6 +872,10 @@ pub use heroicons_outline_lifebuoy::*;
 mod heroicons_outline_light_bulb;
 #[cfg(feature = "HEROICONS_OUTLINE_LIGHT_BULB")]
 pub use heroicons_outline_light_bulb::*;
+#[cfg(feature = "HEROICONS_OUTLINE_LINK_SLASH")]
+mod heroicons_outline_link_slash;
+#[cfg(feature = "HEROICONS_OUTLINE_LINK_SLASH")]
+pub use heroicons_outline_link_slash::*;
 #[cfg(feature = "HEROICONS_OUTLINE_LINK")]
 mod heroicons_outline_link;
 #[cfg(feature = "HEROICONS_OUTLINE_LINK")]
@@ -860,6 +952,10 @@ pub use heroicons_outline_newspaper::*;
 mod heroicons_outline_no_symbol;
 #[cfg(feature = "HEROICONS_OUTLINE_NO_SYMBOL")]
 pub use heroicons_outline_no_symbol::*;
+#[cfg(feature = "HEROICONS_OUTLINE_NUMBERED_LIST")]
+mod heroicons_outline_numbered_list;
+#[cfg(feature = "HEROICONS_OUTLINE_NUMBERED_LIST")]
+pub use heroicons_outline_numbered_list::*;
 #[cfg(feature = "HEROICONS_OUTLINE_PAINT_BRUSH")]
 mod heroicons_outline_paint_brush;
 #[cfg(feature = "HEROICONS_OUTLINE_PAINT_BRUSH")]
@@ -888,6 +984,10 @@ pub use heroicons_outline_pencil_square::*;
 mod heroicons_outline_pencil;
 #[cfg(feature = "HEROICONS_OUTLINE_PENCIL")]
 pub use heroicons_outline_pencil::*;
+#[cfg(feature = "HEROICONS_OUTLINE_PERCENT_BADGE")]
+mod heroicons_outline_percent_badge;
+#[cfg(feature = "HEROICONS_OUTLINE_PERCENT_BADGE")]
+pub use heroicons_outline_percent_badge::*;
 #[cfg(feature = "HEROICONS_OUTLINE_PHONE_ARROW_DOWN_LEFT")]
 mod heroicons_outline_phone_arrow_down_left;
 #[cfg(feature = "HEROICONS_OUTLINE_PHONE_ARROW_DOWN_LEFT")]
@@ -1036,6 +1136,10 @@ pub use heroicons_outline_signal_slash::*;
 mod heroicons_outline_signal;
 #[cfg(feature = "HEROICONS_OUTLINE_SIGNAL")]
 pub use heroicons_outline_signal::*;
+#[cfg(feature = "HEROICONS_OUTLINE_SLASH")]
+mod heroicons_outline_slash;
+#[cfg(feature = "HEROICONS_OUTLINE_SLASH")]
+pub use heroicons_outline_slash::*;
 #[cfg(feature = "HEROICONS_OUTLINE_SPARKLES")]
 mod heroicons_outline_sparkles;
 #[cfg(feature = "HEROICONS_OUTLINE_SPARKLES")]
@@ -1076,6 +1180,10 @@ pub use heroicons_outline_stop_circle::*;
 mod heroicons_outline_stop;
 #[cfg(feature = "HEROICONS_OUTLINE_STOP")]
 pub use heroicons_outline_stop::*;
+#[cfg(feature = "HEROICONS_OUTLINE_STRIKETHROUGH")]
+mod heroicons_outline_strikethrough;
+#[cfg(feature = "HEROICONS_OUTLINE_STRIKETHROUGH")]
+pub use heroicons_outline_strikethrough::*;
 #[cfg(feature = "HEROICONS_OUTLINE_SUN")]
 mod heroicons_outline_sun;
 #[cfg(feature = "HEROICONS_OUTLINE_SUN")]
@@ -1112,6 +1220,10 @@ pub use heroicons_outline_truck::*;
 mod heroicons_outline_tv;
 #[cfg(feature = "HEROICONS_OUTLINE_TV")]
 pub use heroicons_outline_tv::*;
+#[cfg(feature = "HEROICONS_OUTLINE_UNDERLINE")]
+mod heroicons_outline_underline;
+#[cfg(feature = "HEROICONS_OUTLINE_UNDERLINE")]
+pub use heroicons_outline_underline::*;
 #[cfg(feature = "HEROICONS_OUTLINE_USER_CIRCLE")]
 mod heroicons_outline_user_circle;
 #[cfg(feature = "HEROICONS_OUTLINE_USER_CIRCLE")]
