@@ -3576,6 +3576,10 @@ pub use lucide_minus::*;
 mod lucide_monitor_check;
 #[cfg(feature = "LUCIDE_MONITOR_CHECK")]
 pub use lucide_monitor_check::*;
+#[cfg(feature = "LUCIDE_MONITOR_COG")]
+mod lucide_monitor_cog;
+#[cfg(feature = "LUCIDE_MONITOR_COG")]
+pub use lucide_monitor_cog::*;
 #[cfg(feature = "LUCIDE_MONITOR_DOT")]
 mod lucide_monitor_dot;
 #[cfg(feature = "LUCIDE_MONITOR_DOT")]
