@@ -4748,6 +4748,10 @@ pub use font_awesome_solid_table_cells_large::*;
 mod font_awesome_solid_table_cells_row_lock;
 #[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS_ROW_LOCK")]
 pub use font_awesome_solid_table_cells_row_lock::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS_ROW_UNLOCK")]
+mod font_awesome_solid_table_cells_row_unlock;
+#[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS_ROW_UNLOCK")]
+pub use font_awesome_solid_table_cells_row_unlock::*;
 #[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS")]
 mod font_awesome_solid_table_cells;
 #[cfg(feature = "FONT_AWESOME_SOLID_TABLE_CELLS")]
@@ -4912,6 +4916,10 @@ pub use font_awesome_solid_thumbs_down::*;
 mod font_awesome_solid_thumbs_up;
 #[cfg(feature = "FONT_AWESOME_SOLID_THUMBS_UP")]
 pub use font_awesome_solid_thumbs_up::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_THUMBTACK_SLASH")]
+mod font_awesome_solid_thumbtack_slash;
+#[cfg(feature = "FONT_AWESOME_SOLID_THUMBTACK_SLASH")]
+pub use font_awesome_solid_thumbtack_slash::*;
 #[cfg(feature = "FONT_AWESOME_SOLID_THUMBTACK")]
 mod font_awesome_solid_thumbtack;
 #[cfg(feature = "FONT_AWESOME_SOLID_THUMBTACK")]
@@ -5464,6 +5472,10 @@ pub use font_awesome_solid_water::*;
 mod font_awesome_solid_wave_square;
 #[cfg(feature = "FONT_AWESOME_SOLID_WAVE_SQUARE")]
 pub use font_awesome_solid_wave_square::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_WEB_AWESOME")]
+mod font_awesome_solid_web_awesome;
+#[cfg(feature = "FONT_AWESOME_SOLID_WEB_AWESOME")]
+pub use font_awesome_solid_web_awesome::*;
 #[cfg(feature = "FONT_AWESOME_SOLID_WEIGHT_HANGING")]
 mod font_awesome_solid_weight_hanging;
 #[cfg(feature = "FONT_AWESOME_SOLID_WEIGHT_HANGING")]

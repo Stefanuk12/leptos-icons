@@ -408,6 +408,10 @@ pub use font_awesome_brands_d_and_d::*;
 mod font_awesome_brands_dailymotion;
 #[cfg(feature = "FONT_AWESOME_BRANDS_DAILYMOTION")]
 pub use font_awesome_brands_dailymotion::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_DART_LANG")]
+mod font_awesome_brands_dart_lang;
+#[cfg(feature = "FONT_AWESOME_BRANDS_DART_LANG")]
+pub use font_awesome_brands_dart_lang::*;
 #[cfg(feature = "FONT_AWESOME_BRANDS_DASHCUBE")]
 mod font_awesome_brands_dashcube;
 #[cfg(feature = "FONT_AWESOME_BRANDS_DASHCUBE")]
@@ -604,6 +608,10 @@ pub use font_awesome_brands_flickr::*;
 mod font_awesome_brands_flipboard;
 #[cfg(feature = "FONT_AWESOME_BRANDS_FLIPBOARD")]
 pub use font_awesome_brands_flipboard::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_FLUTTER")]
+mod font_awesome_brands_flutter;
+#[cfg(feature = "FONT_AWESOME_BRANDS_FLUTTER")]
+pub use font_awesome_brands_flutter::*;
 #[cfg(feature = "FONT_AWESOME_BRANDS_FLY")]
 mod font_awesome_brands_fly;
 #[cfg(feature = "FONT_AWESOME_BRANDS_FLY")]
