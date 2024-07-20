@@ -4024,6 +4024,10 @@ pub use lucide_percent::*;
 mod lucide_person_standing;
 #[cfg(feature = "LUCIDE_PERSON_STANDING")]
 pub use lucide_person_standing::*;
+#[cfg(feature = "LUCIDE_PHILIPPINE_PESO")]
+mod lucide_philippine_peso;
+#[cfg(feature = "LUCIDE_PHILIPPINE_PESO")]
+pub use lucide_philippine_peso::*;
 #[cfg(feature = "LUCIDE_PHONE_CALL")]
 mod lucide_phone_call;
 #[cfg(feature = "LUCIDE_PHONE_CALL")]
@@ -4136,10 +4140,6 @@ pub use lucide_play::*;
 mod lucide_plug_2;
 #[cfg(feature = "LUCIDE_PLUG_2")]
 pub use lucide_plug_2::*;
-#[cfg(feature = "LUCIDE_PLUG_ZAP_2")]
-mod lucide_plug_zap_2;
-#[cfg(feature = "LUCIDE_PLUG_ZAP_2")]
-pub use lucide_plug_zap_2::*;
 #[cfg(feature = "LUCIDE_PLUG_ZAP")]
 mod lucide_plug_zap;
 #[cfg(feature = "LUCIDE_PLUG_ZAP")]
