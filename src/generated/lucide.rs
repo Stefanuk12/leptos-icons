@@ -3148,6 +3148,10 @@ pub use lucide_leafy_green::*;
 mod lucide_lectern;
 #[cfg(feature = "LUCIDE_LECTERN")]
 pub use lucide_lectern::*;
+#[cfg(feature = "LUCIDE_LETTER_TEXT")]
+mod lucide_letter_text;
+#[cfg(feature = "LUCIDE_LETTER_TEXT")]
+pub use lucide_letter_text::*;
 #[cfg(feature = "LUCIDE_LIBRARY_BIG")]
 mod lucide_library_big;
 #[cfg(feature = "LUCIDE_LIBRARY_BIG")]
