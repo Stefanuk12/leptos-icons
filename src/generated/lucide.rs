@@ -220,10 +220,6 @@ pub use lucide_archive_x::*;
 mod lucide_archive;
 #[cfg(feature = "LUCIDE_ARCHIVE")]
 pub use lucide_archive::*;
-#[cfg(feature = "LUCIDE_AREA_CHART")]
-mod lucide_area_chart;
-#[cfg(feature = "LUCIDE_AREA_CHART")]
-pub use lucide_area_chart::*;
 #[cfg(feature = "LUCIDE_ARMCHAIR")]
 mod lucide_armchair;
 #[cfg(feature = "LUCIDE_ARMCHAIR")]
@@ -524,34 +520,6 @@ pub use lucide_banana::*;
 mod lucide_banknote;
 #[cfg(feature = "LUCIDE_BANKNOTE")]
 pub use lucide_banknote::*;
-#[cfg(feature = "LUCIDE_BAR_CHART_2")]
-mod lucide_bar_chart_2;
-#[cfg(feature = "LUCIDE_BAR_CHART_2")]
-pub use lucide_bar_chart_2::*;
-#[cfg(feature = "LUCIDE_BAR_CHART_3")]
-mod lucide_bar_chart_3;
-#[cfg(feature = "LUCIDE_BAR_CHART_3")]
-pub use lucide_bar_chart_3::*;
-#[cfg(feature = "LUCIDE_BAR_CHART_4")]
-mod lucide_bar_chart_4;
-#[cfg(feature = "LUCIDE_BAR_CHART_4")]
-pub use lucide_bar_chart_4::*;
-#[cfg(feature = "LUCIDE_BAR_CHART_BIG")]
-mod lucide_bar_chart_big;
-#[cfg(feature = "LUCIDE_BAR_CHART_BIG")]
-pub use lucide_bar_chart_big::*;
-#[cfg(feature = "LUCIDE_BAR_CHART_HORIZONTAL_BIG")]
-mod lucide_bar_chart_horizontal_big;
-#[cfg(feature = "LUCIDE_BAR_CHART_HORIZONTAL_BIG")]
-pub use lucide_bar_chart_horizontal_big::*;
-#[cfg(feature = "LUCIDE_BAR_CHART_HORIZONTAL")]
-mod lucide_bar_chart_horizontal;
-#[cfg(feature = "LUCIDE_BAR_CHART_HORIZONTAL")]
-pub use lucide_bar_chart_horizontal::*;
-#[cfg(feature = "LUCIDE_BAR_CHART")]
-mod lucide_bar_chart;
-#[cfg(feature = "LUCIDE_BAR_CHART")]
-pub use lucide_bar_chart::*;
 #[cfg(feature = "LUCIDE_BARCODE")]
 mod lucide_barcode;
 #[cfg(feature = "LUCIDE_BARCODE")]
@@ -1056,10 +1024,6 @@ pub use lucide_camera_off::*;
 mod lucide_camera;
 #[cfg(feature = "LUCIDE_CAMERA")]
 pub use lucide_camera::*;
-#[cfg(feature = "LUCIDE_CANDLESTICK_CHART")]
-mod lucide_candlestick_chart;
-#[cfg(feature = "LUCIDE_CANDLESTICK_CHART")]
-pub use lucide_candlestick_chart::*;
 #[cfg(feature = "LUCIDE_CANDY_CANE")]
 mod lucide_candy_cane;
 #[cfg(feature = "LUCIDE_CANDY_CANE")]
@@ -1136,6 +1100,94 @@ pub use lucide_cat::*;
 mod lucide_cctv;
 #[cfg(feature = "LUCIDE_CCTV")]
 pub use lucide_cctv::*;
+#[cfg(feature = "LUCIDE_CHART_AREA")]
+mod lucide_chart_area;
+#[cfg(feature = "LUCIDE_CHART_AREA")]
+pub use lucide_chart_area::*;
+#[cfg(feature = "LUCIDE_CHART_BAR_BIG")]
+mod lucide_chart_bar_big;
+#[cfg(feature = "LUCIDE_CHART_BAR_BIG")]
+pub use lucide_chart_bar_big::*;
+#[cfg(feature = "LUCIDE_CHART_BAR_DECREASING")]
+mod lucide_chart_bar_decreasing;
+#[cfg(feature = "LUCIDE_CHART_BAR_DECREASING")]
+pub use lucide_chart_bar_decreasing::*;
+#[cfg(feature = "LUCIDE_CHART_BAR_INCREASING")]
+mod lucide_chart_bar_increasing;
+#[cfg(feature = "LUCIDE_CHART_BAR_INCREASING")]
+pub use lucide_chart_bar_increasing::*;
+#[cfg(feature = "LUCIDE_CHART_BAR_STACKED")]
+mod lucide_chart_bar_stacked;
+#[cfg(feature = "LUCIDE_CHART_BAR_STACKED")]
+pub use lucide_chart_bar_stacked::*;
+#[cfg(feature = "LUCIDE_CHART_BAR")]
+mod lucide_chart_bar;
+#[cfg(feature = "LUCIDE_CHART_BAR")]
+pub use lucide_chart_bar::*;
+#[cfg(feature = "LUCIDE_CHART_CANDLESTICK")]
+mod lucide_chart_candlestick;
+#[cfg(feature = "LUCIDE_CHART_CANDLESTICK")]
+pub use lucide_chart_candlestick::*;
+#[cfg(feature = "LUCIDE_CHART_COLUMN_BIG")]
+mod lucide_chart_column_big;
+#[cfg(feature = "LUCIDE_CHART_COLUMN_BIG")]
+pub use lucide_chart_column_big::*;
+#[cfg(feature = "LUCIDE_CHART_COLUMN_DECREASING")]
+mod lucide_chart_column_decreasing;
+#[cfg(feature = "LUCIDE_CHART_COLUMN_DECREASING")]
+pub use lucide_chart_column_decreasing::*;
+#[cfg(feature = "LUCIDE_CHART_COLUMN_INCREASING")]
+mod lucide_chart_column_increasing;
+#[cfg(feature = "LUCIDE_CHART_COLUMN_INCREASING")]
+pub use lucide_chart_column_increasing::*;
+#[cfg(feature = "LUCIDE_CHART_COLUMN_STACKED")]
+mod lucide_chart_column_stacked;
+#[cfg(feature = "LUCIDE_CHART_COLUMN_STACKED")]
+pub use lucide_chart_column_stacked::*;
+#[cfg(feature = "LUCIDE_CHART_COLUMN")]
+mod lucide_chart_column;
+#[cfg(feature = "LUCIDE_CHART_COLUMN")]
+pub use lucide_chart_column::*;
+#[cfg(feature = "LUCIDE_CHART_LINE")]
+mod lucide_chart_line;
+#[cfg(feature = "LUCIDE_CHART_LINE")]
+pub use lucide_chart_line::*;
+#[cfg(feature = "LUCIDE_CHART_NETWORK")]
+mod lucide_chart_network;
+#[cfg(feature = "LUCIDE_CHART_NETWORK")]
+pub use lucide_chart_network::*;
+#[cfg(feature = "LUCIDE_CHART_NO_AXES_COLUMN_DECREASING")]
+mod lucide_chart_no_axes_column_decreasing;
+#[cfg(feature = "LUCIDE_CHART_NO_AXES_COLUMN_DECREASING")]
+pub use lucide_chart_no_axes_column_decreasing::*;
+#[cfg(feature = "LUCIDE_CHART_NO_AXES_COLUMN_INCREASING")]
+mod lucide_chart_no_axes_column_increasing;
+#[cfg(feature = "LUCIDE_CHART_NO_AXES_COLUMN_INCREASING")]
+pub use lucide_chart_no_axes_column_increasing::*;
+#[cfg(feature = "LUCIDE_CHART_NO_AXES_COLUMN")]
+mod lucide_chart_no_axes_column;
+#[cfg(feature = "LUCIDE_CHART_NO_AXES_COLUMN")]
+pub use lucide_chart_no_axes_column::*;
+#[cfg(feature = "LUCIDE_CHART_NO_AXES_COMBINED")]
+mod lucide_chart_no_axes_combined;
+#[cfg(feature = "LUCIDE_CHART_NO_AXES_COMBINED")]
+pub use lucide_chart_no_axes_combined::*;
+#[cfg(feature = "LUCIDE_CHART_NO_AXES_GANTT")]
+mod lucide_chart_no_axes_gantt;
+#[cfg(feature = "LUCIDE_CHART_NO_AXES_GANTT")]
+pub use lucide_chart_no_axes_gantt::*;
+#[cfg(feature = "LUCIDE_CHART_PIE")]
+mod lucide_chart_pie;
+#[cfg(feature = "LUCIDE_CHART_PIE")]
+pub use lucide_chart_pie::*;
+#[cfg(feature = "LUCIDE_CHART_SCATTER")]
+mod lucide_chart_scatter;
+#[cfg(feature = "LUCIDE_CHART_SCATTER")]
+pub use lucide_chart_scatter::*;
+#[cfg(feature = "LUCIDE_CHART_SPLINE")]
+mod lucide_chart_spline;
+#[cfg(feature = "LUCIDE_CHART_SPLINE")]
+pub use lucide_chart_spline::*;
 #[cfg(feature = "LUCIDE_CHECK_CHECK")]
 mod lucide_check_check;
 #[cfg(feature = "LUCIDE_CHECK_CHECK")]
@@ -1788,6 +1840,10 @@ pub use lucide_currency::*;
 mod lucide_cylinder;
 #[cfg(feature = "LUCIDE_CYLINDER")]
 pub use lucide_cylinder::*;
+#[cfg(feature = "LUCIDE_DAM")]
+mod lucide_dam;
+#[cfg(feature = "LUCIDE_DAM")]
+pub use lucide_dam::*;
 #[cfg(feature = "LUCIDE_DATABASE_BACKUP")]
 mod lucide_database_backup;
 #[cfg(feature = "LUCIDE_DATABASE_BACKUP")]
@@ -2084,18 +2140,26 @@ pub use lucide_file_badge_2::*;
 mod lucide_file_badge;
 #[cfg(feature = "LUCIDE_FILE_BADGE")]
 pub use lucide_file_badge::*;
-#[cfg(feature = "LUCIDE_FILE_BAR_CHART_2")]
-mod lucide_file_bar_chart_2;
-#[cfg(feature = "LUCIDE_FILE_BAR_CHART_2")]
-pub use lucide_file_bar_chart_2::*;
-#[cfg(feature = "LUCIDE_FILE_BAR_CHART")]
-mod lucide_file_bar_chart;
-#[cfg(feature = "LUCIDE_FILE_BAR_CHART")]
-pub use lucide_file_bar_chart::*;
 #[cfg(feature = "LUCIDE_FILE_BOX")]
 mod lucide_file_box;
 #[cfg(feature = "LUCIDE_FILE_BOX")]
 pub use lucide_file_box::*;
+#[cfg(feature = "LUCIDE_FILE_CHART_COLUMN_INCREASING")]
+mod lucide_file_chart_column_increasing;
+#[cfg(feature = "LUCIDE_FILE_CHART_COLUMN_INCREASING")]
+pub use lucide_file_chart_column_increasing::*;
+#[cfg(feature = "LUCIDE_FILE_CHART_COLUMN")]
+mod lucide_file_chart_column;
+#[cfg(feature = "LUCIDE_FILE_CHART_COLUMN")]
+pub use lucide_file_chart_column::*;
+#[cfg(feature = "LUCIDE_FILE_CHART_LINE")]
+mod lucide_file_chart_line;
+#[cfg(feature = "LUCIDE_FILE_CHART_LINE")]
+pub use lucide_file_chart_line::*;
+#[cfg(feature = "LUCIDE_FILE_CHART_PIE")]
+mod lucide_file_chart_pie;
+#[cfg(feature = "LUCIDE_FILE_CHART_PIE")]
+pub use lucide_file_chart_pie::*;
 #[cfg(feature = "LUCIDE_FILE_CHECK_2")]
 mod lucide_file_check_2;
 #[cfg(feature = "LUCIDE_FILE_CHECK_2")]
@@ -2160,10 +2224,6 @@ pub use lucide_file_key_2::*;
 mod lucide_file_key;
 #[cfg(feature = "LUCIDE_FILE_KEY")]
 pub use lucide_file_key::*;
-#[cfg(feature = "LUCIDE_FILE_LINE_CHART")]
-mod lucide_file_line_chart;
-#[cfg(feature = "LUCIDE_FILE_LINE_CHART")]
-pub use lucide_file_line_chart::*;
 #[cfg(feature = "LUCIDE_FILE_LOCK_2")]
 mod lucide_file_lock_2;
 #[cfg(feature = "LUCIDE_FILE_LOCK_2")]
@@ -2196,10 +2256,6 @@ pub use lucide_file_pen_line::*;
 mod lucide_file_pen;
 #[cfg(feature = "LUCIDE_FILE_PEN")]
 pub use lucide_file_pen::*;
-#[cfg(feature = "LUCIDE_FILE_PIE_CHART")]
-mod lucide_file_pie_chart;
-#[cfg(feature = "LUCIDE_FILE_PIE_CHART")]
-pub use lucide_file_pie_chart::*;
 #[cfg(feature = "LUCIDE_FILE_PLUS_2")]
 mod lucide_file_plus_2;
 #[cfg(feature = "LUCIDE_FILE_PLUS_2")]
@@ -2592,10 +2648,6 @@ pub use lucide_gamepad_2::*;
 mod lucide_gamepad;
 #[cfg(feature = "LUCIDE_GAMEPAD")]
 pub use lucide_gamepad::*;
-#[cfg(feature = "LUCIDE_GANTT_CHART")]
-mod lucide_gantt_chart;
-#[cfg(feature = "LUCIDE_GANTT_CHART")]
-pub use lucide_gantt_chart::*;
 #[cfg(feature = "LUCIDE_GAUGE")]
 mod lucide_gauge;
 #[cfg(feature = "LUCIDE_GAUGE")]
@@ -3176,10 +3228,6 @@ pub use lucide_lightbulb_off::*;
 mod lucide_lightbulb;
 #[cfg(feature = "LUCIDE_LIGHTBULB")]
 pub use lucide_lightbulb::*;
-#[cfg(feature = "LUCIDE_LINE_CHART")]
-mod lucide_line_chart;
-#[cfg(feature = "LUCIDE_LINE_CHART")]
-pub use lucide_line_chart::*;
 #[cfg(feature = "LUCIDE_LINK_2_OFF")]
 mod lucide_link_2_off;
 #[cfg(feature = "LUCIDE_LINK_2_OFF")]
@@ -4080,10 +4128,6 @@ pub use lucide_picture_in_picture_2::*;
 mod lucide_picture_in_picture;
 #[cfg(feature = "LUCIDE_PICTURE_IN_PICTURE")]
 pub use lucide_picture_in_picture::*;
-#[cfg(feature = "LUCIDE_PIE_CHART")]
-mod lucide_pie_chart;
-#[cfg(feature = "LUCIDE_PIE_CHART")]
-pub use lucide_pie_chart::*;
 #[cfg(feature = "LUCIDE_PIGGY_BANK")]
 mod lucide_piggy_bank;
 #[cfg(feature = "LUCIDE_PIGGY_BANK")]
@@ -4552,10 +4596,6 @@ pub use lucide_scan_text::*;
 mod lucide_scan;
 #[cfg(feature = "LUCIDE_SCAN")]
 pub use lucide_scan::*;
-#[cfg(feature = "LUCIDE_SCATTER_CHART")]
-mod lucide_scatter_chart;
-#[cfg(feature = "LUCIDE_SCATTER_CHART")]
-pub use lucide_scatter_chart::*;
 #[cfg(feature = "LUCIDE_SCHOOL")]
 mod lucide_school;
 #[cfg(feature = "LUCIDE_SCHOOL")]
@@ -4976,6 +5016,10 @@ pub use lucide_square_asterisk::*;
 mod lucide_square_bottom_dashed_scissors;
 #[cfg(feature = "LUCIDE_SQUARE_BOTTOM_DASHED_SCISSORS")]
 pub use lucide_square_bottom_dashed_scissors::*;
+#[cfg(feature = "LUCIDE_SQUARE_CHART_GANTT")]
+mod lucide_square_chart_gantt;
+#[cfg(feature = "LUCIDE_SQUARE_CHART_GANTT")]
+pub use lucide_square_chart_gantt::*;
 #[cfg(feature = "LUCIDE_SQUARE_CHECK_BIG")]
 mod lucide_square_check_big;
 #[cfg(feature = "LUCIDE_SQUARE_CHECK_BIG")]
@@ -5036,10 +5080,6 @@ pub use lucide_square_equal::*;
 mod lucide_square_function;
 #[cfg(feature = "LUCIDE_SQUARE_FUNCTION")]
 pub use lucide_square_function::*;
-#[cfg(feature = "LUCIDE_SQUARE_GANTT_CHART")]
-mod lucide_square_gantt_chart;
-#[cfg(feature = "LUCIDE_SQUARE_GANTT_CHART")]
-pub use lucide_square_gantt_chart::*;
 #[cfg(feature = "LUCIDE_SQUARE_KANBAN")]
 mod lucide_square_kanban;
 #[cfg(feature = "LUCIDE_SQUARE_KANBAN")]
