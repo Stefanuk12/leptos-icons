@@ -3416,10 +3416,42 @@ pub use lucide_mailbox::*;
 mod lucide_mails;
 #[cfg(feature = "LUCIDE_MAILS")]
 pub use lucide_mails::*;
+#[cfg(feature = "LUCIDE_MAP_PIN_CHECK_INSIDE")]
+mod lucide_map_pin_check_inside;
+#[cfg(feature = "LUCIDE_MAP_PIN_CHECK_INSIDE")]
+pub use lucide_map_pin_check_inside::*;
+#[cfg(feature = "LUCIDE_MAP_PIN_CHECK")]
+mod lucide_map_pin_check;
+#[cfg(feature = "LUCIDE_MAP_PIN_CHECK")]
+pub use lucide_map_pin_check::*;
+#[cfg(feature = "LUCIDE_MAP_PIN_MINUS_INSIDE")]
+mod lucide_map_pin_minus_inside;
+#[cfg(feature = "LUCIDE_MAP_PIN_MINUS_INSIDE")]
+pub use lucide_map_pin_minus_inside::*;
+#[cfg(feature = "LUCIDE_MAP_PIN_MINUS")]
+mod lucide_map_pin_minus;
+#[cfg(feature = "LUCIDE_MAP_PIN_MINUS")]
+pub use lucide_map_pin_minus::*;
 #[cfg(feature = "LUCIDE_MAP_PIN_OFF")]
 mod lucide_map_pin_off;
 #[cfg(feature = "LUCIDE_MAP_PIN_OFF")]
 pub use lucide_map_pin_off::*;
+#[cfg(feature = "LUCIDE_MAP_PIN_PLUS_INSIDE")]
+mod lucide_map_pin_plus_inside;
+#[cfg(feature = "LUCIDE_MAP_PIN_PLUS_INSIDE")]
+pub use lucide_map_pin_plus_inside::*;
+#[cfg(feature = "LUCIDE_MAP_PIN_PLUS")]
+mod lucide_map_pin_plus;
+#[cfg(feature = "LUCIDE_MAP_PIN_PLUS")]
+pub use lucide_map_pin_plus::*;
+#[cfg(feature = "LUCIDE_MAP_PIN_X_INSIDE")]
+mod lucide_map_pin_x_inside;
+#[cfg(feature = "LUCIDE_MAP_PIN_X_INSIDE")]
+pub use lucide_map_pin_x_inside::*;
+#[cfg(feature = "LUCIDE_MAP_PIN_X")]
+mod lucide_map_pin_x;
+#[cfg(feature = "LUCIDE_MAP_PIN_X")]
+pub use lucide_map_pin_x::*;
 #[cfg(feature = "LUCIDE_MAP_PIN")]
 mod lucide_map_pin;
 #[cfg(feature = "LUCIDE_MAP_PIN")]
@@ -5164,6 +5196,10 @@ pub use lucide_square_split_horizontal::*;
 mod lucide_square_split_vertical;
 #[cfg(feature = "LUCIDE_SQUARE_SPLIT_VERTICAL")]
 pub use lucide_square_split_vertical::*;
+#[cfg(feature = "LUCIDE_SQUARE_SQUARE")]
+mod lucide_square_square;
+#[cfg(feature = "LUCIDE_SQUARE_SQUARE")]
+pub use lucide_square_square::*;
 #[cfg(feature = "LUCIDE_SQUARE_STACK")]
 mod lucide_square_stack;
 #[cfg(feature = "LUCIDE_SQUARE_STACK")]
