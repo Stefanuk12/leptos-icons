@@ -2980,6 +2980,10 @@ pub use lucide_ice_cream_bowl::*;
 mod lucide_ice_cream_cone;
 #[cfg(feature = "LUCIDE_ICE_CREAM_CONE")]
 pub use lucide_ice_cream_cone::*;
+#[cfg(feature = "LUCIDE_ID_CARD")]
+mod lucide_id_card;
+#[cfg(feature = "LUCIDE_ID_CARD")]
+pub use lucide_id_card::*;
 #[cfg(feature = "LUCIDE_IMAGE_DOWN")]
 mod lucide_image_down;
 #[cfg(feature = "LUCIDE_IMAGE_DOWN")]
