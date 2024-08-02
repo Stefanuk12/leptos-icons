@@ -1364,6 +1364,10 @@ pub use lucide_circle_ellipsis::*;
 mod lucide_circle_equal;
 #[cfg(feature = "LUCIDE_CIRCLE_EQUAL")]
 pub use lucide_circle_equal::*;
+#[cfg(feature = "LUCIDE_CIRCLE_FADING_ARROW_UP")]
+mod lucide_circle_fading_arrow_up;
+#[cfg(feature = "LUCIDE_CIRCLE_FADING_ARROW_UP")]
+pub use lucide_circle_fading_arrow_up::*;
 #[cfg(feature = "LUCIDE_CIRCLE_FADING_PLUS")]
 mod lucide_circle_fading_plus;
 #[cfg(feature = "LUCIDE_CIRCLE_FADING_PLUS")]
