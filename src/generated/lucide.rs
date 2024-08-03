@@ -172,6 +172,10 @@ pub use lucide_ampersand::*;
 mod lucide_ampersands;
 #[cfg(feature = "LUCIDE_AMPERSANDS")]
 pub use lucide_ampersands::*;
+#[cfg(feature = "LUCIDE_AMPHORA")]
+mod lucide_amphora;
+#[cfg(feature = "LUCIDE_AMPHORA")]
+pub use lucide_amphora::*;
 #[cfg(feature = "LUCIDE_ANCHOR")]
 mod lucide_anchor;
 #[cfg(feature = "LUCIDE_ANCHOR")]
@@ -3432,6 +3436,10 @@ pub use lucide_map_pin_check_inside::*;
 mod lucide_map_pin_check;
 #[cfg(feature = "LUCIDE_MAP_PIN_CHECK")]
 pub use lucide_map_pin_check::*;
+#[cfg(feature = "LUCIDE_MAP_PIN_HOUSE")]
+mod lucide_map_pin_house;
+#[cfg(feature = "LUCIDE_MAP_PIN_HOUSE")]
+pub use lucide_map_pin_house::*;
 #[cfg(feature = "LUCIDE_MAP_PIN_MINUS_INSIDE")]
 mod lucide_map_pin_minus_inside;
 #[cfg(feature = "LUCIDE_MAP_PIN_MINUS_INSIDE")]
@@ -3632,6 +3640,10 @@ pub use lucide_mic_vocal::*;
 mod lucide_mic;
 #[cfg(feature = "LUCIDE_MIC")]
 pub use lucide_mic::*;
+#[cfg(feature = "LUCIDE_MICROCHIP")]
+mod lucide_microchip;
+#[cfg(feature = "LUCIDE_MICROCHIP")]
+pub use lucide_microchip::*;
 #[cfg(feature = "LUCIDE_MICROSCOPE")]
 mod lucide_microscope;
 #[cfg(feature = "LUCIDE_MICROSCOPE")]
@@ -3904,6 +3916,10 @@ pub use lucide_octagon_x::*;
 mod lucide_octagon;
 #[cfg(feature = "LUCIDE_OCTAGON")]
 pub use lucide_octagon::*;
+#[cfg(feature = "LUCIDE_OMEGA")]
+mod lucide_omega;
+#[cfg(feature = "LUCIDE_OMEGA")]
+pub use lucide_omega::*;
 #[cfg(feature = "LUCIDE_OPTION")]
 mod lucide_option;
 #[cfg(feature = "LUCIDE_OPTION")]
