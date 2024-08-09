@@ -520,6 +520,10 @@ pub use lucide_ban::*;
 mod lucide_banana;
 #[cfg(feature = "LUCIDE_BANANA")]
 pub use lucide_banana::*;
+#[cfg(feature = "LUCIDE_BANDAGE")]
+mod lucide_bandage;
+#[cfg(feature = "LUCIDE_BANDAGE")]
+pub use lucide_bandage::*;
 #[cfg(feature = "LUCIDE_BANKNOTE")]
 mod lucide_banknote;
 #[cfg(feature = "LUCIDE_BANKNOTE")]
@@ -1240,6 +1244,10 @@ pub use lucide_chevrons_down_up::*;
 mod lucide_chevrons_down;
 #[cfg(feature = "LUCIDE_CHEVRONS_DOWN")]
 pub use lucide_chevrons_down::*;
+#[cfg(feature = "LUCIDE_CHEVRONS_LEFT_RIGHT_ELLIPSIS")]
+mod lucide_chevrons_left_right_ellipsis;
+#[cfg(feature = "LUCIDE_CHEVRONS_LEFT_RIGHT_ELLIPSIS")]
+pub use lucide_chevrons_left_right_ellipsis::*;
 #[cfg(feature = "LUCIDE_CHEVRONS_LEFT_RIGHT")]
 mod lucide_chevrons_left_right;
 #[cfg(feature = "LUCIDE_CHEVRONS_LEFT_RIGHT")]
@@ -2072,6 +2080,10 @@ pub use lucide_equal::*;
 mod lucide_eraser;
 #[cfg(feature = "LUCIDE_ERASER")]
 pub use lucide_eraser::*;
+#[cfg(feature = "LUCIDE_ETHERNET_PORT")]
+mod lucide_ethernet_port;
+#[cfg(feature = "LUCIDE_ETHERNET_PORT")]
+pub use lucide_ethernet_port::*;
 #[cfg(feature = "LUCIDE_EURO")]
 mod lucide_euro;
 #[cfg(feature = "LUCIDE_EURO")]
@@ -5384,6 +5396,10 @@ pub use lucide_table_cells_split::*;
 mod lucide_table_columns_split;
 #[cfg(feature = "LUCIDE_TABLE_COLUMNS_SPLIT")]
 pub use lucide_table_columns_split::*;
+#[cfg(feature = "LUCIDE_TABLE_OF_CONTENTS")]
+mod lucide_table_of_contents;
+#[cfg(feature = "LUCIDE_TABLE_OF_CONTENTS")]
+pub use lucide_table_of_contents::*;
 #[cfg(feature = "LUCIDE_TABLE_PROPERTIES")]
 mod lucide_table_properties;
 #[cfg(feature = "LUCIDE_TABLE_PROPERTIES")]
