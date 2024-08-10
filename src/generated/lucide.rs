@@ -656,6 +656,10 @@ pub use lucide_bike::*;
 mod lucide_binary;
 #[cfg(feature = "LUCIDE_BINARY")]
 pub use lucide_binary::*;
+#[cfg(feature = "LUCIDE_BINOCULARS")]
+mod lucide_binoculars;
+#[cfg(feature = "LUCIDE_BINOCULARS")]
+pub use lucide_binoculars::*;
 #[cfg(feature = "LUCIDE_BIOHAZARD")]
 mod lucide_biohazard;
 #[cfg(feature = "LUCIDE_BIOHAZARD")]
@@ -5564,6 +5568,10 @@ pub use lucide_ticket_x::*;
 mod lucide_ticket;
 #[cfg(feature = "LUCIDE_TICKET")]
 pub use lucide_ticket::*;
+#[cfg(feature = "LUCIDE_TICKETS")]
+mod lucide_tickets;
+#[cfg(feature = "LUCIDE_TICKETS")]
+pub use lucide_tickets::*;
 #[cfg(feature = "LUCIDE_TIMER_OFF")]
 mod lucide_timer_off;
 #[cfg(feature = "LUCIDE_TIMER_OFF")]
