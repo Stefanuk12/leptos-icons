@@ -5568,6 +5568,10 @@ pub use lucide_ticket_x::*;
 mod lucide_ticket;
 #[cfg(feature = "LUCIDE_TICKET")]
 pub use lucide_ticket::*;
+#[cfg(feature = "LUCIDE_TICKETS_PLANE")]
+mod lucide_tickets_plane;
+#[cfg(feature = "LUCIDE_TICKETS_PLANE")]
+pub use lucide_tickets_plane::*;
 #[cfg(feature = "LUCIDE_TICKETS")]
 mod lucide_tickets;
 #[cfg(feature = "LUCIDE_TICKETS")]
