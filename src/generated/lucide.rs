@@ -1160,6 +1160,10 @@ pub use lucide_chart_column_stacked::*;
 mod lucide_chart_column;
 #[cfg(feature = "LUCIDE_CHART_COLUMN")]
 pub use lucide_chart_column::*;
+#[cfg(feature = "LUCIDE_CHART_GANTT")]
+mod lucide_chart_gantt;
+#[cfg(feature = "LUCIDE_CHART_GANTT")]
+pub use lucide_chart_gantt::*;
 #[cfg(feature = "LUCIDE_CHART_LINE")]
 mod lucide_chart_line;
 #[cfg(feature = "LUCIDE_CHART_LINE")]
@@ -5676,6 +5680,10 @@ pub use lucide_trello::*;
 mod lucide_trending_down;
 #[cfg(feature = "LUCIDE_TRENDING_DOWN")]
 pub use lucide_trending_down::*;
+#[cfg(feature = "LUCIDE_TRENDING_UP_DOWN")]
+mod lucide_trending_up_down;
+#[cfg(feature = "LUCIDE_TRENDING_UP_DOWN")]
+pub use lucide_trending_up_down::*;
 #[cfg(feature = "LUCIDE_TRENDING_UP")]
 mod lucide_trending_up;
 #[cfg(feature = "LUCIDE_TRENDING_UP")]
@@ -5928,6 +5936,10 @@ pub use lucide_volume_1::*;
 mod lucide_volume_2;
 #[cfg(feature = "LUCIDE_VOLUME_2")]
 pub use lucide_volume_2::*;
+#[cfg(feature = "LUCIDE_VOLUME_OFF")]
+mod lucide_volume_off;
+#[cfg(feature = "LUCIDE_VOLUME_OFF")]
+pub use lucide_volume_off::*;
 #[cfg(feature = "LUCIDE_VOLUME_X")]
 mod lucide_volume_x;
 #[cfg(feature = "LUCIDE_VOLUME_X")]
