@@ -3924,6 +3924,10 @@ pub use lucide_nut::*;
 mod lucide_octagon_alert;
 #[cfg(feature = "LUCIDE_OCTAGON_ALERT")]
 pub use lucide_octagon_alert::*;
+#[cfg(feature = "LUCIDE_OCTAGON_MINUS")]
+mod lucide_octagon_minus;
+#[cfg(feature = "LUCIDE_OCTAGON_MINUS")]
+pub use lucide_octagon_minus::*;
 #[cfg(feature = "LUCIDE_OCTAGON_PAUSE")]
 mod lucide_octagon_pause;
 #[cfg(feature = "LUCIDE_OCTAGON_PAUSE")]
