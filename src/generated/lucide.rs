@@ -2800,6 +2800,10 @@ pub use lucide_grape::*;
 mod lucide_grid_2_x_2_check;
 #[cfg(feature = "LUCIDE_GRID_2_X_2_CHECK")]
 pub use lucide_grid_2_x_2_check::*;
+#[cfg(feature = "LUCIDE_GRID_2_X_2_PLUS")]
+mod lucide_grid_2_x_2_plus;
+#[cfg(feature = "LUCIDE_GRID_2_X_2_PLUS")]
+pub use lucide_grid_2_x_2_plus::*;
 #[cfg(feature = "LUCIDE_GRID_2_X_2_X")]
 mod lucide_grid_2_x_2_x;
 #[cfg(feature = "LUCIDE_GRID_2_X_2_X")]
