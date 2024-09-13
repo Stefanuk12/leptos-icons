@@ -1568,6 +1568,10 @@ pub use lucide_clock_8::*;
 mod lucide_clock_9;
 #[cfg(feature = "LUCIDE_CLOCK_9")]
 pub use lucide_clock_9::*;
+#[cfg(feature = "LUCIDE_CLOCK_ALERT")]
+mod lucide_clock_alert;
+#[cfg(feature = "LUCIDE_CLOCK_ALERT")]
+pub use lucide_clock_alert::*;
 #[cfg(feature = "LUCIDE_CLOCK_ARROW_DOWN")]
 mod lucide_clock_arrow_down;
 #[cfg(feature = "LUCIDE_CLOCK_ARROW_DOWN")]
@@ -2928,6 +2932,10 @@ pub use lucide_heading_6::*;
 mod lucide_heading;
 #[cfg(feature = "LUCIDE_HEADING")]
 pub use lucide_heading::*;
+#[cfg(feature = "LUCIDE_HEADPHONE_OFF")]
+mod lucide_headphone_off;
+#[cfg(feature = "LUCIDE_HEADPHONE_OFF")]
+pub use lucide_headphone_off::*;
 #[cfg(feature = "LUCIDE_HEADPHONES")]
 mod lucide_headphones;
 #[cfg(feature = "LUCIDE_HEADPHONES")]
