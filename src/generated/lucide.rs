@@ -888,6 +888,10 @@ pub use lucide_brick_wall::*;
 mod lucide_briefcase_business;
 #[cfg(feature = "LUCIDE_BRIEFCASE_BUSINESS")]
 pub use lucide_briefcase_business::*;
+#[cfg(feature = "LUCIDE_BRIEFCASE_CONVEYOR_BELT")]
+mod lucide_briefcase_conveyor_belt;
+#[cfg(feature = "LUCIDE_BRIEFCASE_CONVEYOR_BELT")]
+pub use lucide_briefcase_conveyor_belt::*;
 #[cfg(feature = "LUCIDE_BRIEFCASE_MEDICAL")]
 mod lucide_briefcase_medical;
 #[cfg(feature = "LUCIDE_BRIEFCASE_MEDICAL")]
@@ -3616,6 +3620,10 @@ pub use lucide_message_square_dot::*;
 mod lucide_message_square_heart;
 #[cfg(feature = "LUCIDE_MESSAGE_SQUARE_HEART")]
 pub use lucide_message_square_heart::*;
+#[cfg(feature = "LUCIDE_MESSAGE_SQUARE_LOCK")]
+mod lucide_message_square_lock;
+#[cfg(feature = "LUCIDE_MESSAGE_SQUARE_LOCK")]
+pub use lucide_message_square_lock::*;
 #[cfg(feature = "LUCIDE_MESSAGE_SQUARE_MORE")]
 mod lucide_message_square_more;
 #[cfg(feature = "LUCIDE_MESSAGE_SQUARE_MORE")]
