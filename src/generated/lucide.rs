@@ -2352,6 +2352,10 @@ pub use lucide_file_type::*;
 mod lucide_file_up;
 #[cfg(feature = "LUCIDE_FILE_UP")]
 pub use lucide_file_up::*;
+#[cfg(feature = "LUCIDE_FILE_USER")]
+mod lucide_file_user;
+#[cfg(feature = "LUCIDE_FILE_USER")]
+pub use lucide_file_user::*;
 #[cfg(feature = "LUCIDE_FILE_VIDEO_2")]
 mod lucide_file_video_2;
 #[cfg(feature = "LUCIDE_FILE_VIDEO_2")]
