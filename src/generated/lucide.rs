@@ -848,10 +848,6 @@ pub use lucide_bot_off::*;
 mod lucide_bot;
 #[cfg(feature = "LUCIDE_BOT")]
 pub use lucide_bot::*;
-#[cfg(feature = "LUCIDE_BOX_SELECT")]
-mod lucide_box_select;
-#[cfg(feature = "LUCIDE_BOX_SELECT")]
-pub use lucide_box_select::*;
 #[cfg(feature = "LUCIDE_BOX")]
 mod lucide_box;
 #[cfg(feature = "LUCIDE_BOX")]
@@ -5168,6 +5164,10 @@ pub use lucide_square_dashed_kanban::*;
 mod lucide_square_dashed_mouse_pointer;
 #[cfg(feature = "LUCIDE_SQUARE_DASHED_MOUSE_POINTER")]
 pub use lucide_square_dashed_mouse_pointer::*;
+#[cfg(feature = "LUCIDE_SQUARE_DASHED")]
+mod lucide_square_dashed;
+#[cfg(feature = "LUCIDE_SQUARE_DASHED")]
+pub use lucide_square_dashed::*;
 #[cfg(feature = "LUCIDE_SQUARE_DIVIDE")]
 mod lucide_square_divide;
 #[cfg(feature = "LUCIDE_SQUARE_DIVIDE")]
