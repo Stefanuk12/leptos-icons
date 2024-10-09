@@ -2108,6 +2108,10 @@ pub use lucide_expand::*;
 mod lucide_external_link;
 #[cfg(feature = "LUCIDE_EXTERNAL_LINK")]
 pub use lucide_external_link::*;
+#[cfg(feature = "LUCIDE_EYE_CLOSED")]
+mod lucide_eye_closed;
+#[cfg(feature = "LUCIDE_EYE_CLOSED")]
+pub use lucide_eye_closed::*;
 #[cfg(feature = "LUCIDE_EYE_OFF")]
 mod lucide_eye_off;
 #[cfg(feature = "LUCIDE_EYE_OFF")]
@@ -5956,6 +5960,10 @@ pub use lucide_view::*;
 mod lucide_voicemail;
 #[cfg(feature = "LUCIDE_VOICEMAIL")]
 pub use lucide_voicemail::*;
+#[cfg(feature = "LUCIDE_VOLLEYBALL")]
+mod lucide_volleyball;
+#[cfg(feature = "LUCIDE_VOLLEYBALL")]
+pub use lucide_volleyball::*;
 #[cfg(feature = "LUCIDE_VOLUME_1")]
 mod lucide_volume_1;
 #[cfg(feature = "LUCIDE_VOLUME_1")]
