@@ -952,6 +952,10 @@ pub use lucide_cake::*;
 mod lucide_calculator;
 #[cfg(feature = "LUCIDE_CALCULATOR")]
 pub use lucide_calculator::*;
+#[cfg(feature = "LUCIDE_CALENDAR_1")]
+mod lucide_calendar_1;
+#[cfg(feature = "LUCIDE_CALENDAR_1")]
+pub use lucide_calendar_1::*;
 #[cfg(feature = "LUCIDE_CALENDAR_ARROW_DOWN")]
 mod lucide_calendar_arrow_down;
 #[cfg(feature = "LUCIDE_CALENDAR_ARROW_DOWN")]
