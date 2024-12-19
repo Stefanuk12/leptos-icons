@@ -1032,6 +1032,10 @@ pub use font_awesome_solid_chart_bar::*;
 mod font_awesome_solid_chart_column;
 #[cfg(feature = "FONT_AWESOME_SOLID_CHART_COLUMN")]
 pub use font_awesome_solid_chart_column::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_CHART_DIAGRAM")]
+mod font_awesome_solid_chart_diagram;
+#[cfg(feature = "FONT_AWESOME_SOLID_CHART_DIAGRAM")]
+pub use font_awesome_solid_chart_diagram::*;
 #[cfg(feature = "FONT_AWESOME_SOLID_CHART_GANTT")]
 mod font_awesome_solid_chart_gantt;
 #[cfg(feature = "FONT_AWESOME_SOLID_CHART_GANTT")]
@@ -1404,6 +1408,10 @@ pub use font_awesome_solid_comment_dots::*;
 mod font_awesome_solid_comment_medical;
 #[cfg(feature = "FONT_AWESOME_SOLID_COMMENT_MEDICAL")]
 pub use font_awesome_solid_comment_medical::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_COMMENT_NODES")]
+mod font_awesome_solid_comment_nodes;
+#[cfg(feature = "FONT_AWESOME_SOLID_COMMENT_NODES")]
+pub use font_awesome_solid_comment_nodes::*;
 #[cfg(feature = "FONT_AWESOME_SOLID_COMMENT_SLASH")]
 mod font_awesome_solid_comment_slash;
 #[cfg(feature = "FONT_AWESOME_SOLID_COMMENT_SLASH")]
@@ -2052,6 +2060,14 @@ pub use font_awesome_solid_file_excel::*;
 mod font_awesome_solid_file_export;
 #[cfg(feature = "FONT_AWESOME_SOLID_FILE_EXPORT")]
 pub use font_awesome_solid_file_export::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_FILE_FRAGMENT")]
+mod font_awesome_solid_file_fragment;
+#[cfg(feature = "FONT_AWESOME_SOLID_FILE_FRAGMENT")]
+pub use font_awesome_solid_file_fragment::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_FILE_HALF_DASHED")]
+mod font_awesome_solid_file_half_dashed;
+#[cfg(feature = "FONT_AWESOME_SOLID_FILE_HALF_DASHED")]
+pub use font_awesome_solid_file_half_dashed::*;
 #[cfg(feature = "FONT_AWESOME_SOLID_FILE_IMAGE")]
 mod font_awesome_solid_file_image;
 #[cfg(feature = "FONT_AWESOME_SOLID_FILE_IMAGE")]
@@ -2656,6 +2672,14 @@ pub use font_awesome_solid_helmet_safety::*;
 mod font_awesome_solid_helmet_un;
 #[cfg(feature = "FONT_AWESOME_SOLID_HELMET_UN")]
 pub use font_awesome_solid_helmet_un::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_HEXAGON_NODES_BOLT")]
+mod font_awesome_solid_hexagon_nodes_bolt;
+#[cfg(feature = "FONT_AWESOME_SOLID_HEXAGON_NODES_BOLT")]
+pub use font_awesome_solid_hexagon_nodes_bolt::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_HEXAGON_NODES")]
+mod font_awesome_solid_hexagon_nodes;
+#[cfg(feature = "FONT_AWESOME_SOLID_HEXAGON_NODES")]
+pub use font_awesome_solid_hexagon_nodes::*;
 #[cfg(feature = "FONT_AWESOME_SOLID_HIGHLIGHTER")]
 mod font_awesome_solid_highlighter;
 #[cfg(feature = "FONT_AWESOME_SOLID_HIGHLIGHTER")]
@@ -4512,6 +4536,10 @@ pub use font_awesome_solid_spray_can::*;
 mod font_awesome_solid_square_arrow_up_right;
 #[cfg(feature = "FONT_AWESOME_SOLID_SQUARE_ARROW_UP_RIGHT")]
 pub use font_awesome_solid_square_arrow_up_right::*;
+#[cfg(feature = "FONT_AWESOME_SOLID_SQUARE_BINARY")]
+mod font_awesome_solid_square_binary;
+#[cfg(feature = "FONT_AWESOME_SOLID_SQUARE_BINARY")]
+pub use font_awesome_solid_square_binary::*;
 #[cfg(feature = "FONT_AWESOME_SOLID_SQUARE_CARET_DOWN")]
 mod font_awesome_solid_square_caret_down;
 #[cfg(feature = "FONT_AWESOME_SOLID_SQUARE_CARET_DOWN")]

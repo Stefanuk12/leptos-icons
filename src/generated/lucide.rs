@@ -1020,6 +1020,10 @@ pub use lucide_calendar_range::*;
 mod lucide_calendar_search;
 #[cfg(feature = "LUCIDE_CALENDAR_SEARCH")]
 pub use lucide_calendar_search::*;
+#[cfg(feature = "LUCIDE_CALENDAR_SYNC")]
+mod lucide_calendar_sync;
+#[cfg(feature = "LUCIDE_CALENDAR_SYNC")]
+pub use lucide_calendar_sync::*;
 #[cfg(feature = "LUCIDE_CALENDAR_X_2")]
 mod lucide_calendar_x_2;
 #[cfg(feature = "LUCIDE_CALENDAR_X_2")]
@@ -1588,6 +1592,10 @@ pub use lucide_clock_arrow_up::*;
 mod lucide_clock;
 #[cfg(feature = "LUCIDE_CLOCK")]
 pub use lucide_clock::*;
+#[cfg(feature = "LUCIDE_CLOUD_ALERT")]
+mod lucide_cloud_alert;
+#[cfg(feature = "LUCIDE_CLOUD_ALERT")]
+pub use lucide_cloud_alert::*;
 #[cfg(feature = "LUCIDE_CLOUD_COG")]
 mod lucide_cloud_cog;
 #[cfg(feature = "LUCIDE_CLOUD_COG")]
@@ -2024,6 +2032,10 @@ pub use lucide_dribbble::*;
 mod lucide_drill;
 #[cfg(feature = "LUCIDE_DRILL")]
 pub use lucide_drill::*;
+#[cfg(feature = "LUCIDE_DROPLET_OFF")]
+mod lucide_droplet_off;
+#[cfg(feature = "LUCIDE_DROPLET_OFF")]
+pub use lucide_droplet_off::*;
 #[cfg(feature = "LUCIDE_DROPLET")]
 mod lucide_droplet;
 #[cfg(feature = "LUCIDE_DROPLET")]
@@ -2084,6 +2096,10 @@ pub use lucide_ellipsis_vertical::*;
 mod lucide_ellipsis;
 #[cfg(feature = "LUCIDE_ELLIPSIS")]
 pub use lucide_ellipsis::*;
+#[cfg(feature = "LUCIDE_EQUAL_APPROXIMATELY")]
+mod lucide_equal_approximately;
+#[cfg(feature = "LUCIDE_EQUAL_APPROXIMATELY")]
+pub use lucide_equal_approximately::*;
 #[cfg(feature = "LUCIDE_EQUAL_NOT")]
 mod lucide_equal_not;
 #[cfg(feature = "LUCIDE_EQUAL_NOT")]
@@ -3060,6 +3076,10 @@ pub use lucide_image_plus::*;
 mod lucide_image_up;
 #[cfg(feature = "LUCIDE_IMAGE_UP")]
 pub use lucide_image_up::*;
+#[cfg(feature = "LUCIDE_IMAGE_UPSCALE")]
+mod lucide_image_upscale;
+#[cfg(feature = "LUCIDE_IMAGE_UPSCALE")]
+pub use lucide_image_upscale::*;
 #[cfg(feature = "LUCIDE_IMAGE")]
 mod lucide_image;
 #[cfg(feature = "LUCIDE_IMAGE")]
@@ -3188,6 +3208,10 @@ pub use lucide_landmark::*;
 mod lucide_languages;
 #[cfg(feature = "LUCIDE_LANGUAGES")]
 pub use lucide_languages::*;
+#[cfg(feature = "LUCIDE_LAPTOP_MINIMAL_CHECK")]
+mod lucide_laptop_minimal_check;
+#[cfg(feature = "LUCIDE_LAPTOP_MINIMAL_CHECK")]
+pub use lucide_laptop_minimal_check::*;
 #[cfg(feature = "LUCIDE_LAPTOP_MINIMAL")]
 mod lucide_laptop_minimal;
 #[cfg(feature = "LUCIDE_LAPTOP_MINIMAL")]
@@ -3212,10 +3236,6 @@ pub use lucide_laugh::*;
 mod lucide_layers_2;
 #[cfg(feature = "LUCIDE_LAYERS_2")]
 pub use lucide_layers_2::*;
-#[cfg(feature = "LUCIDE_LAYERS_3")]
-mod lucide_layers_3;
-#[cfg(feature = "LUCIDE_LAYERS_3")]
-pub use lucide_layers_3::*;
 #[cfg(feature = "LUCIDE_LAYERS")]
 mod lucide_layers;
 #[cfg(feature = "LUCIDE_LAYERS")]
@@ -3316,6 +3336,10 @@ pub use lucide_list_collapse::*;
 mod lucide_list_end;
 #[cfg(feature = "LUCIDE_LIST_END")]
 pub use lucide_list_end::*;
+#[cfg(feature = "LUCIDE_LIST_FILTER_PLUS")]
+mod lucide_list_filter_plus;
+#[cfg(feature = "LUCIDE_LIST_FILTER_PLUS")]
+pub use lucide_list_filter_plus::*;
 #[cfg(feature = "LUCIDE_LIST_FILTER")]
 mod lucide_list_filter;
 #[cfg(feature = "LUCIDE_LIST_FILTER")]
@@ -4684,6 +4708,10 @@ pub use lucide_scan_eye::*;
 mod lucide_scan_face;
 #[cfg(feature = "LUCIDE_SCAN_FACE")]
 pub use lucide_scan_face::*;
+#[cfg(feature = "LUCIDE_SCAN_HEART")]
+mod lucide_scan_heart;
+#[cfg(feature = "LUCIDE_SCAN_HEART")]
+pub use lucide_scan_heart::*;
 #[cfg(feature = "LUCIDE_SCAN_LINE")]
 mod lucide_scan_line;
 #[cfg(feature = "LUCIDE_SCAN_LINE")]
@@ -5636,6 +5664,10 @@ pub use lucide_toggle_left::*;
 mod lucide_toggle_right;
 #[cfg(feature = "LUCIDE_TOGGLE_RIGHT")]
 pub use lucide_toggle_right::*;
+#[cfg(feature = "LUCIDE_TOILET")]
+mod lucide_toilet;
+#[cfg(feature = "LUCIDE_TOILET")]
+pub use lucide_toilet::*;
 #[cfg(feature = "LUCIDE_TORNADO")]
 mod lucide_tornado;
 #[cfg(feature = "LUCIDE_TORNADO")]
@@ -6028,6 +6060,10 @@ pub use lucide_washing_machine::*;
 mod lucide_watch;
 #[cfg(feature = "LUCIDE_WATCH")]
 pub use lucide_watch::*;
+#[cfg(feature = "LUCIDE_WAVES_LADDER")]
+mod lucide_waves_ladder;
+#[cfg(feature = "LUCIDE_WAVES_LADDER")]
+pub use lucide_waves_ladder::*;
 #[cfg(feature = "LUCIDE_WAVES")]
 mod lucide_waves;
 #[cfg(feature = "LUCIDE_WAVES")]
@@ -6084,6 +6120,10 @@ pub use lucide_wifi_zero::*;
 mod lucide_wifi;
 #[cfg(feature = "LUCIDE_WIFI")]
 pub use lucide_wifi::*;
+#[cfg(feature = "LUCIDE_WIND_ARROW_DOWN")]
+mod lucide_wind_arrow_down;
+#[cfg(feature = "LUCIDE_WIND_ARROW_DOWN")]
+pub use lucide_wind_arrow_down::*;
 #[cfg(feature = "LUCIDE_WIND")]
 mod lucide_wind;
 #[cfg(feature = "LUCIDE_WIND")]

@@ -384,6 +384,10 @@ pub use font_awesome_brands_creative_commons::*;
 mod font_awesome_brands_critical_role;
 #[cfg(feature = "FONT_AWESOME_BRANDS_CRITICAL_ROLE")]
 pub use font_awesome_brands_critical_role::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_CSS")]
+mod font_awesome_brands_css;
+#[cfg(feature = "FONT_AWESOME_BRANDS_CSS")]
+pub use font_awesome_brands_css::*;
 #[cfg(feature = "FONT_AWESOME_BRANDS_CSS_3_ALT")]
 mod font_awesome_brands_css_3_alt;
 #[cfg(feature = "FONT_AWESOME_BRANDS_CSS_3_ALT")]
@@ -580,6 +584,10 @@ pub use font_awesome_brands_fedora::*;
 mod font_awesome_brands_figma;
 #[cfg(feature = "FONT_AWESOME_BRANDS_FIGMA")]
 pub use font_awesome_brands_figma::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_FILES_PINWHEEL")]
+mod font_awesome_brands_files_pinwheel;
+#[cfg(feature = "FONT_AWESOME_BRANDS_FILES_PINWHEEL")]
+pub use font_awesome_brands_files_pinwheel::*;
 #[cfg(feature = "FONT_AWESOME_BRANDS_FIREFOX_BROWSER")]
 mod font_awesome_brands_firefox_browser;
 #[cfg(feature = "FONT_AWESOME_BRANDS_FIREFOX_BROWSER")]
@@ -1468,6 +1476,10 @@ pub use font_awesome_brands_spotify::*;
 mod font_awesome_brands_square_behance;
 #[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_BEHANCE")]
 pub use font_awesome_brands_square_behance::*;
+#[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_BLUESKY")]
+mod font_awesome_brands_square_bluesky;
+#[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_BLUESKY")]
+pub use font_awesome_brands_square_bluesky::*;
 #[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_DRIBBBLE")]
 mod font_awesome_brands_square_dribbble;
 #[cfg(feature = "FONT_AWESOME_BRANDS_SQUARE_DRIBBBLE")]
